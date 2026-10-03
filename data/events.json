@@ -1,0 +1,282 @@
+[
+  {
+    "id": "event-lucky-streak",
+    "name": "Lucky Streak",
+    "description": "For this question, a correct answer earns a random bonus on top of the normal value.",
+    "effect": {
+      "type": "flat_bonus",
+      "min": 150,
+      "max": 350
+    },
+    "weightByValue": {
+      "250": 6,
+      "500": 6,
+      "750": 6,
+      "1000": 5,
+      "1250": 4,
+      "1500": 3
+    }
+  },
+  {
+    "id": "event-golden-answer",
+    "name": "Golden Answer",
+    "description": "This question is worth substantially more if you get it right. The bonus is randomized.",
+    "effect": {
+      "type": "flat_bonus",
+      "min": 250,
+      "max": 500
+    },
+    "weightByValue": {
+      "250": 5,
+      "500": 5,
+      "750": 4,
+      "1000": 3,
+      "1250": 2,
+      "1500": 1
+    }
+  },
+  {
+    "id": "event-small-fortune",
+    "name": "Small Fortune",
+    "description": "A correct answer receives a modest extra payout this turn.",
+    "effect": {
+      "type": "flat_bonus",
+      "min": 75,
+      "max": 175
+    },
+    "weightByValue": {
+      "250": 8,
+      "500": 8,
+      "750": 7,
+      "1000": 6,
+      "1250": 5,
+      "1500": 4
+    }
+  },
+  {
+    "id": "event-jackpot",
+    "name": "Jackpot Question",
+    "description": "The question's value is multiplied by a random jackpot multiplier if answered correctly.",
+    "effect": {
+      "type": "score_multiplier",
+      "min": 1.5,
+      "max": 2.0
+    },
+    "weightByValue": {
+      "250": 9,
+      "500": 7,
+      "750": 5,
+      "1000": 3,
+      "1250": 1,
+      "1500": 0.5
+    }
+  },
+  {
+    "id": "event-double-down",
+    "name": "Double Down",
+    "description": "Get this question right and its value is doubled. A wrong answer carries the normal consequences for the question.",
+    "effect": {
+      "type": "double_or_nothing"
+    },
+    "weightByValue": {
+      "250": 8,
+      "500": 6,
+      "750": 5,
+      "1000": 3,
+      "1250": 1.5,
+      "1500": 0.5
+    }
+  },
+  {
+    "id": "event-supercharge",
+    "name": "Supercharge",
+    "description": "The correct-answer payout is randomly increased by 25% to 75%.",
+    "effect": {
+      "type": "score_multiplier",
+      "min": 1.25,
+      "max": 1.75
+    },
+    "weightByValue": {
+      "250": 9,
+      "500": 8,
+      "750": 6,
+      "1000": 4,
+      "1250": 2,
+      "1500": 1
+    }
+  },
+  {
+    "id": "event-bonus-round",
+    "name": "Bonus Round",
+    "description": "A correct response earns an additional randomized bonus, regardless of the question's category or value.",
+    "effect": {
+      "type": "flat_bonus",
+      "min": 100,
+      "max": 300
+    },
+    "weightByValue": {
+      "250": 7,
+      "500": 7,
+      "750": 6,
+      "1000": 5,
+      "1250": 4,
+      "1500": 3
+    }
+  },
+  {
+    "id": "event-hot-seat",
+    "name": "Hot Seat",
+    "description": "The current question becomes a high-pressure opportunity: a correct answer earns 40% to 60% more.",
+    "effect": {
+      "type": "score_multiplier",
+      "min": 1.4,
+      "max": 1.6
+    },
+    "weightByValue": {
+      "250": 7,
+      "500": 6,
+      "750": 5,
+      "1000": 3,
+      "1250": 2,
+      "1500": 1
+    }
+  },
+  {
+    "id": "event-double-or-bust",
+    "name": "Double or Bust",
+    "description": "This question pays double when answered correctly. The normal wrong-answer rules still apply.",
+    "effect": {
+      "type": "double_or_nothing"
+    },
+    "weightByValue": {
+      "250": 7,
+      "500": 6,
+      "750": 5,
+      "1000": 3,
+      "1250": 1.5,
+      "1500": 0.5
+    }
+  },
+  {
+    "id": "event-extra-credit",
+    "name": "Extra Credit",
+    "description": "A correct answer receives a randomized extra-credit payout.",
+    "effect": {
+      "type": "flat_bonus",
+      "min": 200,
+      "max": 400
+    },
+    "weightByValue": {
+      "250": 5,
+      "500": 5,
+      "750": 4,
+      "1000": 3,
+      "1250": 2,
+      "1500": 1
+    }
+  },
+  {
+    "id": "event-lucky-break",
+    "name": "Lucky Break",
+    "description": "The game gives the answering team a temporary 20% to 40% increase on a correct response.",
+    "effect": {
+      "type": "score_multiplier",
+      "min": 1.2,
+      "max": 1.4
+    },
+    "weightByValue": {
+      "250": 8,
+      "500": 7,
+      "750": 6,
+      "1000": 4,
+      "1250": 2,
+      "1500": 1
+    }
+  },
+  {
+    "id": "event-big-break",
+    "name": "Big Break",
+    "description": "One correct answer can produce a major payout, with the multiplier determined at random.",
+    "effect": {
+      "type": "score_multiplier",
+      "min": 1.75,
+      "max": 2.25
+    },
+    "weightByValue": {
+      "250": 5,
+      "500": 4,
+      "750": 3,
+      "1000": 2,
+      "1250": 0.75,
+      "1500": 0.25
+    }
+  },
+  {
+    "id": "event-cash-in",
+    "name": "Cash In",
+    "description": "Answer correctly to collect a randomized cash bonus in addition to the question's normal value.",
+    "effect": {
+      "type": "flat_bonus",
+      "min": 125,
+      "max": 275
+    },
+    "weightByValue": {
+      "250": 7,
+      "500": 7,
+      "750": 6,
+      "1000": 5,
+      "1250": 4,
+      "1500": 3
+    }
+  },
+  {
+    "id": "event-double-payout",
+    "name": "Double Payout",
+    "description": "The current question pays twice its listed value when answered correctly.",
+    "effect": {
+      "type": "double_or_nothing"
+    },
+    "weightByValue": {
+      "250": 7,
+      "500": 6,
+      "750": 5,
+      "1000": 3,
+      "1250": 1.5,
+      "1500": 0.5
+    }
+  },
+  {
+    "id": "event-prize-surge",
+    "name": "Prize Surge",
+    "description": "The payout for a correct answer is boosted by a random 50% to 90%.",
+    "effect": {
+      "type": "score_multiplier",
+      "min": 1.5,
+      "max": 1.9
+    },
+    "weightByValue": {
+      "250": 6,
+      "500": 5,
+      "750": 4,
+      "1000": 3,
+      "1250": 1.5,
+      "1500": 0.5
+    }
+  },
+  {
+    "id": "event-wager",
+    "name": "Wager",
+    "description": "Choose a wager before answering. The wager is added to a correct payout or lost on an incorrect answer.",
+    "effect": {
+      "type": "wager"
+    },
+    "weightByValue": {
+      "250": 6,
+      "500": 7,
+      "750": 8,
+      "1000": 7,
+      "1250": 5,
+      "1500": 3
+    }
+  }
+]

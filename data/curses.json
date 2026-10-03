@@ -1,0 +1,126 @@
+[
+  {
+    "id": "no-hesitation",
+    "name": "No Hesitation",
+    "description": "You must give your answer within 3 seconds of the answers being revealed.",
+    "penalty": "Failure to answer in time counts as an incorrect answer."
+  },
+  {
+    "id": "no-rewording",
+    "name": "No Rewording",
+    "description": "You must give your answer exactly as it appears among the answer choices.",
+    "penalty": "Changing or paraphrasing the answer counts as an incorrect answer."
+  },
+  {
+    "id": "no-questioning",
+    "name": "No Questioning",
+    "description": "You cannot ask the host to clarify, repeat, or explain anything about the question.",
+    "penalty": "Asking a question immediately ends your turn."
+  },
+  {
+    "id": "no-confirmation",
+    "name": "No Confirmation",
+    "description": "You cannot ask another player whether your answer is correct before locking it in.",
+    "penalty": "Seeking confirmation immediately ends your turn."
+  },
+  {
+    "id": "no-i-think",
+    "name": "No I Think",
+    "description": "You cannot use phrases such as \"I think,\" \"probably,\" \"maybe,\" or other uncertainty phrases before your answer.",
+    "penalty": "Using an uncertainty phrase counts as a failed answer."
+  },
+  {
+    "id": "no-gestures",
+    "name": "No Gestures",
+    "description": "You cannot use hand gestures, pointing, nodding, or other physical signals while answering.",
+    "penalty": "Using a gesture immediately ends your turn."
+  },
+  {
+    "id": "solo-turn",
+    "name": "Solo Turn",
+    "description": "Only the affected player may speak while their question is being answered.",
+    "penalty": "Any teammate who speaks causes the affected turn to end."
+  },
+  {
+    "id": "dead-serious",
+    "name": "Dead Serious",
+    "description": "You cannot laugh, joke, or make intentional comedic remarks while answering your question.",
+    "penalty": "Breaking the rule immediately ends your turn."
+  },
+  {
+    "id": "double-check",
+    "name": "Double Check",
+    "description": "Before giving your final answer, you must repeat the question aloud.",
+    "penalty": "Failing to repeat the question makes the answer invalid."
+  },
+  {
+    "id": "no-pointing",
+    "name": "No Pointing",
+    "description": "You cannot point at the answer you want to select.",
+    "penalty": "Pointing immediately ends your turn."
+  },
+  {
+    "id": "one-chance",
+    "name": "One Chance",
+    "description": "Once you select an answer, you cannot change it.",
+    "penalty": "Changing your answer counts as incorrect."
+  },
+  {
+    "id": "name-ban",
+    "name": "Name Ban",
+    "description": "You cannot say another player's name while the curse is active.",
+    "penalty": "Saying another player's name immediately ends your turn."
+  },
+  {
+    "id": "question-repeat",
+    "name": "Question Repeat",
+    "description": "The question must be repeated by the host before you are allowed to answer.",
+    "penalty": "Attempting to answer before the repeat makes the answer invalid."
+  },
+  {
+    "id": "no-reaction",
+    "name": "No Reaction",
+    "description": "You cannot verbally react to whether an answer was correct or incorrect.",
+    "penalty": "A verbal reaction immediately ends your turn."
+  },
+  {
+    "id": "full-explanation",
+    "name": "Full Explanation",
+    "description": "You must explain why your answer is correct before the answer can be accepted.",
+    "penalty": "Giving only the answer without an explanation counts as incomplete."
+  },
+  {
+    "id": "quiet-turn",
+    "name": "Quiet Turn",
+    "description": "You cannot speak except when giving your final answer.",
+    "penalty": "Any unnecessary speech ends your turn."
+  },
+  {
+    "id": "open-book",
+    "name": "Open Book",
+    "description": "Other players may discuss the question openly while you are trying to answer, but you cannot participate in their discussion.",
+    "penalty": "Joining the discussion ends your turn."
+  },
+  {
+    "id": "double-or-nothing",
+    "name": "Double or Nothing",
+    "description": "Your next answer has twice the normal reward and twice the normal penalty.",
+    "penalty": "An incorrect answer loses twice the normal amount."
+  },
+  {
+    "id": "forbidden-word",
+    "name": "Forbidden Word",
+    "description": "A random common word is forbidden for the target player while the curse is active.",
+    "penalty": "Saying the selected forbidden word triggers the curse penalty.",
+    "special": "random-pool",
+    "poolName": "forbiddenWords"
+  },
+  {
+    "id": "nickname",
+    "name": "Nickname",
+    "description": "The target player must be addressed by a randomly selected nickname while the curse is active.",
+    "penalty": "Addressing the target by a different name instead of the selected nickname triggers the curse penalty.",
+    "special": "random-pool",
+    "poolName": "nicknames"
+  }
+]

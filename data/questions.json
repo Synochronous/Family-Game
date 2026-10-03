@@ -1,0 +1,5304 @@
+{
+  "categories": [
+    "Tagalog",
+    "World History",
+    "Geography",
+    "Science",
+    "Math",
+    "Filipino History"
+  ],
+  "values": [
+    250,
+    500,
+    750,
+    1000,
+    1250,
+    1500
+  ],
+  "questions": [
+    {
+      "id": "TAG-250-01",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "What is the Tagalog word for 'window'?",
+      "choices": {
+        "A": "bubong",
+        "B": "pinto",
+        "C": "sahig",
+        "D": "bintana"
+      },
+      "answer": "D",
+      "note": "Pinto = door, bubong = roof, sahig = floor."
+    },
+    {
+      "id": "TAG-250-02",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Which day of the week is 'Miyerkules'?",
+      "choices": {
+        "A": "Wednesday",
+        "B": "Thursday",
+        "C": "Tuesday",
+        "D": "Friday"
+      },
+      "answer": "A",
+      "note": "Martes = Tuesday, Huwebes = Thursday, Biyernes = Friday."
+    },
+    {
+      "id": "TAG-250-03",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Which Tagalog word means 'tomorrow'?",
+      "choices": {
+        "A": "kahapon",
+        "B": "bukas",
+        "C": "ngayon",
+        "D": "mamaya"
+      },
+      "answer": "B",
+      "note": "Kahapon = yesterday, mamaya = later today, ngayon = now/today."
+    },
+    {
+      "id": "TAG-250-04",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Which part of the body is the 'siko'?",
+      "choices": {
+        "A": "Elbow",
+        "B": "Shoulder",
+        "C": "Knee",
+        "D": "Wrist"
+      },
+      "answer": "A",
+      "note": "Tuhod = knee, balikat = shoulder, pulso = wrist."
+    },
+    {
+      "id": "TAG-250-05",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "What does 'masarap' mean?",
+      "choices": {
+        "A": "Overcooked",
+        "B": "Expensive",
+        "C": "Delicious",
+        "D": "Spicy"
+      },
+      "answer": "C",
+      "note": "Maanghang = spicy, mahal = expensive, sobrang luto = overcooked."
+    },
+    {
+      "id": "TAG-250-06",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Who is called 'Kuya' in a Filipino family?",
+      "choices": {
+        "A": "A younger brother",
+        "B": "An older brother",
+        "C": "An uncle",
+        "D": "A grandfather"
+      },
+      "answer": "B",
+      "note": "Kuya is the respectful term for an older brother or older male."
+    },
+    {
+      "id": "TAG-250-07",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "What is 'apatnapu' in English?",
+      "choices": {
+        "A": "Forty",
+        "B": "Sixty",
+        "C": "Four hundred",
+        "D": "Fourteen"
+      },
+      "answer": "A",
+      "note": "Labing-apat = 14, apat na raan = 400, animnapu = 60."
+    },
+    {
+      "id": "TAG-250-08",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Which Tagalog word means 'cloud'?",
+      "choices": {
+        "A": "hangin",
+        "B": "ulan",
+        "C": "ulap",
+        "D": "kidlat"
+      },
+      "answer": "C",
+      "note": "Ulan = rain, hangin = wind, kidlat = lightning."
+    },
+    {
+      "id": "TAG-250-09",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Which word is the opposite of 'mabigat'?",
+      "choices": {
+        "A": "makapal",
+        "B": "malambot",
+        "C": "matibay",
+        "D": "magaan"
+      },
+      "answer": "D",
+      "note": "Mabigat = heavy; magaan = light. Makapal = thick, malambot = soft, matibay = sturdy."
+    },
+    {
+      "id": "TAG-250-10",
+      "category": "Tagalog",
+      "value": 250,
+      "question": "Who is your 'pamangkin'?",
+      "choices": {
+        "A": "Your grandchild",
+        "B": "Your niece or nephew",
+        "C": "Your godchild",
+        "D": "Your cousin"
+      },
+      "answer": "B",
+      "note": "Pinsan = cousin, apo = grandchild, inaanak = godchild."
+    },
+    {
+      "id": "TAG-500-01",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "Which Tagalog word means 'hope'?",
+      "choices": {
+        "A": "pananampalataya",
+        "B": "tiwala",
+        "C": "pag-asa",
+        "D": "pangarap"
+      },
+      "answer": "C",
+      "note": "Pangarap = dream, tiwala = trust, pananampalataya = faith."
+    },
+    {
+      "id": "TAG-500-02",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "Who is your 'bayaw'?",
+      "choices": {
+        "A": "Your father-in-law",
+        "B": "Your godfather",
+        "C": "Your brother-in-law",
+        "D": "Your stepbrother"
+      },
+      "answer": "C",
+      "note": "Biyenan = parent-in-law, ninong = godfather, kapatid sa ama/ina = half/step sibling."
+    },
+    {
+      "id": "TAG-500-03",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "In 'Ang mga bata ay naglalaro,' what does 'mga' do?",
+      "choices": {
+        "A": "Shows past tense",
+        "B": "Marks the object",
+        "C": "Marks the subject",
+        "D": "Makes the noun plural"
+      },
+      "answer": "D",
+      "note": "'Mga' is the plural marker; 'ang' marks the subject."
+    },
+    {
+      "id": "TAG-500-04",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "Which part of the face is the 'kilay'?",
+      "choices": {
+        "A": "Eyelash",
+        "B": "Forehead",
+        "C": "Eyebrow",
+        "D": "Eyelid"
+      },
+      "answer": "C",
+      "note": "Pilikmata = eyelash, noo = forehead, talukap = eyelid."
+    },
+    {
+      "id": "TAG-500-05",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "Which word describes a light drizzle?",
+      "choices": {
+        "A": "ambon",
+        "B": "ulap",
+        "C": "hamog",
+        "D": "baha"
+      },
+      "answer": "A",
+      "note": "Hamog = dew, baha = flood, ulap = cloud."
+    },
+    {
+      "id": "TAG-500-06",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "Which Tagalog word means 'earthquake'?",
+      "choices": {
+        "A": "bagyo",
+        "B": "lindol",
+        "C": "baha",
+        "D": "pagguho"
+      },
+      "answer": "B",
+      "note": "Bagyo = typhoon, baha = flood, pagguho = collapse/landslide."
+    },
+    {
+      "id": "TAG-500-07",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "What feeling does 'Sayang!' express?",
+      "choices": {
+        "A": "Surprise at good news",
+        "B": "Anger at an insult",
+        "C": "Relief after danger",
+        "D": "Regret over a waste"
+      },
+      "answer": "D",
+      "note": "'Sayang' laments something wasted or a missed chance."
+    },
+    {
+      "id": "TAG-500-08",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "What number is 'isang libo't limang daan'?",
+      "choices": {
+        "A": "150",
+        "B": "1,500",
+        "C": "15,000",
+        "D": "1,050"
+      },
+      "answer": "B",
+      "note": "Isang libo (1,000) + limang daan (500) = 1,500."
+    },
+    {
+      "id": "TAG-500-09",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "Which verb means 'to borrow' an item?",
+      "choices": {
+        "A": "humiram",
+        "B": "magbenta",
+        "C": "magsauli",
+        "D": "magpahiram"
+      },
+      "answer": "A",
+      "note": "Magpahiram = to lend, magsauli = to return, magbenta = to sell."
+    },
+    {
+      "id": "TAG-500-10",
+      "category": "Tagalog",
+      "value": 500,
+      "question": "What attitude does 'Bahala na' most commonly express?",
+      "choices": {
+        "A": "Demanding immediate action",
+        "B": "Apologizing for a mistake",
+        "C": "Refusing to take part",
+        "D": "Leaving the outcome to fate"
+      },
+      "answer": "D",
+      "note": "'Bahala na' means come what may, leaving the result to fate or God."
+    },
+    {
+      "id": "TAG-750-01",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "A person described as 'balat-sibuyas' is…",
+      "choices": {
+        "A": "Tight with money",
+        "B": "Easily offended",
+        "C": "Fond of gossip",
+        "D": "Two-faced"
+      },
+      "answer": "B",
+      "note": "Onion-skinned: thin-skinned, easily hurt."
+    },
+    {
+      "id": "TAG-750-02",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "What does 'ningas-kugon' describe?",
+      "choices": {
+        "A": "A sudden burst of anger",
+        "B": "A habit of telling lies",
+        "C": "A stubborn refusal to change",
+        "D": "Enthusiasm that quickly fades"
+      },
+      "answer": "D",
+      "note": "Like cogon grass fire: blazes fast, dies fast."
+    },
+    {
+      "id": "TAG-750-03",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "What aspect (aspekto) is the verb 'kakain'?",
+      "choices": {
+        "A": "Kontemplatibo",
+        "B": "Perpektibo",
+        "C": "Katatapos",
+        "D": "Imperpektibo"
+      },
+      "answer": "A",
+      "note": "Kakain = will eat (contemplated). Kumain = perpektibo, kumakain = imperpektibo, kakakain = katatapos."
+    },
+    {
+      "id": "TAG-750-04",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "In 'Ang matandang lalaki ay umalis kahapon,' which word is the pang-uri?",
+      "choices": {
+        "A": "kahapon",
+        "B": "umalis",
+        "C": "matanda",
+        "D": "lalaki"
+      },
+      "answer": "C",
+      "note": "Matanda (old) describes lalaki. Umalis = verb, kahapon = adverb of time."
+    },
+    {
+      "id": "TAG-750-05",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "Someone who is 'mababaw ang luha'…",
+      "choices": {
+        "A": "Cries easily",
+        "B": "Forgives quickly",
+        "C": "Rarely shows emotion",
+        "D": "Speaks without thinking"
+      },
+      "answer": "A",
+      "note": "Literally 'shallow tears': tears come easily."
+    },
+    {
+      "id": "TAG-750-06",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "Following the standard rin/din rule, which sentence is correct?",
+      "choices": {
+        "A": "Mabait rin siya.",
+        "B": "Masaya din siya.",
+        "C": "Malungkot rin ako.",
+        "D": "Masaya rin siya."
+      },
+      "answer": "D",
+      "note": "Use 'rin' after vowels (masaya) and 'din' after consonants (mabait, malungkot)."
+    },
+    {
+      "id": "TAG-750-07",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "In Filipino tradition, who is the 'ilaw ng tahanan'?",
+      "choices": {
+        "A": "The father",
+        "B": "The mother",
+        "C": "The eldest child",
+        "D": "The grandmother"
+      },
+      "answer": "B",
+      "note": "The father is the 'haligi ng tahanan' (pillar); the mother is the light."
+    },
+    {
+      "id": "TAG-750-08",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "'Ang hindi lumingon sa pinanggalingan ay hindi makararating sa paroroonan' teaches…",
+      "choices": {
+        "A": "Plan every journey carefully",
+        "B": "Never dwell on past mistakes",
+        "C": "Always obey your elders",
+        "D": "Remember where you came from"
+      },
+      "answer": "D",
+      "note": "Those who forget their origins will not reach their destination."
+    },
+    {
+      "id": "TAG-750-09",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "Which Tagalog word refers to dusk?",
+      "choices": {
+        "A": "bukang-liwayway",
+        "B": "tanghaling-tapat",
+        "C": "takipsilim",
+        "D": "hatinggabi"
+      },
+      "answer": "C",
+      "note": "Bukang-liwayway = dawn, tanghaling-tapat = high noon, hatinggabi = midnight."
+    },
+    {
+      "id": "TAG-750-10",
+      "category": "Tagalog",
+      "value": 750,
+      "question": "Which word refers to a place near the listener but away from the speaker?",
+      "choices": {
+        "A": "dito",
+        "B": "diyan",
+        "C": "doon",
+        "D": "saan"
+      },
+      "answer": "B",
+      "note": "Dito = near the speaker, doon = far from both, saan = where."
+    },
+    {
+      "id": "TAG-1000-01",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "In 'Binili ni Ana ang mangga,' which is the paksa (subject)?",
+      "choices": {
+        "A": "binili",
+        "B": "Ana",
+        "C": "mangga",
+        "D": "Ana at mangga"
+      },
+      "answer": "C",
+      "note": "Object-focus verb: 'ang' marks the paksa (mangga); 'ni Ana' is the actor."
+    },
+    {
+      "id": "TAG-1000-02",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Which word best completes: 'Pumunta siya sa palengke ___ bumili ng isda'?",
+      "choices": {
+        "A": "kung",
+        "B": "upang",
+        "C": "dahil",
+        "D": "kahit"
+      },
+      "answer": "B",
+      "note": "Upang = in order to. Dahil = because, kahit = even though, kung = if."
+    },
+    {
+      "id": "TAG-1000-03",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Which sentence uses 'nang' correctly?",
+      "choices": {
+        "A": "Umalis siya nang maaga.",
+        "B": "Uminom ako nang tubig.",
+        "C": "Kumuha siya nang lapis.",
+        "D": "Bumili siya nang tinapay."
+      },
+      "answer": "A",
+      "note": "'Nang' introduces manner/time (nang maaga). Objects take 'ng' (ng tinapay)."
+    },
+    {
+      "id": "TAG-1000-04",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Which compound word has a meaning different from both of its parts?",
+      "choices": {
+        "A": "bahay-kubo",
+        "B": "silid-aralan",
+        "C": "hampaslupa",
+        "D": "punong-guro"
+      },
+      "answer": "C",
+      "note": "Hampaslupa (a poor person) is a tambalang ganap; the others keep their parts' meanings."
+    },
+    {
+      "id": "TAG-1000-05",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "What is the salitang-ugat (root) of 'pinagsabihan'?",
+      "choices": {
+        "A": "sabihin",
+        "B": "sabihan",
+        "C": "sabi",
+        "D": "pagsabi"
+      },
+      "answer": "C",
+      "note": "Pinag- + sabi + -han; the root is 'sabi'."
+    },
+    {
+      "id": "TAG-1000-06",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Which verb form means the action was just completed?",
+      "choices": {
+        "A": "kumakain",
+        "B": "kumain",
+        "C": "kakain",
+        "D": "kakakain"
+      },
+      "answer": "D",
+      "note": "Katatapos aspect: kakakain = just ate."
+    },
+    {
+      "id": "TAG-1000-07",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Someone who is 'kapit sa patalim' is…",
+      "choices": {
+        "A": "Resorting to desperate measures",
+        "B": "Defending their honor",
+        "C": "Betrayed by a friend",
+        "D": "Holding on to a grudge"
+      },
+      "answer": "A",
+      "note": "Literally gripping a blade: doing something risky out of desperation."
+    },
+    {
+      "id": "TAG-1000-08",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Which word is closest in meaning to 'marilag'?",
+      "choices": {
+        "A": "matayog",
+        "B": "maganda",
+        "C": "marahas",
+        "D": "malagim"
+      },
+      "answer": "B",
+      "note": "Marilag = beautiful/majestic. Marahas = violent, malagim = gruesome, matayog = lofty."
+    },
+    {
+      "id": "TAG-1000-09",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "A person described as 'taingang-kawali'…",
+      "choices": {
+        "A": "Talks too loudly",
+        "B": "Listens to gossip",
+        "C": "Is hard of hearing",
+        "D": "Pretends not to hear"
+      },
+      "answer": "D",
+      "note": "Literally 'frying-pan ears': deliberately ignoring what is said."
+    },
+    {
+      "id": "TAG-1000-10",
+      "category": "Tagalog",
+      "value": 1000,
+      "question": "Which marker correctly completes: '___ Maria at Jose ay magkapatid'?",
+      "choices": {
+        "A": "Sina",
+        "B": "Si",
+        "C": "Sila",
+        "D": "Ang mga"
+      },
+      "answer": "A",
+      "note": "'Sina' is the plural form of 'si' for two or more named people."
+    },
+    {
+      "id": "TAG-1250-01",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "In 'Ipinagluto ko si Nanay ng adobo,' which is the paksa?",
+      "choices": {
+        "A": "Nanay",
+        "B": "ipinagluto",
+        "C": "adobo",
+        "D": "ko"
+      },
+      "answer": "A",
+      "note": "Benefactive focus: the beneficiary (si Nanay) is the paksa."
+    },
+    {
+      "id": "TAG-1250-02",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "Which verb is in pokus sa gamit (instrument focus)?",
+      "choices": {
+        "A": "isinulat",
+        "B": "sinulatan",
+        "C": "sumulat",
+        "D": "ipinansulat"
+      },
+      "answer": "D",
+      "note": "Ipinansulat = used to write with. Isinulat = object, sinulatan = locative/direction, sumulat = actor."
+    },
+    {
+      "id": "TAG-1250-03",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "'Habang maikli ang kumot, matutong mamaluktot' advises you to…",
+      "choices": {
+        "A": "Prepare for the cold season",
+        "B": "Share what little you have",
+        "C": "Live within your means",
+        "D": "Rest while you still can"
+      },
+      "answer": "C",
+      "note": "While the blanket is short, learn to curl up: adjust to limited resources."
+    },
+    {
+      "id": "TAG-1250-04",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "What does 'pang-' + 'bayad' become?",
+      "choices": {
+        "A": "pambayad",
+        "B": "panbayad",
+        "C": "pangbayad",
+        "D": "pamayad"
+      },
+      "answer": "A",
+      "note": "Before b or p, 'pang-' assimilates to 'pam-'; the b is kept here."
+    },
+    {
+      "id": "TAG-1250-05",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "Which sentence is in di-karaniwang ayos (inverted order)?",
+      "choices": {
+        "A": "Naglalaro ang bata.",
+        "B": "Masaya ang bata.",
+        "C": "Kumain ang bata.",
+        "D": "Ang bata ay naglalaro."
+      },
+      "answer": "D",
+      "note": "Predicate-first is karaniwan in Filipino; subject + 'ay' + predicate is di-karaniwan."
+    },
+    {
+      "id": "TAG-1250-06",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "An awit has 12 syllables per line. How many does a korido have?",
+      "choices": {
+        "A": "14",
+        "B": "8",
+        "C": "7",
+        "D": "10"
+      },
+      "answer": "B",
+      "note": "Korido (e.g., Ibong Adarna) uses 8-syllable lines; awit (Florante at Laura) uses 12."
+    },
+    {
+      "id": "TAG-1250-07",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "A person described as 'bukas-palad' is…",
+      "choices": {
+        "A": "Open-minded",
+        "B": "Hardworking",
+        "C": "Easily fooled",
+        "D": "Generous"
+      },
+      "answer": "D",
+      "note": "Open-palmed: generous. Open-minded is 'bukas ang isip'."
+    },
+    {
+      "id": "TAG-1250-08",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "Which Tagalog word comes from Sanskrit?",
+      "choices": {
+        "A": "guro",
+        "B": "mesa",
+        "C": "bintana",
+        "D": "bapor"
+      },
+      "answer": "A",
+      "note": "Guro comes from Sanskrit 'guru'; mesa, bintana, bapor come from Spanish."
+    },
+    {
+      "id": "TAG-1250-09",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "'Isang kahig, isang tuka' describes someone who…",
+      "choices": {
+        "A": "Eats only once a day",
+        "B": "Works slowly but surely",
+        "C": "Lives hand to mouth",
+        "D": "Shares everything equally"
+      },
+      "answer": "C",
+      "note": "One scratch, one peck: earning just enough for each meal."
+    },
+    {
+      "id": "TAG-1250-10",
+      "category": "Tagalog",
+      "value": 1250,
+      "question": "In baybayin, a kudlit placed above a character changes its vowel to…",
+      "choices": {
+        "A": "No vowel",
+        "B": "E/I",
+        "C": "O/U",
+        "D": "A"
+      },
+      "answer": "B",
+      "note": "Above = e/i, below = o/u. The vowel-cancelling mark was a later Spanish addition."
+    },
+    {
+      "id": "TAG-1500-01",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "Which verb puts the focus on the place where the action happened?",
+      "choices": {
+        "A": "kumain",
+        "B": "kinain",
+        "C": "ipinangkain",
+        "D": "pinagkainan"
+      },
+      "answer": "D",
+      "note": "Pinagkainan (locative). Kinain = object, kumain = actor, ipinangkain = instrument."
+    },
+    {
+      "id": "TAG-1500-02",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "In 'Nagpaluto si Lola kay Ana ng pansit,' who actually cooked?",
+      "choices": {
+        "A": "Lola",
+        "B": "Ana",
+        "C": "Not stated",
+        "D": "Both of them"
+      },
+      "answer": "B",
+      "note": "Causative 'magpa-': Lola had Ana cook the pansit."
+    },
+    {
+      "id": "TAG-1500-03",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "Which word is a pamilang na panunuran (ordinal)?",
+      "choices": {
+        "A": "ikatlo",
+        "B": "katlo",
+        "C": "tatlo",
+        "D": "tigatlo"
+      },
+      "answer": "A",
+      "note": "Ikatlo = third. Tatlo = cardinal, tigatlo = three each, katlo = one-third."
+    },
+    {
+      "id": "TAG-1500-04",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "How many syllables (pantig) are in 'pinagsamantalahan'?",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "6"
+      },
+      "answer": "A",
+      "note": "pi-nag-sa-man-ta-la-han = 7."
+    },
+    {
+      "id": "TAG-1500-05",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "What does 'Nakita kita' mean?",
+      "choices": {
+        "A": "You saw me.",
+        "B": "We saw each other.",
+        "C": "I saw you.",
+        "D": "He saw you."
+      },
+      "answer": "C",
+      "note": "'Kita' fuses 'ko' (I) and 'ka' (you): I saw you."
+    },
+    {
+      "id": "TAG-1500-06",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "Which completes: 'Sina Ana, Ben, at Carlo ay ___'?",
+      "choices": {
+        "A": "magkapatid",
+        "B": "kapatiran",
+        "C": "kinakapatid",
+        "D": "magkakapatid"
+      },
+      "answer": "D",
+      "note": "Magkapatid = two siblings; three or more = magkakapatid."
+    },
+    {
+      "id": "TAG-1500-07",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "Which word contains a gitlapi (infix)?",
+      "choices": {
+        "A": "sayawan",
+        "B": "sumayaw",
+        "C": "umalis",
+        "D": "magsayaw"
+      },
+      "answer": "B",
+      "note": "Sumayaw = s-um-ayaw. In 'umalis' the root starts with a vowel, so um- is an unlapi."
+    },
+    {
+      "id": "TAG-1500-08",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "Which sentence means 'The child was bitten by the dog'?",
+      "choices": {
+        "A": "Kinagat ang aso ng bata.",
+        "B": "Kinagat ng aso ang bata.",
+        "C": "Kinagat ng bata ang aso.",
+        "D": "Kumagat ang bata sa aso."
+      },
+      "answer": "B",
+      "note": "Object focus: 'ng aso' is the biter, 'ang bata' was bitten. The others mean the child bit the dog."
+    },
+    {
+      "id": "TAG-1500-09",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "What is the salitang-ugat of 'nagsipagtakbuhan'?",
+      "choices": {
+        "A": "pagtakbo",
+        "B": "takbuhan",
+        "C": "takbo",
+        "D": "sipag"
+      },
+      "answer": "C",
+      "note": "Nagsipag- + takbo + -han. 'Sipag' only looks like it is inside."
+    },
+    {
+      "id": "TAG-1500-10",
+      "category": "Tagalog",
+      "value": 1500,
+      "question": "Which pair are antonyms (magkasalungat)?",
+      "choices": {
+        "A": "matayog – mataas",
+        "B": "masigasig – masikap",
+        "C": "mapagkumbaba – mapagmataas",
+        "D": "mapanglaw – malumbay"
+      },
+      "answer": "C",
+      "note": "Humble vs. arrogant. The other pairs are synonyms."
+    },
+    {
+      "id": "WH-250-01",
+      "category": "World History",
+      "value": 250,
+      "question": "Which ancient civilization built the pyramids at Giza?",
+      "choices": {
+        "A": "Sumerians",
+        "B": "Persians",
+        "C": "Phoenicians",
+        "D": "Egyptians"
+      },
+      "answer": "D",
+      "note": "Built during Egypt's Old Kingdom, c. 2600–2500 BC."
+    },
+    {
+      "id": "WH-250-02",
+      "category": "World History",
+      "value": 250,
+      "question": "Who was the first President of the United States?",
+      "choices": {
+        "A": "Benjamin Franklin",
+        "B": "John Adams",
+        "C": "George Washington",
+        "D": "Thomas Jefferson"
+      },
+      "answer": "C",
+      "note": "Washington served 1789–1797; Adams was second."
+    },
+    {
+      "id": "WH-250-03",
+      "category": "World History",
+      "value": 250,
+      "question": "Which war ended in 1945?",
+      "choices": {
+        "A": "World War I",
+        "B": "World War II",
+        "C": "Vietnam War",
+        "D": "Korean War"
+      },
+      "answer": "B",
+      "note": "WWI ended 1918, Korea 1953 (armistice), Vietnam 1975."
+    },
+    {
+      "id": "WH-250-04",
+      "category": "World History",
+      "value": 250,
+      "question": "Which ship sank in 1912 after striking an iceberg?",
+      "choices": {
+        "A": "Mayflower",
+        "B": "Lusitania",
+        "C": "Britannic",
+        "D": "Titanic"
+      },
+      "answer": "D",
+      "note": "The Lusitania was torpedoed in 1915; the Britannic hit a mine in 1916."
+    },
+    {
+      "id": "WH-250-05",
+      "category": "World History",
+      "value": 250,
+      "question": "Who co-wrote 'The Communist Manifesto' with Friedrich Engels?",
+      "choices": {
+        "A": "Karl Marx",
+        "B": "Leon Trotsky",
+        "C": "Joseph Stalin",
+        "D": "Vladimir Lenin"
+      },
+      "answer": "A",
+      "note": "Published in 1848, decades before Lenin's revolution."
+    },
+    {
+      "id": "WH-250-06",
+      "category": "World History",
+      "value": 250,
+      "question": "Whose 1492 voyage reached the Americas for Spain?",
+      "choices": {
+        "A": "Christopher Columbus",
+        "B": "Vasco da Gama",
+        "C": "Ferdinand Magellan",
+        "D": "Amerigo Vespucci"
+      },
+      "answer": "A",
+      "note": "Da Gama sailed to India for Portugal; Magellan's voyage began in 1519."
+    },
+    {
+      "id": "WH-250-07",
+      "category": "World History",
+      "value": 250,
+      "question": "In which country did the Renaissance begin?",
+      "choices": {
+        "A": "Spain",
+        "B": "England",
+        "C": "France",
+        "D": "Italy"
+      },
+      "answer": "D",
+      "note": "It began in Italian city-states like Florence in the 14th century."
+    },
+    {
+      "id": "WH-250-08",
+      "category": "World History",
+      "value": 250,
+      "question": "Who led Nazi Germany during World War II?",
+      "choices": {
+        "A": "Benito Mussolini",
+        "B": "Adolf Hitler",
+        "C": "Otto von Bismarck",
+        "D": "Kaiser Wilhelm II"
+      },
+      "answer": "B",
+      "note": "Mussolini led Fascist Italy; Bismarck and Wilhelm II were earlier German leaders."
+    },
+    {
+      "id": "WH-250-09",
+      "category": "World History",
+      "value": 250,
+      "question": "Which city was divided by a wall from 1961 to 1989?",
+      "choices": {
+        "A": "Vienna",
+        "B": "Prague",
+        "C": "Berlin",
+        "D": "Warsaw"
+      },
+      "answer": "C",
+      "note": "The Berlin Wall fell on November 9, 1989."
+    },
+    {
+      "id": "WH-250-10",
+      "category": "World History",
+      "value": 250,
+      "question": "Which civilization built Machu Picchu?",
+      "choices": {
+        "A": "Aztec",
+        "B": "Inca",
+        "C": "Olmec",
+        "D": "Maya"
+      },
+      "answer": "B",
+      "note": "Built in the Peruvian Andes in the 15th century."
+    },
+    {
+      "id": "WH-500-01",
+      "category": "World History",
+      "value": 500,
+      "question": "Who was the first person to walk on the Moon?",
+      "choices": {
+        "A": "Yuri Gagarin",
+        "B": "Neil Armstrong",
+        "C": "Buzz Aldrin",
+        "D": "John Glenn"
+      },
+      "answer": "B",
+      "note": "Apollo 11, 1969. Gagarin was the first human in space (1961)."
+    },
+    {
+      "id": "WH-500-02",
+      "category": "World History",
+      "value": 500,
+      "question": "Which empire did Genghis Khan found?",
+      "choices": {
+        "A": "Mongol Empire",
+        "B": "Mughal Empire",
+        "C": "Ottoman Empire",
+        "D": "Timurid Empire"
+      },
+      "answer": "A",
+      "note": "Founded in 1206."
+    },
+    {
+      "id": "WH-500-03",
+      "category": "World History",
+      "value": 500,
+      "question": "Which English king agreed to the Magna Carta in 1215?",
+      "choices": {
+        "A": "King Edward I",
+        "B": "King Richard I",
+        "C": "King Henry VIII",
+        "D": "King John"
+      },
+      "answer": "D",
+      "note": "Sealed by King John at Runnymede."
+    },
+    {
+      "id": "WH-500-04",
+      "category": "World History",
+      "value": 500,
+      "question": "Which revolution began with the storming of the Bastille?",
+      "choices": {
+        "A": "French Revolution",
+        "B": "Russian Revolution",
+        "C": "Glorious Revolution",
+        "D": "American Revolution"
+      },
+      "answer": "A",
+      "note": "July 14, 1789, Paris."
+    },
+    {
+      "id": "WH-500-05",
+      "category": "World History",
+      "value": 500,
+      "question": "Suleiman the Magnificent ruled which empire?",
+      "choices": {
+        "A": "Mughal Empire",
+        "B": "Byzantine Empire",
+        "C": "Ottoman Empire",
+        "D": "Safavid Empire"
+      },
+      "answer": "C",
+      "note": "He reigned 1520–1566."
+    },
+    {
+      "id": "WH-500-06",
+      "category": "World History",
+      "value": 500,
+      "question": "Who was Britain's Prime Minister for most of World War II?",
+      "choices": {
+        "A": "Neville Chamberlain",
+        "B": "David Lloyd George",
+        "C": "Winston Churchill",
+        "D": "Clement Attlee"
+      },
+      "answer": "C",
+      "note": "Churchill served 1940–1945; Chamberlain led at the war's start."
+    },
+    {
+      "id": "WH-500-07",
+      "category": "World History",
+      "value": 500,
+      "question": "Which ancient Greek city-state was famous for its military discipline?",
+      "choices": {
+        "A": "Thebes",
+        "B": "Sparta",
+        "C": "Corinth",
+        "D": "Athens"
+      },
+      "answer": "B",
+      "note": "Spartan boys entered the agoge military training system."
+    },
+    {
+      "id": "WH-500-08",
+      "category": "World History",
+      "value": 500,
+      "question": "Which country modernized rapidly during the Meiji Restoration?",
+      "choices": {
+        "A": "Siam",
+        "B": "China",
+        "C": "Japan",
+        "D": "Korea"
+      },
+      "answer": "C",
+      "note": "Began in 1868."
+    },
+    {
+      "id": "WH-500-09",
+      "category": "World History",
+      "value": 500,
+      "question": "Who was the first emperor of a unified China?",
+      "choices": {
+        "A": "Qin Shi Huang",
+        "B": "Sun Yat-sen",
+        "C": "Emperor Wu of Han",
+        "D": "Kublai Khan"
+      },
+      "answer": "A",
+      "note": "He unified China in 221 BC."
+    },
+    {
+      "id": "WH-500-10",
+      "category": "World History",
+      "value": 500,
+      "question": "Which document begins with 'We the People'?",
+      "choices": {
+        "A": "Magna Carta",
+        "B": "Emancipation Proclamation",
+        "C": "Declaration of Independence",
+        "D": "U.S. Constitution"
+      },
+      "answer": "D",
+      "note": "The Declaration begins 'When in the Course of human events'."
+    },
+    {
+      "id": "WH-750-01",
+      "category": "World History",
+      "value": 750,
+      "question": "Which event directly triggered World War I?",
+      "choices": {
+        "A": "Franz Ferdinand's assassination",
+        "B": "The Lusitania's sinking",
+        "C": "Germany's invasion of Poland",
+        "D": "The Zimmermann Telegram"
+      },
+      "answer": "A",
+      "note": "June 28, 1914, Sarajevo. Poland's invasion started WWII."
+    },
+    {
+      "id": "WH-750-02",
+      "category": "World History",
+      "value": 750,
+      "question": "Which empire made Constantinople its capital after 1453?",
+      "choices": {
+        "A": "Ottoman Empire",
+        "B": "Russian Empire",
+        "C": "Holy Roman Empire",
+        "D": "Byzantine Empire"
+      },
+      "answer": "A",
+      "note": "Mehmed II captured the city from the Byzantines in 1453."
+    },
+    {
+      "id": "WH-750-03",
+      "category": "World History",
+      "value": 750,
+      "question": "What was the main purpose of the Marshall Plan?",
+      "choices": {
+        "A": "Contain Japan in the Pacific",
+        "B": "Disarm Germany permanently",
+        "C": "Rebuild Western Europe's economy",
+        "D": "Create the United Nations"
+      },
+      "answer": "C",
+      "note": "U.S. aid program launched in 1948."
+    },
+    {
+      "id": "WH-750-04",
+      "category": "World History",
+      "value": 750,
+      "question": "Which Roman leader crossed the Rubicon in 49 BC?",
+      "choices": {
+        "A": "Mark Antony",
+        "B": "Julius Caesar",
+        "C": "Augustus",
+        "D": "Pompey"
+      },
+      "answer": "B",
+      "note": "The crossing started Caesar's civil war with Pompey."
+    },
+    {
+      "id": "WH-750-05",
+      "category": "World History",
+      "value": 750,
+      "question": "In which country did the Industrial Revolution begin?",
+      "choices": {
+        "A": "United States",
+        "B": "France",
+        "C": "Great Britain",
+        "D": "Germany"
+      },
+      "answer": "C",
+      "note": "Late 18th century, led by textiles, coal, and steam."
+    },
+    {
+      "id": "WH-750-06",
+      "category": "World History",
+      "value": 750,
+      "question": "Which statesman led the unification of Germany in 1871?",
+      "choices": {
+        "A": "Klemens von Metternich",
+        "B": "Kaiser Wilhelm II",
+        "C": "Otto von Bismarck",
+        "D": "Frederick the Great"
+      },
+      "answer": "C",
+      "note": "Bismarck was Prussia's minister-president."
+    },
+    {
+      "id": "WH-750-07",
+      "category": "World History",
+      "value": 750,
+      "question": "The Silk Road mainly linked China with which region?",
+      "choices": {
+        "A": "The Americas",
+        "B": "Scandinavia",
+        "C": "Sub-Saharan Africa",
+        "D": "The Mediterranean world"
+      },
+      "answer": "D",
+      "note": "Overland routes ran through Central Asia to the Mediterranean."
+    },
+    {
+      "id": "WH-750-08",
+      "category": "World History",
+      "value": 750,
+      "question": "Which civilization developed cuneiform writing?",
+      "choices": {
+        "A": "Minoans",
+        "B": "Egyptians",
+        "C": "Phoenicians",
+        "D": "Sumerians"
+      },
+      "answer": "D",
+      "note": "Wedge-shaped script on clay tablets, Mesopotamia c. 3200 BC."
+    },
+    {
+      "id": "WH-750-09",
+      "category": "World History",
+      "value": 750,
+      "question": "Which self-governing country first gave women the vote nationally, in 1893?",
+      "choices": {
+        "A": "United States",
+        "B": "New Zealand",
+        "C": "United Kingdom",
+        "D": "Finland"
+      },
+      "answer": "B",
+      "note": "Finland followed in 1906, the UK in 1918/1928, the US in 1920."
+    },
+    {
+      "id": "WH-750-10",
+      "category": "World History",
+      "value": 750,
+      "question": "Which empire did Hernán Cortés conquer?",
+      "choices": {
+        "A": "Maya civilization",
+        "B": "Aztec Empire",
+        "C": "Olmec civilization",
+        "D": "Inca Empire"
+      },
+      "answer": "B",
+      "note": "Tenochtitlan fell in 1521. Pizarro conquered the Inca."
+    },
+    {
+      "id": "WH-1000-01",
+      "category": "World History",
+      "value": 1000,
+      "question": "Why was the Battle of Stalingrad a turning point?",
+      "choices": {
+        "A": "It drew the U.S. into the war",
+        "B": "It knocked Italy out of the war",
+        "C": "It halted Germany's eastern advance",
+        "D": "It opened a Western Front"
+      },
+      "answer": "C",
+      "note": "After the 1943 surrender at Stalingrad, Germany was largely on the defensive in the east."
+    },
+    {
+      "id": "WH-1000-02",
+      "category": "World History",
+      "value": 1000,
+      "question": "Which development most directly sped the spread of Protestant ideas in the 1500s?",
+      "choices": {
+        "A": "The voyages of discovery",
+        "B": "The Crusades",
+        "C": "The Black Death",
+        "D": "The printing press"
+      },
+      "answer": "D",
+      "note": "Luther's writings were printed and spread rapidly."
+    },
+    {
+      "id": "WH-1000-03",
+      "category": "World History",
+      "value": 1000,
+      "question": "The First Opium War (1839–1842) was fought between China and…",
+      "choices": {
+        "A": "France",
+        "B": "Britain",
+        "C": "Russia",
+        "D": "Japan"
+      },
+      "answer": "B",
+      "note": "It ended with the Treaty of Nanking, ceding Hong Kong to Britain."
+    },
+    {
+      "id": "WH-1000-04",
+      "category": "World History",
+      "value": 1000,
+      "question": "Which Gorbachev policy meant 'openness'?",
+      "choices": {
+        "A": "Détente",
+        "B": "Perestroika",
+        "C": "Collectivization",
+        "D": "Glasnost"
+      },
+      "answer": "D",
+      "note": "Perestroika meant 'restructuring'."
+    },
+    {
+      "id": "WH-1000-05",
+      "category": "World History",
+      "value": 1000,
+      "question": "What was the main aim of the Congress of Vienna (1814–1815)?",
+      "choices": {
+        "A": "Unify the Italian states",
+        "B": "Divide Africa among Europeans",
+        "C": "End the Thirty Years' War",
+        "D": "Restore Europe's balance of power"
+      },
+      "answer": "D",
+      "note": "It redrew Europe after Napoleon. Africa was divided at the Berlin Conference."
+    },
+    {
+      "id": "WH-1000-06",
+      "category": "World History",
+      "value": 1000,
+      "question": "Which event traditionally marks the end of the Western Roman Empire?",
+      "choices": {
+        "A": "Battle of Adrianople",
+        "B": "Romulus Augustulus deposed",
+        "C": "Constantinople is founded",
+        "D": "Visigoths sack Rome"
+      },
+      "answer": "B",
+      "note": "Odoacer deposed him in 476. The sack was 410, Constantinople 330, Adrianople 378."
+    },
+    {
+      "id": "WH-1000-07",
+      "category": "World History",
+      "value": 1000,
+      "question": "Which was a direct result of the Treaty of Versailles?",
+      "choices": {
+        "A": "Japan lost Manchuria",
+        "B": "Austria-Hungary was created",
+        "C": "Germany paid reparations",
+        "D": "Russia annexed Poland"
+      },
+      "answer": "C",
+      "note": "Austria-Hungary dated from 1867 and dissolved in 1918."
+    },
+    {
+      "id": "WH-1000-08",
+      "category": "World History",
+      "value": 1000,
+      "question": "The Berlin Airlift (1948–1949) responded to…",
+      "choices": {
+        "A": "A Soviet blockade of West Berlin",
+        "B": "The building of the Berlin Wall",
+        "C": "An East German uprising",
+        "D": "Germany's surrender in 1945"
+      },
+      "answer": "A",
+      "note": "The Wall came later, in 1961."
+    },
+    {
+      "id": "WH-1000-09",
+      "category": "World History",
+      "value": 1000,
+      "question": "Hammurabi of Babylon is best known for…",
+      "choices": {
+        "A": "An early written law code",
+        "B": "Building the Hanging Gardens",
+        "C": "Inventing cuneiform",
+        "D": "Conquering Egypt"
+      },
+      "answer": "A",
+      "note": "The Code of Hammurabi, c. 1754 BC."
+    },
+    {
+      "id": "WH-1000-10",
+      "category": "World History",
+      "value": 1000,
+      "question": "Which revolution created the first republic led by formerly enslaved people?",
+      "choices": {
+        "A": "Mexican War of Independence",
+        "B": "Haitian Revolution",
+        "C": "Cuban Revolution",
+        "D": "Brazilian independence"
+      },
+      "answer": "B",
+      "note": "Haiti declared independence in 1804."
+    },
+    {
+      "id": "WH-1250-01",
+      "category": "World History",
+      "value": 1250,
+      "question": "The Peace of Westphalia (1648) is credited with establishing which principle?",
+      "choices": {
+        "A": "Collective security",
+        "B": "State sovereignty",
+        "C": "Free trade",
+        "D": "Universal male suffrage"
+      },
+      "answer": "B",
+      "note": "It ended the Thirty Years' War and recognized states' authority over their own territory."
+    },
+    {
+      "id": "WH-1250-02",
+      "category": "World History",
+      "value": 1250,
+      "question": "Which correctly orders these medieval events, earliest first?",
+      "choices": {
+        "A": "Fall of Constantinople, Magna Carta, Black Death",
+        "B": "Black Death, Magna Carta, Fall of Constantinople",
+        "C": "Magna Carta, Fall of Constantinople, Black Death",
+        "D": "Magna Carta, Black Death, Fall of Constantinople"
+      },
+      "answer": "D",
+      "note": "1215, 1347–1351, 1453."
+    },
+    {
+      "id": "WH-1250-03",
+      "category": "World History",
+      "value": 1250,
+      "question": "Because of the Treaty of Tordesillas, which colony became Portuguese-speaking?",
+      "choices": {
+        "A": "Argentina",
+        "B": "Venezuela",
+        "C": "Brazil",
+        "D": "Mexico"
+      },
+      "answer": "C",
+      "note": "The 1494 line put eastern South America in Portugal's sphere."
+    },
+    {
+      "id": "WH-1250-04",
+      "category": "World History",
+      "value": 1250,
+      "question": "Besides smallpox, what most helped Cortés defeat the Aztecs with few Spaniards?",
+      "choices": {
+        "A": "Aztecs having no army",
+        "B": "Support from the Inca Empire",
+        "C": "Portuguese reinforcements",
+        "D": "Alliances with rival peoples"
+      },
+      "answer": "D",
+      "note": "Tlaxcalans and others supplied tens of thousands of warriors."
+    },
+    {
+      "id": "WH-1250-05",
+      "category": "World History",
+      "value": 1250,
+      "question": "Whose New Economic Policy allowed limited private trade in Soviet Russia?",
+      "choices": {
+        "A": "Vladimir Lenin",
+        "B": "Nikita Khrushchev",
+        "C": "Leon Trotsky",
+        "D": "Joseph Stalin"
+      },
+      "answer": "A",
+      "note": "Introduced in 1921; Stalin later ended it."
+    },
+    {
+      "id": "WH-1250-06",
+      "category": "World History",
+      "value": 1250,
+      "question": "Which ancient empire built the Royal Road and ruled through satraps?",
+      "choices": {
+        "A": "Macedonian Empire",
+        "B": "Babylonian Empire",
+        "C": "Persian Empire",
+        "D": "Assyrian Empire"
+      },
+      "answer": "C",
+      "note": "The Achaemenid Persians governed provinces through satraps."
+    },
+    {
+      "id": "WH-1250-07",
+      "category": "World History",
+      "value": 1250,
+      "question": "What was the outcome of England's Glorious Revolution (1688)?",
+      "choices": {
+        "A": "William and Mary replaced James II",
+        "B": "Cromwell became Lord Protector",
+        "C": "Charles I was executed",
+        "D": "Charles II was restored"
+      },
+      "answer": "A",
+      "note": "Charles I's execution was 1649; the Restoration was 1660."
+    },
+    {
+      "id": "WH-1250-08",
+      "category": "World History",
+      "value": 1250,
+      "question": "Which 19th-century conflict caused the most deaths?",
+      "choices": {
+        "A": "Crimean War",
+        "B": "Taiping Rebellion",
+        "C": "Napoleonic Wars",
+        "D": "American Civil War"
+      },
+      "answer": "B",
+      "note": "Estimates run 20–30 million dead in China, 1850–1864."
+    },
+    {
+      "id": "WH-1250-09",
+      "category": "World History",
+      "value": 1250,
+      "question": "Why was the Battle of Midway (1942) so significant?",
+      "choices": {
+        "A": "Japan lost four aircraft carriers",
+        "B": "It liberated the Philippines",
+        "C": "Japan captured Hawaii",
+        "D": "It ended the Pacific War"
+      },
+      "answer": "A",
+      "note": "The loss crippled Japan's carrier strength."
+    },
+    {
+      "id": "WH-1250-10",
+      "category": "World History",
+      "value": 1250,
+      "question": "The Emancipation Proclamation applied only to…",
+      "choices": {
+        "A": "Every U.S. state",
+        "B": "Border states only",
+        "C": "Areas in rebellion against the Union",
+        "D": "Western territories only"
+      },
+      "answer": "C",
+      "note": "Slavery was abolished nationwide by the 13th Amendment (1865)."
+    },
+    {
+      "id": "WH-1500-01",
+      "category": "World History",
+      "value": 1500,
+      "question": "Which correctly orders these Atlantic Revolution–era events, earliest first?",
+      "choices": {
+        "A": "U.S. independence, French Revolution, Napoleon crowned, Congress of Vienna",
+        "B": "French Revolution, U.S. independence, Napoleon crowned, Congress of Vienna",
+        "C": "French Revolution, Napoleon crowned, U.S. independence, Congress of Vienna",
+        "D": "U.S. independence, Napoleon crowned, French Revolution, Congress of Vienna"
+      },
+      "answer": "A",
+      "note": "1776, 1789, 1804, 1814–1815."
+    },
+    {
+      "id": "WH-1500-02",
+      "category": "World History",
+      "value": 1500,
+      "question": "Why did the Schlieffen Plan help bring Britain into World War I?",
+      "choices": {
+        "A": "It required attacking via Switzerland",
+        "B": "It required invading neutral Belgium",
+        "C": "It called for blockading Britain",
+        "D": "It targeted British colonies"
+      },
+      "answer": "B",
+      "note": "Britain had guaranteed Belgian neutrality (Treaty of London, 1839)."
+    },
+    {
+      "id": "WH-1500-03",
+      "category": "World History",
+      "value": 1500,
+      "question": "The Investiture Controversy was a dispute over who could…",
+      "choices": {
+        "A": "Call a crusade",
+        "B": "Levy church taxes",
+        "C": "Appoint bishops",
+        "D": "Crown the French king"
+      },
+      "answer": "C",
+      "note": "Pope Gregory VII vs. Emperor Henry IV, 11th century."
+    },
+    {
+      "id": "WH-1500-04",
+      "category": "World History",
+      "value": 1500,
+      "question": "What most directly caused Germany's hyperinflation in 1923?",
+      "choices": {
+        "A": "Adopting the gold standard",
+        "B": "The loss of its colonies",
+        "C": "The Wall Street Crash",
+        "D": "Printing money to cover debts"
+      },
+      "answer": "D",
+      "note": "The government printed money, especially during the Ruhr occupation. The Crash came in 1929."
+    },
+    {
+      "id": "WH-1500-05",
+      "category": "World History",
+      "value": 1500,
+      "question": "Which empire covered the most land at its peak?",
+      "choices": {
+        "A": "British Empire",
+        "B": "Spanish Empire",
+        "C": "Russian Empire",
+        "D": "Mongol Empire"
+      },
+      "answer": "A",
+      "note": "About 35 million km² (1920) vs. the Mongols' roughly 24 million."
+    },
+    {
+      "id": "WH-1500-06",
+      "category": "World History",
+      "value": 1500,
+      "question": "The Edict of Nantes (1598) granted rights to…",
+      "choices": {
+        "A": "Spanish Jews",
+        "B": "German Lutherans",
+        "C": "English Catholics",
+        "D": "French Huguenots"
+      },
+      "answer": "D",
+      "note": "Issued by Henry IV of France for Protestants."
+    },
+    {
+      "id": "WH-1500-07",
+      "category": "World History",
+      "value": 1500,
+      "question": "Why did Tokugawa Japan adopt its sakoku isolation policy?",
+      "choices": {
+        "A": "A defeat by the Portuguese",
+        "B": "Fear of Christian influence",
+        "C": "A plague from European ships",
+        "D": "A ban by China's emperor"
+      },
+      "answer": "B",
+      "note": "The shogunate saw missionaries and their converts as a political threat."
+    },
+    {
+      "id": "WH-1500-08",
+      "category": "World History",
+      "value": 1500,
+      "question": "Which did NOT contribute to the fall of the Western Roman Empire?",
+      "choices": {
+        "A": "Economic decline",
+        "B": "Political instability",
+        "C": "The rise of Islam",
+        "D": "Germanic migrations"
+      },
+      "answer": "C",
+      "note": "Islam arose in the 7th century, after 476."
+    },
+    {
+      "id": "WH-1500-09",
+      "category": "World History",
+      "value": 1500,
+      "question": "Which government held China's UN Security Council seat from 1945 to 1971?",
+      "choices": {
+        "A": "People's Republic of China",
+        "B": "India",
+        "C": "Empire of Japan",
+        "D": "Republic of China"
+      },
+      "answer": "D",
+      "note": "UN Resolution 2758 (1971) transferred the seat to the PRC."
+    },
+    {
+      "id": "WH-1500-10",
+      "category": "World History",
+      "value": 1500,
+      "question": "Why did Napoleon sell the Louisiana Territory in 1803?",
+      "choices": {
+        "A": "To fund war against Britain",
+        "B": "To repay debts to Spain",
+        "C": "To buy Haiti's loyalty",
+        "D": "To end a war with the U.S."
+      },
+      "answer": "A",
+      "note": "After failing to retake Haiti, he needed money for renewed war with Britain."
+    },
+    {
+      "id": "GEO-250-01",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which is the largest ocean?",
+      "choices": {
+        "A": "Arctic",
+        "B": "Pacific",
+        "C": "Indian",
+        "D": "Atlantic"
+      },
+      "answer": "B",
+      "note": "The Pacific covers about a third of Earth's surface."
+    },
+    {
+      "id": "GEO-250-02",
+      "category": "Geography",
+      "value": 250,
+      "question": "What is the capital of Japan?",
+      "choices": {
+        "A": "Kyoto",
+        "B": "Nagoya",
+        "C": "Osaka",
+        "D": "Tokyo"
+      },
+      "answer": "D",
+      "note": "Kyoto was the imperial capital until 1868."
+    },
+    {
+      "id": "GEO-250-03",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which river flows through the world's largest rainforest?",
+      "choices": {
+        "A": "Magdalena",
+        "B": "Paraná",
+        "C": "Amazon",
+        "D": "Orinoco"
+      },
+      "answer": "C",
+      "note": "The Amazon basin holds the largest tropical rainforest."
+    },
+    {
+      "id": "GEO-250-04",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which country has the most people in South America?",
+      "choices": {
+        "A": "Brazil",
+        "B": "Argentina",
+        "C": "Peru",
+        "D": "Colombia"
+      },
+      "answer": "A",
+      "note": "Brazil has over 200 million people."
+    },
+    {
+      "id": "GEO-250-05",
+      "category": "Geography",
+      "value": 250,
+      "question": "Mount Everest is part of which mountain range?",
+      "choices": {
+        "A": "Alps",
+        "B": "Andes",
+        "C": "Karakoram",
+        "D": "Himalayas"
+      },
+      "answer": "D",
+      "note": "K2 is in the Karakoram."
+    },
+    {
+      "id": "GEO-250-06",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which desert covers much of northern Africa?",
+      "choices": {
+        "A": "Kalahari",
+        "B": "Gobi",
+        "C": "Arabian",
+        "D": "Sahara"
+      },
+      "answer": "D",
+      "note": "The Kalahari is in southern Africa; the Gobi is in Asia."
+    },
+    {
+      "id": "GEO-250-07",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which country is shaped like a boot?",
+      "choices": {
+        "A": "Italy",
+        "B": "Portugal",
+        "C": "Greece",
+        "D": "Spain"
+      },
+      "answer": "A",
+      "note": "The Italian peninsula's shape resembles a boot."
+    },
+    {
+      "id": "GEO-250-08",
+      "category": "Geography",
+      "value": 250,
+      "question": "What is the capital of Australia?",
+      "choices": {
+        "A": "Canberra",
+        "B": "Sydney",
+        "C": "Melbourne",
+        "D": "Perth"
+      },
+      "answer": "A",
+      "note": "Canberra was purpose-built as a compromise between Sydney and Melbourne."
+    },
+    {
+      "id": "GEO-250-09",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which is the largest country by area?",
+      "choices": {
+        "A": "China",
+        "B": "Canada",
+        "C": "Russia",
+        "D": "United States"
+      },
+      "answer": "C",
+      "note": "About 17.1 million km²; Canada is second."
+    },
+    {
+      "id": "GEO-250-10",
+      "category": "Geography",
+      "value": 250,
+      "question": "Which line divides Earth into Northern and Southern Hemispheres?",
+      "choices": {
+        "A": "Prime Meridian",
+        "B": "Equator",
+        "C": "International Date Line",
+        "D": "Tropic of Cancer"
+      },
+      "answer": "B",
+      "note": "The Prime Meridian divides East and West."
+    },
+    {
+      "id": "GEO-500-01",
+      "category": "Geography",
+      "value": 500,
+      "question": "Which river flows through Baghdad?",
+      "choices": {
+        "A": "Nile",
+        "B": "Tigris",
+        "C": "Jordan",
+        "D": "Euphrates"
+      },
+      "answer": "B",
+      "note": "The Euphrates runs parallel to the west."
+    },
+    {
+      "id": "GEO-500-02",
+      "category": "Geography",
+      "value": 500,
+      "question": "Which country contains most of the Atacama Desert?",
+      "choices": {
+        "A": "Bolivia",
+        "B": "Peru",
+        "C": "Chile",
+        "D": "Argentina"
+      },
+      "answer": "C",
+      "note": "Northern Chile, along the Pacific coast."
+    },
+    {
+      "id": "GEO-500-03",
+      "category": "Geography",
+      "value": 500,
+      "question": "Which African country has the largest population?",
+      "choices": {
+        "A": "Ethiopia",
+        "B": "Egypt",
+        "C": "Nigeria",
+        "D": "DR Congo"
+      },
+      "answer": "C",
+      "note": "Nigeria has over 200 million people."
+    },
+    {
+      "id": "GEO-500-04",
+      "category": "Geography",
+      "value": 500,
+      "question": "The Strait of Gibraltar connects the Atlantic Ocean with the…",
+      "choices": {
+        "A": "Arabian Sea",
+        "B": "Mediterranean Sea",
+        "C": "Norwegian Sea",
+        "D": "Adriatic Sea"
+      },
+      "answer": "B",
+      "note": "It separates Spain from Morocco."
+    },
+    {
+      "id": "GEO-500-05",
+      "category": "Geography",
+      "value": 500,
+      "question": "What is the smallest country in the world by area?",
+      "choices": {
+        "A": "San Marino",
+        "B": "Liechtenstein",
+        "C": "Monaco",
+        "D": "Vatican City"
+      },
+      "answer": "D",
+      "note": "About 0.44 km²; Monaco is second."
+    },
+    {
+      "id": "GEO-500-06",
+      "category": "Geography",
+      "value": 500,
+      "question": "Which country does NOT border Germany?",
+      "choices": {
+        "A": "Italy",
+        "B": "Austria",
+        "C": "Denmark",
+        "D": "Poland"
+      },
+      "answer": "A",
+      "note": "Austria and Switzerland separate Germany from Italy."
+    },
+    {
+      "id": "GEO-500-07",
+      "category": "Geography",
+      "value": 500,
+      "question": "Mount Kilimanjaro is in which country?",
+      "choices": {
+        "A": "Kenya",
+        "B": "Ethiopia",
+        "C": "Uganda",
+        "D": "Tanzania"
+      },
+      "answer": "D",
+      "note": "It sits near the Kenyan border but inside Tanzania."
+    },
+    {
+      "id": "GEO-500-08",
+      "category": "Geography",
+      "value": 500,
+      "question": "What is the capital of Canada?",
+      "choices": {
+        "A": "Montreal",
+        "B": "Toronto",
+        "C": "Vancouver",
+        "D": "Ottawa"
+      },
+      "answer": "D",
+      "note": "Toronto is Canada's largest city."
+    },
+    {
+      "id": "GEO-500-09",
+      "category": "Geography",
+      "value": 500,
+      "question": "Which body of water lies between Saudi Arabia and northeast Africa?",
+      "choices": {
+        "A": "Red Sea",
+        "B": "Persian Gulf",
+        "C": "Caspian Sea",
+        "D": "Arabian Sea"
+      },
+      "answer": "A",
+      "note": "The Persian Gulf is on Saudi Arabia's east side."
+    },
+    {
+      "id": "GEO-500-10",
+      "category": "Geography",
+      "value": 500,
+      "question": "Which U.S. state is the largest by area?",
+      "choices": {
+        "A": "Texas",
+        "B": "Alaska",
+        "C": "Montana",
+        "D": "California"
+      },
+      "answer": "B",
+      "note": "Alaska is more than twice the size of Texas."
+    },
+    {
+      "id": "GEO-750-01",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which country has the world's longest coastline?",
+      "choices": {
+        "A": "Australia",
+        "B": "Indonesia",
+        "C": "Canada",
+        "D": "Russia"
+      },
+      "answer": "C",
+      "note": "About 202,000 km including its Arctic islands."
+    },
+    {
+      "id": "GEO-750-02",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which country is completely surrounded by South Africa?",
+      "choices": {
+        "A": "Lesotho",
+        "B": "Eswatini",
+        "C": "Namibia",
+        "D": "Botswana"
+      },
+      "answer": "A",
+      "note": "Eswatini also borders Mozambique."
+    },
+    {
+      "id": "GEO-750-03",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which two countries share the world's longest land border?",
+      "choices": {
+        "A": "China and Mongolia",
+        "B": "Canada and United States",
+        "C": "Russia and Kazakhstan",
+        "D": "Argentina and Chile"
+      },
+      "answer": "B",
+      "note": "About 8,900 km; Russia–Kazakhstan is second."
+    },
+    {
+      "id": "GEO-750-04",
+      "category": "Geography",
+      "value": 750,
+      "question": "The Danube River empties into which sea?",
+      "choices": {
+        "A": "Black Sea",
+        "B": "Adriatic Sea",
+        "C": "Baltic Sea",
+        "D": "Mediterranean Sea"
+      },
+      "answer": "A",
+      "note": "Its delta is on the Romania–Ukraine coast."
+    },
+    {
+      "id": "GEO-750-05",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which city lies on two continents?",
+      "choices": {
+        "A": "Cairo",
+        "B": "Istanbul",
+        "C": "Athens",
+        "D": "Moscow"
+      },
+      "answer": "B",
+      "note": "The Bosporus splits it between Europe and Asia."
+    },
+    {
+      "id": "GEO-750-06",
+      "category": "Geography",
+      "value": 750,
+      "question": "What is the capital of Brazil?",
+      "choices": {
+        "A": "Rio de Janeiro",
+        "B": "São Paulo",
+        "C": "Brasília",
+        "D": "Salvador"
+      },
+      "answer": "C",
+      "note": "Brasília replaced Rio de Janeiro as capital in 1960."
+    },
+    {
+      "id": "GEO-750-07",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which is the deepest lake in the world?",
+      "choices": {
+        "A": "Lake Superior",
+        "B": "Lake Tanganyika",
+        "C": "Caspian Sea",
+        "D": "Lake Baikal"
+      },
+      "answer": "D",
+      "note": "Over 1,600 m deep, in Siberia."
+    },
+    {
+      "id": "GEO-750-08",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which north–south range forms much of the conventional Europe–Asia boundary?",
+      "choices": {
+        "A": "Caucasus Mountains",
+        "B": "Ural Mountains",
+        "C": "Carpathian Mountains",
+        "D": "Altai Mountains"
+      },
+      "answer": "B",
+      "note": "The Caucasus run east–west further south."
+    },
+    {
+      "id": "GEO-750-09",
+      "category": "Geography",
+      "value": 750,
+      "question": "What is the largest island that is not a continent?",
+      "choices": {
+        "A": "New Guinea",
+        "B": "Madagascar",
+        "C": "Greenland",
+        "D": "Borneo"
+      },
+      "answer": "C",
+      "note": "About 2.17 million km²; New Guinea is second."
+    },
+    {
+      "id": "GEO-750-10",
+      "category": "Geography",
+      "value": 750,
+      "question": "Which river forms much of the U.S.–Mexico border?",
+      "choices": {
+        "A": "Colorado River",
+        "B": "Pecos River",
+        "C": "Mississippi River",
+        "D": "Rio Grande"
+      },
+      "answer": "D",
+      "note": "Called the Río Bravo in Mexico."
+    },
+    {
+      "id": "GEO-1000-01",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Which ocean current contributes to the Atacama Desert's extreme dryness?",
+      "choices": {
+        "A": "Kuroshio Current",
+        "B": "Agulhas Current",
+        "C": "Humboldt Current",
+        "D": "Gulf Stream"
+      },
+      "answer": "C",
+      "note": "Cold Humboldt waters cool the air and suppress rainfall."
+    },
+    {
+      "id": "GEO-1000-02",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Traveling westward across the International Date Line, the date…",
+      "choices": {
+        "A": "Stays the same",
+        "B": "Moves back one day",
+        "C": "Moves forward one hour",
+        "D": "Moves forward one day"
+      },
+      "answer": "D",
+      "note": "Going west (Americas to Asia) you skip ahead a day."
+    },
+    {
+      "id": "GEO-1000-03",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Which country is doubly landlocked (only landlocked neighbors)?",
+      "choices": {
+        "A": "Uzbekistan",
+        "B": "Kazakhstan",
+        "C": "Mongolia",
+        "D": "Switzerland"
+      },
+      "answer": "A",
+      "note": "Mongolia borders Russia and China, both with coasts."
+    },
+    {
+      "id": "GEO-1000-04",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Which is the world's fourth most populous country?",
+      "choices": {
+        "A": "Pakistan",
+        "B": "Brazil",
+        "C": "Indonesia",
+        "D": "Nigeria"
+      },
+      "answer": "C",
+      "note": "After India, China, and the United States."
+    },
+    {
+      "id": "GEO-1000-05",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Monsoons are driven mainly by…",
+      "choices": {
+        "A": "The El Niño cycle",
+        "B": "Uneven heating of land and sea",
+        "C": "Melting mountain glaciers",
+        "D": "Shifts in ocean salinity"
+      },
+      "answer": "B",
+      "note": "Land heats and cools faster than sea, reversing winds by season."
+    },
+    {
+      "id": "GEO-1000-06",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Which line marks the northernmost point where the Sun can be directly overhead?",
+      "choices": {
+        "A": "Arctic Circle",
+        "B": "Tropic of Cancer",
+        "C": "Equator",
+        "D": "Tropic of Capricorn"
+      },
+      "answer": "B",
+      "note": "About 23.4° N, reached at the June solstice."
+    },
+    {
+      "id": "GEO-1000-07",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Fjords are formed mainly by…",
+      "choices": {
+        "A": "Tectonic rifting",
+        "B": "Rivers eroding cliffs",
+        "C": "Collapsed volcanoes",
+        "D": "Glaciers carving valleys"
+      },
+      "answer": "D",
+      "note": "Glacial valleys later flooded by the sea."
+    },
+    {
+      "id": "GEO-1000-08",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Which country has coastlines on both the Caribbean Sea and the Pacific Ocean?",
+      "choices": {
+        "A": "Ecuador",
+        "B": "Peru",
+        "C": "Colombia",
+        "D": "Venezuela"
+      },
+      "answer": "C",
+      "note": "Venezuela is Caribbean only; Ecuador and Peru are Pacific only."
+    },
+    {
+      "id": "GEO-1000-09",
+      "category": "Geography",
+      "value": 1000,
+      "question": "Which 'sea' is actually the world's largest lake?",
+      "choices": {
+        "A": "Caspian Sea",
+        "B": "Aral Sea",
+        "C": "Dead Sea",
+        "D": "Black Sea"
+      },
+      "answer": "A",
+      "note": "It is landlocked, about 371,000 km²."
+    },
+    {
+      "id": "GEO-1000-10",
+      "category": "Geography",
+      "value": 1000,
+      "question": "The Strait of Malacca separates which two countries?",
+      "choices": {
+        "A": "Indonesia and the Philippines",
+        "B": "Malaysia and Indonesia",
+        "C": "Thailand and Myanmar",
+        "D": "Malaysia and Singapore"
+      },
+      "answer": "B",
+      "note": "Peninsular Malaysia and Sumatra. The Johor Strait separates Malaysia and Singapore."
+    },
+    {
+      "id": "GEO-1250-01",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Counting overseas territories, which country has the most time zones?",
+      "choices": {
+        "A": "France",
+        "B": "Russia",
+        "C": "United States",
+        "D": "China"
+      },
+      "answer": "A",
+      "note": "France has 12 (13 with its Antarctic claim); Russia and the U.S. have 11."
+    },
+    {
+      "id": "GEO-1250-02",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which African river crosses the Equator twice?",
+      "choices": {
+        "A": "Nile River",
+        "B": "Zambezi River",
+        "C": "Congo River",
+        "D": "Niger River"
+      },
+      "answer": "C",
+      "note": "Its arc runs north then back south of the Equator."
+    },
+    {
+      "id": "GEO-1250-03",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which South American country does NOT border Brazil?",
+      "choices": {
+        "A": "Bolivia",
+        "B": "Peru",
+        "C": "Venezuela",
+        "D": "Chile"
+      },
+      "answer": "D",
+      "note": "Only Chile and Ecuador lack a border with Brazil."
+    },
+    {
+      "id": "GEO-1250-04",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Why do coastal cities usually have smaller temperature swings than inland ones?",
+      "choices": {
+        "A": "Salt particles in the air",
+        "B": "Water's high heat capacity",
+        "C": "More cloud-free days",
+        "D": "Lower average elevation"
+      },
+      "answer": "B",
+      "note": "Oceans warm and cool slowly, moderating nearby air."
+    },
+    {
+      "id": "GEO-1250-05",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which continent is crossed by both the Equator and the Prime Meridian?",
+      "choices": {
+        "A": "South America",
+        "B": "Africa",
+        "C": "Europe",
+        "D": "Asia"
+      },
+      "answer": "B",
+      "note": "They intersect in the Gulf of Guinea, off Africa."
+    },
+    {
+      "id": "GEO-1250-06",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which country lies entirely south of the Equator?",
+      "choices": {
+        "A": "Indonesia",
+        "B": "Colombia",
+        "C": "Kenya",
+        "D": "Madagascar"
+      },
+      "answer": "D",
+      "note": "Kenya, Indonesia, and Colombia all straddle the Equator."
+    },
+    {
+      "id": "GEO-1250-07",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which major river flows mostly northward?",
+      "choices": {
+        "A": "Nile",
+        "B": "Amazon",
+        "C": "Mississippi",
+        "D": "Ganges"
+      },
+      "answer": "A",
+      "note": "It flows north to the Mediterranean."
+    },
+    {
+      "id": "GEO-1250-08",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which country's capital lies on the Danube?",
+      "choices": {
+        "A": "Hungary",
+        "B": "Poland",
+        "C": "Romania",
+        "D": "Czechia"
+      },
+      "answer": "A",
+      "note": "Budapest. Prague is on the Vltava, Warsaw the Vistula, Bucharest the Dâmbovița."
+    },
+    {
+      "id": "GEO-1250-09",
+      "category": "Geography",
+      "value": 1250,
+      "question": "Which is the largest country located entirely in Europe?",
+      "choices": {
+        "A": "France",
+        "B": "Spain",
+        "C": "Germany",
+        "D": "Ukraine"
+      },
+      "answer": "D",
+      "note": "About 603,000 km². Russia, Kazakhstan, and Turkey span two continents."
+    },
+    {
+      "id": "GEO-1250-10",
+      "category": "Geography",
+      "value": 1250,
+      "question": "The point at 0° latitude, 0° longitude lies in which body of water?",
+      "choices": {
+        "A": "Arabian Sea",
+        "B": "Gulf of Aden",
+        "C": "Gulf of Guinea",
+        "D": "Bay of Biscay"
+      },
+      "answer": "C",
+      "note": "Off the coast of West Africa."
+    },
+    {
+      "id": "GEO-1500-01",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Which of these cities lies farthest north?",
+      "choices": {
+        "A": "Madrid",
+        "B": "Beijing",
+        "C": "Rome",
+        "D": "New York City"
+      },
+      "answer": "C",
+      "note": "Rome ~41.9° N, New York ~40.7°, Madrid ~40.4°, Beijing ~39.9°."
+    },
+    {
+      "id": "GEO-1500-02",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Which river drains into the Indian Ocean rather than the Atlantic?",
+      "choices": {
+        "A": "Zambezi",
+        "B": "Amazon",
+        "C": "Congo",
+        "D": "Niger"
+      },
+      "answer": "A",
+      "note": "The Zambezi reaches the sea in Mozambique."
+    },
+    {
+      "id": "GEO-1500-03",
+      "category": "Geography",
+      "value": 1500,
+      "question": "On the December solstice, which city has the longest daylight?",
+      "choices": {
+        "A": "Manila",
+        "B": "Singapore",
+        "C": "Cairo",
+        "D": "Buenos Aires"
+      },
+      "answer": "D",
+      "note": "It is southern summer, and Buenos Aires (~34.6° S) is farthest south of the Equator."
+    },
+    {
+      "id": "GEO-1500-04",
+      "category": "Geography",
+      "value": 1500,
+      "question": "A ship going through the Panama Canal from the Atlantic to the Pacific travels generally…",
+      "choices": {
+        "A": "Northeast",
+        "B": "West",
+        "C": "Northwest",
+        "D": "Southeast"
+      },
+      "answer": "D",
+      "note": "The canal's Atlantic end (Colón) is northwest of its Pacific end."
+    },
+    {
+      "id": "GEO-1500-05",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Which capital city is closest to the Equator?",
+      "choices": {
+        "A": "Nairobi",
+        "B": "Singapore",
+        "C": "Quito",
+        "D": "Jakarta"
+      },
+      "answer": "C",
+      "note": "Quito ~0.2° S, Nairobi ~1.3° S, Singapore ~1.3° N, Jakarta ~6.2° S."
+    },
+    {
+      "id": "GEO-1500-06",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Which country borders both the Caspian Sea and the Persian Gulf?",
+      "choices": {
+        "A": "Iraq",
+        "B": "Saudi Arabia",
+        "C": "Iran",
+        "D": "Turkmenistan"
+      },
+      "answer": "C",
+      "note": "Iran's north coast is on the Caspian, its south on the Gulf."
+    },
+    {
+      "id": "GEO-1500-07",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Which country's territory is the first to enter each new calendar day?",
+      "choices": {
+        "A": "Japan",
+        "B": "Kiribati",
+        "C": "Fiji",
+        "D": "New Zealand"
+      },
+      "answer": "B",
+      "note": "Kiribati's Line Islands use UTC+14."
+    },
+    {
+      "id": "GEO-1500-08",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Besides Uganda, which two countries border Lake Victoria?",
+      "choices": {
+        "A": "Kenya and Tanzania",
+        "B": "Kenya and Rwanda",
+        "C": "Ethiopia and Kenya",
+        "D": "Tanzania and Burundi"
+      },
+      "answer": "A",
+      "note": "Tanzania holds about half the lake."
+    },
+    {
+      "id": "GEO-1500-09",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Which country has NO Mediterranean coastline?",
+      "choices": {
+        "A": "Albania",
+        "B": "Portugal",
+        "C": "Bosnia and Herzegovina",
+        "D": "Slovenia"
+      },
+      "answer": "B",
+      "note": "Portugal faces only the Atlantic; Slovenia and Bosnia have short Adriatic coasts."
+    },
+    {
+      "id": "GEO-1500-10",
+      "category": "Geography",
+      "value": 1500,
+      "question": "Going straight through Earth's center from Manila, you would surface in…",
+      "choices": {
+        "A": "South America",
+        "B": "Africa",
+        "C": "Europe",
+        "D": "North America"
+      },
+      "answer": "A",
+      "note": "Manila's antipode is near 14.6° S, 59° W, in central South America."
+    },
+    {
+      "id": "SCI-250-01",
+      "category": "Science",
+      "value": 250,
+      "question": "What is the chemical formula for water?",
+      "choices": {
+        "A": "H₂O",
+        "B": "H₂O₂",
+        "C": "O₂",
+        "D": "CO₂"
+      },
+      "answer": "A",
+      "note": "H₂O₂ is hydrogen peroxide."
+    },
+    {
+      "id": "SCI-250-02",
+      "category": "Science",
+      "value": 250,
+      "question": "Which planet is closest to the Sun?",
+      "choices": {
+        "A": "Mars",
+        "B": "Mercury",
+        "C": "Venus",
+        "D": "Earth"
+      },
+      "answer": "B",
+      "note": "Venus is second."
+    },
+    {
+      "id": "SCI-250-03",
+      "category": "Science",
+      "value": 250,
+      "question": "Which gas do plants take in for photosynthesis?",
+      "choices": {
+        "A": "Nitrogen",
+        "B": "Oxygen",
+        "C": "Carbon monoxide",
+        "D": "Carbon dioxide"
+      },
+      "answer": "D",
+      "note": "Plants release oxygen as a by-product."
+    },
+    {
+      "id": "SCI-250-04",
+      "category": "Science",
+      "value": 250,
+      "question": "Which part of an animal cell holds most of its DNA?",
+      "choices": {
+        "A": "Nucleus",
+        "B": "Cell membrane",
+        "C": "Cytoplasm",
+        "D": "Ribosome"
+      },
+      "answer": "A",
+      "note": "Ribosomes build proteins; the membrane encloses the cell."
+    },
+    {
+      "id": "SCI-250-05",
+      "category": "Science",
+      "value": 250,
+      "question": "Which force keeps the planets in orbit around the Sun?",
+      "choices": {
+        "A": "Gravity",
+        "B": "Inertia",
+        "C": "Magnetism",
+        "D": "Friction"
+      },
+      "answer": "A",
+      "note": "Inertia alone would send planets off in straight lines."
+    },
+    {
+      "id": "SCI-250-06",
+      "category": "Science",
+      "value": 250,
+      "question": "At sea level, water boils at what temperature?",
+      "choices": {
+        "A": "120 °C",
+        "B": "90 °C",
+        "C": "110 °C",
+        "D": "100 °C"
+      },
+      "answer": "D",
+      "note": "Equal to 212 °F."
+    },
+    {
+      "id": "SCI-250-07",
+      "category": "Science",
+      "value": 250,
+      "question": "Which is the largest planet in our solar system?",
+      "choices": {
+        "A": "Saturn",
+        "B": "Neptune",
+        "C": "Uranus",
+        "D": "Jupiter"
+      },
+      "answer": "D",
+      "note": "Jupiter is over 300 times Earth's mass."
+    },
+    {
+      "id": "SCI-250-08",
+      "category": "Science",
+      "value": 250,
+      "question": "What is the hardest natural substance?",
+      "choices": {
+        "A": "Topaz",
+        "B": "Diamond",
+        "C": "Quartz",
+        "D": "Granite"
+      },
+      "answer": "B",
+      "note": "Diamond is 10 on the Mohs scale."
+    },
+    {
+      "id": "SCI-250-09",
+      "category": "Science",
+      "value": 250,
+      "question": "How many bones are in the adult human body?",
+      "choices": {
+        "A": "270",
+        "B": "186",
+        "C": "206",
+        "D": "212"
+      },
+      "answer": "C",
+      "note": "Babies have about 270–300 that fuse over time."
+    },
+    {
+      "id": "SCI-250-10",
+      "category": "Science",
+      "value": 250,
+      "question": "What kind of animal is a whale?",
+      "choices": {
+        "A": "Fish",
+        "B": "Amphibian",
+        "C": "Mammal",
+        "D": "Reptile"
+      },
+      "answer": "C",
+      "note": "Whales breathe air and nurse their young."
+    },
+    {
+      "id": "SCI-500-01",
+      "category": "Science",
+      "value": 500,
+      "question": "Which organ produces insulin?",
+      "choices": {
+        "A": "Pancreas",
+        "B": "Gallbladder",
+        "C": "Liver",
+        "D": "Kidney"
+      },
+      "answer": "A",
+      "note": "Insulin comes from beta cells in the pancreas."
+    },
+    {
+      "id": "SCI-500-02",
+      "category": "Science",
+      "value": 500,
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "choices": {
+        "A": "Oxygen",
+        "B": "Argon",
+        "C": "Carbon dioxide",
+        "D": "Nitrogen"
+      },
+      "answer": "D",
+      "note": "About 78% nitrogen, 21% oxygen."
+    },
+    {
+      "id": "SCI-500-03",
+      "category": "Science",
+      "value": 500,
+      "question": "Which plant-cell part carries out photosynthesis?",
+      "choices": {
+        "A": "Nucleus",
+        "B": "Vacuole",
+        "C": "Mitochondrion",
+        "D": "Chloroplast"
+      },
+      "answer": "D",
+      "note": "Chloroplasts contain chlorophyll."
+    },
+    {
+      "id": "SCI-500-04",
+      "category": "Science",
+      "value": 500,
+      "question": "What is the chemical symbol for sodium?",
+      "choices": {
+        "A": "S",
+        "B": "Na",
+        "C": "So",
+        "D": "Sd"
+      },
+      "answer": "B",
+      "note": "From Latin 'natrium'. S is sulfur."
+    },
+    {
+      "id": "SCI-500-05",
+      "category": "Science",
+      "value": 500,
+      "question": "Through which material does sound travel fastest?",
+      "choices": {
+        "A": "Steel",
+        "B": "Vacuum",
+        "C": "Water",
+        "D": "Air"
+      },
+      "answer": "A",
+      "note": "Sound is fastest in solids and cannot travel through a vacuum."
+    },
+    {
+      "id": "SCI-500-06",
+      "category": "Science",
+      "value": 500,
+      "question": "Which blood cells fight infection?",
+      "choices": {
+        "A": "Red blood cells",
+        "B": "Platelets",
+        "C": "White blood cells",
+        "D": "Blood plasma"
+      },
+      "answer": "C",
+      "note": "Red cells carry oxygen; platelets help clotting."
+    },
+    {
+      "id": "SCI-500-07",
+      "category": "Science",
+      "value": 500,
+      "question": "Which planet has the hottest surface?",
+      "choices": {
+        "A": "Venus",
+        "B": "Jupiter",
+        "C": "Mercury",
+        "D": "Mars"
+      },
+      "answer": "A",
+      "note": "Venus's thick CO₂ atmosphere traps heat (~465 °C), hotter than Mercury."
+    },
+    {
+      "id": "SCI-500-08",
+      "category": "Science",
+      "value": 500,
+      "question": "Which subatomic particle has a negative charge?",
+      "choices": {
+        "A": "Neutron",
+        "B": "Electron",
+        "C": "Proton",
+        "D": "Positron"
+      },
+      "answer": "B",
+      "note": "Protons and positrons are positive; neutrons are neutral."
+    },
+    {
+      "id": "SCI-500-09",
+      "category": "Science",
+      "value": 500,
+      "question": "Which type of rock forms when magma cools?",
+      "choices": {
+        "A": "Clastic",
+        "B": "Igneous",
+        "C": "Metamorphic",
+        "D": "Sedimentary"
+      },
+      "answer": "B",
+      "note": "Clastic rocks are a kind of sedimentary rock."
+    },
+    {
+      "id": "SCI-500-10",
+      "category": "Science",
+      "value": 500,
+      "question": "What is the pH of pure water at 25 °C?",
+      "choices": {
+        "A": "6",
+        "B": "5",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "C",
+      "note": "Neutral is pH 7."
+    },
+    {
+      "id": "SCI-750-01",
+      "category": "Science",
+      "value": 750,
+      "question": "Why do we see lightning before we hear thunder?",
+      "choices": {
+        "A": "Thunder forms after the flash",
+        "B": "Lightning happens first",
+        "C": "Clouds block the sound",
+        "D": "Light travels faster than sound"
+      },
+      "answer": "D",
+      "note": "Both occur together; light arrives almost instantly."
+    },
+    {
+      "id": "SCI-750-02",
+      "category": "Science",
+      "value": 750,
+      "question": "Which gas forms when baking soda reacts with vinegar?",
+      "choices": {
+        "A": "Carbon monoxide",
+        "B": "Oxygen",
+        "C": "Carbon dioxide",
+        "D": "Hydrogen"
+      },
+      "answer": "C",
+      "note": "An acid–base reaction releases CO₂ bubbles."
+    },
+    {
+      "id": "SCI-750-03",
+      "category": "Science",
+      "value": 750,
+      "question": "Which blood vessels carry blood away from the heart?",
+      "choices": {
+        "A": "Venules",
+        "B": "Arteries",
+        "C": "Capillaries",
+        "D": "Veins"
+      },
+      "answer": "B",
+      "note": "Veins return blood to the heart."
+    },
+    {
+      "id": "SCI-750-04",
+      "category": "Science",
+      "value": 750,
+      "question": "Which element has atomic number 6?",
+      "choices": {
+        "A": "Oxygen",
+        "B": "Carbon",
+        "C": "Boron",
+        "D": "Nitrogen"
+      },
+      "answer": "B",
+      "note": "Boron is 5, nitrogen 7, oxygen 8."
+    },
+    {
+      "id": "SCI-750-05",
+      "category": "Science",
+      "value": 750,
+      "question": "In which atmospheric layer is the ozone layer found?",
+      "choices": {
+        "A": "Mesosphere",
+        "B": "Thermosphere",
+        "C": "Troposphere",
+        "D": "Stratosphere"
+      },
+      "answer": "D",
+      "note": "Roughly 15–35 km up."
+    },
+    {
+      "id": "SCI-750-06",
+      "category": "Science",
+      "value": 750,
+      "question": "What type of energy does a stretched rubber band store?",
+      "choices": {
+        "A": "Elastic potential",
+        "B": "Gravitational potential",
+        "C": "Kinetic",
+        "D": "Thermal"
+      },
+      "answer": "A",
+      "note": "Released as kinetic energy when let go."
+    },
+    {
+      "id": "SCI-750-07",
+      "category": "Science",
+      "value": 750,
+      "question": "What is the shape of a DNA molecule?",
+      "choices": {
+        "A": "Double helix",
+        "B": "Single helix",
+        "C": "Folded sheet",
+        "D": "Triple helix"
+      },
+      "answer": "A",
+      "note": "Described by Watson and Crick in 1953."
+    },
+    {
+      "id": "SCI-750-08",
+      "category": "Science",
+      "value": 750,
+      "question": "Which planet has the shortest day?",
+      "choices": {
+        "A": "Earth",
+        "B": "Mercury",
+        "C": "Jupiter",
+        "D": "Saturn"
+      },
+      "answer": "C",
+      "note": "Jupiter rotates in about 10 hours; Saturn in about 10.7."
+    },
+    {
+      "id": "SCI-750-09",
+      "category": "Science",
+      "value": 750,
+      "question": "Which vitamin does your skin make in sunlight?",
+      "choices": {
+        "A": "Vitamin A",
+        "B": "Vitamin K",
+        "C": "Vitamin C",
+        "D": "Vitamin D"
+      },
+      "answer": "D",
+      "note": "UVB light triggers vitamin D production."
+    },
+    {
+      "id": "SCI-750-10",
+      "category": "Science",
+      "value": 750,
+      "question": "Which of these is a noble gas?",
+      "choices": {
+        "A": "Chlorine",
+        "B": "Nitrogen",
+        "C": "Argon",
+        "D": "Fluorine"
+      },
+      "answer": "C",
+      "note": "Noble gases (group 18) are very unreactive."
+    },
+    {
+      "id": "SCI-1000-01",
+      "category": "Science",
+      "value": 1000,
+      "question": "What causes the Moon's phases?",
+      "choices": {
+        "A": "The Sun's light dimming",
+        "B": "Our changing view of its lit half",
+        "C": "Earth's shadow falling on it",
+        "D": "The Moon's changing distance"
+      },
+      "answer": "B",
+      "note": "Earth's shadow on the Moon is a lunar eclipse, not a phase."
+    },
+    {
+      "id": "SCI-1000-02",
+      "category": "Science",
+      "value": 1000,
+      "question": "Compared with on Earth, an astronaut's mass on the Moon is…",
+      "choices": {
+        "A": "About one-sixth",
+        "B": "The same",
+        "C": "About six times",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "note": "Weight drops to about one-sixth; mass does not change."
+    },
+    {
+      "id": "SCI-1000-03",
+      "category": "Science",
+      "value": 1000,
+      "question": "Ignoring air resistance, a bowling ball and a tennis ball are dropped together. Which lands first?",
+      "choices": {
+        "A": "It depends on height",
+        "B": "The tennis ball",
+        "C": "Both at once",
+        "D": "The bowling ball"
+      },
+      "answer": "C",
+      "note": "Gravity accelerates all objects equally."
+    },
+    {
+      "id": "SCI-1000-04",
+      "category": "Science",
+      "value": 1000,
+      "question": "Why does ice float on liquid water?",
+      "choices": {
+        "A": "Air bubbles hold it up",
+        "B": "Surface tension supports it",
+        "C": "It is less dense than water",
+        "D": "Cold water sinks beneath it"
+      },
+      "answer": "C",
+      "note": "Water expands when it freezes."
+    },
+    {
+      "id": "SCI-1000-05",
+      "category": "Science",
+      "value": 1000,
+      "question": "Which process releases energy from glucose inside cells?",
+      "choices": {
+        "A": "Cellular respiration",
+        "B": "Digestion",
+        "C": "Photosynthesis",
+        "D": "Transpiration"
+      },
+      "answer": "A",
+      "note": "It takes place mainly in mitochondria."
+    },
+    {
+      "id": "SCI-1000-06",
+      "category": "Science",
+      "value": 1000,
+      "question": "What happens to water's boiling point at high altitude?",
+      "choices": {
+        "A": "It increases",
+        "B": "It rises then falls",
+        "C": "It decreases",
+        "D": "It stays the same"
+      },
+      "answer": "C",
+      "note": "Lower air pressure lets water boil at a lower temperature."
+    },
+    {
+      "id": "SCI-1000-07",
+      "category": "Science",
+      "value": 1000,
+      "question": "Why is the daytime sky blue?",
+      "choices": {
+        "A": "Sunlight is mostly blue",
+        "B": "Ozone is blue",
+        "C": "It reflects the oceans",
+        "D": "Air scatters blue light more"
+      },
+      "answer": "D",
+      "note": "Rayleigh scattering affects shorter wavelengths most."
+    },
+    {
+      "id": "SCI-1000-08",
+      "category": "Science",
+      "value": 1000,
+      "question": "In a simple series circuit, if one bulb burns out, the other bulbs…",
+      "choices": {
+        "A": "Go out",
+        "B": "Get brighter",
+        "C": "Stay the same",
+        "D": "Get dimmer"
+      },
+      "answer": "A",
+      "note": "A series circuit has only one path; a break stops all current."
+    },
+    {
+      "id": "SCI-1000-09",
+      "category": "Science",
+      "value": 1000,
+      "question": "Which of these is a chemical change?",
+      "choices": {
+        "A": "Ice melting",
+        "B": "Water boiling",
+        "C": "Sugar dissolving",
+        "D": "Iron rusting"
+      },
+      "answer": "D",
+      "note": "Rust is a new substance (iron oxide). The others are physical changes."
+    },
+    {
+      "id": "SCI-1000-10",
+      "category": "Science",
+      "value": 1000,
+      "question": "What mainly causes Earth's seasons?",
+      "choices": {
+        "A": "Earth's distance from the Sun",
+        "B": "The Moon's orbit",
+        "C": "Changes in the Sun's output",
+        "D": "The tilt of Earth's axis"
+      },
+      "answer": "D",
+      "note": "Earth is actually closest to the Sun in January."
+    },
+    {
+      "id": "SCI-1250-01",
+      "category": "Science",
+      "value": 1250,
+      "question": "A ball thrown straight up reaches its highest point. Its acceleration there is…",
+      "choices": {
+        "A": "9.8 m/s² downward",
+        "B": "Zero",
+        "C": "9.8 m/s² upward",
+        "D": "Increasing"
+      },
+      "answer": "A",
+      "note": "Velocity is zero at the top, but gravity still accelerates it."
+    },
+    {
+      "id": "SCI-1250-02",
+      "category": "Science",
+      "value": 1250,
+      "question": "Which blood type is the universal donor for red blood cells?",
+      "choices": {
+        "A": "O negative",
+        "B": "O positive",
+        "C": "A negative",
+        "D": "AB positive"
+      },
+      "answer": "A",
+      "note": "AB positive is the universal recipient."
+    },
+    {
+      "id": "SCI-1250-03",
+      "category": "Science",
+      "value": 1250,
+      "question": "At the same room temperature, why does a metal spoon feel colder than a wooden one?",
+      "choices": {
+        "A": "Metal reflects body heat",
+        "B": "Wood produces its own heat",
+        "C": "Metal conducts heat away faster",
+        "D": "Metal is actually colder"
+      },
+      "answer": "C",
+      "note": "Both are the same temperature; metal draws heat from your hand faster."
+    },
+    {
+      "id": "SCI-1250-04",
+      "category": "Science",
+      "value": 1250,
+      "question": "What happens to an animal cell placed in very salty water?",
+      "choices": {
+        "A": "It absorbs salt and grows",
+        "B": "It shrinks as water leaves",
+        "C": "It stays the same",
+        "D": "It swells as water enters"
+      },
+      "answer": "B",
+      "note": "Osmosis moves water out toward the saltier side."
+    },
+    {
+      "id": "SCI-1250-05",
+      "category": "Science",
+      "value": 1250,
+      "question": "Which planet is less dense than water?",
+      "choices": {
+        "A": "Jupiter",
+        "B": "Neptune",
+        "C": "Saturn",
+        "D": "Uranus"
+      },
+      "answer": "C",
+      "note": "Saturn's average density is about 0.69 g/cm³."
+    },
+    {
+      "id": "SCI-1250-06",
+      "category": "Science",
+      "value": 1250,
+      "question": "Two 6-ohm resistors connected in parallel have a total resistance of…",
+      "choices": {
+        "A": "6 ohms",
+        "B": "3 ohms",
+        "C": "12 ohms",
+        "D": "36 ohms"
+      },
+      "answer": "B",
+      "note": "1/R = 1/6 + 1/6 = 1/3, so R = 3 Ω."
+    },
+    {
+      "id": "SCI-1250-07",
+      "category": "Science",
+      "value": 1250,
+      "question": "Why do astronauts float aboard the International Space Station?",
+      "choices": {
+        "A": "The station blocks gravity",
+        "B": "They are in continuous free fall",
+        "C": "They are above the atmosphere",
+        "D": "There is no gravity in orbit"
+      },
+      "answer": "B",
+      "note": "Gravity at ISS height is still about 90% of surface gravity."
+    },
+    {
+      "id": "SCI-1250-08",
+      "category": "Science",
+      "value": 1250,
+      "question": "B is dominant over b. If both parents are Bb, what is the chance a child is bb?",
+      "choices": {
+        "A": "25%",
+        "B": "75%",
+        "C": "50%",
+        "D": "0%"
+      },
+      "answer": "A",
+      "note": "Punnett square: BB, Bb, bB, bb — one in four."
+    },
+    {
+      "id": "SCI-1250-09",
+      "category": "Science",
+      "value": 1250,
+      "question": "As a siren moves away from you, its pitch sounds…",
+      "choices": {
+        "A": "Higher",
+        "B": "Unchanged",
+        "C": "Higher, then lower",
+        "D": "Lower"
+      },
+      "answer": "D",
+      "note": "The Doppler effect stretches the sound waves."
+    },
+    {
+      "id": "SCI-1250-10",
+      "category": "Science",
+      "value": 1250,
+      "question": "Why don't antibiotics cure the common cold?",
+      "choices": {
+        "A": "Colds are allergic reactions",
+        "B": "The body destroys antibiotics",
+        "C": "Cold bacteria resist them",
+        "D": "Colds are caused by viruses"
+      },
+      "answer": "D",
+      "note": "Antibiotics target bacteria, not viruses."
+    },
+    {
+      "id": "SCI-1500-01",
+      "category": "Science",
+      "value": 1500,
+      "question": "A rock weighs 30 N in air and 20 N fully underwater. Its density is how many times water's?",
+      "choices": {
+        "A": "1.5",
+        "B": "0.67",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "C",
+      "note": "Buoyant force = 10 N = weight of equal-volume water, so 30 ÷ 10 = 3."
+    },
+    {
+      "id": "SCI-1500-02",
+      "category": "Science",
+      "value": 1500,
+      "question": "When light passes from air into water, its speed and wavelength…",
+      "choices": {
+        "A": "Speed drops, wavelength grows",
+        "B": "Speed stays, wavelength drops",
+        "C": "Both decrease",
+        "D": "Both increase"
+      },
+      "answer": "C",
+      "note": "Frequency stays constant, so wavelength shrinks with speed."
+    },
+    {
+      "id": "SCI-1500-03",
+      "category": "Science",
+      "value": 1500,
+      "question": "An object moves in a circle at constant speed. Why is it accelerating?",
+      "choices": {
+        "A": "A force pushes it outward",
+        "B": "Its direction keeps changing",
+        "C": "It is not accelerating",
+        "D": "Its speed is increasing"
+      },
+      "answer": "B",
+      "note": "Acceleration is any change in velocity, including direction."
+    },
+    {
+      "id": "SCI-1500-04",
+      "category": "Science",
+      "value": 1500,
+      "question": "Which is the strongest evidence the continents were once joined?",
+      "choices": {
+        "A": "Matching fossils across oceans",
+        "B": "Similar climates today",
+        "C": "Tides on both shores",
+        "D": "Volcanoes along coastlines"
+      },
+      "answer": "A",
+      "note": "Fossils like Mesosaurus appear in both South America and Africa."
+    },
+    {
+      "id": "SCI-1500-05",
+      "category": "Science",
+      "value": 1500,
+      "question": "Which has more total thermal energy?",
+      "choices": {
+        "A": "A cup of boiling water",
+        "B": "A bathtub of warm water",
+        "C": "They are equal",
+        "D": "Neither has any"
+      },
+      "answer": "B",
+      "note": "Temperature is average energy per particle; the tub has far more water."
+    },
+    {
+      "id": "SCI-1500-06",
+      "category": "Science",
+      "value": 1500,
+      "question": "If Earth had no Moon, ocean tides would…",
+      "choices": {
+        "A": "Stop completely",
+        "B": "Happen twice as often",
+        "C": "Be much larger",
+        "D": "Be much smaller"
+      },
+      "answer": "D",
+      "note": "The Sun would still cause tides, about half as strong."
+    },
+    {
+      "id": "SCI-1500-07",
+      "category": "Science",
+      "value": 1500,
+      "question": "An isotope's half-life is 10 years. What fraction remains after 30 years?",
+      "choices": {
+        "A": "1/3",
+        "B": "1/8",
+        "C": "1/6",
+        "D": "None"
+      },
+      "answer": "B",
+      "note": "½ × ½ × ½ = 1/8."
+    },
+    {
+      "id": "SCI-1500-08",
+      "category": "Science",
+      "value": 1500,
+      "question": "Which element most readily forms a +1 ion?",
+      "choices": {
+        "A": "Oxygen",
+        "B": "Chlorine",
+        "C": "Potassium",
+        "D": "Magnesium"
+      },
+      "answer": "C",
+      "note": "Alkali metals lose one electron. Mg forms +2; Cl and O form negative ions."
+    },
+    {
+      "id": "SCI-1500-09",
+      "category": "Science",
+      "value": 1500,
+      "question": "If a car's speed doubles, its kinetic energy becomes…",
+      "choices": {
+        "A": "8 times larger",
+        "B": "Unchanged",
+        "C": "2 times larger",
+        "D": "4 times larger"
+      },
+      "answer": "D",
+      "note": "KE = ½mv², so doubling v quadruples KE."
+    },
+    {
+      "id": "SCI-1500-10",
+      "category": "Science",
+      "value": 1500,
+      "question": "Why does air in the lower atmosphere get colder as you climb, despite being nearer the Sun?",
+      "choices": {
+        "A": "It is heated mainly from the ground",
+        "B": "Thin air reflects sunlight",
+        "C": "Altitude blocks sunlight",
+        "D": "Clouds trap cold air"
+      },
+      "answer": "A",
+      "note": "Sunlight warms the surface, which warms the air above it."
+    },
+    {
+      "id": "MATH-250-01",
+      "category": "Math",
+      "value": 250,
+      "question": "What is 7 × 8?",
+      "choices": {
+        "A": "54",
+        "B": "63",
+        "C": "48",
+        "D": "56"
+      },
+      "answer": "D",
+      "note": "7 × 8 = 56."
+    },
+    {
+      "id": "MATH-250-02",
+      "category": "Math",
+      "value": 250,
+      "question": "What is 15% of 200?",
+      "choices": {
+        "A": "30",
+        "B": "15",
+        "C": "25",
+        "D": "35"
+      },
+      "answer": "A",
+      "note": "0.15 × 200 = 30."
+    },
+    {
+      "id": "MATH-250-03",
+      "category": "Math",
+      "value": 250,
+      "question": "What is the square root of 144?",
+      "choices": {
+        "A": "11",
+        "B": "72",
+        "C": "12",
+        "D": "14"
+      },
+      "answer": "C",
+      "note": "12 × 12 = 144."
+    },
+    {
+      "id": "MATH-250-04",
+      "category": "Math",
+      "value": 250,
+      "question": "What is 3/4 written as a decimal?",
+      "choices": {
+        "A": "0.65",
+        "B": "0.75",
+        "C": "0.80",
+        "D": "0.34"
+      },
+      "answer": "B",
+      "note": "3 ÷ 4 = 0.75."
+    },
+    {
+      "id": "MATH-250-05",
+      "category": "Math",
+      "value": 250,
+      "question": "How many sides does a hexagon have?",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "A",
+      "note": "Pentagon 5, heptagon 7, octagon 8."
+    },
+    {
+      "id": "MATH-250-06",
+      "category": "Math",
+      "value": 250,
+      "question": "What is 1,000 − 387?",
+      "choices": {
+        "A": "713",
+        "B": "623",
+        "C": "617",
+        "D": "613"
+      },
+      "answer": "D",
+      "note": "1,000 − 387 = 613."
+    },
+    {
+      "id": "MATH-250-07",
+      "category": "Math",
+      "value": 250,
+      "question": "What is the perimeter of a square with 9 cm sides?",
+      "choices": {
+        "A": "27 cm",
+        "B": "18 cm",
+        "C": "81 cm",
+        "D": "36 cm"
+      },
+      "answer": "D",
+      "note": "4 × 9 = 36. 81 cm² would be the area."
+    },
+    {
+      "id": "MATH-250-08",
+      "category": "Math",
+      "value": 250,
+      "question": "Which of these is a prime number?",
+      "choices": {
+        "A": "21",
+        "B": "39",
+        "C": "29",
+        "D": "27"
+      },
+      "answer": "C",
+      "note": "21 = 3×7, 27 = 3×9, 39 = 3×13."
+    },
+    {
+      "id": "MATH-250-09",
+      "category": "Math",
+      "value": 250,
+      "question": "What is 2³?",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "5",
+        "D": "9"
+      },
+      "answer": "B",
+      "note": "2 × 2 × 2 = 8."
+    },
+    {
+      "id": "MATH-250-10",
+      "category": "Math",
+      "value": 250,
+      "question": "What is the sum of the interior angles of a triangle?",
+      "choices": {
+        "A": "180°",
+        "B": "270°",
+        "C": "360°",
+        "D": "90°"
+      },
+      "answer": "A",
+      "note": "Always 180° in flat (Euclidean) geometry."
+    },
+    {
+      "id": "MATH-500-01",
+      "category": "Math",
+      "value": 500,
+      "question": "What is 12 − 3 × 2 + 4?",
+      "choices": {
+        "A": "−6",
+        "B": "2",
+        "C": "10",
+        "D": "22"
+      },
+      "answer": "C",
+      "note": "Multiply first: 12 − 6 + 4 = 10."
+    },
+    {
+      "id": "MATH-500-02",
+      "category": "Math",
+      "value": 500,
+      "question": "What is the area of a triangle with base 10 and height 6?",
+      "choices": {
+        "A": "16",
+        "B": "30",
+        "C": "60",
+        "D": "32"
+      },
+      "answer": "B",
+      "note": "½ × 10 × 6 = 30."
+    },
+    {
+      "id": "MATH-500-03",
+      "category": "Math",
+      "value": 500,
+      "question": "What is 2/3 + 1/4?",
+      "choices": {
+        "A": "3/7",
+        "B": "5/6",
+        "C": "9/12",
+        "D": "11/12"
+      },
+      "answer": "D",
+      "note": "8/12 + 3/12 = 11/12."
+    },
+    {
+      "id": "MATH-500-04",
+      "category": "Math",
+      "value": 500,
+      "question": "A ₱1,200 item is 15% off. What is the sale price?",
+      "choices": {
+        "A": "₱1,080",
+        "B": "₱1,020",
+        "C": "₱1,185",
+        "D": "₱1,050"
+      },
+      "answer": "B",
+      "note": "15% of 1,200 = 180; 1,200 − 180 = 1,020."
+    },
+    {
+      "id": "MATH-500-05",
+      "category": "Math",
+      "value": 500,
+      "question": "Solve: 3x + 5 = 20",
+      "choices": {
+        "A": "x = 25/3",
+        "B": "x = 15",
+        "C": "x = 4",
+        "D": "x = 5"
+      },
+      "answer": "D",
+      "note": "3x = 15, so x = 5."
+    },
+    {
+      "id": "MATH-500-06",
+      "category": "Math",
+      "value": 500,
+      "question": "What is the average of 4, 8, 10, and 18?",
+      "choices": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "9"
+      },
+      "answer": "A",
+      "note": "40 ÷ 4 = 10."
+    },
+    {
+      "id": "MATH-500-07",
+      "category": "Math",
+      "value": 500,
+      "question": "How many minutes are in 3.5 hours?",
+      "choices": {
+        "A": "180",
+        "B": "210",
+        "C": "230",
+        "D": "350"
+      },
+      "answer": "B",
+      "note": "3.5 × 60 = 210."
+    },
+    {
+      "id": "MATH-500-08",
+      "category": "Math",
+      "value": 500,
+      "question": "Which fraction is largest?",
+      "choices": {
+        "A": "7/12",
+        "B": "5/8",
+        "C": "2/3",
+        "D": "3/5"
+      },
+      "answer": "C",
+      "note": "2/3 ≈ 0.667, 5/8 = 0.625, 3/5 = 0.6, 7/12 ≈ 0.583."
+    },
+    {
+      "id": "MATH-500-09",
+      "category": "Math",
+      "value": 500,
+      "question": "What is −8 + (−5) − (−3)?",
+      "choices": {
+        "A": "−10",
+        "B": "−16",
+        "C": "0",
+        "D": "−6"
+      },
+      "answer": "A",
+      "note": "−8 − 5 + 3 = −10."
+    },
+    {
+      "id": "MATH-500-10",
+      "category": "Math",
+      "value": 500,
+      "question": "Using π ≈ 22/7, what is the circumference of a circle with radius 7?",
+      "choices": {
+        "A": "154",
+        "B": "88",
+        "C": "44",
+        "D": "22"
+      },
+      "answer": "C",
+      "note": "2 × 22/7 × 7 = 44. 154 would be the area."
+    },
+    {
+      "id": "MATH-750-01",
+      "category": "Math",
+      "value": 750,
+      "question": "A car travels 180 km in 2 hours 15 minutes. What is its average speed?",
+      "choices": {
+        "A": "72 km/h",
+        "B": "90 km/h",
+        "C": "84 km/h",
+        "D": "80 km/h"
+      },
+      "answer": "D",
+      "note": "2 h 15 min = 2.25 h; 180 ÷ 2.25 = 80."
+    },
+    {
+      "id": "MATH-750-02",
+      "category": "Math",
+      "value": 750,
+      "question": "5 workers build a wall in 12 days. At the same rate, how long would 6 workers take?",
+      "choices": {
+        "A": "11 days",
+        "B": "14.4 days",
+        "C": "13 days",
+        "D": "10 days"
+      },
+      "answer": "D",
+      "note": "5 × 12 = 60 worker-days; 60 ÷ 6 = 10."
+    },
+    {
+      "id": "MATH-750-03",
+      "category": "Math",
+      "value": 750,
+      "question": "Rolling two dice, what is the probability the sum is 7?",
+      "choices": {
+        "A": "7/36",
+        "B": "1/7",
+        "C": "1/6",
+        "D": "1/12"
+      },
+      "answer": "C",
+      "note": "6 of the 36 outcomes sum to 7."
+    },
+    {
+      "id": "MATH-750-04",
+      "category": "Math",
+      "value": 750,
+      "question": "Solve: 2(x − 3) = x + 4",
+      "choices": {
+        "A": "x = 10",
+        "B": "x = 2",
+        "C": "x = 4",
+        "D": "x = 7"
+      },
+      "answer": "A",
+      "note": "2x − 6 = x + 4, so x = 10."
+    },
+    {
+      "id": "MATH-750-05",
+      "category": "Math",
+      "value": 750,
+      "question": "What comes next: 2, 6, 12, 20, 30, …?",
+      "choices": {
+        "A": "44",
+        "B": "40",
+        "C": "42",
+        "D": "36"
+      },
+      "answer": "C",
+      "note": "Differences grow 4, 6, 8, 10, then 12."
+    },
+    {
+      "id": "MATH-750-06",
+      "category": "Math",
+      "value": 750,
+      "question": "A right triangle has legs 9 and 12. How long is the hypotenuse?",
+      "choices": {
+        "A": "13",
+        "B": "21",
+        "C": "18",
+        "D": "15"
+      },
+      "answer": "D",
+      "note": "√(81 + 144) = √225 = 15."
+    },
+    {
+      "id": "MATH-750-07",
+      "category": "Math",
+      "value": 750,
+      "question": "What is the least common multiple of 12 and 18?",
+      "choices": {
+        "A": "6",
+        "B": "36",
+        "C": "216",
+        "D": "72"
+      },
+      "answer": "B",
+      "note": "6 is the GCF; 36 is the smallest common multiple."
+    },
+    {
+      "id": "MATH-750-08",
+      "category": "Math",
+      "value": 750,
+      "question": "What is 0.25 × 0.4?",
+      "choices": {
+        "A": "0.001",
+        "B": "0.1",
+        "C": "0.01",
+        "D": "1"
+      },
+      "answer": "B",
+      "note": "¼ of 0.4 = 0.1."
+    },
+    {
+      "id": "MATH-750-09",
+      "category": "Math",
+      "value": 750,
+      "question": "How many diagonals does a pentagon have?",
+      "choices": {
+        "A": "10",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "C",
+      "note": "n(n − 3)/2 = 5 × 2 ÷ 2 = 5."
+    },
+    {
+      "id": "MATH-750-10",
+      "category": "Math",
+      "value": 750,
+      "question": "Simplify (x²)³",
+      "choices": {
+        "A": "x⁶",
+        "B": "x⁸",
+        "C": "x⁵",
+        "D": "x⁹"
+      },
+      "answer": "A",
+      "note": "Multiply exponents: 2 × 3 = 6."
+    },
+    {
+      "id": "MATH-1000-01",
+      "category": "Math",
+      "value": 1000,
+      "question": "A price rises 20%, then falls 20%. What is the overall change?",
+      "choices": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "2% decrease"
+      },
+      "answer": "A",
+      "note": "1.2 × 0.8 = 0.96."
+    },
+    {
+      "id": "MATH-1000-02",
+      "category": "Math",
+      "value": 1000,
+      "question": "What is the sum of the interior angles of an octagon?",
+      "choices": {
+        "A": "1,260°",
+        "B": "900°",
+        "C": "1,440°",
+        "D": "1,080°"
+      },
+      "answer": "D",
+      "note": "(8 − 2) × 180° = 1,080°."
+    },
+    {
+      "id": "MATH-1000-03",
+      "category": "Math",
+      "value": 1000,
+      "question": "What are the solutions of x² − 5x + 6 = 0?",
+      "choices": {
+        "A": "1 and 6",
+        "B": "2 and 3",
+        "C": "−1 and 6",
+        "D": "−2 and −3"
+      },
+      "answer": "B",
+      "note": "(x − 2)(x − 3) = 0."
+    },
+    {
+      "id": "MATH-1000-04",
+      "category": "Math",
+      "value": 1000,
+      "question": "Flipping two fair coins, what is the probability of at least one head?",
+      "choices": {
+        "A": "2/3",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "1/4"
+      },
+      "answer": "C",
+      "note": "1 − P(no heads) = 1 − 1/4."
+    },
+    {
+      "id": "MATH-1000-05",
+      "category": "Math",
+      "value": 1000,
+      "question": "Store A sells 4 for ₱150; Store B sells 6 for ₱210. Which is cheaper per item, and by how much?",
+      "choices": {
+        "A": "Store A, by ₱2.50",
+        "B": "They cost the same",
+        "C": "Store B, by ₱2.50",
+        "D": "Store B, by ₱1.50"
+      },
+      "answer": "C",
+      "note": "A: ₱37.50 each; B: ₱35.00 each."
+    },
+    {
+      "id": "MATH-1000-06",
+      "category": "Math",
+      "value": 1000,
+      "question": "A rectangle's length is doubled and its width tripled. Its area becomes…",
+      "choices": {
+        "A": "9 times larger",
+        "B": "5 times larger",
+        "C": "3 times larger",
+        "D": "6 times larger"
+      },
+      "answer": "D",
+      "note": "2 × 3 = 6."
+    },
+    {
+      "id": "MATH-1000-07",
+      "category": "Math",
+      "value": 1000,
+      "question": "If f(x) = 3x − 2, what is f(f(2))?",
+      "choices": {
+        "A": "10",
+        "B": "16",
+        "C": "4",
+        "D": "12"
+      },
+      "answer": "A",
+      "note": "f(2) = 4; f(4) = 10."
+    },
+    {
+      "id": "MATH-1000-08",
+      "category": "Math",
+      "value": 1000,
+      "question": "In how many different orders can 4 people stand in a line?",
+      "choices": {
+        "A": "12",
+        "B": "24",
+        "C": "4",
+        "D": "16"
+      },
+      "answer": "B",
+      "note": "4! = 4 × 3 × 2 × 1 = 24."
+    },
+    {
+      "id": "MATH-1000-09",
+      "category": "Math",
+      "value": 1000,
+      "question": "What is the median of 7, 3, 9, 1, 12, 5?",
+      "choices": {
+        "A": "9",
+        "B": "6",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "B",
+      "note": "Sorted: 1, 3, 5, 7, 9, 12; median = (5 + 7) ÷ 2 = 6."
+    },
+    {
+      "id": "MATH-1000-10",
+      "category": "Math",
+      "value": 1000,
+      "question": "What is the slope of the line through (2, 3) and (6, 11)?",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "−2",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "note": "(11 − 3) ÷ (6 − 2) = 8 ÷ 4 = 2."
+    },
+    {
+      "id": "MATH-1250-01",
+      "category": "Math",
+      "value": 1250,
+      "question": "Two cards are drawn without replacement from a standard 52-card deck. What is the probability both are aces?",
+      "choices": {
+        "A": "1/169",
+        "B": "1/52",
+        "C": "1/221",
+        "D": "1/26"
+      },
+      "answer": "C",
+      "note": "4/52 × 3/51 = 1/221. 1/169 would be with replacement."
+    },
+    {
+      "id": "MATH-1250-02",
+      "category": "Math",
+      "value": 1250,
+      "question": "Pipe A fills a tank in 6 hours; pipe B fills it in 3 hours. Together, how long?",
+      "choices": {
+        "A": "4.5 hours",
+        "B": "3 hours",
+        "C": "1.5 hours",
+        "D": "2 hours"
+      },
+      "answer": "D",
+      "note": "1/6 + 1/3 = 1/2 tank per hour."
+    },
+    {
+      "id": "MATH-1250-03",
+      "category": "Math",
+      "value": 1250,
+      "question": "If x + y = 10 and x − y = 4, what is xy?",
+      "choices": {
+        "A": "28",
+        "B": "24",
+        "C": "16",
+        "D": "21"
+      },
+      "answer": "D",
+      "note": "x = 7, y = 3."
+    },
+    {
+      "id": "MATH-1250-04",
+      "category": "Math",
+      "value": 1250,
+      "question": "What is the remainder when 2¹⁰ is divided by 7?",
+      "choices": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "B",
+      "note": "1,024 = 7 × 146 + 2."
+    },
+    {
+      "id": "MATH-1250-05",
+      "category": "Math",
+      "value": 1250,
+      "question": "To double a circle's area, multiply its radius by…",
+      "choices": {
+        "A": "4",
+        "B": "π",
+        "C": "√2",
+        "D": "2"
+      },
+      "answer": "C",
+      "note": "Area scales with r²; (√2)² = 2."
+    },
+    {
+      "id": "MATH-1250-06",
+      "category": "Math",
+      "value": 1250,
+      "question": "What is the sum of the whole numbers from 1 to 50?",
+      "choices": {
+        "A": "1,250",
+        "B": "1,275",
+        "C": "1,225",
+        "D": "2,550"
+      },
+      "answer": "B",
+      "note": "50 × 51 ÷ 2 = 1,275."
+    },
+    {
+      "id": "MATH-1250-07",
+      "category": "Math",
+      "value": 1250,
+      "question": "After a 25% discount, a shirt costs ₱600. What was the original price?",
+      "choices": {
+        "A": "₱800",
+        "B": "₱625",
+        "C": "₱850",
+        "D": "₱750"
+      },
+      "answer": "A",
+      "note": "600 ÷ 0.75 = 800. Adding 25% to 600 (₱750) is the trap."
+    },
+    {
+      "id": "MATH-1250-08",
+      "category": "Math",
+      "value": 1250,
+      "question": "How many three-digit numbers are divisible by 5?",
+      "choices": {
+        "A": "181",
+        "B": "180",
+        "C": "179",
+        "D": "200"
+      },
+      "answer": "B",
+      "note": "100 to 995 in steps of 5: (995 − 100) ÷ 5 + 1 = 180."
+    },
+    {
+      "id": "MATH-1250-09",
+      "category": "Math",
+      "value": 1250,
+      "question": "What is log₁₀(1000) + log₁₀(0.01)?",
+      "choices": {
+        "A": "−1",
+        "B": "10",
+        "C": "1",
+        "D": "5"
+      },
+      "answer": "C",
+      "note": "3 + (−2) = 1."
+    },
+    {
+      "id": "MATH-1250-10",
+      "category": "Math",
+      "value": 1250,
+      "question": "What is the smaller angle between a clock's hands at 3:30?",
+      "choices": {
+        "A": "75°",
+        "B": "60°",
+        "C": "90°",
+        "D": "105°"
+      },
+      "answer": "A",
+      "note": "Hour hand at 105°, minute hand at 180°."
+    },
+    {
+      "id": "MATH-1500-01",
+      "category": "Math",
+      "value": 1500,
+      "question": "How many different 3-person committees can be chosen from 8 people?",
+      "choices": {
+        "A": "112",
+        "B": "56",
+        "C": "336",
+        "D": "24"
+      },
+      "answer": "B",
+      "note": "8C3 = 336 ÷ 6 = 56. 336 counts ordered picks."
+    },
+    {
+      "id": "MATH-1500-02",
+      "category": "Math",
+      "value": 1500,
+      "question": "Rolling a fair die 4 times, what is the probability of at least one 6?",
+      "choices": {
+        "A": "About 52%",
+        "B": "About 67%",
+        "C": "About 40%",
+        "D": "About 48%"
+      },
+      "answer": "A",
+      "note": "1 − (5/6)⁴ = 671/1296 ≈ 51.8%."
+    },
+    {
+      "id": "MATH-1500-03",
+      "category": "Math",
+      "value": 1500,
+      "question": "What is the sum of the infinite series 8 + 4 + 2 + 1 + …?",
+      "choices": {
+        "A": "It is infinite",
+        "B": "15",
+        "C": "32",
+        "D": "16"
+      },
+      "answer": "D",
+      "note": "a ÷ (1 − r) = 8 ÷ ½ = 16."
+    },
+    {
+      "id": "MATH-1500-04",
+      "category": "Math",
+      "value": 1500,
+      "question": "If 2^x = 32, what is 4^(x − 1)?",
+      "choices": {
+        "A": "256",
+        "B": "128",
+        "C": "16",
+        "D": "64"
+      },
+      "answer": "A",
+      "note": "x = 5, so 4⁴ = 256."
+    },
+    {
+      "id": "MATH-1500-05",
+      "category": "Math",
+      "value": 1500,
+      "question": "What is the smallest number greater than 2 that leaves remainder 2 when divided by 3, 4, and 5?",
+      "choices": {
+        "A": "32",
+        "B": "22",
+        "C": "122",
+        "D": "62"
+      },
+      "answer": "D",
+      "note": "LCM(3, 4, 5) = 60; 60 + 2 = 62."
+    },
+    {
+      "id": "MATH-1500-06",
+      "category": "Math",
+      "value": 1500,
+      "question": "What is the length of the space diagonal of a cube with side 2?",
+      "choices": {
+        "A": "2√2",
+        "B": "4",
+        "C": "3√2",
+        "D": "2√3"
+      },
+      "answer": "D",
+      "note": "√(2² + 2² + 2²) = √12 = 2√3. 2√2 is a face diagonal."
+    },
+    {
+      "id": "MATH-1500-07",
+      "category": "Math",
+      "value": 1500,
+      "question": "A boat goes 24 km downstream in 2 hours and back upstream in 3 hours. What is the current's speed?",
+      "choices": {
+        "A": "2 km/h",
+        "B": "10 km/h",
+        "C": "1 km/h",
+        "D": "4 km/h"
+      },
+      "answer": "A",
+      "note": "Downstream 12, upstream 8; current = (12 − 8) ÷ 2."
+    },
+    {
+      "id": "MATH-1500-08",
+      "category": "Math",
+      "value": 1500,
+      "question": "How many positive divisors does 72 have?",
+      "choices": {
+        "A": "10",
+        "B": "14",
+        "C": "12",
+        "D": "8"
+      },
+      "answer": "C",
+      "note": "72 = 2³ × 3²; (3 + 1)(2 + 1) = 12."
+    },
+    {
+      "id": "MATH-1500-09",
+      "category": "Math",
+      "value": 1500,
+      "question": "A bag has 3 red and 2 blue balls. Two are drawn without replacement. What is the probability they are different colors?",
+      "choices": {
+        "A": "12/25",
+        "B": "3/5",
+        "C": "3/10",
+        "D": "6/25"
+      },
+      "answer": "B",
+      "note": "2 × (3/5 × 2/4) = 12/20 = 3/5."
+    },
+    {
+      "id": "MATH-1500-10",
+      "category": "Math",
+      "value": 1500,
+      "question": "What is the smallest n for which n! ends in exactly two zeros?",
+      "choices": {
+        "A": "20",
+        "B": "15",
+        "C": "10",
+        "D": "5"
+      },
+      "answer": "C",
+      "note": "10! = 3,628,800. 9! has one trailing zero."
+    },
+    {
+      "id": "FH-250-01",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Who wrote the novel 'Noli Me Tangere'?",
+      "choices": {
+        "A": "Andrés Bonifacio",
+        "B": "Apolinario Mabini",
+        "C": "Emilio Aguinaldo",
+        "D": "José Rizal"
+      },
+      "answer": "D",
+      "note": "Published in Berlin in 1887."
+    },
+    {
+      "id": "FH-250-02",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Who was the Supremo of the Katipunan when the Revolution began in 1896?",
+      "choices": {
+        "A": "José Rizal",
+        "B": "Emilio Jacinto",
+        "C": "Andrés Bonifacio",
+        "D": "Emilio Aguinaldo"
+      },
+      "answer": "C",
+      "note": "Rizal was never a Katipunan member."
+    },
+    {
+      "id": "FH-250-03",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "On what date is Philippine Independence Day celebrated?",
+      "choices": {
+        "A": "August 30",
+        "B": "June 12",
+        "C": "December 30",
+        "D": "July 4"
+      },
+      "answer": "B",
+      "note": "December 30 is Rizal Day."
+    },
+    {
+      "id": "FH-250-04",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Which explorer reached the Philippines for Spain in 1521?",
+      "choices": {
+        "A": "Ferdinand Magellan",
+        "B": "Miguel López de Legazpi",
+        "C": "Christopher Columbus",
+        "D": "Ruy López de Villalobos"
+      },
+      "answer": "A",
+      "note": "Legazpi came in 1565; Villalobos in 1543."
+    },
+    {
+      "id": "FH-250-05",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Whose forces defeated Magellan at the Battle of Mactan?",
+      "choices": {
+        "A": "Lapulapu",
+        "B": "Rajah Humabon",
+        "C": "Datu Puti",
+        "D": "Rajah Sulayman"
+      },
+      "answer": "A",
+      "note": "Humabon of Cebu was Magellan's ally."
+    },
+    {
+      "id": "FH-250-06",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Which country took control of the Philippines after Spain?",
+      "choices": {
+        "A": "Japan",
+        "B": "Britain",
+        "C": "Netherlands",
+        "D": "United States"
+      },
+      "answer": "D",
+      "note": "Through the 1898 Treaty of Paris."
+    },
+    {
+      "id": "FH-250-07",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Who is recognized as the first President of the Philippines?",
+      "choices": {
+        "A": "Manuel L. Quezon",
+        "B": "Emilio Aguinaldo",
+        "C": "José P. Laurel",
+        "D": "Sergio Osmeña"
+      },
+      "answer": "B",
+      "note": "President of the First (Malolos) Republic, 1899."
+    },
+    {
+      "id": "FH-250-08",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "The 1986 EDSA People Power Revolution removed which president?",
+      "choices": {
+        "A": "Ferdinand Marcos",
+        "B": "Ramon Magsaysay",
+        "C": "Joseph Estrada",
+        "D": "Diosdado Macapagal"
+      },
+      "answer": "A",
+      "note": "Estrada was ousted by EDSA II in 2001."
+    },
+    {
+      "id": "FH-250-09",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "The Philippines was named after which Spanish king?",
+      "choices": {
+        "A": "Charles V",
+        "B": "Philip II",
+        "C": "Ferdinand II",
+        "D": "Philip IV"
+      },
+      "answer": "B",
+      "note": "Villalobos named the islands for the future Philip II."
+    },
+    {
+      "id": "FH-250-10",
+      "category": "Filipino History",
+      "value": 250,
+      "question": "Who was the first female President of the Philippines?",
+      "choices": {
+        "A": "Imelda Marcos",
+        "B": "Gloria Macapagal Arroyo",
+        "C": "Corazon Aquino",
+        "D": "Leni Robredo"
+      },
+      "answer": "C",
+      "note": "Served 1986–1992."
+    },
+    {
+      "id": "FH-500-01",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Where was José Rizal executed in 1896?",
+      "choices": {
+        "A": "Bagumbayan",
+        "B": "Fort Santiago",
+        "C": "Kawit",
+        "D": "Dapitan"
+      },
+      "answer": "A",
+      "note": "Bagumbayan is today's Luneta (Rizal Park). He was held in Fort Santiago."
+    },
+    {
+      "id": "FH-500-02",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Which Rizal novel is the sequel to 'Noli Me Tangere'?",
+      "choices": {
+        "A": "Mi Último Adiós",
+        "B": "Florante at Laura",
+        "C": "El Filibusterismo",
+        "D": "La Solidaridad"
+      },
+      "answer": "C",
+      "note": "Published in 1891 in Ghent."
+    },
+    {
+      "id": "FH-500-03",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Which was the first permanent Spanish settlement in the Philippines?",
+      "choices": {
+        "A": "Manila",
+        "B": "Cebu",
+        "C": "Iloilo",
+        "D": "Vigan"
+      },
+      "answer": "B",
+      "note": "Founded by Legazpi in 1565; Manila followed in 1571."
+    },
+    {
+      "id": "FH-500-04",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "The Galleon Trade connected Manila with which port?",
+      "choices": {
+        "A": "Acapulco",
+        "B": "Macau",
+        "C": "Seville",
+        "D": "Lima"
+      },
+      "answer": "A",
+      "note": "It ran from 1565 to 1815."
+    },
+    {
+      "id": "FH-500-05",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "In what year did Ferdinand Marcos declare martial law?",
+      "choices": {
+        "A": "1981",
+        "B": "1986",
+        "C": "1965",
+        "D": "1972"
+      },
+      "answer": "D",
+      "note": "1965 = first elected; 1981 = martial law lifted."
+    },
+    {
+      "id": "FH-500-06",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Which general died defending Tirad Pass in 1899?",
+      "choices": {
+        "A": "Antonio Luna",
+        "B": "Gregorio del Pilar",
+        "C": "Artemio Ricarte",
+        "D": "Miguel Malvar"
+      },
+      "answer": "B",
+      "note": "His stand covered Aguinaldo's retreat."
+    },
+    {
+      "id": "FH-500-07",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Which group published 'La Solidaridad' in Spain?",
+      "choices": {
+        "A": "The Propagandists",
+        "B": "The Katipunan",
+        "C": "The Magdiwang",
+        "D": "The Magdalo"
+      },
+      "answer": "A",
+      "note": "Reformists including Rizal, del Pilar, and López Jaena."
+    },
+    {
+      "id": "FH-500-08",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Which treaty transferred the Philippines from Spain to the United States?",
+      "choices": {
+        "A": "Treaty of Tordesillas",
+        "B": "Pact of Biak-na-Bato",
+        "C": "Treaty of Manila",
+        "D": "Treaty of Paris"
+      },
+      "answer": "D",
+      "note": "Signed December 1898."
+    },
+    {
+      "id": "FH-500-09",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "The Bataan Death March took place during which period?",
+      "choices": {
+        "A": "Spanish colonial era",
+        "B": "Philippine–American War",
+        "C": "Japanese occupation",
+        "D": "Martial law era"
+      },
+      "answer": "C",
+      "note": "April 1942, after the fall of Bataan."
+    },
+    {
+      "id": "FH-500-10",
+      "category": "Filipino History",
+      "value": 500,
+      "question": "Who became President of the Commonwealth when it was established in 1935?",
+      "choices": {
+        "A": "Emilio Aguinaldo",
+        "B": "Sergio Osmeña",
+        "C": "Manuel Roxas",
+        "D": "Manuel L. Quezon"
+      },
+      "answer": "D",
+      "note": "Quezon defeated Aguinaldo in the 1935 election."
+    },
+    {
+      "id": "FH-750-01",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Who is called the 'Brains of the Katipunan'?",
+      "choices": {
+        "A": "Emilio Jacinto",
+        "B": "Andrés Bonifacio",
+        "C": "Apolinario Mabini",
+        "D": "Pío Valenzuela"
+      },
+      "answer": "A",
+      "note": "Mabini is the 'Brains of the Revolution'."
+    },
+    {
+      "id": "FH-750-02",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "What act symbolized the Cry of Pugad Lawin in 1896?",
+      "choices": {
+        "A": "Signing a constitution",
+        "B": "Burning a church",
+        "C": "Tearing of cédulas",
+        "D": "Raising the first flag"
+      },
+      "answer": "C",
+      "note": "Katipuneros tore their community tax certificates."
+    },
+    {
+      "id": "FH-750-03",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Gomez, Burgos, and Zamora were executed in 1872 following which event?",
+      "choices": {
+        "A": "The Battle of Mactan",
+        "B": "Dagohoy's revolt",
+        "C": "The Cavite Mutiny",
+        "D": "The Cry of Pugad Lawin"
+      },
+      "answer": "C",
+      "note": "Spanish authorities blamed the three priests for the mutiny."
+    },
+    {
+      "id": "FH-750-04",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Which revolt was the longest in Philippine history?",
+      "choices": {
+        "A": "Dagohoy Revolt",
+        "B": "Hermano Pule Revolt",
+        "C": "Diego Silang Revolt",
+        "D": "Sumuroy Revolt"
+      },
+      "answer": "A",
+      "note": "Bohol, 1744–1829: about 85 years."
+    },
+    {
+      "id": "FH-750-05",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Where was Philippine independence proclaimed on June 12, 1898?",
+      "choices": {
+        "A": "Malolos, Bulacan",
+        "B": "Kawit, Cavite",
+        "C": "Biak-na-Bato, Bulacan",
+        "D": "Tejeros, Cavite"
+      },
+      "answer": "B",
+      "note": "At Aguinaldo's house in Kawit."
+    },
+    {
+      "id": "FH-750-06",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "The Malolos Constitution established which government?",
+      "choices": {
+        "A": "Philippine Commonwealth",
+        "B": "First Philippine Republic",
+        "C": "Republic of Biak-na-Bato",
+        "D": "Second Philippine Republic"
+      },
+      "answer": "B",
+      "note": "Promulgated January 1899."
+    },
+    {
+      "id": "FH-750-07",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Who composed the music of the Philippine national anthem?",
+      "choices": {
+        "A": "Nicanor Abelardo",
+        "B": "José Palma",
+        "C": "Julián Felipe",
+        "D": "Marcela Agoncillo"
+      },
+      "answer": "C",
+      "note": "Palma wrote the Spanish lyrics; Agoncillo sewed the flag."
+    },
+    {
+      "id": "FH-750-08",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Who succeeded Manuel Quezon as Commonwealth President in 1944?",
+      "choices": {
+        "A": "José P. Laurel",
+        "B": "Manuel Roxas",
+        "C": "Elpidio Quirino",
+        "D": "Sergio Osmeña"
+      },
+      "answer": "D",
+      "note": "Laurel headed the Japanese-sponsored Second Republic."
+    },
+    {
+      "id": "FH-750-09",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Who was the first American civil governor of the Philippines?",
+      "choices": {
+        "A": "William Howard Taft",
+        "B": "Arthur MacArthur",
+        "C": "Leonard Wood",
+        "D": "Douglas MacArthur"
+      },
+      "answer": "A",
+      "note": "Appointed in 1901; later U.S. President."
+    },
+    {
+      "id": "FH-750-10",
+      "category": "Filipino History",
+      "value": 750,
+      "question": "Sultan Kudarat led which sultanate against Spanish expansion?",
+      "choices": {
+        "A": "Sultanate of Brunei",
+        "B": "Sultanate of Ternate",
+        "C": "Sultanate of Sulu",
+        "D": "Sultanate of Maguindanao"
+      },
+      "answer": "D",
+      "note": "He ruled in the 17th century in Mindanao."
+    },
+    {
+      "id": "FH-1000-01",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "What is the earliest known written document found in the Philippines?",
+      "choices": {
+        "A": "Boxer Codex",
+        "B": "Laguna Copperplate Inscription",
+        "C": "Doctrina Christiana",
+        "D": "Calatagan Pot inscription"
+      },
+      "answer": "B",
+      "note": "Dated to 900 AD. The Calatagan Pot is centuries later; the other two are Spanish-era."
+    },
+    {
+      "id": "FH-1000-02",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "Why did the Tejeros Convention (1897) cause a crisis?",
+      "choices": {
+        "A": "Bonifacio rejected its results",
+        "B": "Spain discovered the Katipunan",
+        "C": "Rizal refused to lead it",
+        "D": "Aguinaldo was captured there"
+      },
+      "answer": "A",
+      "note": "His election as Director of the Interior was challenged."
+    },
+    {
+      "id": "FH-1000-03",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "The Pact of Biak-na-Bato (1897) provided for…",
+      "choices": {
+        "A": "Recognition of independence",
+        "B": "Transfer to American rule",
+        "C": "A joint Filipino–Spanish government",
+        "D": "A truce and exile to Hong Kong"
+      },
+      "answer": "D",
+      "note": "Aguinaldo and others left for Hong Kong in exchange for payment."
+    },
+    {
+      "id": "FH-1000-04",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "Which 1899 incident began the Philippine–American War?",
+      "choices": {
+        "A": "The Battle of Manila Bay",
+        "B": "The Balangiga incident",
+        "C": "Shooting at San Juan Bridge",
+        "D": "Aguinaldo's capture"
+      },
+      "answer": "C",
+      "note": "February 4, 1899. Balangiga was 1901; Manila Bay (1898) was against Spain."
+    },
+    {
+      "id": "FH-1000-05",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "Which U.S. law set a 10-year transition to Philippine independence?",
+      "choices": {
+        "A": "Tydings–McDuffie Act",
+        "B": "Philippine Organic Act",
+        "C": "Bell Trade Act",
+        "D": "Jones Law"
+      },
+      "answer": "A",
+      "note": "Passed 1934; the Jones Law (1916) only promised eventual independence."
+    },
+    {
+      "id": "FH-1000-06",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "What happened at the Battle of Manila Bay in 1898?",
+      "choices": {
+        "A": "Spain retook Manila from Britain",
+        "B": "Japan landed in Manila",
+        "C": "The U.S. destroyed Spain's fleet",
+        "D": "Filipinos defeated the Americans"
+      },
+      "answer": "C",
+      "note": "Commodore Dewey's victory, May 1, 1898."
+    },
+    {
+      "id": "FH-1000-07",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "Huk leader Luis Taruc surrendered in 1954 during whose presidency?",
+      "choices": {
+        "A": "Manuel Roxas",
+        "B": "Elpidio Quirino",
+        "C": "Ramon Magsaysay",
+        "D": "Carlos P. Garcia"
+      },
+      "answer": "C",
+      "note": "Magsaysay fought the Huks as Quirino's defense secretary, then as president."
+    },
+    {
+      "id": "FH-1000-08",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "Which president is associated with the 'Filipino First' policy?",
+      "choices": {
+        "A": "Diosdado Macapagal",
+        "B": "Carlos P. Garcia",
+        "C": "Ramon Magsaysay",
+        "D": "Elpidio Quirino"
+      },
+      "answer": "B",
+      "note": "It favored Filipino-owned businesses."
+    },
+    {
+      "id": "FH-1000-09",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "Which 1983 event most directly fueled the movement leading to EDSA?",
+      "choices": {
+        "A": "The declaration of martial law",
+        "B": "Ninoy Aquino's assassination",
+        "C": "The 1986 snap election",
+        "D": "The Plaza Miranda bombing"
+      },
+      "answer": "B",
+      "note": "Aquino was killed at the Manila airport on August 21, 1983."
+    },
+    {
+      "id": "FH-1000-10",
+      "category": "Filipino History",
+      "value": 1000,
+      "question": "When did Rizal write 'Mi Último Adiós'?",
+      "choices": {
+        "A": "During exile in Dapitan",
+        "B": "On a ship bound for Cuba",
+        "C": "As a student in Madrid",
+        "D": "On the eve of his execution"
+      },
+      "answer": "D",
+      "note": "Smuggled out of Fort Santiago in an alcohol stove."
+    },
+    {
+      "id": "FH-1250-01",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "Rizal was exiled to Dapitan soon after founding which organization?",
+      "choices": {
+        "A": "La Solidaridad",
+        "B": "La Liga Filipina",
+        "C": "The Katipunan",
+        "D": "The Cofradía de San José"
+      },
+      "answer": "B",
+      "note": "Founded July 1892; he was arrested days later."
+    },
+    {
+      "id": "FH-1250-02",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "The British occupied Manila (1762–1764) as part of which war?",
+      "choices": {
+        "A": "War of Spanish Succession",
+        "B": "Seven Years' War",
+        "C": "War of Jenkins' Ear",
+        "D": "Napoleonic Wars"
+      },
+      "answer": "B",
+      "note": "Spain joined France against Britain in 1762."
+    },
+    {
+      "id": "FH-1250-03",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "Which Spanish policy moved scattered natives into towns 'under the bells'?",
+      "choices": {
+        "A": "Encomienda",
+        "B": "Polo y servicio",
+        "C": "Tributo",
+        "D": "Reducción"
+      },
+      "answer": "D",
+      "note": "Centralized settlements around a church."
+    },
+    {
+      "id": "FH-1250-04",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "Whose 1902 surrender is often seen as ending organized resistance in the Philippine–American War?",
+      "choices": {
+        "A": "Antonio Luna",
+        "B": "Macario Sakay",
+        "C": "Miguel Malvar",
+        "D": "Gregorio del Pilar"
+      },
+      "answer": "C",
+      "note": "Sakay kept fighting until 1906, but as a smaller movement."
+    },
+    {
+      "id": "FH-1250-05",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "The postwar 'parity rights' amendment gave Americans…",
+      "choices": {
+        "A": "Votes in Philippine elections",
+        "B": "U.S. citizenship for Filipinos",
+        "C": "Equal access to natural resources",
+        "D": "Control of foreign policy"
+      },
+      "answer": "C",
+      "note": "Required by the Bell Trade Act; ratified in 1947."
+    },
+    {
+      "id": "FH-1250-06",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "In precolonial Tagalog society, which class served others because of debt or obligation?",
+      "choices": {
+        "A": "Maginoo",
+        "B": "Timawa",
+        "C": "Maharlika",
+        "D": "Alipin"
+      },
+      "answer": "D",
+      "note": "Maginoo = nobility; maharlika = warrior class; timawa = freemen."
+    },
+    {
+      "id": "FH-1250-07",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "Which president signed the 1951 Mutual Defense Treaty with the United States?",
+      "choices": {
+        "A": "Ramon Magsaysay",
+        "B": "Manuel Roxas",
+        "C": "Carlos P. Garcia",
+        "D": "Elpidio Quirino"
+      },
+      "answer": "D",
+      "note": "Signed in August 1951."
+    },
+    {
+      "id": "FH-1250-08",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "Which institution's call over Radio Veritas drew crowds to EDSA in 1986?",
+      "choices": {
+        "A": "The U.S. Embassy",
+        "B": "The Catholic Church",
+        "C": "The Supreme Court",
+        "D": "The National Assembly"
+      },
+      "answer": "B",
+      "note": "Cardinal Jaime Sin urged people to support the defectors."
+    },
+    {
+      "id": "FH-1250-09",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "When Legazpi's forces arrived in Manila Bay in 1570–1571, who ruled Tondo?",
+      "choices": {
+        "A": "Lakandula",
+        "B": "Rajah Matanda",
+        "C": "Rajah Sulayman",
+        "D": "Rajah Humabon"
+      },
+      "answer": "A",
+      "note": "Sulayman and Matanda ruled Maynila; Humabon ruled Cebu."
+    },
+    {
+      "id": "FH-1250-10",
+      "category": "Filipino History",
+      "value": 1250,
+      "question": "How did the opening of the Suez Canal (1869) affect Filipino nationalism?",
+      "choices": {
+        "A": "It sped the arrival of liberal ideas",
+        "B": "It opened trade with Japan",
+        "C": "It ended the Galleon Trade",
+        "D": "It brought more Spanish troops"
+      },
+      "answer": "A",
+      "note": "Faster travel let ilustrados study in Europe and bring ideas home."
+    },
+    {
+      "id": "FH-1500-01",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "Which colonial system forced natives to sell produce to the government at set prices?",
+      "choices": {
+        "A": "Polo y servicio",
+        "B": "Reducción",
+        "C": "Bandala",
+        "D": "Encomienda"
+      },
+      "answer": "C",
+      "note": "Polo y servicio was forced labor; encomienda granted tribute rights."
+    },
+    {
+      "id": "FH-1500-02",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "Quezon opposed the Hare–Hawes–Cutting Act mainly over which provision?",
+      "choices": {
+        "A": "Osmeña as automatic president",
+        "B": "Retained U.S. military bases",
+        "C": "No independence at all",
+        "D": "Abolishing the legislature"
+      },
+      "answer": "B",
+      "note": "He then secured the Tydings–McDuffie Act in 1934."
+    },
+    {
+      "id": "FH-1500-03",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "Which correctly orders these Revolution-era events, earliest first?",
+      "choices": {
+        "A": "Pugad Lawin, Rizal's execution, Biak-na-Bato, Kawit",
+        "B": "Pugad Lawin, Biak-na-Bato, Rizal's execution, Kawit",
+        "C": "Rizal's execution, Pugad Lawin, Biak-na-Bato, Kawit",
+        "D": "Biak-na-Bato, Pugad Lawin, Rizal's execution, Kawit"
+      },
+      "answer": "A",
+      "note": "Aug 1896, Dec 1896, Dec 1897, June 1898."
+    },
+    {
+      "id": "FH-1500-04",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "What most directly ended the Manila–Acapulco Galleon Trade?",
+      "choices": {
+        "A": "Manila opening to world trade",
+        "B": "Mexico's war of independence",
+        "C": "The British occupation of Manila",
+        "D": "The Suez Canal's opening"
+      },
+      "answer": "B",
+      "note": "The last galleon sailed in 1815. Suez (1869) and Manila's opening (1834) came later."
+    },
+    {
+      "id": "FH-1500-05",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "How did Spanish authorities learn of the Katipunan in August 1896?",
+      "choices": {
+        "A": "The Cry of Pugad Lawin",
+        "B": "Rizal's arrest in Dapitan",
+        "C": "The Tejeros Convention",
+        "D": "Teodoro Patiño's revelation"
+      },
+      "answer": "D",
+      "note": "Patiño told a friar, who alerted the authorities."
+    },
+    {
+      "id": "FH-1500-06",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "Which law provided for the Philippine Assembly, first convened in 1907?",
+      "choices": {
+        "A": "Bell Trade Act of 1946",
+        "B": "Jones Law of 1916",
+        "C": "Organic Act of 1902",
+        "D": "Tydings–McDuffie Act of 1934"
+      },
+      "answer": "C",
+      "note": "The Jones Law (1916) later created an elected Senate."
+    },
+    {
+      "id": "FH-1500-07",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "What was Andrés de Urdaneta's key contribution to the Legazpi expedition?",
+      "choices": {
+        "A": "Negotiating with Lakandula",
+        "B": "Founding the city of Manila",
+        "C": "Writing the Doctrina Christiana",
+        "D": "Finding the return route to Mexico"
+      },
+      "answer": "D",
+      "note": "His 'tornaviaje' made the galleon trade possible."
+    },
+    {
+      "id": "FH-1500-08",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "Which pairing of a Katipunan faction and its leading figure is correct?",
+      "choices": {
+        "A": "Magdalo – Emilio Aguinaldo",
+        "B": "Magdiwang – Emilio Jacinto",
+        "C": "Magdiwang – Emilio Aguinaldo",
+        "D": "Magdalo – Andrés Bonifacio"
+      },
+      "answer": "A",
+      "note": "Magdiwang was led by Mariano Álvarez."
+    },
+    {
+      "id": "FH-1500-09",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "Which president moved Independence Day from July 4 to June 12?",
+      "choices": {
+        "A": "Carlos P. Garcia",
+        "B": "Ferdinand Marcos",
+        "C": "Diosdado Macapagal",
+        "D": "Ramon Magsaysay"
+      },
+      "answer": "C",
+      "note": "By proclamation in 1962; July 4 became Philippine–American Friendship Day."
+    },
+    {
+      "id": "FH-1500-10",
+      "category": "Filipino History",
+      "value": 1500,
+      "question": "The 'Code of Kalantiaw,' once taught as a precolonial law code, is now considered…",
+      "choices": {
+        "A": "A Malay legal text",
+        "B": "A Spanish-era translation",
+        "C": "A genuine 1433 code",
+        "D": "A 20th-century hoax"
+      },
+      "answer": "D",
+      "note": "Created by José E. Marco in 1913–1914; debunked by William Henry Scott."
+    }
+],
+  "papa": [],
+  "jeopardyQuestionMenu": [
+    {
+      "id": "m001",
+      "category": "Math",
+      "value": 5000,
+      "question": "Evaluate the limit: lim(x→0) [sin(x) − x + x³/6] / x⁵.",
+      "note": "Using the Maclaurin series sin(x)=x−x³/6+x⁵/120−…, the numerator becomes x⁵/120+…, so the limit is 1/120.",
+      "difficulty": "very-hard",
+      "answers": [
+        "−1/120",
+        "−1/60",
+        "0",
+        "1/120",
+        "1/60",
+        "1/24",
+        "1/6",
+        "1/2"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "m002",
+      "category": "Math",
+      "value": 4500,
+      "question": "What is ∫₀¹ x/(1+x²) dx?",
+      "note": "Let u=1+x², so du=2x dx. The integral is 1/2 ln(u) evaluated from 1 to 2, giving 1/2 ln 2.",
+      "difficulty": "very-hard",
+      "answers": [
+        "ln 2",
+        "1/2 ln 2",
+        "1/2",
+        "ln 3/2",
+        "1/4 ln 2",
+        "2 ln 2",
+        "1/2 ln 3",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "m003",
+      "category": "Science",
+      "value": 5000,
+      "question": "A 0.50 kg object is launched straight upward at 20.0 m/s. Ignoring air resistance and taking g=9.8 m/s², at what height is its kinetic energy exactly half its initial value?",
+      "note": "The initial kinetic energy is 100 J. Half remains as kinetic energy, so 50 J has become gravitational potential energy: mgh=50, giving h=50/(0.50×9.8)=10.2 m.",
+      "difficulty": "very-hard",
+      "answers": [
+        "5.1 m",
+        "7.7 m",
+        "10.2 m",
+        "12.5 m",
+        "15.3 m",
+        "18.4 m",
+        "20.4 m",
+        "40.8 m"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m004",
+      "category": "Science",
+      "value": 4000,
+      "question": "A 0.100 M solution of a weak monoprotic acid has Ka=1.8×10⁻⁵. Assuming x≪0.100, what is its approximate pH?",
+      "note": "For a weak acid, [H⁺]≈√(KaC)=√(1.8×10⁻⁶)≈1.34×10⁻³ M, so pH≈2.87.",
+      "difficulty": "very-hard",
+      "answers": [
+        "1.87",
+        "2.37",
+        "2.87",
+        "3.37",
+        "4.13",
+        "4.87",
+        "5.26",
+        "6.00"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m005",
+      "category": "Science",
+      "value": 3500,
+      "question": "In a Hardy–Weinberg population, the frequency of the recessive phenotype is 0.16. What fraction of the population is expected to be heterozygous?",
+      "note": "The recessive phenotype is q²=0.16, so q=0.4 and p=0.6. Heterozygotes occur at 2pq=2(0.6)(0.4)=0.48.",
+      "difficulty": "very-hard",
+      "answers": [
+        "0.16",
+        "0.24",
+        "0.32",
+        "0.36",
+        "0.48",
+        "0.64",
+        "0.72",
+        "0.84"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": "m006",
+      "category": "Geography",
+      "value": 3000,
+      "question": "Which cold ocean current is most directly associated with the unusually productive fisheries off the west coast of South America?",
+      "note": "The Humboldt, or Peru, Current carries cold, nutrient-rich water northward along western South America, supporting major fisheries.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Agulhas Current",
+        "Brazil Current",
+        "California Current",
+        "Humboldt Current",
+        "Kuroshio Current",
+        "Labrador Current",
+        "Gulf Stream",
+        "East Australian Current"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "m007",
+      "category": "Geography",
+      "value": 5000,
+      "question": "Which sovereign state is crossed by both the Equator and the Tropic of Capricorn?",
+      "note": "Both the Equator and the Tropic of Capricorn cross Brazil. No other country in the choices is crossed by both lines.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Colombia",
+        "Brazil",
+        "Ecuador",
+        "Peru",
+        "Bolivia",
+        "Paraguay",
+        "Australia",
+        "Indonesia"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "m008",
+      "category": "World History",
+      "value": 5000,
+      "question": "Which settlement is most directly associated with the principle commonly summarized as cuius regio, eius religio?",
+      "note": "The 1555 Peace of Augsburg allowed the ruler of each state within the Holy Roman Empire to determine whether that state would officially follow Catholicism or Lutheranism.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Treaty of Utrecht",
+        "Peace of Augsburg",
+        "Peace of Westphalia",
+        "Treaty of Tordesillas",
+        "Edict of Nantes",
+        "Concordat of Worms",
+        "Treaty of Cateau-Cambrésis",
+        "Peace of Lodi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "m009",
+      "category": "World History",
+      "value": 4000,
+      "question": "The Defenestration of Prague in 1618 most directly helped trigger which major European conflict?",
+      "note": "The 1618 Defenestration of Prague intensified the Bohemian revolt against Habsburg rule and is widely treated as the opening crisis of the Thirty Years' War.",
+      "difficulty": "very-hard",
+      "answers": [
+        "War of the Spanish Succession",
+        "Seven Years' War",
+        "Thirty Years' War",
+        "Great Northern War",
+        "War of the Austrian Succession",
+        "Crimean War",
+        "Napoleonic Wars",
+        "War of the League of Cambrai"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m010",
+      "category": "Filipino History",
+      "value": 5000,
+      "question": "Which 1897 agreement resulted in Emilio Aguinaldo's temporary exile to Hong Kong and a negotiated payment from the Spanish colonial government?",
+      "note": "The Pact of Biak-na-Bato provided for Aguinaldo and other revolutionary leaders to go into exile while Spain agreed to payments and reforms that were only partially realized.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Pact of Biak-na-Bato",
+        "Treaty of Paris",
+        "Pact of La Bulaqueña",
+        "Treaty of Manila",
+        "Act of Malolos",
+        "Convention of Tejeros",
+        "Treaty of Zaragoza",
+        "Pact of Naic"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "m011",
+      "category": "Tagalog",
+      "value": 4000,
+      "question": "In the sentence “Pinaglaruan ni Marco ang parke,” what is the grammatical focus of “pinaglaruan” most directly associated with “ang parke”?",
+      "note": "The pag-...-an pattern in “pinaglaruan” places the location or setting in focus; “ang parke” is the focused location where the action occurred.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Actor focus",
+        "Object focus",
+        "Locative focus",
+        "Benefactive focus",
+        "Instrumental focus",
+        "Cause focus",
+        "Comparative focus",
+        "Reciprocal focus"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m012",
+      "category": "Filipino History",
+      "value": 4500,
+      "question": "Which document is the formal declaration of Philippine independence proclaimed at Kawit on June 12, 1898?",
+      "note": "The Acta de la Proclamación de la Independencia del Pueblo Filipino is the declaration read in Kawit on June 12, 1898, under Emilio Aguinaldo's government.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Malolos Constitution",
+        "Acta de la Proclamación de la Independencia del Pueblo Filipino",
+        "Pact of Biak-na-Bato",
+        "Tejeros Constitution",
+        "La Solidaridad Manifesto",
+        "Treaty of Paris",
+        "Kartilya ng Katipunan",
+        "Jones Law"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "mysteryQuestionPoolSize": 12,
+  "mysteryQuestionSpec": {
+    "poolSize": 12,
+    "unlockChanceBase": 0.03,
+    "unlockChanceIncreaseOnMiss": 0.015,
+    "unlockChanceCap": 0.5,
+    "finalWindowUnlockAllAtRemaining": 6,
+    "answerChoicesPerQuestion": 8,
+    "valueMin": 2000,
+    "valueMax": 5000,
+    "categoryReveal": "after selection",
+    "normalEventsAllowed": false
+  }
+}

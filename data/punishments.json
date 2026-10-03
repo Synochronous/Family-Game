@@ -1,0 +1,550 @@
+[
+{
+"id": "applause",
+"name": "Applause",
+"description": "The target player must receive a round of applause.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "wall-sit-20",
+"name": "Wall Sit",
+"description": "Hold a wall sit for 20 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "balance-20",
+"name": "Balance Test",
+"description": "Stand on one foot for 20 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "statue-30",
+"name": "Statue",
+"description": "Freeze completely for 30 seconds.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "slow-motion",
+"name": "Slow Motion",
+"description": "Walk across the room in exaggerated slow motion.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "model-walk",
+"name": "Model Walk",
+"description": "Do one dramatic runway walk across the room.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "air-guitar",
+"name": "Air Guitar",
+"description": "Perform an imaginary guitar solo for 20 seconds.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "invisible-jump-rope",
+"name": "Invisible Jump Rope",
+"description": "Pretend to jump rope for 30 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "marching-band",
+"name": "Marching Band",
+"description": "March around the room for 30 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "victory-lap",
+"name": "Victory Lap",
+"description": "Take one ridiculous victory lap around the room.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "karaoke",
+"name": "Karaoke",
+"description": "Sing a short section of a song chosen by the host.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "news-anchor",
+"name": "News Anchor",
+"description": "Give a 30-second fake breaking-news report.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "commercial",
+"name": "Commercial",
+"description": "Advertise a random household object for 30 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "movie-trailer",
+"name": "Movie Trailer",
+"description": "Narrate the room like it is a dramatic movie trailer.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "documentary",
+"name": "Documentary",
+"description": "Narrate another player as though they are a rare animal.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "weather-report",
+"name": "Weather Report",
+"description": "Give a dramatic weather forecast for the room.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "sports-commentator",
+"name": "Sports Commentator",
+"description": "Commentate someone doing an ordinary action.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "award-speech",
+"name": "Award Speech",
+"description": "Give an acceptance speech for winning a completely ridiculous award.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "impression",
+"name": "Impression",
+"description": "Do an impression of a fictional character.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "character-voice",
+"name": "Character Voice",
+"description": "Speak in a randomly chosen character voice for 30 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "category-rush",
+"name": "Category Rush",
+"description": "Name 10 things in a category within 20 seconds.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "reverse-alphabet",
+"name": "Reverse Alphabet",
+"description": "Say the alphabet backward as far as you can.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female",
+"old-unc"
+]
+},
+{
+"id": "5-push-ups",
+"name": "5 Push-ups",
+"description": "Do 5 controlled push-ups.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "8-push-ups",
+"name": "8 Push-ups",
+"description": "Do 8 controlled push-ups.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "10-push-ups",
+"name": "10 Push-ups",
+"description": "Do 10 controlled push-ups.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "5-sit-ups",
+"name": "5 Sit-ups",
+"description": "Do 5 controlled sit-ups.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "8-sit-ups",
+"name": "8 Sit-ups",
+"description": "Do 8 controlled sit-ups.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "10-sit-ups",
+"name": "10 Sit-ups",
+"description": "Do 10 controlled sit-ups.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "5-squats",
+"name": "5 Squats",
+"description": "Do 5 controlled squats.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "8-squats",
+"name": "8 Squats",
+"description": "Do 8 controlled squats.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "10-squats",
+"name": "10 Squats",
+"description": "Do 10 controlled squats.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "5-lunges",
+"name": "5 Lunges",
+"description": "Do 5 controlled lunges per leg.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "8-lunges",
+"name": "8 Lunges",
+"description": "Do 8 controlled lunges per leg.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "10-lunges",
+"name": "10 Lunges",
+"description": "Do 10 controlled lunges per leg.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "wall-sit-10",
+"name": "10-Second Wall Sit",
+"description": "Hold a wall sit for 10 seconds.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "wall-sit-15",
+"name": "15-Second Wall Sit",
+"description": "Hold a wall sit for 15 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "wall-sit-20-physical",
+"name": "20-Second Wall Sit",
+"description": "Hold a wall sit for 20 seconds.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "5-calf-raises",
+"name": "5 Calf Raises",
+"description": "Do 5 controlled calf raises.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "10-calf-raises",
+"name": "10 Calf Raises",
+"description": "Do 10 controlled calf raises.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "15-calf-raises",
+"name": "15 Calf Raises",
+"description": "Do 15 controlled calf raises.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "plank-10",
+"name": "10-Second Plank",
+"description": "Hold a plank for 10 seconds.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "plank-15",
+"name": "15-Second Plank",
+"description": "Hold a plank for 15 seconds.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "plank-20",
+"name": "20-Second Plank",
+"description": "Hold a plank for 20 seconds.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "5-jumping-jacks",
+"name": "5 Jumping Jacks",
+"description": "Do 5 controlled jumping jacks.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "10-jumping-jacks",
+"name": "10 Jumping Jacks",
+"description": "Do 10 controlled jumping jacks.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "15-jumping-jacks",
+"name": "15 Jumping Jacks",
+"description": "Do 15 controlled jumping jacks.",
+"difficulty": "hard",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "5-high-knees",
+"name": "5 High Knees per Leg",
+"description": "Do 5 high knees per leg.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "10-high-knees",
+"name": "10 High Knees per Leg",
+"description": "Do 10 high knees per leg.",
+"difficulty": "medium",
+"ageGroups": [
+"kiddy",
+"unc-male"
+]
+},
+{
+"id": "balance-10",
+"name": "10-Second Balance",
+"description": "Balance on one foot for 10 seconds.",
+"difficulty": "easy",
+"ageGroups": [
+"kiddy",
+"unc-male",
+"unc-female"
+]
+},
+{
+"id": "Chocolae",
+"name": "Definetely Chocolate",
+"description": "Eat a suspicious chocolate.",
+"difficulty": "medium",
+"ageGroups": [
+"unc-male",
+"unc-female",
+"old-unc"
+]
+}
+]

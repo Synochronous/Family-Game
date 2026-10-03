@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Family Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+  <section id="screen-menu" class="screen active">
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <span class="eyebrow">FAMILY GAME</span>
+        <h1>QUIZ NIGHT</h1>
+        <p>Jeopardy plus a separate Who Wants to Be a Millionaire mode. Enjoy!</p>
+        <div class="menu-buttons">
+          <button id="button-jeopardy" class="primary-button menu-button" type="button">Jeopardy</button>
+          <button id="button-representative" class="secondary-button menu-button" type="button">Who Wants to Be a Millionaire</button>
+          <button id="host-help-button" class="ghost-button menu-button host-help-menu-button" type="button">Host Help</button>
+        </div>
+      </div>
+      <div class="hero-note">
+        <div><strong>HOST SHORTCUTS</strong><span>L</span><small>Detailed leaderboard</small></div>
+        <div><strong></strong><span>T</span><small>Team roster</small></div>
+        <div><strong></strong><span>O</span><small>Event weights</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen-setup" class="screen">
+    <div class="page-shell setup-shell">
+      <header class="page-header">
+        <div class="header-row">
+          <div>
+            <span id="setup-mode-label" class="eyebrow">GAME SETUP</span>
+            <h2>Players, Teams & Rules</h2>
+            <p>Select a player, then press <b>1–6</b> to assign them to that team. You can also use the team dropdown.</p>
+          </div>
+          <button id="setup-view-roster" class="ghost-button" type="button">View List of Teams</button>
+        </div>
+      </header>
+
+      <div class="setup-settings-grid">
+        <section class="panel setup-card">
+          <div class="section-heading"><div><h3>Game settings</h3><p class="panel-help">All of these are host-editable.</p></div><span class="setting-note">CUSTOMIZE</span></div>
+          <div class="settings-form">
+            <label>Teams<select id="team-count" class="select-input"><option value="2">2 teams</option><option value="3">3 teams</option><option value="4">4 teams</option><option value="5">5 teams</option><option value="6">6 teams</option></select></label>
+            <label>Normal questions<input id="question-limit" class="text-input" type="number" min="1" max="200" step="1" value="40"></label>
+            <label>Win condition<select id="win-condition" class="select-input"><option value="questions_and_papa">Question limit + Birthday Boy exhausted</option><option value="questions_only">Question limit only</option><option value="questions_or_papa">Question limit OR Birthday Boy exhausted</option><option value="target_score">First team to target score</option></select></label>
+            <label id="target-score-label">Target score<input id="target-score" class="text-input" type="number" min="100" max="1000000" step="100" value="10000"></label>
+          </div>
+        </section>
+        <section class="panel setup-card">
+          <div class="section-heading"><div><h3>Board uses per value</h3><p class="panel-help">Each category gets a random amount inside its range.</p></div><span class="setting-note">NO REUSE</span></div>
+          <table class="range-table"><thead><tr><th>Value</th><th>Min</th><th>Max</th><th>Preview</th></tr></thead><tbody id="value-range-body"></tbody></table>
+          <p class="panel-help">Example: $250 set to <b>5–6</b> means each category receives a random 5 or 6. At game start, the engine checks every category for that value and caps the range at the lowest category count so no category can run out. Once selected, a question is permanently used for that game.</p>
+        </section>
+      </div>
+
+      <section class="panel setup-card">
+        <div class="section-heading"><div><h3>Add player</h3><p class="panel-help">The team field can assign the player immediately. Team names are shown without duplicate default labels.</p></div><span id="player-count" class="badge">0</span></div>
+        <div class="form-row">
+          <label>Name<input id="player-name" class="text-input" maxlength="30" autocomplete="off" placeholder="Player name"></label>
+          <label>Age group<select id="player-age-group" class="select-input"><option value="">Select</option><option value="kiddy">Kiddy</option><option value="unc-male">Unc (Male)</option><option value="unc-female">Unc (Female)</option><option value="old-unc">Old Unc</option></select></label>
+          <label>Team<select id="player-team" class="select-input"><option value="">Unassigned</option></select></label>
+          <button id="add-player" class="primary-button" type="button">Add Player</button>
+        </div>
+      </section>
+
+      <div class="setup-columns">
+        <section class="panel player-bank"><div class="section-heading"><h3>Unassigned</h3><span class="setting-note">CLICK TO SELECT</span></div><div id="unassigned-players" class="player-list"></div></section>
+        <div id="teams-container" class="teams-grid"></div>
+      </div>
+
+      <div class="setup-actions"><button id="setup-back" class="secondary-button" type="button">Back</button><button id="start-game" class="primary-button" type="button">Start Game</button></div>
+    </div>
+  </section>
+
+  <section id="screen-jeopardy" class="screen game-screen">
+    <header class="game-header">
+      <div class="game-header-main"><div id="jeopardy-turn-label" class="turn-banner compact-turn">Team 1 • Player • YOUR TURN</div></div>
+      <div class="game-header-actions"><button id="jeopardy-view-roster" class="ghost-button" type="button">Teams</button><button id="jeopardy-menu" class="ghost-button" type="button">Menu</button></div>
+    </header>
+    <div class="jeopardy-topbar"><div id="jeopardy-score-left" class="jeopardy-top-team"></div><div class="jeopardy-brand-center"><div class="board-title">JEOPARDY</div><div id="jeopardy-progress" class="board-progress"><span>QUESTIONS</span><strong>0/40</strong></div></div><div id="jeopardy-score-right" class="jeopardy-top-team"></div></div>
+        <div class="game-layout">
+      <aside class="side-panel sidebar-left">
+        <section class="sidebar-section"><div class="sidebar-heading-row"><h3>Current</h3><span>HOST VIEW</span></div><div id="jeopardy-effects"></div></section>
+        <section class="sidebar-section"><div class="sidebar-heading-row"><h3>Curse List</h3><span>ACTIVE</span></div><div id="jeopardy-curses"></div></section>
+      </aside>
+      <section class="board-wrap"><div id="jeopardy-board" class="board"></div><div class="board-special-stack"><div class="board-special-row"><button id="jeopardy-question-menu" class="mystery-question-button" type="button"><span class="mystery-question-icon">?</span><span><b>MYSTERY QUESTION</b><small>12-question pool • 8 answers each • category revealed after selection • no normal events</small></span><em>0/12 UNLOCKED</em></button></div><div id="jeopardy-papa-menu-row" class="board-special-row birthday-special-row"></div></div></section>
+      <aside class="side-panel sidebar-right jeopardy-right-panel">
+        <section class="sidebar-section leaderboard-section"><div class="sidebar-heading-row"><h3>Leaderboard</h3><span>LIVE</span></div><div id="jeopardy-leaderboard"></div></section>
+        <section class="sidebar-section history-section"><div class="sidebar-heading-row"><h3>History</h3><span>LATEST</span></div><div id="jeopardy-history"></div></section>
+      </aside>
+    </div>
+  </section>
+
+  <section id="screen-categories" class="screen game-screen">
+    <header class="game-header">
+      <div class="game-header-main"><div id="representative-turn-label" class="turn-banner">Choose a category</div></div>
+      <div class="game-header-actions"><button id="representative-view-roster" class="ghost-button" type="button">Teams</button><button id="categories-menu" class="ghost-button" type="button">Menu</button></div>
+    </header>
+    <div class="score-strip" id="representative-scoreboard"></div>
+    <section class="millionaire-status-panel"><div class="section-heading"><div><span class="eyebrow">WHO WANTS TO BE A MILLIONAIRE</span><h2>Choose a category</h2></div></div><div id="representative-status"></div></section>
+    <div id="representative-question-ladder" class="question-ladder"></div>
+    <div class="mode-grid"><section class="category-area"><div id="category-grid" class="category-grid"></div></section><aside class="side-panel sidebar-side"><section class="sidebar-section"><div class="sidebar-heading-row"><h3>Current</h3><span>WWTBAM</span></div><div id="representative-effects"></div></section><section class="sidebar-section"><div class="sidebar-heading-row"><h3>Curse List</h3><span>ACTIVE</span></div><div id="representative-curses"></div></section><section class="sidebar-section"><div class="sidebar-heading-row"><h3>Leaderboard</h3><span>LIVE</span></div><div id="representative-leaderboard"></div></section><section class="sidebar-section"><div class="sidebar-heading-row"><h3>History</h3><span>LATEST</span></div><div id="representative-history"></div></section></aside></div>
+  </section>
+
+  <section id="screen-question" class="screen game-screen question-screen">
+    <header class="question-header"><div><span id="question-mode" class="eyebrow">JEOPARDY</span><h2 id="question-player">Team 1</h2><span id="question-answerer" class="answerer-chip">ANSWERER • Player</span></div><div class="question-header-right"><div class="question-score-box"><span id="question-category">Science</span><strong id="question-score">$250</strong></div></div></header>
+    <div class="question-layout">
+      <aside class="side-panel sidebar-left question-sidebar">
+        <section class="sidebar-section"><div class="sidebar-heading-row"><h3>Scores</h3><span>LIVE</span></div><div id="question-scoreboard"></div></section>
+        <section class="sidebar-section"><div class="sidebar-heading-row"><h3>Penalty Chance</h3><span>BOTH TEAMS</span></div><div id="hint-risk-container" class="risk-stack"></div></section>
+        <section class="sidebar-section"><div class="sidebar-heading-row"><h3>Curse List</h3><span>ACTIVE</span></div><div id="question-curses"></div></section>
+        <section class="sidebar-section"><div id="question-wwtbam-status"></div><div id="lifeline-actions"></div></section>
+      </aside>
+      <section class="question-main"><div class="question-card"><button id="question-mystery-event" class="mystery-event-chip question-event-banner" type="button">MYSTERY EVENT</button><div id="question-text" class="question-text"></div><div id="answer-grid" class="answer-grid"></div><div id="question-explanation" class="question-explanation hidden"><div class="explanation-label">EXPLANATION</div><div id="question-explanation-text"></div></div><div id="question-actions" class="question-actions"><button id="question-hint" class="hint-button" type="button">Hint</button><button id="question-continue" class="primary-button hidden" type="button">Continue</button></div></div></section>
+      <aside class="side-panel sidebar-right question-right"><section class="sidebar-section"><div class="sidebar-heading-row"><h3>Leaderboard</h3><span>LIVE</span></div><div id="question-leaderboard"></div></section><section class="sidebar-section history-section"><div class="sidebar-heading-row"><h3>History</h3><span>LATEST</span></div><div id="question-history"></div></section></aside>
+    </div>
+  </section>
+
+  <section id="screen-results" class="screen"><div class="results-shell"><span class="eyebrow">GAME COMPLETE</span><h2>Final Scores</h2><p id="results-summary">Game complete.</p><div id="results-list" class="results-list"></div><div class="results-actions"><button id="results-again" class="primary-button" type="button">New Game</button><button id="results-menu" class="secondary-button" type="button">Main Menu</button></div></div></section>
+</main>
+
+<div id="event-overlay" class="overlay hidden"><div class="overlay-card event-overlay-card"><span class="overlay-icon">?</span><span class="eyebrow">MYSTERY EVENT</span><h2 id="event-title"></h2><p id="event-description"></p><strong id="event-effect" class="overlay-effect"></strong><div id="event-trigger-chance" class="trigger-chance"></div><div id="event-wager-controls" class="event-wager-controls hidden"><div class="wager-title">SET YOUR WAGER</div><div class="wager-controls"><label><span>Wager</span><input id="event-wager-input" type="number" min="0" step="1" value="0"></label><button id="event-wager-lock" class="primary-button" type="button">Lock Wager</button></div><small id="event-wager-limit">Maximum $0</small></div><button id="event-close" class="primary-button" type="button">Continue</button></div></div>
+<div id="penalty-overlay" class="overlay hidden"><div class="penalty-card"><div id="penalty-effect-host"></div><span id="penalty-icon" class="overlay-icon">!</span><span id="penalty-type" class="eyebrow">PENALTY</span><div id="penalty-stage" class="penalty-stage">Penalty</div><h2 id="penalty-title"></h2><p id="penalty-description"></p><strong id="penalty-effect" class="overlay-effect"></strong><button id="penalty-close" class="primary-button hidden" type="button">Continue</button></div></div>
+<div id="leaderboard-modal" class="overlay hidden"><div class="full-modal-card"><div class="modal-header"><div><span class="eyebrow">STATISTICS</span><h2>Detailed Leaderboard</h2></div><button id="leaderboard-modal-close" class="ghost-button" type="button">Close</button></div><div id="leaderboard-modal-body"></div></div></div>
+<div id="team-roster-modal" class="overlay hidden"><div class="full-modal-card"><div class="modal-header"><div><span class="eyebrow">ROSTER</span><h2>List of Teams</h2></div><button id="team-roster-close" class="ghost-button" type="button">Close</button></div><div id="team-roster-body" class="roster-body"></div></div></div>
+<div id="event-weights-modal" class="overlay hidden"><div class="full-modal-card"><div class="modal-header"><div><span class="eyebrow">MYSTERY EVENT SYSTEM</span><h2>Mystery Event Weights</h2></div><button id="event-weights-close" class="ghost-button" type="button">Close</button></div><p class="modal-help">Events are rolled only when a question opens. The score-specific weights determine which mystery event is selected after the trigger roll.</p><div id="event-weights-body" class="event-weights-body"></div></div></div>
+<div id="jeopardy-question-menu-modal" class="overlay hidden"><div class="full-modal-card special-question-modal"><div class="modal-header"><div><span class="eyebrow">JEOPARDY SPECIAL</span><h2>Mystery Question Menu</h2></div><button id="jeopardy-question-menu-close" class="ghost-button" type="button">Close</button></div><p class="modal-help">Up to 12 mystery questions can be unlocked over the game. Each question has 8 answer choices and is worth $2,000–$5,000. The category is revealed after you choose the question. The mystery event is the unlock itself, and normal events cannot trigger on these questions.</p><div id="jeopardy-question-menu-body" class="special-question-options"></div></div></div>
+<div id="papa-menu-modal" class="overlay hidden"><div class="full-modal-card special-question-modal"><div class="modal-header"><div><span class="eyebrow">BIRTHDAY BOY</span><h2>Papa Question Menu</h2></div><button id="papa-menu-close" class="ghost-button" type="button">Close</button></div><p class="modal-help">Choose one available Papa bundle. Every bundle contains 3 questions. Each subquestion receives its own randomized value, and all 3 correct doubles the total payout.</p><div id="papa-menu-body" class="special-question-options"></div></div></div>
+<div id="mystery-unlock-modal" class="overlay hidden"><div class="overlay-card event-overlay-card mystery-unlock-card"><span class="overlay-icon">?</span><span class="eyebrow">MYSTERY EVENT</span><h2>Mystery Question Unlocked</h2><div id="mystery-unlock-body" class="mystery-unlock-body"></div><button id="mystery-unlock-close" class="primary-button" type="button">Continue to Menu</button></div></div>
+<div id="audience-overlay" class="overlay hidden"><div class="overlay-card audience-card"><span class="overlay-icon">◉</span><span class="eyebrow">CALL AUDIENCE</span><h2>Audience Poll</h2><div id="audience-body"></div><button id="audience-close" class="primary-button" type="button">Continue</button></div></div>
+<div id="host-help-modal" class="overlay hidden"><div class="full-modal-card host-help-card"><div class="modal-header"><div><span class="eyebrow">HOST CONTROLS</span><h2>Host Help</h2></div><button id="host-help-close" class="ghost-button" type="button">Close</button></div><div class="host-help-grid"><section><h3>During a question</h3><p>Click an answer. Once an answer is chosen, the question is resolved and <b>Continue</b> appears.</p><p>Hints below $1,000 remove one wrong answer at a time and can be reused until no wrong answers remain. Each successful Hint raises that team's normal penalty chance by 10–16 percentage points. At $1,000+, the current player gets one 50/50 for the entire game.</p><p>Use <b>Shift + 1–6</b> to deduct $500 from a specific team for a host-recorded broken curse.</p></section><section><h3>Keyboard</h3><p><b>1–4 / Q-W-A-S</b> answer choices. Mystery questions also use <b>5–8</b>.</p><p><b>Enter</b> or <b>C</b> continues only after an answer has been recorded. <b>F</b> force-ends the unresolved question • <b>L</b> leaderboard • <b>T</b> roster • <b>O</b> event weights • <b>Shift + 1–6</b> team deduction.</p><p>Special question unlock odds are hidden and only roll when the Mystery Question Menu is opened.</p></section><section><h3>Mystery Questions</h3><p>There are up to 12 future questions. Each has 8 answers and is worth $2,000–$5,000. A mystery event unlocks one question. At 6 or fewer normal questions remaining, all remaining mystery questions unlock together.</p></section><section><h3>Birthday Boy</h3><p>The board button opens the Papa bundle menu. Choose a bundle there instead of having the game silently pick one.</p></section></div></div></div>
+<div id="curse-details-modal" class="overlay hidden"><div class="full-modal-card curse-modal-card"><div class="modal-header"><div><span class="eyebrow">CURSE DETAILS</span><h2>Active Curse</h2></div><button id="curse-details-close" class="ghost-button" type="button">Close</button></div><div id="curse-details-body"></div></div></div>
+<div id="toast-container" class="toast-container"></div>
+<script src="main.js"></script>
+</body>
+</html>
