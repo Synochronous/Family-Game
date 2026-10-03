@@ -12,14 +12,14 @@
   const HINT_PENALTY_CAP = 0.95;
   const FIFTY_BASE_PENALTY_CHANCE = 0.50;
   const FIFTY_CAP = 0.95;
-  const BASE_EVENT_CHANCE = 0.10;
+  const BASE_EVENT_CHANCE = 0.15;
   const EVENT_CAP = 0.95;
-  const EVENT_RAMP = 0.10;
+  const EVENT_RAMP = 0.12;
   const MYSTERY_QUESTION_POOL_SIZE = 12;
   const MYSTERY_UNLOCK_BASE_CHANCE = 0.03;
-  const MYSTERY_UNLOCK_RAMP = 0.015;
-  const MYSTERY_UNLOCK_CAP = 0.50;
-  const MYSTERY_QUARTER_MIN_CHANCE = 0.06;
+  const MYSTERY_UNLOCK_RAMP = 0.06;
+  const MYSTERY_UNLOCK_CAP = 0.65;
+  const MYSTERY_QUARTER_MIN_CHANCE = 0.09;
   const MYSTERY_AUTO_UNLOCK_REMAINING = 6;
   const PAPA_TIMER_SECONDS = 45;
   const NORMAL_TIMER_SECONDS = { 250: 35, 500: 50, 750: 65, 1000: 80, 1250: 95, 1500: 110 };
@@ -34,7 +34,7 @@
     currentTeamIndex: 0, currentPlayerId: null, currentQuestion: null, currentSource: null,
     questionOwnerTeamIndex: null, currentAnsweringPlayerId: null, answerLocked: false, resolutionComplete: false,
     stealAvailable: false, stealTeamIndex: null, hintUsedThisQuestion: false, currentEvent: null, currentEventTriggerChance: BASE_EVENT_CHANCE, currentEventValue: 0,
-    eventChance: BASE_EVENT_CHANCE, mysteryUnlockChance: MYSTERY_UNLOCK_BASE_CHANCE, activeCurses: [], selectedCursePlayerId: null, curseOverloadTriggered: false, penaltyActive: false, penaltySequence: null,
+    eventChance: BASE_EVENT_CHANCE, eventTriggeredTeams: new Set(), mysteryUnlockChance: MYSTERY_UNLOCK_BASE_CHANCE, lastMysteryEvent: null, activeCurses: [], selectedCursePlayerId: null, curseOverloadTriggered: false, penaltyActive: false, penaltySequence: null,
     wager: { active: false, locked: false, amount: 0 },
     hintPenaltyChance: {}, highValue50UsedPlayers: new Set(),
     timer: { id: null, remaining: 0, running: false, paused: false, mode: null, expired: false },
@@ -77,19 +77,12 @@
   function escapeHtml(v) { return String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
   function formatScore(n) { return `$${Math.round(Number(n) || 0).toLocaleString()}`; }
   function formatDelta(n) { const v=Math.round(Number(n)||0); return `${v>=0?"+":"-"}${formatScore(Math.abs(v))}`; }
-  function applyScoreDelta(teamIndex, delta, reason="") {
-    const t=state.teams[teamIndex];
-    if(!t) return false;
-    const amount=Number(delta)||0;
-    t.score=(Number(t.score)||0)+amount;
-    renderScoreboard(els.questionScoreboard);
-    renderScoreboard(els.jeopardyScoreboard);
-    renderScoreboard(els.repScoreboard);
-    renderJeopardyTopScores();
-    renderLeaderboard(els.questionLeaderboard);
-    renderLeaderboard(els.jeopardyLeaderboard);
-    renderLeaderboard(els.repLeaderboard);
-    return true;
+  function applyScoreDelta(teamIndex, delta, reason="Score change") {
+    const t = state.teams[Number(teamIndex)];
+    if (!t) return 0;
+    const amount = Math.round(Number(delta) || 0);
+    t.score = Math.round(Number(t.score) || 0) + amount;
+    return t.score;
   }
   function randomInt(a,b) { return Math.floor(Math.random()*(b-a+1))+a; }
   function randomFloat(a,b) { return Math.random()*(b-a)+a; }
@@ -234,7 +227,7 @@
 
   function resetForNewGame() {
     stopTimer(); state.gameStarted = false; state.currentQuestion = null; state.currentSource = null; state.currentEvent = null; state.currentEventTriggerChance = BASE_EVENT_CHANCE;
-    state.currentEventValue = 0; state.usedQuestionIds.clear(); state.usedPapaBundleIds.clear(); state.normalAnswered = 0; state.currentTeamIndex = 0; state.currentPlayerId = null; state.currentAnsweringPlayerId = null;
+    state.currentEventValue = 0; state.lastMysteryEvent = null; state.usedQuestionIds.clear(); state.usedPapaBundleIds.clear(); state.normalAnswered = 0; state.currentTeamIndex = 0; state.eventTriggeredTeams.clear(); state.currentPlayerId = null; state.currentAnsweringPlayerId = null;
     state.answerLocked = false; state.resolutionComplete = false; state.stealAvailable = false; state.hintUsedThisQuestion = false; state.stealTeamIndex = null; state.wager = {active:false,locked:false,amount:0}; state.history = [];
     state.highValue50UsedPlayers.clear(); state.hintPenaltyChance = {}; state.playerStats = {}; state.activeCurses = []; state.selectedCursePlayerId = null; state.curseOverloadTriggered = false; state.penaltyActive = false; state.penaltySequence = null;
     state.representative = { category:null, questionIndex:0, winnings:0, safeWinnings:0, usedCategories:new Set(), runEnded:false, lives:3, maxLives:3, baseReviveAvailable:true, baseReviveUsed:false, lifelines:{fiftyFifty:"available",callAudience:"available"}, selectedLifeline:null, audienceUsed:false };
@@ -325,7 +318,7 @@
     state.gameStarted = true; state.currentTeamIndex=0; state.currentPlayerId=null; state.currentAnsweringPlayerId=null;
     initializeBoardPools();
     for (const t of state.teams) { const k=t.id; state.papa.rotationUsage[k]=0; state.papa.rotationMax[k]=Math.random()<.5?1:2; state.papa.rotationPlayers[k]=new Set(); state.papa.playerOrder[k]=shuffle(t.playerIds); state.papa.playerIndex[k]=0; state.hintPenaltyChance[k]=HINT_BASE_PENALTY_CHANCE; }
-    state.currentPlayerId=choosePlayerForTeam(0); state.currentAnsweringPlayerId=state.currentPlayerId; state.eventChance=BASE_EVENT_CHANCE; state.mysteryUnlockChance=MYSTERY_UNLOCK_BASE_CHANCE; state.unlockedSpecialQuestionIds.clear();
+    state.currentPlayerId=choosePlayerForTeam(0); state.currentAnsweringPlayerId=state.currentPlayerId; state.eventChance=BASE_EVENT_CHANCE; state.mysteryUnlockChance=MYSTERY_UNLOCK_BASE_CHANCE; state.lastMysteryEvent=null; state.unlockedSpecialQuestionIds.clear();
     for (const p of state.players) state.playerStats[p.id]={attempts:0,correct:0,gained:0,lost:0,hints:0,fiftyFifty:0,penaltiesTriggered:0};
     addHistory("Game started",`${state.mode} • ${state.teams.length} teams • ${state.settings.normalQuestionLimit} normal questions`);
     if(state.mode==="jeopardy"){renderJeopardy();showScreen(screens.jeopardy);}else{renderRepresentativeMode();showScreen(screens.categories);}
@@ -389,7 +382,7 @@
     const unlocked=[...state.unlockedSpecialQuestionIds].filter(id=>state.specialQuestions.some(q=>q.id===id&&!state.usedQuestionIds.has(q.id)));
     b.querySelector("em")?.replaceChildren(document.createTextNode(`${unlocked.length}/${MYSTERY_QUESTION_POOL_SIZE} UNLOCKED`));
     b.disabled=blocked;
-    b.title=blocked?"The game has already ended.":"Open the mystery question menu. Unlocks are determined only when this menu is opened.";
+    b.title=blocked?"The game has already ended.":`Open the mystery question menu. ${unlocked.length}/${MYSTERY_QUESTION_POOL_SIZE} mystery questions unlocked.`;
   }
 
   function updateEndBanner(){ /* progress now lives in the dedicated board heading */ }
@@ -431,8 +424,11 @@
     if(mysteryNormalRemaining()<=MYSTERY_AUTO_UNLOCK_REMAINING){
       for(const q of candidates)state.unlockedSpecialQuestionIds.add(q.id);
       state.mysteryUnlockChance=MYSTERY_UNLOCK_BASE_CHANCE;
+      state.lastMysteryEvent={type:"unlock_all",count:state.unlockedSpecialQuestionIds.size,total:MYSTERY_QUESTION_POOL_SIZE,text:`All remaining mystery questions unlocked (${state.unlockedSpecialQuestionIds.size}/${MYSTERY_QUESTION_POOL_SIZE}).`};
       addHistory("Mystery event","All remaining mystery questions unlocked in the final 6-question window.");
       showMysteryUnlockPopup(true);
+      updateSpecialQuestionButton();
+      renderAll();
       return true;
     }
     const chance=clamp(state.mysteryUnlockChance,MYSTERY_UNLOCK_BASE_CHANCE,MYSTERY_UNLOCK_CAP);
@@ -440,23 +436,27 @@
       const unlocked=randomItem(candidates);
       state.unlockedSpecialQuestionIds.add(unlocked.id);
       state.mysteryUnlockChance=MYSTERY_UNLOCK_BASE_CHANCE;
-      addHistory("Mystery event",`Mystery question unlocked: ${unlocked.id} • trigger succeeded`);
+      const count=state.unlockedSpecialQuestionIds.size;
+      state.lastMysteryEvent={type:"unlock",count,total:MYSTERY_QUESTION_POOL_SIZE,text:`Mystery question unlocked • ${count}/${MYSTERY_QUESTION_POOL_SIZE} available.`};
+      addHistory("Mystery event",`Mystery question unlocked: ${unlocked.id} • trigger succeeded • ${count}/${MYSTERY_QUESTION_POOL_SIZE} unlocked`);
       showMysteryUnlockPopup(false);
+      updateSpecialQuestionButton();
+      renderAll();
       return true;
     }
     applyMysteryUnlockMiss();
+    updateSpecialQuestionButton();
     return false;
   }
   function renderMysteryQuestionMenu(){
     const unlocked=shuffle([...state.unlockedSpecialQuestionIds].map(id=>state.specialQuestions.find(q=>q.id===id)).filter(Boolean).filter(q=>!state.usedQuestionIds.has(q.id)));
-    const locked=Math.max(0,state.specialQuestions.length-unlocked.length-state.usedQuestionIds.size);
+    const unlockedCount=Math.min(MYSTERY_QUESTION_POOL_SIZE,state.unlockedSpecialQuestionIds.size);
+    const locked=Math.max(0,MYSTERY_QUESTION_POOL_SIZE-unlockedCount);
     let html=unlocked.map((q,i)=>`<button class="special-question-option" data-special-id="${escapeHtml(q.id)}" type="button"><span>MYSTERY ${i+1}</span><strong>${formatScore(q.score)}</strong><small>CATEGORY HIDDEN</small><em>8 ANSWERS • VERY HARD</em></button>`).join("");
     if(!unlocked.length){
-      html=`<div class="special-question-empty"><strong>No mystery questions are unlocked yet.</strong><span>Open this menu again later. A hidden unlock roll occurs only when the menu is opened.</span><small>${state.specialQuestions.length?`${Math.max(0,state.specialQuestions.length-state.unlockedSpecialQuestionIds.size)} of ${MYSTERY_QUESTION_POOL_SIZE} question${MYSTERY_QUESTION_POOL_SIZE===1?"":"s"} remain locked.`:`The ${MYSTERY_QUESTION_POOL_SIZE}-question future pool is ready for question data.`}</small></div>`;
+      html=`<div class="special-question-empty"><strong>No unused mystery questions are available.</strong><span>${unlockedCount ? "All currently unlocked mystery questions have already been used." : "Open this menu again later. A hidden mystery-event unlock roll occurs only when the menu is opened."}</span><small>${locked}/${MYSTERY_QUESTION_POOL_SIZE} locked.</small></div>`;
     }
-    if(unlocked.length>0 && unlocked.length<state.specialQuestions.length){
-      html+=`<div class="special-question-lock-status"><strong>${unlocked.length}/${MYSTERY_QUESTION_POOL_SIZE} unlocked</strong><span>The remaining mystery questions are still locked.</span></div>`;
-    }
+    html+=`<div class="special-question-lock-status"><strong>${unlockedCount}/${MYSTERY_QUESTION_POOL_SIZE} UNLOCKED</strong><span>${locked ? `${locked} mystery question${locked===1?"":"s"} remain locked.` : "All mystery questions are unlocked."}</span></div>`;
     els.jeopardyQuestionMenuBody.innerHTML=html;
     els.jeopardyQuestionMenuBody.querySelectorAll("[data-special-id]").forEach(btn=>btn.addEventListener("click",()=>{
       const q=state.specialQuestions.find(x=>String(x.id)===btn.dataset.specialId);
@@ -502,7 +502,7 @@
     const t=team(),p=player(state.currentAnsweringPlayerId||state.currentPlayerId);
     els.questionPlayer.textContent=`${teamDisplay(t)} • ${p?.name||"Player"}`;
     if(els.questionAnswerer)els.questionAnswerer.textContent=`${mode} • ${p?.name||"Player"}`;
-    renderScoreboard(els.questionScoreboard); renderLeaderboard(els.questionLeaderboard); renderHistory(els.questionHistory); renderCurseList(els.questionCurses); hideExplanation();
+    renderScoreboard(els.questionScoreboard); renderLeaderboard(els.questionLeaderboard); renderHistory(els.questionHistory); renderEffects(els.questionEffects); renderCurseList(els.questionCurses); hideExplanation();
     hideQuestionContinue(); els.questionActions.querySelectorAll(".runtime-box,.wager-status").forEach(x=>x.remove()); els.questionHint.classList.remove("hidden"); renderHintRiskPanels(); renderEventBanner(); renderRepresentativeStatus(els.questionWwtbamStatus); renderLifelineActions();
     if(els.questionMysteryEvent)els.questionMysteryEvent.disabled=false;
   }
@@ -531,7 +531,7 @@
     showScreen(screens.question);
     const seconds=source==="jeopardy"?(NORMAL_TIMER_SECONDS[Number(question.score)]||NORMAL_TIMER_SECONDS[250]):120;
     startTimer(seconds,source);
-    if(source==="jeopardy")triggerEvent(Number(question.score));
+    if(source==="jeopardy")triggerEvent(Number(question.score), question.category);
     renderQuestionTimer();
     addHistory("Question opened",`${question.category} • ${formatScore(source==="representative"?REPRESENTATIVE_LADDER[Math.max(0,state.representative.questionIndex-1)]:question.score)}${source==="representative"?" • WWTBAM":""}`);
     renderTurnBanner();
@@ -540,8 +540,15 @@
   function refreshHintButton(){
     const q=state.currentQuestion,pid=state.currentAnsweringPlayerId||state.currentPlayerId,value=Number(q?.score||0),isJeopardy=state.currentSource==="jeopardy",steal=state.stealAvailable;
     if(!els.questionHint)return;
-    if(!isJeopardy||steal||state.currentSource==="jeopardy_special"){els.questionHint.classList.add("hidden");els.questionHint.disabled=true;return;}
+    if(!isJeopardy||state.currentSource==="jeopardy_special"){els.questionHint.classList.add("hidden");els.questionHint.disabled=true;els.questionHint.classList.remove("hint-disabled-steal");return;}
     els.questionHint.classList.remove("hidden");
+    els.questionHint.classList.toggle("hint-disabled-steal",steal);
+    if(steal){
+      els.questionHint.disabled=true;
+      els.questionHint.textContent=Number(q?.score)>=HIGH_VALUE_MIN?"50/50 • STEAL":"💡 HINT • STEAL";
+      els.questionHint.title="Hints are unavailable during a steal.";
+      return;
+    }
     if(value>=HIGH_VALUE_MIN){
       const risk=Math.round(clamp(FIFTY_BASE_PENALTY_CHANCE+currentPenaltyChance(state.questionOwnerTeamIndex)/2,FIFTY_BASE_PENALTY_CHANCE,FIFTY_CAP)*100);
       const available=!!pid&&!state.highValue50UsedPlayers.has(pid);
@@ -566,12 +573,15 @@
     els.questionContinue.textContent=label;
     els.questionContinue.disabled=false;
     els.questionContinue.classList.remove("hidden");
+    els.questionContinue.setAttribute("aria-disabled","false");
   }
-  function hideQuestionContinue(label="Continue"){
+  function hideQuestionContinue(){
     if(!els.questionContinue)return;
-    els.questionContinue.textContent=label;
-    els.questionContinue.disabled=true;
+    // Keep Continue visible at all times. It is simply unavailable until an answer is resolved.
     els.questionContinue.classList.remove("hidden");
+    els.questionContinue.disabled=true;
+    els.questionContinue.setAttribute("aria-disabled","true");
+    els.questionContinue.textContent="Continue";
   }
 
   function answerPapa(i,b){if(state.answerLocked)return;stopTimer();state.answerLocked=true;const sub=state.currentQuestion.questions[state.papa.subIndex];[...els.answerGrid.children].forEach(x=>x.disabled=true);const ok=i===sub.correctAnswer;if(ok){b.classList.add("correct");state.papa.correctCount++;state.papa.correctIndices.add(state.papa.subIndex);}else{b.classList.add("incorrect");els.answerGrid.children[sub.correctAnswer]?.classList.add("reveal-correct");}const pid=state.currentAnsweringPlayerId||state.currentPlayerId;if(pid){state.playerStats[pid].attempts++;if(ok)state.playerStats[pid].correct++;}showExplanation(sub.note,sub.correctAnswer,sub.answers);addHistory(ok?"Papa correct":"Papa incorrect",`${team().name}: ${state.papa.subIndex+1}/3`);if(state.papa.subIndex<2){showQuestionContinue("Next Papa Question");}else finishPapaBundle();}
@@ -643,27 +653,62 @@
     els.eventWagerInput?.blur();
   }
 
-  function triggerEvent(value){
+  function triggerEvent(value,category="") {
     if(!state.events.length)return;
-    const triggerChance=clamp(Number(state.eventChance)||BASE_EVENT_CHANCE,BASE_EVENT_CHANCE,EVENT_CAP); const roll=Math.random();
-    if(roll>=triggerChance){state.eventChance=clamp(triggerChance+EVENT_RAMP,BASE_EVENT_CHANCE,EVENT_CAP);return;}
-    const eligible=state.events.map(e=>({e,w:Math.max(0,eventWeight(e,Number(value)))})).filter(x=>x.w>0); if(!eligible.length)return;
-    let total=eligible.reduce((sum,x)=>sum+x.w,0),r=Math.random()*total,chosen=eligible[eligible.length-1].e;for(const x of eligible){r-=x.w;if(r<=0){chosen=x.e;break;}}
-    state.currentEvent=chosen;state.currentEventTriggerChance=triggerChance;state.currentEventValue=Number(value);state.eventChance=BASE_EVENT_CHANCE;addHistory("Event triggered",`${chosen.name} on ${formatScore(value)} • ${Math.round(triggerChance*100)}% trigger chance`);renderEventBanner();showEventOverlay(chosen);
+    const teamIndex=state.questionOwnerTeamIndex ?? state.currentTeamIndex;
+    const teamId=teamKey(teamIndex);
+    const triggerChance=clamp(Number(state.eventChance)||BASE_EVENT_CHANCE,BASE_EVENT_CHANCE,EVENT_CAP);
+
+    // A team that has already received an event must first pass a 50/50 fairness gate
+    // before the normal event-trigger roll is made again. This gate is per team and
+    // remains active for the rest of the game after that team's first event.
+    if(state.eventTriggeredTeams.has(teamId) && Math.random() >= 0.5){
+      state.eventChance=clamp(triggerChance+EVENT_RAMP,BASE_EVENT_CHANCE,EVENT_CAP);
+      addHistory("Event fairness gate",`${teamDisplay(teamIndex)} failed the 50/50 repeat-event gate`);
+      return;
+    }
+
+    if(Math.random()>=triggerChance){
+      state.eventChance=clamp(triggerChance+EVENT_RAMP,BASE_EVENT_CHANCE,EVENT_CAP);
+      return;
+    }
+    const eligible=state.events.map(e=>({e,w:Math.max(0,eventWeight(e,Number(value),category))})).filter(x=>x.w>0);
+    if(!eligible.length)return;
+    let total=eligible.reduce((sum,x)=>sum+x.w,0),r=Math.random()*total,chosen=eligible[eligible.length-1].e;
+    for(const x of eligible){r-=x.w;if(r<=0){chosen=x.e;break;}}
+    state.currentEvent=chosen;
+    state.currentEventTriggerChance=triggerChance;
+    state.currentEventValue=Number(value);
+    state.eventChance=BASE_EVENT_CHANCE;
+    state.eventTriggeredTeams.add(teamId);
+    addHistory("Event triggered",`${chosen.name} on ${formatScore(value)} • ${Math.round(triggerChance*100)}% trigger chance`);
+    showEventOverlay(chosen);
   }
 
-  function eventWeight(e,v){
+  function eventWeight(e,v,category="") {
     const type=e.effect?.type;
     const mult=["score_multiplier","double_or_nothing"].includes(type);
-    let base=e.weightByValue&&Number.isFinite(Number(e.weightByValue[v]))?Number(e.weightByValue[v]):(mult?({250:10,500:8,750:6,850:4,1000:3,1250:1.5,1500:0.75}[v]||1):({250:5,500:5,750:5,850:4,1000:4,1250:3,1500:2}[v]||2));
-    if(mult && v>=850)base*=0.65;
-    if(type==="wager"&&v>1000)return 1;
+    let base=e.weightByValue&&Number.isFinite(Number(e.weightByValue[v]))?Number(e.weightByValue[v]):(mult?({250:10,500:8,750:6,1000:4,1250:2,1500:1}[v]||1):({250:5,500:5,750:5,1000:4,1250:3,1500:2}[v]||2));
+
+    // Multiplier-style events fall off sharply as the question becomes more valuable.
+    if(mult){
+      const multiplierPenalty={250:1.15,500:1.05,750:0.90,1000:0.65,1250:0.45,1500:0.30}[v]||0.30;
+      base*=multiplierPenalty;
+      if(String(category).trim().toLowerCase()==="philosophy")base*=0.45;
+    }
+
+    // Wager remains a deliberate 2nd/3rd-tier outcome on $1,000+ questions rather
+    // than collapsing in weight as the question value rises.
+    if(type==="wager"){
+      const wagerWeight={250:6,500:6,750:5.5,1000:3.2,1250:2.6,1500:2.2}[v]??3;
+      return wagerWeight;
+    }
     return base;
   }
   function eventEffectText(e){const x=e.effect||{};if(x.type==="wager")return"Set a wager before answering.";if(x.type==="score_multiplier")return`Correct payout: ×${x.min}–×${x.max}`;if(x.type==="flat_bonus")return`Correct payout: +$${x.min}–$${x.max}`;if(x.type==="double_or_nothing")return"Correct payout is doubled.";return"Active for this question.";}
   function showEventOverlay(e){
     state.timer.paused=true;els.eventTitle.textContent=e.name||"Event";els.eventDescription.textContent=e.description||"";els.eventEffect.textContent=eventEffectText(e);
-    if(els.eventTriggerChance)els.eventTriggerChance.textContent="Mystery event triggered on this question.";
+    if(els.eventTriggerChance)els.eventTriggerChance.textContent="Event triggered on this question.";
     state.wager={active:false,locked:false,amount:0};
     renderEventWagerControls();
     if(els.eventClose){els.eventClose.disabled=e.effect?.type==="wager";els.eventClose.textContent=e.effect?.type==="wager"?"Lock a wager to continue":"Continue";}
@@ -677,12 +722,12 @@
   }
   function renderEventBanner(){
     if(!els.questionMysteryEvent)return;
-    if(state.currentSource==="jeopardy_special"){els.questionMysteryEvent.textContent="MYSTERY QUESTION • NO NORMAL EVENTS";els.questionMysteryEvent.disabled=true;return;}
+    if(state.currentSource==="jeopardy_special"){els.questionMysteryEvent.textContent="MYSTERY QUESTION • NO EVENTS";els.questionMysteryEvent.disabled=true;return;}
     if(state.currentSource==="papa"){els.questionMysteryEvent.textContent="BIRTHDAY BOY • NO NORMAL EVENTS";els.questionMysteryEvent.disabled=true;return;}
     els.questionMysteryEvent.disabled=false;
-    if(!state.currentEvent){els.questionMysteryEvent.textContent="MYSTERY EVENT";els.questionMysteryEvent.dataset.active="false";return;}
+    if(!state.currentEvent){els.questionMysteryEvent.textContent="EVENT";els.questionMysteryEvent.dataset.active="false";return;}
     const wagerLocked=state.currentEvent.effect?.type==="wager"&&state.wager.locked;
-    els.questionMysteryEvent.textContent=wagerLocked?`MYSTERY EVENT • ${state.currentEvent.name} • WAGER ${formatScore(state.wager.amount)}`:`MYSTERY EVENT • ${state.currentEvent.name}`;els.questionMysteryEvent.dataset.active="true";
+    els.questionMysteryEvent.textContent=wagerLocked?`EVENT • ${state.currentEvent.name} • WAGER ${formatScore(state.wager.amount)}`:`EVENT • ${state.currentEvent.name}`;els.questionMysteryEvent.dataset.active="true";
   }
 
   function currentPenaltyChance(teamIndex){return clamp(Number(state.hintPenaltyChance[teamKey(teamIndex)]??HINT_BASE_PENALTY_CHANCE),HINT_BASE_PENALTY_CHANCE,HINT_PENALTY_CAP);}
@@ -732,14 +777,10 @@
 
   function renderHintRiskPanels(){
     if(!els.hintRiskContainer)return;
-    els.hintRiskContainer.innerHTML="";
-    state.teams.forEach((t,i)=>{
-      const chance=Math.round(currentPenaltyChance(i)*100);
-      const d=document.createElement("div");
-      d.className="mechanic-card penalty-chance-card";
-      d.innerHTML=`<span>${escapeHtml(teamDisplay(i))}</span><strong>Hint penalty chance ${chance}%</strong><small>Risk is applied only when the corresponding mechanic is used.</small>`;
-      els.hintRiskContainer.appendChild(d);
-    });
+    els.hintRiskContainer.innerHTML=""; const idx=state.questionOwnerTeamIndex??state.currentTeamIndex; const t=state.teams[idx]; if(!t)return;
+    const normal=Math.round(currentPenaltyChance(idx)*100); const highRisk=Math.round(clamp(FIFTY_BASE_PENALTY_CHANCE+currentPenaltyChance(idx)/2,FIFTY_BASE_PENALTY_CHANCE,FIFTY_CAP)*100); const p=player(state.currentAnsweringPlayerId||state.currentPlayerId);
+    const mode=state.currentSource==="jeopardy"&&state.currentQuestion?(Number(state.currentQuestion.score)>=HIGH_VALUE_MIN?`50/50 risk ${highRisk}%`:`Hint penalty chance ${normal}%`):`Penalty chance ${normal}%`;
+    const d=document.createElement("div");d.className="mechanic-card";d.innerHTML=`<span>${escapeHtml(teamDisplay(idx))}${p?` • ${escapeHtml(p.name)}`:""}</span><strong>${mode}</strong><small>Risk is applied only when the corresponding mechanic is used.</small>`;els.hintRiskContainer.appendChild(d);
   }
 
   async function triggerPenalty(targetTeam,triggeringPlayer){
@@ -772,9 +813,21 @@
   function showExplanation(note,correct,answers){els.explanationText.textContent=String(note||"").trim()||`Correct answer: ${answers?.[correct]||"Unknown"}`;els.explanation.classList.remove("hidden");}
   function hideExplanation(){els.explanation.classList.add("hidden");els.explanationText.textContent="";}
   function renderEffects(container){
-    if(!container)return; const cards=[]; const idx=state.currentQuestion?state.questionOwnerTeamIndex:state.currentTeamIndex;
-    if(state.teams[idx])cards.push(`<div class="effect-card"><strong>Penalty chance</strong><span>${Math.round(currentPenaltyChance(idx)*100)}%</span><small>${escapeHtml(teamDisplay(idx))}</small></div>`);
-    if(state.currentEvent)cards.push(`<div class="effect-card"><strong>${escapeHtml(state.currentEvent.name)}</strong><span>${escapeHtml(eventEffectText(state.currentEvent))}</span><small>Triggered at ${Math.round(state.currentEventTriggerChance*100)}%</small></div>`);
+    if(!container)return;
+    const cards=[];
+    // Both teams' penalty chances remain visible at all times so the host can see the
+    // risk for either team without having to switch the active team.
+    state.teams.forEach((t,i)=>{
+      cards.push(`<div class="effect-card"><strong>${escapeHtml(teamDisplay(i))}</strong><span>Hint penalty chance ${Math.round(currentPenaltyChance(i)*100)}%</span><small>Risk is applied only when the corresponding mechanic is used.</small></div>`);
+    });
+    // Normal Events are question-scoped and therefore disappear as soon as the question is left.
+    if(state.currentEvent && state.currentSource==="jeopardy")cards.push(`<div class="effect-card"><strong>EVENT • ${escapeHtml(state.currentEvent.name)}</strong><span>${escapeHtml(eventEffectText(state.currentEvent))}</span><small>Question-scoped • triggered at ${Math.round(state.currentEventTriggerChance*100)}%</small></div>`);
+    // Mystery Events are separate from normal Events. Their persistent record is only the unlock result/count.
+    const mysteryCount=Math.min(MYSTERY_QUESTION_POOL_SIZE,state.unlockedSpecialQuestionIds.size);
+    if(state.mode==="jeopardy"){
+      const mysteryText=state.lastMysteryEvent?.text||"No mystery-question unlock has triggered yet.";
+      cards.push(`<div class="effect-card"><strong>MYSTERY STATUS • ${mysteryCount}/${MYSTERY_QUESTION_POOL_SIZE} UNLOCKED</strong><span>${escapeHtml(mysteryText)}</span><small>Unlock roll occurs only when the Mystery Question menu is opened.</small></div>`);
+    }
     if(state.mode==="representative")cards.push(`<div class="effect-card"><strong>WWTBAM</strong><span>${state.representative.lives} lives</span><small>Base revive: ${state.representative.baseReviveAvailable?"READY":"USED"}</small></div>`);
     container.innerHTML=cards.join("")||'<div class="empty-state">No active effects.</div>';
   }
@@ -983,8 +1036,7 @@
     if(activeQ&&!e.repeat&&!e.shiftKey&&e.key.toLowerCase()==="f"&&!(["INPUT","TEXTAREA","SELECT"].includes(tag))){forceEndQuestion();return;}
     if((activeR||activeQ)&&state.currentSource==="representative"&&!e.repeat&&e.key==="Enter"&&state.representative.selectedLifeline){if(state.representative.selectedLifeline==="fiftyFifty")useRepresentative5050();else if(state.representative.selectedLifeline==="callAudience")useCallAudience();return;}
     if((activeR||activeQ)&&state.currentSource==="representative"&&e.key.toLowerCase()==="b"&&!e.repeat){breakRepresentativeLifeline();return;}
-    if(activeQ&&!e.repeat&&!e.shiftKey&&e.key==="Enter"&&state.currentQuestion&&state.answerLocked&&!state.penaltyActive&&(!els.eventOverlay||els.eventOverlay.classList.contains("hidden"))){e.preventDefault();continueQuestion();return;}
-    if(activeQ&&!e.repeat&&!e.shiftKey&&e.key.toLowerCase()==="c"&&state.currentQuestion&&state.answerLocked&&!state.penaltyActive&&(!els.eventOverlay||els.eventOverlay.classList.contains("hidden"))){e.preventDefault();continueQuestion();return;}
+    if(activeQ&&!e.repeat&&!e.shiftKey&&["Enter","c"].includes(e.key)&&state.currentQuestion&&state.answerLocked&&!state.penaltyActive&&(!els.eventOverlay||els.eventOverlay.classList.contains("hidden"))){e.preventDefault();continueQuestion();return;}
     if(state.answerLocked)return;
     const map={"1":0,q:0,"2":1,w:1,"3":2,a:2,"4":3,s:3};
     if(state.currentSource==="jeopardy_special"){map["5"]=4;map["6"]=5;map["7"]=6;map["8"]=7;}

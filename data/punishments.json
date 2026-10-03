@@ -116,18 +116,6 @@
 ]
 },
 {
-"id": "karaoke",
-"name": "Karaoke",
-"description": "Sing a short section of a song chosen by the host.",
-"difficulty": "medium",
-"ageGroups": [
-"kiddy",
-"unc-male",
-"unc-female",
-"old-unc"
-]
-},
-{
 "id": "news-anchor",
 "name": "News Anchor",
 "description": "Give a 30-second fake breaking-news report.",

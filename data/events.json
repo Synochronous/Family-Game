@@ -7,14 +7,6 @@
       "type": "flat_bonus",
       "min": 150,
       "max": 350
-    },
-    "weightByValue": {
-      "250": 6,
-      "500": 6,
-      "750": 6,
-      "1000": 5,
-      "1250": 4,
-      "1500": 3
     }
   },
   {
@@ -25,14 +17,6 @@
       "type": "flat_bonus",
       "min": 250,
       "max": 500
-    },
-    "weightByValue": {
-      "250": 5,
-      "500": 5,
-      "750": 4,
-      "1000": 3,
-      "1250": 2,
-      "1500": 1
     }
   },
   {
@@ -43,14 +27,6 @@
       "type": "flat_bonus",
       "min": 75,
       "max": 175
-    },
-    "weightByValue": {
-      "250": 8,
-      "500": 8,
-      "750": 7,
-      "1000": 6,
-      "1250": 5,
-      "1500": 4
     }
   },
   {
@@ -61,14 +37,6 @@
       "type": "score_multiplier",
       "min": 1.5,
       "max": 2.0
-    },
-    "weightByValue": {
-      "250": 9,
-      "500": 7,
-      "750": 5,
-      "1000": 3,
-      "1250": 1,
-      "1500": 0.5
     }
   },
   {
@@ -77,14 +45,6 @@
     "description": "Get this question right and its value is doubled. A wrong answer carries the normal consequences for the question.",
     "effect": {
       "type": "double_or_nothing"
-    },
-    "weightByValue": {
-      "250": 8,
-      "500": 6,
-      "750": 5,
-      "1000": 3,
-      "1250": 1.5,
-      "1500": 0.5
     }
   },
   {
@@ -95,14 +55,6 @@
       "type": "score_multiplier",
       "min": 1.25,
       "max": 1.75
-    },
-    "weightByValue": {
-      "250": 9,
-      "500": 8,
-      "750": 6,
-      "1000": 4,
-      "1250": 2,
-      "1500": 1
     }
   },
   {
@@ -113,14 +65,6 @@
       "type": "flat_bonus",
       "min": 100,
       "max": 300
-    },
-    "weightByValue": {
-      "250": 7,
-      "500": 7,
-      "750": 6,
-      "1000": 5,
-      "1250": 4,
-      "1500": 3
     }
   },
   {
@@ -131,14 +75,6 @@
       "type": "score_multiplier",
       "min": 1.4,
       "max": 1.6
-    },
-    "weightByValue": {
-      "250": 7,
-      "500": 6,
-      "750": 5,
-      "1000": 3,
-      "1250": 2,
-      "1500": 1
     }
   },
   {
@@ -147,14 +83,6 @@
     "description": "This question pays double when answered correctly. The normal wrong-answer rules still apply.",
     "effect": {
       "type": "double_or_nothing"
-    },
-    "weightByValue": {
-      "250": 7,
-      "500": 6,
-      "750": 5,
-      "1000": 3,
-      "1250": 1.5,
-      "1500": 0.5
     }
   },
   {
@@ -165,14 +93,6 @@
       "type": "flat_bonus",
       "min": 200,
       "max": 400
-    },
-    "weightByValue": {
-      "250": 5,
-      "500": 5,
-      "750": 4,
-      "1000": 3,
-      "1250": 2,
-      "1500": 1
     }
   },
   {
@@ -183,14 +103,6 @@
       "type": "score_multiplier",
       "min": 1.2,
       "max": 1.4
-    },
-    "weightByValue": {
-      "250": 8,
-      "500": 7,
-      "750": 6,
-      "1000": 4,
-      "1250": 2,
-      "1500": 1
     }
   },
   {
@@ -201,14 +113,6 @@
       "type": "score_multiplier",
       "min": 1.75,
       "max": 2.25
-    },
-    "weightByValue": {
-      "250": 5,
-      "500": 4,
-      "750": 3,
-      "1000": 2,
-      "1250": 0.75,
-      "1500": 0.25
     }
   },
   {
@@ -219,14 +123,6 @@
       "type": "flat_bonus",
       "min": 125,
       "max": 275
-    },
-    "weightByValue": {
-      "250": 7,
-      "500": 7,
-      "750": 6,
-      "1000": 5,
-      "1250": 4,
-      "1500": 3
     }
   },
   {
@@ -235,14 +131,6 @@
     "description": "The current question pays twice its listed value when answered correctly.",
     "effect": {
       "type": "double_or_nothing"
-    },
-    "weightByValue": {
-      "250": 7,
-      "500": 6,
-      "750": 5,
-      "1000": 3,
-      "1250": 1.5,
-      "1500": 0.5
     }
   },
   {
@@ -253,30 +141,14 @@
       "type": "score_multiplier",
       "min": 1.5,
       "max": 1.9
-    },
-    "weightByValue": {
-      "250": 6,
-      "500": 5,
-      "750": 4,
-      "1000": 3,
-      "1250": 1.5,
-      "1500": 0.5
     }
   },
   {
     "id": "event-wager",
     "name": "Wager",
-    "description": "Choose a wager before answering. The wager is added to a correct payout or lost on an incorrect answer.",
+    "description": "Before answering, lock a whole-number wager. A correct answer adds the wager to the payout; a wrong answer loses the wager in addition to the normal question value.",
     "effect": {
       "type": "wager"
-    },
-    "weightByValue": {
-      "250": 6,
-      "500": 7,
-      "750": 8,
-      "1000": 7,
-      "1250": 5,
-      "1500": 3
     }
   }
 ]
