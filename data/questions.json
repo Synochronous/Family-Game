@@ -5063,198 +5063,426 @@
       "id": "m001",
       "category": "Math",
       "value": 5000,
-      "question": "Evaluate the limit: lim(x→0) [sin(x) − x + x³/6] / x⁵.",
-      "note": "Using the Maclaurin series sin(x)=x−x³/6+x⁵/120−…, the numerator becomes x⁵/120+…, so the limit is 1/120.",
+      "question": "Evaluate the limit as x approaches 0: [tan(x) - x - x³/3] / x⁵.",
+      "note": "Using tan(x) = x + x³/3 + 2x⁵/15 + ..., the numerator has leading term 2x⁵/15, so the limit is 2/15.",
       "difficulty": "very-hard",
       "answers": [
-        "−1/120",
-        "−1/60",
-        "0",
-        "1/120",
-        "1/60",
-        "1/24",
+        "1/15",
+        "2/15",
+        "1/10",
+        "1/12",
+        "2/9",
         "1/6",
-        "1/2"
+        "1/5",
+        "1/3"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 1
     },
     {
       "id": "m002",
       "category": "Math",
       "value": 4500,
-      "question": "What is ∫₀¹ x/(1+x²) dx?",
-      "note": "Let u=1+x², so du=2x dx. The integral is 1/2 ln(u) evaluated from 1 to 2, giving 1/2 ln 2.",
+      "question": "Let f(x) = x²e^x. Which expression gives the value of ∫₀¹ x²e^x dx after integration by parts?",
+      "note": "An antiderivative is e^x(x² - 2x + 2). Evaluating from 0 to 1 gives e - 2.",
       "difficulty": "very-hard",
       "answers": [
-        "ln 2",
-        "1/2 ln 2",
-        "1/2",
-        "ln 3/2",
-        "1/4 ln 2",
-        "2 ln 2",
-        "1/2 ln 3",
-        "1"
+        "e - 1",
+        "2 - e",
+        "e - 2",
+        "2e - 3",
+        "e/2 - 1",
+        "3 - e",
+        "2e - 2",
+        "e - 3"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": "m003",
-      "category": "Science",
+      "category": "Math",
       "value": 5000,
-      "question": "A 0.50 kg object is launched straight upward at 20.0 m/s. Ignoring air resistance and taking g=9.8 m/s², at what height is its kinetic energy exactly half its initial value?",
-      "note": "The initial kinetic energy is 100 J. Half remains as kinetic energy, so 50 J has become gravitational potential energy: mgh=50, giving h=50/(0.50×9.8)=10.2 m.",
+      "question": "A differentiable function satisfies f(1)=3 and f'(x)=2x+1 for every x. What is f(-2)?",
+      "note": "Integrating f'(x) gives f(x)=x²+x+C. Since f(1)=3, C=1. Therefore f(-2)=4-2+1=3.",
       "difficulty": "very-hard",
       "answers": [
-        "5.1 m",
-        "7.7 m",
-        "10.2 m",
-        "12.5 m",
-        "15.3 m",
-        "18.4 m",
-        "20.4 m",
-        "40.8 m"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "m004",
-      "category": "Science",
-      "value": 4000,
-      "question": "A 0.100 M solution of a weak monoprotic acid has Ka=1.8×10⁻⁵. Assuming x≪0.100, what is its approximate pH?",
-      "note": "For a weak acid, [H⁺]≈√(KaC)=√(1.8×10⁻⁶)≈1.34×10⁻³ M, so pH≈2.87.",
-      "difficulty": "very-hard",
-      "answers": [
-        "1.87",
-        "2.37",
-        "2.87",
-        "3.37",
-        "4.13",
-        "4.87",
-        "5.26",
-        "6.00"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "m005",
-      "category": "Science",
-      "value": 3500,
-      "question": "In a Hardy–Weinberg population, the frequency of the recessive phenotype is 0.16. What fraction of the population is expected to be heterozygous?",
-      "note": "The recessive phenotype is q²=0.16, so q=0.4 and p=0.6. Heterozygotes occur at 2pq=2(0.6)(0.4)=0.48.",
-      "difficulty": "very-hard",
-      "answers": [
-        "0.16",
-        "0.24",
-        "0.32",
-        "0.36",
-        "0.48",
-        "0.64",
-        "0.72",
-        "0.84"
-      ],
-      "correctAnswer": 4
-    },
-    {
-      "id": "m006",
-      "category": "Geography",
-      "value": 3000,
-      "question": "Which cold ocean current is most directly associated with the unusually productive fisheries off the west coast of South America?",
-      "note": "The Humboldt, or Peru, Current carries cold, nutrient-rich water northward along western South America, supporting major fisheries.",
-      "difficulty": "very-hard",
-      "answers": [
-        "Agulhas Current",
-        "Brazil Current",
-        "California Current",
-        "Humboldt Current",
-        "Kuroshio Current",
-        "Labrador Current",
-        "Gulf Stream",
-        "East Australian Current"
+        "-1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "9"
       ],
       "correctAnswer": 3
     },
     {
-      "id": "m007",
-      "category": "Geography",
+      "id": "m004",
+      "category": "Math",
       "value": 5000,
-      "question": "Which sovereign state is crossed by both the Equator and the Tropic of Capricorn?",
-      "note": "Both the Equator and the Tropic of Capricorn cross Brazil. No other country in the choices is crossed by both lines.",
+      "question": "For x>0, a function is defined by f(x)=x^x. Which expression equals f'(x)?",
+      "note": "Write x^x=e^(x ln x). Differentiation gives f'(x)=x^x(ln x+1).",
       "difficulty": "very-hard",
       "answers": [
-        "Colombia",
-        "Brazil",
-        "Ecuador",
-        "Peru",
-        "Bolivia",
-        "Paraguay",
-        "Australia",
-        "Indonesia"
+        "x^(x-1)",
+        "x^x ln(x)",
+        "x^x(1/x)",
+        "x^(x-1)(ln x+1)",
+        "x^x(ln x+1)",
+        "x^(x+1)ln(x)",
+        "x^x/(ln x+1)",
+        "x^(x-1)(x ln x+1)"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 4
     },
     {
-      "id": "m008",
-      "category": "World History",
-      "value": 5000,
-      "question": "Which settlement is most directly associated with the principle commonly summarized as cuius regio, eius religio?",
-      "note": "The 1555 Peace of Augsburg allowed the ruler of each state within the Holy Roman Empire to determine whether that state would officially follow Catholicism or Lutheranism.",
+      "id": "m005",
+      "category": "Math",
+      "value": 4500,
+      "question": "The equation x³ - 3x + 1 = 0 has three real roots. How many of those roots lie in the interval (-2, 0)?",
+      "note": "The derivative is 3(x²-1), so the function has extrema at ±1. Checking values and sign changes shows two roots occur between -2 and 0.",
       "difficulty": "very-hard",
       "answers": [
-        "Treaty of Utrecht",
-        "Peace of Augsburg",
-        "Peace of Westphalia",
-        "Treaty of Tordesillas",
-        "Edict of Nantes",
-        "Concordat of Worms",
-        "Treaty of Cateau-Cambrésis",
-        "Peace of Lodi"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m009",
-      "category": "World History",
-      "value": 4000,
-      "question": "The Defenestration of Prague in 1618 most directly helped trigger which major European conflict?",
-      "note": "The 1618 Defenestration of Prague intensified the Bohemian revolt against Habsburg rule and is widely treated as the opening crisis of the Thirty Years' War.",
-      "difficulty": "very-hard",
-      "answers": [
-        "War of the Spanish Succession",
-        "Seven Years' War",
-        "Thirty Years' War",
-        "Great Northern War",
-        "War of the Austrian Succession",
-        "Crimean War",
-        "Napoleonic Wars",
-        "War of the League of Cambrai"
+        "0",
+        "1",
+        "2",
+        "3",
+        "Cannot be determined without solving the cubic",
+        "Exactly one, but only if the endpoints are included",
+        "Exactly two, but only for x≤0",
+        "All three"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "m010",
-      "category": "Filipino History",
+      "id": "m006",
+      "category": "Science",
       "value": 5000,
-      "question": "Which 1897 agreement resulted in Emilio Aguinaldo's temporary exile to Hong Kong and a negotiated payment from the Spanish colonial government?",
-      "note": "The Pact of Biak-na-Bato provided for Aguinaldo and other revolutionary leaders to go into exile while Spain agreed to payments and reforms that were only partially realized.",
+      "question": "A 2.0 kg block moves at 6.0 m/s on a horizontal surface. A constant 5.0 N opposing force acts for 3.0 s. What is the block's kinetic energy immediately afterward?",
+      "note": "The initial momentum is 12 kg·m/s. The impulse is -15 N·s, so the final velocity is -1.5 m/s. The kinetic energy is therefore 0.5(2)(1.5²)=2.25 J.",
       "difficulty": "very-hard",
       "answers": [
-        "Pact of Biak-na-Bato",
-        "Treaty of Paris",
-        "Pact of La Bulaqueña",
-        "Treaty of Manila",
-        "Act of Malolos",
-        "Convention of Tejeros",
-        "Treaty of Zaragoza",
-        "Pact of Naic"
+        "0 J",
+        "1.50 J",
+        "2.25 J",
+        "4.50 J",
+        "7.50 J",
+        "9.00 J",
+        "13.5 J",
+        "18.0 J"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m007",
+      "category": "Science",
+      "value": 5000,
+      "question": "Two identical bulbs are connected in parallel to an ideal battery. A third identical bulb is then connected in parallel with the first two. Compared with the original circuit, what happens to the current through each original bulb?",
+      "note": "The voltage across every parallel branch remains equal to the ideal battery voltage, so the current through each original bulb is unchanged even though total battery current increases.",
+      "difficulty": "very-hard",
+      "answers": [
+        "It decreases by one-third",
+        "It decreases by one-half",
+        "It remains unchanged",
+        "It doubles",
+        "It triples",
+        "It depends on which bulb is physically closest to the battery",
+        "It becomes zero",
+        "It increases by one-third"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m008",
+      "category": "Science",
+      "value": 5000,
+      "question": "A population has 9% individuals with a recessive phenotype under Hardy–Weinberg assumptions. If 10% of the dominant-phenotype individuals are removed from the population at random, which statement best describes the immediate effect on allele frequencies?",
+      "note": "The removed group is sampled from the dominant phenotype, which contains both homozygous dominant and heterozygous individuals. Therefore the allele frequencies generally change; the exact new frequencies cannot be determined from the phenotype frequency alone without knowing the genotype composition of the removed individuals.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Both allele frequencies remain exactly unchanged",
+        "The recessive allele necessarily becomes 10% more common",
+        "The dominant allele necessarily disappears from heterozygotes",
+        "The new allele frequencies cannot be uniquely determined from the stated information",
+        "The recessive allele frequency becomes 0.30",
+        "The dominant allele frequency becomes 0.70",
+        "Both allele frequencies become equal",
+        "Hardy-Weinberg equilibrium guarantees unchanged allele frequencies"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "m009",
+      "category": "Science",
+      "value": 4500,
+      "question": "A weak acid HA has Ka=1.0×10⁻⁵. Two solutions have concentrations 0.10 M and 0.0010 M. Which statement about their pH values is most accurate under the usual weak-acid approximation?",
+      "note": "For a weak acid, [H+]≈sqrt(KaC). A 100-fold concentration decrease produces a 10-fold decrease in [H+], so the pH increases by about 1.",
+      "difficulty": "very-hard",
+      "answers": [
+        "The dilute solution has a pH about 0.5 units higher",
+        "The dilute solution has a pH about 1 unit higher",
+        "The dilute solution has a pH about 2 units higher",
+        "Both have essentially the same pH",
+        "The concentrated solution has a pH about 1 unit higher",
+        "The concentrated solution has a pH about 2 units higher",
+        "The difference depends only on Ka, not concentration",
+        "The approximation predicts a lower pH for the dilute solution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "m010",
+      "category": "Science",
+      "value": 5000,
+      "question": "A projectile is launched with speed v at an angle θ above horizontal. Neglecting air resistance, which change leaves its maximum height unchanged while changing its range?",
+      "note": "Maximum height is proportional to (v sinθ)². Changing θ while simultaneously changing v so that v sinθ remains constant preserves maximum height but generally changes horizontal velocity and therefore range.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Double v while keeping θ fixed",
+        "Halve v while keeping θ fixed",
+        "Change θ and adjust v so that v sinθ remains constant",
+        "Change θ and adjust v so that v cosθ remains constant",
+        "Double both v and θ",
+        "Change θ to 45° regardless of the original speed",
+        "Reverse the sign of g",
+        "Make horizontal velocity zero"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m011",
+      "category": "Geography",
+      "value": 5000,
+      "question": "A city lies at approximately 35°S on the western side of a continent and experiences a pronounced dry summer followed by wetter winters. Which atmospheric-oceanic combination most directly explains this pattern?",
+      "note": "The west-coast subtropical setting is associated with sinking subtropical air and a cold eastern-boundary current in summer, while the poleward shift of the subtropical high and midlatitude systems in winter permits greater precipitation.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Warm western-boundary current and persistent ITCZ rainfall",
+        "Cold eastern-boundary current and seasonal migration of midlatitude storm tracks",
+        "Equatorial upwelling and permanent monsoon circulation",
+        "Warm western-boundary current and year-round polar easterlies",
+        "Cold western-boundary current and permanent subtropical low pressure",
+        "Strong continental heating and summer frontal rainfall",
+        "Year-round dominance of the polar jet directly over the city",
+        "Tropical cyclone activity concentrated in summer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "m012",
+      "category": "Geography",
+      "value": 5000,
+      "question": "A river basin crosses several political borders, but its discharge at a downstream station rises sharply during a season when precipitation in the immediate area is low. Which explanation is most consistent with the situation?",
+      "note": "The discharge reflects the entire upstream drainage basin, so precipitation or snowmelt far upstream can raise downstream discharge even when the local area is relatively dry.",
+      "difficulty": "very-hard",
+      "answers": [
+        "The downstream station must be measuring groundwater only",
+        "Local precipitation is always the dominant control on discharge",
+        "Upstream precipitation or snowmelt can increase discharge despite local dryness",
+        "Political boundaries prevent upstream water from affecting downstream flow",
+        "Low local precipitation necessarily means low basin discharge",
+        "River discharge is determined primarily by latitude",
+        "The river must have reversed direction",
+        "Evaporation increases downstream discharge"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m013",
+      "category": "Geography",
+      "value": 4500,
+      "question": "Which pair of locations is separated by the greatest approximate difference in longitude?",
+      "note": "The maximum possible longitude separation is approached by locations near opposite sides of the 180° meridian. The key is recognizing that longitude is angular distance rather than ordinary east-west distance on a flat map.",
+      "difficulty": "very-hard",
+      "answers": [
+        "10°E and 170°E",
+        "20°W and 150°W",
+        "170°E and 170°W",
+        "30°E and 150°W",
+        "60°E and 120°W",
+        "80°W and 100°E",
+        "0° and 150°W",
+        "45°E and 135°W"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m014",
+      "category": "Geography",
+      "value": 5000,
+      "question": "Which geographic situation most strongly favors the development of a rain shadow?",
+      "note": "A mountain range forces moist air upward on its windward side, producing precipitation. Descending air on the leeward side becomes warmer and drier, creating the rain-shadow effect.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Moist air descending on the windward slope",
+        "Dry air rising over a flat plain",
+        "Moist prevailing winds crossing a substantial mountain barrier",
+        "Cold air moving parallel to a coastline",
+        "Warm ocean water beneath a stationary high-pressure system",
+        "A mountain range aligned exactly parallel to all prevailing winds",
+        "Uniform precipitation on both sides of a mountain",
+        "Strong evaporation with no topographic barrier"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m015",
+      "category": "World History",
+      "value": 5000,
+      "question": "Which development most directly explains why the Peace of Westphalia is often treated as a turning point in European diplomatic history, despite historians disputing how sharply it changed the international system?",
+      "note": "The 1648 settlements ended major phases of the Thirty Years' War and reinforced territorial political authority. The common textbook interpretation emphasizes sovereignty, though historians debate whether Westphalia created a fundamentally new system.",
+      "difficulty": "very-hard",
+      "answers": [
+        "It abolished all dynastic claims in Europe",
+        "It established a universally democratic European political order",
+        "It ended the Holy Roman Empire",
+        "It reinforced territorial political authority and noninterference principles",
+        "It permanently eliminated religious conflict in Europe",
+        "It transferred European political leadership to Russia",
+        "It created the modern European Union",
+        "It made Catholicism illegal throughout the empire"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "m016",
+      "category": "World History",
+      "value": 5000,
+      "question": "A European monarch claims authority over both religious and political institutions within the kingdom, while a rival religious authority challenges that claim. Which broader medieval conflict does this most closely resemble?",
+      "note": "The Investiture Controversy centered on the competing authority of secular rulers and the papacy over the appointment of bishops and other church officials.",
+      "difficulty": "very-hard",
+      "answers": [
+        "The Investiture Controversy",
+        "The Great Schism of 1054",
+        "The Albigensian Crusade",
+        "The Reconquista",
+        "The Avignon Papacy",
+        "The Crusade of Nicopolis",
+        "The Peasants' Revolt",
+        "The Hanseatic League"
       ],
       "correctAnswer": 0
     },
     {
-      "id": "m011",
+      "id": "m017",
+      "category": "World History",
+      "value": 4500,
+      "question": "Which combination best explains why the Ottoman capture of Constantinople in 1453 had consequences beyond the immediate conquest of a Byzantine capital?",
+      "note": "The conquest consolidated Ottoman control over a major strategic crossroads and disrupted established political and commercial arrangements between Europe and the eastern Mediterranean. Claims that it directly 'caused' the Age of Exploration are more complicated.",
+      "difficulty": "very-hard",
+      "answers": [
+        "It immediately destroyed all Mediterranean trade",
+        "It eliminated every Christian state in Europe",
+        "It strengthened Ottoman control of a strategic crossroads and altered regional trade and diplomacy",
+        "It caused the Protestant Reformation within a decade",
+        "It ended the use of overland Asian trade routes entirely",
+        "It transferred the papacy to Constantinople",
+        "It created the first European nation-state",
+        "It immediately unified all Islamic empires"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m018",
+      "category": "World History",
+      "value": 5000,
+      "question": "Which sequence places these events in chronological order from earliest to latest: Magna Carta, Black Death reaches Europe, Protestant Reformation begins, Peace of Westphalia?",
+      "note": "The dates are approximately 1215, 1347, 1517, and 1648 respectively.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Magna Carta → Black Death → Reformation → Westphalia",
+        "Black Death → Magna Carta → Reformation → Westphalia",
+        "Magna Carta → Reformation → Black Death → Westphalia",
+        "Reformation → Magna Carta → Black Death → Westphalia",
+        "Black Death → Reformation → Magna Carta → Westphalia",
+        "Magna Carta → Westphalia → Black Death → Reformation",
+        "Reformation → Black Death → Magna Carta → Westphalia",
+        "Westphalia → Reformation → Black Death → Magna Carta"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "m019",
+      "category": "Filipino History",
+      "value": 5000,
+      "question": "Which development most directly distinguished the Malolos Congress from the earlier revolutionary assemblies associated with the Katipunan?",
+      "note": "The Malolos Congress operated within the revolutionary government that followed the declaration of independence and played a role in establishing a constitutional republican framework, rather than functioning primarily as a secret revolutionary organization.",
+      "difficulty": "very-hard",
+      "answers": [
+        "It operated as a secret society dedicated to initiating an uprising",
+        "It functioned within the revolutionary government and participated in constitutional state-building",
+        "It was created by the Spanish colonial government",
+        "It existed before the Katipunan",
+        "It was primarily a military unit commanded by Andrés Bonifacio",
+        "It negotiated the Treaty of Paris with the United States",
+        "It served as the governing body of the First Philippine Republic before independence was proclaimed",
+        "It abolished the revolutionary government in favor of Spanish rule"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "m020",
+      "category": "Filipino History",
+      "value": 5000,
+      "question": "Why is the Tejeros Convention historically significant beyond the immediate election of revolutionary officials?",
+      "note": "The convention exposed a major political division within the revolutionary movement, particularly between factions associated with Aguinaldo and Bonifacio, and contributed to the subsequent crisis surrounding Bonifacio's authority.",
+      "difficulty": "very-hard",
+      "answers": [
+        "It formally ended Spanish colonial rule in the Philippines",
+        "It established the Commonwealth government",
+        "It revealed and intensified factional conflict within the revolutionary movement",
+        "It created the Malolos Constitution",
+        "It transferred the Philippines from Spain to the United States",
+        "It began the Philippine-American War",
+        "It was the meeting at which independence was proclaimed in Kawit",
+        "It established American sovereignty over Manila"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m021",
+      "category": "Filipino History",
+      "value": 4500,
+      "question": "Which distinction between the Pact of Biak-na-Bato and the Treaty of Paris is historically accurate?",
+      "note": "The Pact of Biak-na-Bato was a negotiated arrangement during the Philippine Revolution involving revolutionary leadership, exile, and payments. The Treaty of Paris in 1898 transferred Spain's sovereignty over the Philippines to the United States.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Both transferred sovereignty over the Philippines to the United States",
+        "Both were agreements between Aguinaldo and the United States",
+        "Biak-na-Bato concerned a revolutionary truce and exile, whereas Paris transferred Spanish sovereignty to the United States",
+        "Paris preceded the outbreak of the Philippine Revolution",
+        "Biak-na-Bato established the Malolos Republic",
+        "Paris ended the Spanish-American War by recognizing Philippine independence",
+        "Biak-na-Bato permanently ended Spanish sovereignty over the Philippines",
+        "Both documents were constitutions of revolutionary governments"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "m022",
+      "category": "Filipino History",
+      "value": 5000,
+      "question": "Which sequence correctly orders these events from earliest to latest?",
+      "note": "The Cavite Mutiny occurred in 1872, the Propaganda Movement developed later in the nineteenth century, the Philippine Revolution began in 1896, and the Malolos Constitution was promulgated in 1899.",
+      "difficulty": "very-hard",
+      "answers": [
+        "Cavite Mutiny → Propaganda Movement → Philippine Revolution → Malolos Constitution",
+        "Propaganda Movement → Cavite Mutiny → Revolution → Malolos Constitution",
+        "Cavite Mutiny → Revolution → Propaganda Movement → Malolos Constitution",
+        "Revolution → Cavite Mutiny → Propaganda Movement → Malolos Constitution",
+        "Malolos Constitution → Revolution → Propaganda Movement → Cavite Mutiny",
+        "Cavite Mutiny → Malolos Constitution → Propaganda Movement → Revolution",
+        "Propaganda Movement → Revolution → Cavite Mutiny → Malolos Constitution",
+        "Revolution → Propaganda Movement → Cavite Mutiny → Malolos Constitution"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "m023",
       "category": "Tagalog",
-      "value": 4000,
-      "question": "In the sentence “Pinaglaruan ni Marco ang parke,” what is the grammatical focus of “pinaglaruan” most directly associated with “ang parke”?",
-      "note": "The pag-...-an pattern in “pinaglaruan” places the location or setting in focus; “ang parke” is the focused location where the action occurred.",
+      "value": 5000,
+      "question": "In the sentence “Ipinagluto ni Ana ng hapunan ang kaniyang mga kapatid,” which grammatical focus is most directly signaled by the verb form “ipinagluto”?",
+      "note": "The ipinang-/ipag- construction can mark benefactive or beneficiary-oriented focus. Here, “ang kaniyang mga kapatid” is the beneficiary of the action.",
       "difficulty": "very-hard",
       "answers": [
         "Actor focus",
@@ -5263,29 +5491,29 @@
         "Benefactive focus",
         "Instrumental focus",
         "Cause focus",
-        "Comparative focus",
-        "Reciprocal focus"
+        "Reciprocal focus",
+        "Directional focus"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
-      "id": "m012",
-      "category": "Filipino History",
+      "id": "m024",
+      "category": "Tagalog",
       "value": 4500,
-      "question": "Which document is the formal declaration of Philippine independence proclaimed at Kawit on June 12, 1898?",
-      "note": "The Acta de la Proclamación de la Independencia del Pueblo Filipino is the declaration read in Kawit on June 12, 1898, under Emilio Aguinaldo's government.",
+      "question": "Which sentence most clearly demonstrates the distinction between “dahil” and “kaya” in a cause-and-effect relationship?",
+      "note": "“Dahil” introduces the cause, while “kaya” introduces the consequence or result.",
       "difficulty": "very-hard",
       "answers": [
-        "Malolos Constitution",
-        "Acta de la Proclamación de la Independencia del Pueblo Filipino",
-        "Pact of Biak-na-Bato",
-        "Tejeros Constitution",
-        "La Solidaridad Manifesto",
-        "Treaty of Paris",
-        "Kartilya ng Katipunan",
-        "Jones Law"
+        "Dahil umulan, kaya nabasa ang kalsada.",
+        "Kaya umulan dahil nabasa ang kalsada.",
+        "Dahil nabasa ang kalsada, umulan kaya.",
+        "Umulan dahil kaya nabasa ang kalsada.",
+        "Dahil kaya umulan, nabasa ang kalsada.",
+        "Nabasa kaya dahil ang kalsada ay umulan.",
+        "Kaya dahil nabasa, ang kalsada ay umulan.",
+        "Umulan kaya dahil nabasa ang kalsada."
       ],
-      "correctAnswer": 1
+      "correctAnswer": 0
     }
   ],
   "mysteryQuestionPoolSize": 12,
