@@ -20,43 +20,43 @@
       "id": "TAG-250-01",
       "category": "Tagalog",
       "value": 250,
-      "question": "What is the Tagalog word for 'window'?",
+      "question": "Sa pangungusap na “Malamig ang simoy ng hangin,” ano ang pinakamalapit na kahulugan ng “simoy”?",
       "choices": {
-        "A": "bubong",
-        "B": "pinto",
-        "C": "bintana",
-        "D": "sahig"
+        "A": "Amoy",
+        "B": "Haplos o daloy ng hangin",
+        "C": "Tunog ng hangin",
+        "D": "Direksiyon ng hangin"
       },
-      "answer": "C",
-      "note": "Pinto = door, bubong = roof, sahig = floor."
+      "answer": "B",
+      "note": "Ang simoy ay banayad na galaw o daloy ng hangin."
     },
     {
       "id": "TAG-250-02",
       "category": "Tagalog",
       "value": 250,
-      "question": "Which day of the week is 'Miyerkules'?",
+      "question": "Alin ang wastong gamit ng “nang” sa pangungusap?",
       "choices": {
-        "A": "Friday",
-        "B": "Wednesday",
-        "C": "Thursday",
-        "D": "Tuesday"
+        "A": "Bumili siya nang tinapay.",
+        "B": "Umalis siya nang maaga.",
+        "C": "Nang bahay ay malinis.",
+        "D": "Nang lapis ang akin."
       },
       "answer": "B",
-      "note": "Martes = Tuesday, Huwebes = Thursday, Biyernes = Friday."
+      "note": "Ginagamit ang nang sa pang-abay na paraan o panahon, gaya ng “nang maaga.”"
     },
     {
       "id": "TAG-250-03",
       "category": "Tagalog",
       "value": 250,
-      "question": "Which Tagalog word means 'tomorrow'?",
+      "question": "Ano ang ipinahihiwatig ng sawikaing “makapal ang mukha”?",
       "choices": {
-        "A": "ngayon",
-        "B": "bukas",
-        "C": "kahapon",
-        "D": "mamaya"
+        "A": "Matapang sa lahat ng pagkakataon",
+        "B": "Walang hiya o hindi madaling mapahiya",
+        "C": "Mahilig magsalita nang malakas",
+        "D": "Palaging galit"
       },
       "answer": "B",
-      "note": "Kahapon = yesterday, mamaya = later today, ngayon = now/today."
+      "note": "Tumutukoy ito sa kawalan ng hiya o pagiging hindi alintana ang puna."
     },
     {
       "id": "TAG-250-04",
@@ -160,43 +160,43 @@
       "id": "TAG-500-01",
       "category": "Tagalog",
       "value": 500,
-      "question": "Which Tagalog word means 'hope'?",
+      "question": "Alin ang pangungusap na gumagamit ng “kung” bilang pangatnig na nagsasaad ng kondisyon?",
       "choices": {
-        "A": "tiwala",
-        "B": "pananampalataya",
-        "C": "pangarap",
-        "D": "pag-asa"
+        "A": "Hindi ko alam kung saan siya nakatira.",
+        "B": "Kung magsasanay ka, gagaling ka.",
+        "C": "Tinanong niya kung aalis ako.",
+        "D": "Sabihin mo kung sino ang nanalo."
       },
-      "answer": "D",
-      "note": "Pangarap = dream, tiwala = trust, pananampalataya = faith."
+      "answer": "B",
+      "note": "Ang “kung magsasanay ka” ay nagtatakda ng kondisyong kailangang matupad."
     },
     {
       "id": "TAG-500-02",
       "category": "Tagalog",
       "value": 500,
-      "question": "Who is your 'bayaw'?",
+      "question": "Sa “Sinulatan ni Lito ng liham si Mara,” sino ang tumatanggap ng liham?",
       "choices": {
-        "A": "Your father-in-law",
-        "B": "Your godfather",
-        "C": "Your stepbrother",
-        "D": "Your brother-in-law"
+        "A": "Si Lito",
+        "B": "Ang liham",
+        "C": "Si Mara",
+        "D": "Ang nagsulat ng liham"
       },
-      "answer": "D",
-      "note": "Biyenan = parent-in-law, ninong = godfather, kapatid sa ama/ina = half/step sibling."
+      "answer": "C",
+      "note": "Si Mara ang tumatanggap ng liham; si Lito ang tagaganap at ang liham ang isinulat."
     },
     {
       "id": "TAG-500-03",
       "category": "Tagalog",
       "value": 500,
-      "question": "In 'Ang mga bata ay naglalaro,' what does 'mga' do?",
+      "question": "Ano ang kaibahan ng “kailangan kong umalis” at “kailangan ko nang umalis”?",
       "choices": {
-        "A": "Marks the subject",
-        "B": "Marks the object",
-        "C": "Makes the noun plural",
-        "D": "Shows past tense"
+        "A": "Walang pagkakaiba",
+        "B": "Ang una ay nagsasaad ng pangangailangan; ang ikalawa ay nagsasaad na oras na o dapat nang gawin ito",
+        "C": "Ang una ay nakaraan; ang ikalawa ay hinaharap",
+        "D": "Ang una ay pakiusap; ang ikalawa ay utos"
       },
-      "answer": "C",
-      "note": "'Mga' is the plural marker; 'ang' marks the subject."
+      "answer": "B",
+      "note": "Ang “nang” ay nagbibigay-diin sa pagkaapurahan o pagiging napapanahon ng pag-alis."
     },
     {
       "id": "TAG-500-04",
@@ -300,43 +300,43 @@
       "id": "TAG-750-01",
       "category": "Tagalog",
       "value": 750,
-      "question": "A person described as 'balat-sibuyas' is…",
+      "question": "Alin ang pinakamalinaw na halimbawa ng pangungusap na may di-tuwirang pahayag?",
       "choices": {
-        "A": "Easily offended",
-        "B": "Two-faced",
-        "C": "Fond of gossip",
-        "D": "Tight with money"
+        "A": "Sinabi ni Ana, “Uuwi ako.”",
+        "B": "Sinabi ni Ana na uuwi siya.",
+        "C": "Uuwi si Ana bukas.",
+        "D": "Ayon kay Ana: “Uuwi ako.”"
       },
-      "answer": "A",
-      "note": "Onion-skinned: thin-skinned, easily hurt."
+      "answer": "B",
+      "note": "Iniuulat ng di-tuwirang pahayag ang sinabi nang walang tuwirang sipi at karaniwang nagbabago ang panghalip."
     },
     {
       "id": "TAG-750-02",
       "category": "Tagalog",
       "value": 750,
-      "question": "What does 'ningas-kugon' describe?",
+      "question": "Sa “Nagluto si Ben ng adobo para sa kaniyang lola,” anong papel ang ginagampanan ng “para sa kaniyang lola”?",
       "choices": {
-        "A": "A habit of telling lies",
-        "B": "A sudden burst of anger",
-        "C": "Enthusiasm that quickly fades",
-        "D": "A stubborn refusal to change"
+        "A": "Tagaganap",
+        "B": "Layon ng pandiwa",
+        "C": "Benepisyaryo",
+        "D": "Ganapan"
       },
       "answer": "C",
-      "note": "Like cogon grass fire: blazes fast, dies fast."
+      "note": "Ang lola ang nakikinabang sa pagluluto."
     },
     {
       "id": "TAG-750-03",
       "category": "Tagalog",
       "value": 750,
-      "question": "What aspect (aspekto) is the verb 'kakain'?",
+      "question": "Aling pares ang pinakamalinaw na nagpapakita ng pagkakaiba ng aspektong naganap at nagaganap?",
       "choices": {
-        "A": "Kontemplatibo",
-        "B": "Katatapos",
-        "C": "Imperpektibo",
-        "D": "Perpektibo"
+        "A": "kumain / kumakain",
+        "B": "kain / kakain",
+        "C": "kinain / kainin",
+        "D": "kainin / pagkain"
       },
       "answer": "A",
-      "note": "Kakain = will eat (contemplated). Kumain = perpektibo, kumakain = imperpektibo, kakakain = katatapos."
+      "note": "Ang “kumain” ay naganap; ang “kumakain” ay nagaganap o nagpapatuloy."
     },
     {
       "id": "TAG-750-04",
@@ -440,71 +440,71 @@
       "id": "TAG-1000-01",
       "category": "Tagalog",
       "value": 1000,
-      "question": "In 'Binili ni Ana ang mangga,' which is the paksa (subject)?",
+      "question": "Sa “Ipinanghiwa ni Rosa ng mangga ang matalim na kutsilyo,” ano ang pokus ng pandiwa?",
       "choices": {
-        "A": "Ana",
-        "B": "Ana at mangga",
-        "C": "mangga",
-        "D": "binili"
+        "A": "Tagaganap",
+        "B": "Layon",
+        "C": "Gamit",
+        "D": "Ganapan"
       },
       "answer": "C",
-      "note": "Object-focus verb: 'ang' marks the paksa (mangga); 'ni Ana' is the actor."
+      "note": "Ang kutsilyo ang gamit na ipinanghiwa."
     },
     {
       "id": "TAG-1000-02",
       "category": "Tagalog",
       "value": 1000,
-      "question": "Which word best completes: 'Pumunta siya sa palengke ___ bumili ng isda'?",
+      "question": "Alin ang may pinakamalinaw na wastong gamit ng “may” at “mayroon”?",
       "choices": {
-        "A": "dahil",
-        "B": "kahit",
-        "C": "upang",
-        "D": "kung"
+        "A": "Mayroon lapis ako.",
+        "B": "Mayroon akong lapis.",
+        "C": "May ako lapis.",
+        "D": "Mayroon sa lapis."
       },
-      "answer": "C",
-      "note": "Upang = in order to. Dahil = because, kahit = even though, kung = if."
+      "answer": "B",
+      "note": "Maaaring gamitin ang “mayroon” bago ang panghalip at pangngalan sa ganitong ayos."
     },
     {
       "id": "TAG-1000-03",
       "category": "Tagalog",
       "value": 1000,
-      "question": "Which sentence uses 'nang' correctly?",
+      "question": "Ano ang pangunahing pagkakaiba ng “Hindi siya umalis dahil umulan” at “Hindi siya umalis, kaya umulan”?",
       "choices": {
-        "A": "Uminom ako nang tubig.",
-        "B": "Bumili siya nang tinapay.",
-        "C": "Umalis siya nang maaga.",
-        "D": "Kumuha siya nang lapis."
+        "A": "Pareho ang sanhi at bunga",
+        "B": "Sa una, ang ulan ang dahilan ng hindi pag-alis; sa ikalawa, ipinapahiwatig na ang hindi pag-alis ang sanhi ng ulan",
+        "C": "Sa una ay kondisyon; sa ikalawa ay paghahambing",
+        "D": "Walang lohikal na pagkakaiba"
       },
-      "answer": "C",
-      "note": "'Nang' introduces manner/time (nang maaga). Objects take 'ng' (ng tinapay)."
+      "answer": "B",
+      "note": "Nagbabago ang ugnayang sanhi-bunga dahil sa ayos ng “dahil” at “kaya.”"
     },
     {
       "id": "TAG-1000-04",
       "category": "Tagalog",
       "value": 1000,
-      "question": "Which compound word has a meaning different from both of its parts?",
+      "question": "Sa “Binasa ng mga mag-aaral ang sanaysay,” bakit “ang sanaysay” ang paksa sa karaniwang pagsusuring Filipino?",
       "choices": {
-        "A": "silid-aralan",
-        "B": "bahay-kubo",
-        "C": "hampaslupa",
-        "D": "punong-guro"
+        "A": "Dahil ito ang gumagawa ng kilos",
+        "B": "Dahil ito ang layong binibigyang-pansin ng pandiwa",
+        "C": "Dahil ito ang nagsasaad ng lugar",
+        "D": "Dahil nauuna ito sa pangungusap"
       },
-      "answer": "C",
-      "note": "Hampaslupa (a poor person) is a tambalang ganap; the others keep their parts' meanings."
+      "answer": "B",
+      "note": "Ang pokus sa layon ay nagtatampok sa sanaysay; hindi sapat ang pagiging una o huli sa pangungusap."
     },
     {
       "id": "TAG-1000-05",
       "category": "Tagalog",
       "value": 1000,
-      "question": "What is the salitang-ugat (root) of 'pinagsabihan'?",
+      "question": "Alin ang pinakamainam na rebisyon upang maiwasan ang kalabuan sa “Nakita niya ang lalaki gamit ang teleskopyo”?",
       "choices": {
-        "A": "pagsabi",
-        "B": "sabihan",
-        "C": "sabi",
-        "D": "sabihin"
+        "A": "Nakita niya ang lalaki, at may teleskopyo.",
+        "B": "Gamit ang teleskopyo, nakita niya ang lalaki.",
+        "C": "Nakita niya ang lalaki gamit niya.",
+        "D": "Ang lalaki ay nakita niya gamit."
       },
-      "answer": "C",
-      "note": "Pinag- + sabi + -han; the root is 'sabi'."
+      "answer": "B",
+      "note": "Inilalapit ng ayos ang pariralang “gamit ang teleskopyo” sa kilos na inilalarawan."
     },
     {
       "id": "TAG-1000-06",
@@ -580,71 +580,71 @@
       "id": "TAG-1250-01",
       "category": "Tagalog",
       "value": 1250,
-      "question": "In 'Ipinagluto ko si Nanay ng adobo,' which is the paksa?",
+      "question": "Sa “Ipinagpagawa ni Mila ng bahay ang kaniyang mga magulang,” sino ang benepisyaryo ng kilos?",
       "choices": {
-        "A": "Nanay",
-        "B": "ipinagluto",
-        "C": "adobo",
-        "D": "ko"
+        "A": "Si Mila",
+        "B": "Ang bahay",
+        "C": "Ang mga magulang ni Mila",
+        "D": "Ang gumawa ng bahay"
       },
-      "answer": "A",
-      "note": "Benefactive focus: the beneficiary (si Nanay) is the paksa."
+      "answer": "C",
+      "note": "Ang mga magulang ang pinaglaanan ng pagpapagawa ng bahay."
     },
     {
       "id": "TAG-1250-02",
       "category": "Tagalog",
       "value": 1250,
-      "question": "Which verb is in pokus sa gamit (instrument focus)?",
+      "question": "Aling pares ang wastong nagtatangi sa pokus sa ganapan at pokus sa layon?",
       "choices": {
-        "A": "isinulat",
-        "B": "ipinansulat",
-        "C": "sumulat",
-        "D": "sinulatan"
+        "A": "Pinagtaniman ni Nena ng gulay ang bakuran / Itinanim ni Nena ang gulay",
+        "B": "Nagtanim si Nena / Nagtatanim si Nena",
+        "C": "Kumain si Nena / Kinain ni Nena",
+        "D": "Magluluto si Nena / Nagluluto si Nena"
       },
-      "answer": "B",
-      "note": "Ipinansulat = used to write with. Isinulat = object, sinulatan = locative/direction, sumulat = actor."
+      "answer": "A",
+      "note": "Sa una, bakuran ang ganapan; sa ikalawa, gulay ang layong binibigyang-pansin."
     },
     {
       "id": "TAG-1250-03",
       "category": "Tagalog",
       "value": 1250,
-      "question": "'Habang maikli ang kumot, matutong mamaluktot' advises you to…",
+      "question": "Bakit hindi laging mapagpapalit ang “daw” at “raw” sa pormal na pagsulat?",
       "choices": {
-        "A": "Rest while you still can",
-        "B": "Live within your means",
-        "C": "Share what little you have",
-        "D": "Prepare for the cold season"
+        "A": "Magkaiba ang kahulugan ng dalawa sa lahat ng pangungusap",
+        "B": "Nakabatay ang pagpili sa tunog na sinusundan, bagaman may baryasyon sa aktuwal na gamit",
+        "C": "Ang “daw” ay para lamang sa nakaraan",
+        "D": "Ang “raw” ay pang-uri"
       },
       "answer": "B",
-      "note": "While the blanket is short, learn to curl up: adjust to limited resources."
+      "note": "Karaniwang tuntunin: “daw” pagkatapos ng katinig, “raw” pagkatapos ng patinig, maliban sa ilang tunog at baryasyon."
     },
     {
       "id": "TAG-1250-04",
       "category": "Tagalog",
       "value": 1250,
-      "question": "What does 'pang-' + 'bayad' become?",
+      "question": "Alin ang pinakamahusay na paliwanag sa “Nakapag-aral siya nang mabuti” kumpara sa “Nakapag-aral siya ng mabuti”?",
       "choices": {
-        "A": "panbayad",
-        "B": "pangbayad",
-        "C": "pambayad",
-        "D": "pamayad"
+        "A": "Parehong laging mali",
+        "B": "Ang “nang mabuti” ay naglalarawan kung paano nag-aral; ang “ng mabuti” ay hindi angkop sa kahulugang iyon",
+        "C": "Ang “ng mabuti” ay nangangahulugang sa mabuting paaralan",
+        "D": "Ang “nang” ay laging pamalit sa “ng”"
       },
-      "answer": "C",
-      "note": "Before b or p, 'pang-' assimilates to 'pam-'; the b is kept here."
+      "answer": "B",
+      "note": "Ang “nang” ay ginagamit dito upang ilarawan ang paraan ng pag-aaral."
     },
     {
       "id": "TAG-1250-05",
       "category": "Tagalog",
       "value": 1250,
-      "question": "Which sentence is in di-karaniwang ayos (inverted order)?",
+      "question": "Aling pangungusap ang may lohikal na problema sa pagtukoy sa gumagawa ng kilos?",
       "choices": {
-        "A": "Naglalaro ang bata.",
-        "B": "Kumain ang bata.",
-        "C": "Masaya ang bata.",
-        "D": "Ang bata ay naglalaro."
+        "A": "Nang matapos ang klase, umuwi ang mga mag-aaral.",
+        "B": "Pagdating sa bahay, sinalubong ni Carlo ang aso.",
+        "C": "Pagkatapos magluto, nasunog ang ulam.",
+        "D": "Dahil umulan, kinansela ang laro."
       },
-      "answer": "D",
-      "note": "Predicate-first is karaniwan in Filipino; subject + 'ay' + predicate is di-karaniwan."
+      "answer": "C",
+      "note": "Sa “Pagkatapos magluto,” tila ang ulam ang nagluto; kailangang tukuyin ang taong nagluto."
     },
     {
       "id": "TAG-1250-06",
@@ -720,71 +720,71 @@
       "id": "TAG-1500-01",
       "category": "Tagalog",
       "value": 1500,
-      "question": "Which verb puts the focus on the place where the action happened?",
+      "question": "Sa “Ipinangtakip ni Lira sa palayok ang dahon ng saging,” anong papel ang itinatampok ng “dahon ng saging”?",
       "choices": {
-        "A": "kumain",
-        "B": "pinagkainan",
-        "C": "kinain",
-        "D": "ipinangkain"
+        "A": "Tagaganap",
+        "B": "Gamit",
+        "C": "Benepisyaryo",
+        "D": "Sanhi"
       },
       "answer": "B",
-      "note": "Pinagkainan (locative). Kinain = object, kumain = actor, ipinangkain = instrument."
+      "note": "Ang dahon ang instrumentong ginamit na pantakip."
     },
     {
       "id": "TAG-1500-02",
       "category": "Tagalog",
       "value": 1500,
-      "question": "In 'Nagpaluto si Lola kay Ana ng pansit,' who actually cooked?",
+      "question": "Sa “Sinulatan ni Marco ng liham ang kaniyang kaibigan,” ano ang papel ng “ang kaniyang kaibigan”?",
       "choices": {
-        "A": "Ana",
-        "B": "Lola",
-        "C": "Both of them",
-        "D": "Not stated"
+        "A": "Tagaganap",
+        "B": "Gamit",
+        "C": "Ang taong pinaglaanan o pinadalhan ng liham",
+        "D": "Ganapan"
       },
-      "answer": "A",
-      "note": "Causative 'magpa-': Lola had Ana cook the pansit."
+      "answer": "C",
+      "note": "Ang kaibigan ang pinaglaanan ng liham; si Marco ang tagaganap at ang liham ang isinulat."
     },
     {
       "id": "TAG-1500-03",
       "category": "Tagalog",
       "value": 1500,
-      "question": "Which word is a pamilang na panunuran (ordinal)?",
+      "question": "Alin ang nagpapakita ng pagkakaiba ng “makapagsulat” at “makasulat” sa karaniwang gamit?",
       "choices": {
-        "A": "katlo",
-        "B": "tatlo",
-        "C": "tigatlo",
-        "D": "ikatlo"
+        "A": "Laging magkapareho ang anyo at kahulugan",
+        "B": "Ang una ay maaaring magdiin sa kakayahang magsulat; ang ikalawa ay maaaring magdiin sa pagkakaroon ng pagkakataong maisulat ang isang bagay",
+        "C": "Ang una ay pangngalan; ang ikalawa ay pang-uri",
+        "D": "Ang ikalawa ay laging nasa aspektong naganap"
       },
-      "answer": "D",
-      "note": "Ikatlo = third. Tatlo = cardinal, tigatlo = three each, katlo = one-third."
+      "answer": "B",
+      "note": "Nagkakapatong ang gamit ng mga anyo, ngunit maaaring magkaiba ang diin sa kakayahan at pagkakagawa."
     },
     {
       "id": "TAG-1500-04",
       "category": "Tagalog",
       "value": 1500,
-      "question": "How many syllables (pantig) are in 'pinagsamantalahan'?",
+      "question": "Sa “Ikinagalit ni Rosa ang mapanuyang komento,” ano ang pokus ng pandiwa?",
       "choices": {
-        "A": "8",
-        "B": "9",
-        "C": "6",
-        "D": "7"
+        "A": "Tagaganap",
+        "B": "Layon",
+        "C": "Sanhi",
+        "D": "Ganapan"
       },
-      "answer": "D",
-      "note": "pi-nag-sa-man-ta-la-han = 7."
+      "answer": "C",
+      "note": "Ang mapanuyang komento ang sanhi ng galit."
     },
     {
       "id": "TAG-1500-05",
       "category": "Tagalog",
       "value": 1500,
-      "question": "What does 'Nakita kita' mean?",
+      "question": "Alin ang pinakamalinaw na dahilan kung bakit maaaring mag-iba ang pakahulugan ng “na” sa Tagalog?",
       "choices": {
-        "A": "He saw you.",
-        "B": "We saw each other.",
-        "C": "I saw you.",
-        "D": "You saw me."
+        "A": "Iisa lamang ang tungkulin nito",
+        "B": "Maaari itong maging pang-angkop, pangatnig, o bahagi ng anyong pandiwa depende sa konteksto",
+        "C": "Ginagamit lamang ito sa tanong",
+        "D": "Palagi itong nangangahulugang “already”"
       },
-      "answer": "C",
-      "note": "'Kita' fuses 'ko' (I) and 'ka' (you): I saw you."
+      "answer": "B",
+      "note": "Maraming gamit ang “na”; kailangang suriin ang sintaks at konteksto."
     },
     {
       "id": "TAG-1500-06",
@@ -860,43 +860,43 @@
       "id": "WH-250-01",
       "category": "World History",
       "value": 250,
-      "question": "Which ancient civilization built the pyramids at Giza?",
+      "question": "Why did early river-valley states often develop near large rivers?",
       "choices": {
-        "A": "Persians",
-        "B": "Sumerians",
-        "C": "Phoenicians",
-        "D": "Egyptians"
+        "A": "Rivers prevented all invasions",
+        "B": "Floodplains supplied water and fertile soil, supporting food surpluses",
+        "C": "Rivers eliminated the need for government",
+        "D": "River water made metal tools unnecessary"
       },
-      "answer": "D",
-      "note": "Built during Egypt's Old Kingdom, c. 2600–2500 BC."
+      "answer": "B",
+      "note": "Reliable water and fertile alluvium supported intensive agriculture and larger settlements."
     },
     {
       "id": "WH-250-02",
       "category": "World History",
       "value": 250,
-      "question": "Who was the first President of the United States?",
+      "question": "Which feature most clearly distinguishes a primary source from a later historical account?",
       "choices": {
-        "A": "George Washington",
-        "B": "John Adams",
-        "C": "Benjamin Franklin",
-        "D": "Thomas Jefferson"
+        "A": "It is always unbiased",
+        "B": "It was created during the period or by a participant/witness being studied",
+        "C": "It is always written",
+        "D": "It is always more accurate"
       },
-      "answer": "A",
-      "note": "Washington served 1789–1797; Adams was second."
+      "answer": "B",
+      "note": "Primary sources originate in the period or from participants, though they still require critical evaluation."
     },
     {
       "id": "WH-250-03",
       "category": "World History",
       "value": 250,
-      "question": "Which war ended in 1945?",
+      "question": "Why did the Roman Republic develop checks such as separate magistracies and a Senate?",
       "choices": {
-        "A": "World War I",
-        "B": "Korean War",
-        "C": "Vietnam War",
-        "D": "World War II"
+        "A": "To guarantee equal power for every resident",
+        "B": "To limit concentration of authority among competing elites and offices",
+        "C": "To abolish social hierarchy",
+        "D": "To give provinces immediate independence"
       },
-      "answer": "D",
-      "note": "WWI ended 1918, Korea 1953 (armistice), Vietnam 1975."
+      "answer": "B",
+      "note": "Republican institutions distributed authority, though political equality remained limited."
     },
     {
       "id": "WH-250-04",
@@ -1000,43 +1000,43 @@
       "id": "WH-500-01",
       "category": "World History",
       "value": 500,
-      "question": "Who was the first person to walk on the Moon?",
+      "question": "Why did the printing press help the Reformation spread?",
       "choices": {
-        "A": "Buzz Aldrin",
-        "B": "Neil Armstrong",
-        "C": "Yuri Gagarin",
-        "D": "John Glenn"
+        "A": "It made every European literate immediately",
+        "B": "It lowered the cost and increased the speed of reproducing arguments and pamphlets",
+        "C": "It ended censorship everywhere",
+        "D": "It prevented religious texts from being translated"
       },
       "answer": "B",
-      "note": "Apollo 11, 1969. Gagarin was the first human in space (1961)."
+      "note": "Printing multiplied the circulation of reformist texts without eliminating illiteracy or censorship."
     },
     {
       "id": "WH-500-02",
       "category": "World History",
       "value": 500,
-      "question": "Which empire did Genghis Khan found?",
+      "question": "Which factor most weakened feudal relationships in parts of Western Europe after the Black Death?",
       "choices": {
-        "A": "Mongol Empire",
-        "B": "Timurid Empire",
-        "C": "Ottoman Empire",
-        "D": "Mughal Empire"
+        "A": "A sudden disappearance of all monarchies",
+        "B": "Labor scarcity that improved bargaining power for some surviving workers",
+        "C": "The end of farming",
+        "D": "A universal ban on trade"
       },
-      "answer": "A",
-      "note": "Founded in 1206."
+      "answer": "B",
+      "note": "Population loss raised the relative value of labor, although effects varied by region."
     },
     {
       "id": "WH-500-03",
       "category": "World History",
       "value": 500,
-      "question": "Which English king agreed to the Magna Carta in 1215?",
+      "question": "Why did the Mongol Empire sometimes facilitate long-distance trade across Eurasia?",
       "choices": {
-        "A": "King John",
-        "B": "King Richard I",
-        "C": "King Henry VIII",
-        "D": "King Edward I"
+        "A": "It removed every tax and conflict permanently",
+        "B": "Imperial control over extensive routes could improve protection and connectivity",
+        "C": "It prohibited merchants from crossing borders",
+        "D": "It moved all trade to sea routes"
       },
-      "answer": "A",
-      "note": "Sealed by King John at Runnymede."
+      "answer": "B",
+      "note": "Mongol rule connected broad territories and could secure routes, despite periods of violence and disruption."
     },
     {
       "id": "WH-500-04",
@@ -1140,43 +1140,43 @@
       "id": "WH-750-01",
       "category": "World History",
       "value": 750,
-      "question": "Which event directly triggered World War I?",
+      "question": "Which comparison between the French and Haitian Revolutions is most accurate?",
       "choices": {
-        "A": "The Zimmermann Telegram",
-        "B": "Germany's invasion of Poland",
-        "C": "Franz Ferdinand's assassination",
-        "D": "The Lusitania's sinking"
+        "A": "Both preserved slavery unchanged",
+        "B": "Both invoked liberty and equality, but the Haitian Revolution directly overturned slavery and colonial racial hierarchy",
+        "C": "The Haitian Revolution preceded the French Revolution",
+        "D": "The French Revolution was led by enslaved plantation workers"
       },
-      "answer": "C",
-      "note": "June 28, 1914, Sarajevo. Poland's invasion started WWII."
+      "answer": "B",
+      "note": "The Haitian Revolution transformed universalist revolutionary language into a struggle against slavery and colonial rule."
     },
     {
       "id": "WH-750-02",
       "category": "World History",
       "value": 750,
-      "question": "Which empire made Constantinople its capital after 1453?",
+      "question": "Why did industrialization initially increase many cities' public-health problems?",
       "choices": {
-        "A": "Russian Empire",
-        "B": "Byzantine Empire",
-        "C": "Ottoman Empire",
-        "D": "Holy Roman Empire"
+        "A": "Factories eliminated migration",
+        "B": "Urban growth often outpaced housing, sanitation, and clean-water infrastructure",
+        "C": "Industrial workers refused all public services",
+        "D": "Cities no longer needed food imports"
       },
-      "answer": "C",
-      "note": "Mehmed II captured the city from the Byzantines in 1453."
+      "answer": "B",
+      "note": "Rapid urbanization overwhelmed infrastructure in many industrial centers."
     },
     {
       "id": "WH-750-03",
       "category": "World History",
       "value": 750,
-      "question": "What was the main purpose of the Marshall Plan?",
+      "question": "Why was the Congress of Vienna (1814–1815) organized around a balance of power?",
       "choices": {
-        "A": "Contain Japan in the Pacific",
-        "B": "Rebuild Western Europe's economy",
-        "C": "Disarm Germany permanently",
-        "D": "Create the United Nations"
+        "A": "To dissolve all monarchies",
+        "B": "To prevent any single state from dominating Europe after the Napoleonic Wars",
+        "C": "To create a unified democratic Europe",
+        "D": "To give France permanent control of the continent"
       },
       "answer": "B",
-      "note": "U.S. aid program launched in 1948."
+      "note": "Diplomats sought a stable arrangement that constrained renewed hegemony."
     },
     {
       "id": "WH-750-04",
@@ -1280,71 +1280,71 @@
       "id": "WH-1000-01",
       "category": "World History",
       "value": 1000,
-      "question": "Why was the Battle of Stalingrad a turning point?",
+      "question": "A historian finds that a ruler's official decree claims a reform was universally welcomed, while private letters describe local resistance. What is the strongest method?",
       "choices": {
-        "A": "It halted Germany's eastern advance",
-        "B": "It knocked Italy out of the war",
-        "C": "It drew the U.S. into the war",
-        "D": "It opened a Western Front"
+        "A": "Accept the decree because it is official",
+        "B": "Reject both sources as useless",
+        "C": "Compare authorship, audience, purpose, and independent evidence before judging the reform's reception",
+        "D": "Assume the letters represent every resident"
       },
-      "answer": "A",
-      "note": "After the 1943 surrender at Stalingrad, Germany was largely on the defensive in the east."
+      "answer": "C",
+      "note": "Source criticism considers perspective and corroborates evidence rather than privileging one source automatically."
     },
     {
       "id": "WH-1000-02",
       "category": "World History",
       "value": 1000,
-      "question": "Which development most directly sped the spread of Protestant ideas in the 1500s?",
+      "question": "Why did the enclosure movement contribute to industrial urbanization in Britain?",
       "choices": {
-        "A": "The printing press",
-        "B": "The voyages of discovery",
-        "C": "The Crusades",
-        "D": "The Black Death"
+        "A": "It made agricultural land unproductive everywhere",
+        "B": "Changes in landholding and farming displaced or redirected some rural labor while agricultural change supported population growth",
+        "C": "It abolished wage labor",
+        "D": "It forced factories to move into villages"
       },
-      "answer": "A",
-      "note": "Luther's writings were printed and spread rapidly."
+      "answer": "B",
+      "note": "Enclosure and agricultural change contributed to rural labor mobility, alongside other economic and demographic causes."
     },
     {
       "id": "WH-1000-03",
       "category": "World History",
       "value": 1000,
-      "question": "The First Opium War (1839–1842) was fought between China and…",
+      "question": "Which factor best explains why the 1917 Russian Revolutions occurred in a state already weakened by World War I?",
       "choices": {
-        "A": "Britain",
-        "B": "France",
-        "C": "Russia",
-        "D": "Japan"
+        "A": "Russia had no industrial workers",
+        "B": "Military failures, supply crises, and distrust of the monarchy intensified existing social and political tensions",
+        "C": "The war eliminated food shortages",
+        "D": "The Duma had absolute control over the army"
       },
-      "answer": "A",
-      "note": "It ended with the Treaty of Nanking, ceding Hong Kong to Britain."
+      "answer": "B",
+      "note": "Wartime pressures amplified preexisting inequalities and a legitimacy crisis."
     },
     {
       "id": "WH-1000-04",
       "category": "World History",
       "value": 1000,
-      "question": "Which Gorbachev policy meant 'openness'?",
+      "question": "Why is it misleading to describe the fall of the Western Roman Empire as a single event caused only by invasions?",
       "choices": {
-        "A": "Perestroika",
-        "B": "Glasnost",
-        "C": "Détente",
-        "D": "Collectivization"
+        "A": "No external groups entered Roman territory",
+        "B": "Political fragmentation, fiscal and military pressures, and external migrations/interventions interacted over time",
+        "C": "Rome had no economic system",
+        "D": "The eastern empire fell in the same year"
       },
       "answer": "B",
-      "note": "Perestroika meant 'restructuring'."
+      "note": "Historians explain the western empire's transformation through interacting internal and external factors."
     },
     {
       "id": "WH-1000-05",
       "category": "World History",
       "value": 1000,
-      "question": "What was the main aim of the Congress of Vienna (1814–1815)?",
+      "question": "Which change most directly helped transform World War II into a global war by late 1941?",
       "choices": {
-        "A": "Unify the Italian states",
-        "B": "End the Thirty Years' War",
-        "C": "Divide Africa among Europeans",
-        "D": "Restore Europe's balance of power"
+        "A": "The signing of the Magna Carta",
+        "B": "Germany's invasion of Poland alone",
+        "C": "Japan's attack on Pearl Harbor and the resulting entry of the United States, alongside the existing European and Asian wars",
+        "D": "The creation of the United Nations in 1945"
       },
-      "answer": "D",
-      "note": "It redrew Europe after Napoleon. Africa was divided at the Berlin Conference."
+      "answer": "C",
+      "note": "The United States' entry expanded the scale and resources of the conflict."
     },
     {
       "id": "WH-1000-06",
@@ -1420,71 +1420,71 @@
       "id": "WH-1250-01",
       "category": "World History",
       "value": 1250,
-      "question": "The Peace of Westphalia (1648) is credited with establishing which principle?",
+      "question": "Two accounts of the same revolution disagree: one emphasizes food prices, the other political exclusion. What evidence would best test whether these causes interacted?",
       "choices": {
-        "A": "Collective security",
-        "B": "Universal male suffrage",
-        "C": "Free trade",
-        "D": "State sovereignty"
+        "A": "A later textbook's conclusion alone",
+        "B": "Price records, petitions, and accounts showing how economic hardship shaped political mobilization",
+        "C": "A portrait of the monarch",
+        "D": "A list of battles without dates"
       },
-      "answer": "D",
-      "note": "It ended the Thirty Years' War and recognized states' authority over their own territory."
+      "answer": "B",
+      "note": "Evidence linking material pressures to political action can test interaction between explanations."
     },
     {
       "id": "WH-1250-02",
       "category": "World History",
       "value": 1250,
-      "question": "Which correctly orders these medieval events, earliest first?",
+      "question": "Why did the 1884–1885 Berlin Conference accelerate European partition of Africa without creating most African borders from scratch at that meeting?",
       "choices": {
-        "A": "Fall of Constantinople, Magna Carta, Black Death",
-        "B": "Magna Carta, Black Death, Fall of Constantinople",
-        "C": "Black Death, Magna Carta, Fall of Constantinople",
-        "D": "Magna Carta, Fall of Constantinople, Black Death"
+        "A": "It transferred every African kingdom to the United States",
+        "B": "It established rules among European powers, while conquest, negotiation, and boundary-making continued afterward",
+        "C": "It granted universal self-government to African states",
+        "D": "It abolished colonial competition"
       },
       "answer": "B",
-      "note": "1215, 1347–1351, 1453."
+      "note": "The conference shaped European claims and procedures, but colonization and border formation unfolded over decades."
     },
     {
       "id": "WH-1250-03",
       "category": "World History",
       "value": 1250,
-      "question": "Because of the Treaty of Tordesillas, which colony became Portuguese-speaking?",
+      "question": "Which interpretation best explains why decolonization after 1945 varied widely in its path?",
       "choices": {
-        "A": "Argentina",
-        "B": "Brazil",
-        "C": "Mexico",
-        "D": "Venezuela"
+        "A": "Every colony received independence through identical negotiations",
+        "B": "Imperial policy, nationalist organization, settler interests, international pressure, and armed conflict differed by region",
+        "C": "The United Nations directly governed every colony",
+        "D": "Economic factors had no influence"
       },
       "answer": "B",
-      "note": "The 1494 line put eastern South America in Portugal's sphere."
+      "note": "Different local and international conditions produced negotiated transitions in some places and wars in others."
     },
     {
       "id": "WH-1250-04",
       "category": "World History",
       "value": 1250,
-      "question": "Besides smallpox, what most helped Cortés defeat the Aztecs with few Spaniards?",
+      "question": "A government claims a famine resulted only from drought, but records show grain exports continued during severe shortages. What is the most defensible inference?",
       "choices": {
-        "A": "Portuguese reinforcements",
-        "B": "Aztecs having no army",
-        "C": "Support from the Inca Empire",
-        "D": "Alliances with rival peoples"
+        "A": "Drought must have been irrelevant",
+        "B": "The records justify investigating policy and distribution alongside environmental conditions, but do not alone prove intent",
+        "C": "Exports prove the famine was fabricated",
+        "D": "One document establishes the exact death toll"
       },
-      "answer": "D",
-      "note": "Tlaxcalans and others supplied tens of thousands of warriors."
+      "answer": "B",
+      "note": "The evidence complicates a single-cause explanation but requires further corroboration."
     },
     {
       "id": "WH-1250-05",
       "category": "World History",
       "value": 1250,
-      "question": "Whose New Economic Policy allowed limited private trade in Soviet Russia?",
+      "question": "Why did the Cold War produce proxy wars in some regions rather than direct U.S.–Soviet combat?",
       "choices": {
-        "A": "Leon Trotsky",
-        "B": "Joseph Stalin",
-        "C": "Vladimir Lenin",
-        "D": "Nikita Khrushchev"
+        "A": "Both powers had no military forces",
+        "B": "Supporting local allies could advance strategic goals while reducing the risk of direct superpower war",
+        "C": "International politics ended after 1945",
+        "D": "Proxy conflicts were always controlled completely by sponsors"
       },
-      "answer": "C",
-      "note": "Introduced in 1921; Stalin later ended it."
+      "answer": "B",
+      "note": "Proxy warfare allowed competition while managing escalation risk, though local actors retained agency."
     },
     {
       "id": "WH-1250-06",
@@ -1560,71 +1560,71 @@
       "id": "WH-1500-01",
       "category": "World History",
       "value": 1500,
-      "question": "Which correctly orders these Atlantic Revolution–era events, earliest first?",
+      "question": "A historian argues that the Industrial Revolution was caused by one invention. Which finding would most seriously weaken that thesis?",
       "choices": {
-        "A": "U.S. independence, French Revolution, Napoleon crowned, Congress of Vienna",
-        "B": "French Revolution, Napoleon crowned, U.S. independence, Congress of Vienna",
-        "C": "U.S. independence, Napoleon crowned, French Revolution, Congress of Vienna",
-        "D": "French Revolution, U.S. independence, Napoleon crowned, Congress of Vienna"
+        "A": "Evidence that the invention existed",
+        "B": "Evidence that productivity rose only where the invention coincided with energy access, capital, labor arrangements, and transport improvements",
+        "C": "A portrait of the inventor",
+        "D": "A patent filed in the same century"
       },
-      "answer": "A",
-      "note": "1776, 1789, 1804, 1814–1815."
+      "answer": "B",
+      "note": "A multi-factor pattern challenges a monocausal account."
     },
     {
       "id": "WH-1500-02",
       "category": "World History",
       "value": 1500,
-      "question": "Why did the Schlieffen Plan help bring Britain into World War I?",
+      "question": "Why do historians dispute whether the Peace of Westphalia instantly created the modern sovereign-state system?",
       "choices": {
-        "A": "It required attacking via Switzerland",
-        "B": "It called for blockading Britain",
-        "C": "It required invading neutral Belgium",
-        "D": "It targeted British colonies"
+        "A": "The treaties were never signed",
+        "B": "Territorial authority was reinforced, but dynastic, religious, and imperial structures continued and sovereignty developed gradually",
+        "C": "Europe had no political borders before 1648",
+        "D": "The settlement abolished all empires"
       },
-      "answer": "C",
-      "note": "Britain had guaranteed Belgian neutrality (Treaty of London, 1839)."
+      "answer": "B",
+      "note": "Westphalia mattered, but the idea of a fully modern state system emerging immediately is too simple."
     },
     {
       "id": "WH-1500-03",
       "category": "World History",
       "value": 1500,
-      "question": "The Investiture Controversy was a dispute over who could…",
+      "question": "Which evidence most strongly supports the claim that the Atlantic slave trade shaped both African societies and the Americas?",
       "choices": {
-        "A": "Crown the French king",
-        "B": "Call a crusade",
-        "C": "Appoint bishops",
-        "D": "Levy church taxes"
+        "A": "A single ship's name",
+        "B": "Linked shipping records, plantation accounts, demographic evidence, and African political records showing connected effects across regions",
+        "C": "A modern map without historical data",
+        "D": "One abolitionist speech alone"
       },
-      "answer": "C",
-      "note": "Pope Gregory VII vs. Emperor Henry IV, 11th century."
+      "answer": "B",
+      "note": "Multiple independent source types can demonstrate interconnected demographic, economic, and political effects."
     },
     {
       "id": "WH-1500-04",
       "category": "World History",
       "value": 1500,
-      "question": "What most directly caused Germany's hyperinflation in 1923?",
+      "question": "A treaty ends a war but leaves unresolved the causes that produced it. What is the best historical conclusion?",
       "choices": {
-        "A": "The Wall Street Crash",
-        "B": "Printing money to cover debts",
-        "C": "Adopting the gold standard",
-        "D": "The loss of its colonies"
+        "A": "The treaty had no consequences",
+        "B": "The treaty may stop immediate fighting without guaranteeing a durable settlement",
+        "C": "All future conflict is inevitable",
+        "D": "Treaties cannot change political boundaries"
       },
       "answer": "B",
-      "note": "The government printed money, especially during the Ruhr occupation. The Crash came in 1929."
+      "note": "Ending hostilities and resolving underlying disputes are different outcomes."
     },
     {
       "id": "WH-1500-05",
       "category": "World History",
       "value": 1500,
-      "question": "Which empire covered the most land at its peak?",
+      "question": "Which approach best avoids presentism when judging a historical institution?",
       "choices": {
-        "A": "Mongol Empire",
-        "B": "British Empire",
-        "C": "Russian Empire",
-        "D": "Spanish Empire"
+        "A": "Ignore all moral questions",
+        "B": "Reconstruct contemporary norms, incentives, and lived effects while distinguishing explanation from moral endorsement",
+        "C": "Assume people in the past thought exactly as people do now",
+        "D": "Use only the institution's official justification"
       },
       "answer": "B",
-      "note": "About 35 million km² (1920) vs. the Mongols' roughly 24 million."
+      "note": "Contextualization helps explain an institution without requiring its endorsement."
     },
     {
       "id": "WH-1500-06",
@@ -1700,43 +1700,43 @@
       "id": "GEO-250-01",
       "category": "Geography",
       "value": 250,
-      "question": "Which is the largest ocean?",
+      "question": "Why are many major cities located near coasts or navigable rivers?",
       "choices": {
-        "A": "Arctic",
-        "B": "Pacific",
-        "C": "Atlantic",
-        "D": "Indian"
+        "A": "Waterways prevent all natural hazards",
+        "B": "They historically reduce transport costs and connect settlements to trade networks",
+        "C": "Coasts always have the mildest climate",
+        "D": "Rivers create unlimited farmland"
       },
       "answer": "B",
-      "note": "The Pacific covers about a third of Earth's surface."
+      "note": "Water transport historically moved bulky goods relatively efficiently."
     },
     {
       "id": "GEO-250-02",
       "category": "Geography",
       "value": 250,
-      "question": "What is the capital of Japan?",
+      "question": "Which map projection property is most important when comparing the true relative sizes of countries?",
       "choices": {
-        "A": "Kyoto",
-        "B": "Nagoya",
-        "C": "Tokyo",
-        "D": "Osaka"
+        "A": "Preserving every shape perfectly",
+        "B": "Preserving area",
+        "C": "Showing all routes as straight lines",
+        "D": "Removing distortion entirely"
       },
-      "answer": "C",
-      "note": "Kyoto was the imperial capital until 1868."
+      "answer": "B",
+      "note": "Equal-area projections preserve relative area, though they distort other properties."
     },
     {
       "id": "GEO-250-03",
       "category": "Geography",
       "value": 250,
-      "question": "Which river flows through the world's largest rainforest?",
+      "question": "Why is it usually cooler at a mountain summit than at its base?",
       "choices": {
-        "A": "Orinoco",
-        "B": "Paraná",
-        "C": "Magdalena",
-        "D": "Amazon"
+        "A": "Gravity removes all heat from high places",
+        "B": "Air pressure decreases with altitude, and rising air expands and cools",
+        "C": "The Sun is farther away by a meaningful amount",
+        "D": "Mountains receive no solar radiation"
       },
-      "answer": "D",
-      "note": "The Amazon basin holds the largest tropical rainforest."
+      "answer": "B",
+      "note": "Lower pressure allows air to expand; the environmental lapse rate generally lowers temperature with altitude."
     },
     {
       "id": "GEO-250-04",
@@ -1840,43 +1840,43 @@
       "id": "GEO-500-01",
       "category": "Geography",
       "value": 500,
-      "question": "Which river flows through Baghdad?",
+      "question": "A coastal desert lies beside a cold ocean current. How can the current contribute to aridity?",
       "choices": {
-        "A": "Tigris",
-        "B": "Jordan",
-        "C": "Euphrates",
-        "D": "Nile"
+        "A": "It always causes intense convection",
+        "B": "It cools lower air, stabilizing the atmosphere and limiting rising moist air",
+        "C": "It increases evaporation enough to guarantee rain",
+        "D": "It blocks all winds"
       },
-      "answer": "A",
-      "note": "The Euphrates runs parallel to the west."
+      "answer": "B",
+      "note": "Cold currents can stabilize air and suppress convection, while other factors also shape rainfall."
     },
     {
       "id": "GEO-500-02",
       "category": "Geography",
       "value": 500,
-      "question": "Which country contains most of the Atacama Desert?",
+      "question": "Why can a country's population density be high near a river delta?",
       "choices": {
-        "A": "Argentina",
-        "B": "Bolivia",
-        "C": "Chile",
-        "D": "Peru"
+        "A": "Deltas are always above flood risk",
+        "B": "Flat land, fertile sediments, and transport access can support dense settlement despite flood hazards",
+        "C": "Deltas have no disease risks",
+        "D": "Rivers stop all saltwater intrusion"
       },
-      "answer": "C",
-      "note": "Northern Chile, along the Pacific coast."
+      "answer": "B",
+      "note": "Deltas offer agricultural and transport advantages but also serious environmental risks."
     },
     {
       "id": "GEO-500-03",
       "category": "Geography",
       "value": 500,
-      "question": "Which African country has the largest population?",
+      "question": "What happens to local solar time as longitude increases eastward?",
       "choices": {
-        "A": "Egypt",
-        "B": "Ethiopia",
-        "C": "Nigeria",
-        "D": "DR Congo"
+        "A": "It becomes earlier by four minutes per degree",
+        "B": "It becomes later by roughly four minutes per degree",
+        "C": "It does not change",
+        "D": "It changes only at the Equator"
       },
-      "answer": "C",
-      "note": "Nigeria has over 200 million people."
+      "answer": "B",
+      "note": "Earth rotates 360° in about 24 hours, or approximately 4 minutes per degree."
     },
     {
       "id": "GEO-500-04",
@@ -1980,43 +1980,43 @@
       "id": "GEO-750-01",
       "category": "Geography",
       "value": 750,
-      "question": "Which country has the world's longest coastline?",
+      "question": "Why can two places at the same latitude have very different climates?",
       "choices": {
-        "A": "Canada",
-        "B": "Russia",
-        "C": "Indonesia",
-        "D": "Australia"
+        "A": "Latitude determines climate completely",
+        "B": "Elevation, ocean currents, prevailing winds, continentality, and relief modify climate",
+        "C": "Longitude alone sets temperature",
+        "D": "Local geography affects rainfall but never temperature"
       },
-      "answer": "A",
-      "note": "About 202,000 km including its Arctic islands."
+      "answer": "B",
+      "note": "Latitude is important but does not determine climate by itself."
     },
     {
       "id": "GEO-750-02",
       "category": "Geography",
       "value": 750,
-      "question": "Which country is completely surrounded by South Africa?",
+      "question": "A mountain range runs perpendicular to moist prevailing winds. Which pattern is most likely?",
       "choices": {
-        "A": "Eswatini",
-        "B": "Namibia",
-        "C": "Lesotho",
-        "D": "Botswana"
+        "A": "Equal rainfall on both sides in every season",
+        "B": "More precipitation on the windward slope and drier conditions in the lee",
+        "C": "More precipitation only in the rain shadow",
+        "D": "No effect on local climate"
       },
-      "answer": "C",
-      "note": "Eswatini also borders Mozambique."
+      "answer": "B",
+      "note": "Orographic lifting promotes windward precipitation; descending air on the leeward side is often drier."
     },
     {
       "id": "GEO-750-03",
       "category": "Geography",
       "value": 750,
-      "question": "Which two countries share the world's longest land border?",
+      "question": "Why might a country with a large total area still have relatively little arable land?",
       "choices": {
-        "A": "Russia and Kazakhstan",
-        "B": "Argentina and Chile",
-        "C": "Canada and United States",
-        "D": "China and Mongolia"
+        "A": "Area and land quality are unrelated in every case",
+        "B": "Much of its territory may be desert, mountain, permafrost, or otherwise unsuitable for cultivation",
+        "C": "Large countries cannot import food",
+        "D": "Arable land depends only on population"
       },
-      "answer": "C",
-      "note": "About 8,900 km; Russia–Kazakhstan is second."
+      "answer": "B",
+      "note": "Total land area does not equal land suitable for crops."
     },
     {
       "id": "GEO-750-04",
@@ -2120,71 +2120,71 @@
       "id": "GEO-1000-01",
       "category": "Geography",
       "value": 1000,
-      "question": "Which ocean current contributes to the Atacama Desert's extreme dryness?",
+      "question": "A river's discharge rises after heavy rain far upstream, while the downstream weather is dry. Which concept best explains this?",
       "choices": {
-        "A": "Agulhas Current",
-        "B": "Gulf Stream",
-        "C": "Kuroshio Current",
-        "D": "Humboldt Current"
+        "A": "The downstream climate controls the entire river",
+        "B": "Discharge integrates water inputs across the upstream drainage basin and travel time",
+        "C": "Rain cannot cross political borders",
+        "D": "River flow is determined only by slope"
       },
-      "answer": "D",
-      "note": "Cold Humboldt waters cool the air and suppress rainfall."
+      "answer": "B",
+      "note": "A river responds to basin-wide precipitation, snowmelt, storage, and routing."
     },
     {
       "id": "GEO-1000-02",
       "category": "Geography",
       "value": 1000,
-      "question": "Traveling westward across the International Date Line, the date…",
+      "question": "A city grows rapidly on a delta while groundwater extraction increases. Which coupled risk is especially plausible?",
       "choices": {
-        "A": "Moves back one day",
-        "B": "Moves forward one hour",
-        "C": "Stays the same",
-        "D": "Moves forward one day"
+        "A": "Reduced flood risk and rising land",
+        "B": "Land subsidence that worsens relative sea-level rise and flood exposure",
+        "C": "Permanent elimination of saltwater intrusion",
+        "D": "A guaranteed increase in river sediment"
       },
-      "answer": "D",
-      "note": "Going west (Americas to Asia) you skip ahead a day."
+      "answer": "B",
+      "note": "Groundwater withdrawal can compact sediments, causing subsidence and increasing coastal risk."
     },
     {
       "id": "GEO-1000-03",
       "category": "Geography",
       "value": 1000,
-      "question": "Which country is doubly landlocked (only landlocked neighbors)?",
+      "question": "Why do west coasts near 20°–35° latitude often contain deserts?",
       "choices": {
-        "A": "Switzerland",
-        "B": "Mongolia",
-        "C": "Kazakhstan",
-        "D": "Uzbekistan"
+        "A": "The ITCZ remains overhead year-round",
+        "B": "Descending air in subtropical high-pressure belts suppresses clouds, often reinforced by cold currents",
+        "C": "The Coriolis effect stops all rainfall",
+        "D": "Mountain ranges are required at every desert"
       },
-      "answer": "D",
-      "note": "Mongolia borders Russia and China, both with coasts."
+      "answer": "B",
+      "note": "Subtropical subsidence is a major desert-forming mechanism; cold currents can intensify dryness."
     },
     {
       "id": "GEO-1000-04",
       "category": "Geography",
       "value": 1000,
-      "question": "Which is the world's fourth most populous country?",
+      "question": "A map shows equal distances from a central point in every direction, but shapes near the edge look stretched. What projection property is likely being prioritized?",
       "choices": {
-        "A": "Pakistan",
-        "B": "Brazil",
-        "C": "Nigeria",
-        "D": "Indonesia"
+        "A": "Equal area everywhere",
+        "B": "Distance from the center",
+        "C": "Perfect shape at all points",
+        "D": "Straight rhumb lines everywhere"
       },
-      "answer": "D",
-      "note": "After India, China, and the United States."
+      "answer": "B",
+      "note": "Azimuthal equidistant projections preserve distance and direction from the center, with distortion increasing outward."
     },
     {
       "id": "GEO-1000-05",
       "category": "Geography",
       "value": 1000,
-      "question": "Monsoons are driven mainly by…",
+      "question": "Why can a country spanning many longitudes use only one official time zone?",
       "choices": {
-        "A": "The El Niño cycle",
-        "B": "Melting mountain glaciers",
-        "C": "Uneven heating of land and sea",
-        "D": "Shifts in ocean salinity"
+        "A": "Longitude has no relationship to solar time",
+        "B": "Time zones are political choices, not a physical requirement that each longitude have a separate legal time",
+        "C": "Earth rotates at different rates over each country",
+        "D": "The Equator removes time differences"
       },
-      "answer": "C",
-      "note": "Land heats and cools faster than sea, reversing winds by season."
+      "answer": "B",
+      "note": "Legal time zones can differ from local solar time for administrative and economic reasons."
     },
     {
       "id": "GEO-1000-06",
@@ -2260,71 +2260,71 @@
       "id": "GEO-1250-01",
       "category": "Geography",
       "value": 1250,
-      "question": "Counting overseas territories, which country has the most time zones?",
+      "question": "A population map shows rapid growth around a capital while rural regions lose residents. Which explanation best fits a common pattern in developing economies?",
       "choices": {
-        "A": "Russia",
-        "B": "United States",
-        "C": "France",
-        "D": "China"
+        "A": "Migration must be caused only by climate",
+        "B": "Jobs, education, services, and investment concentrated in the capital can attract internal migration",
+        "C": "Rural population loss proves national population is falling",
+        "D": "Urban growth always reduces total fertility immediately"
       },
-      "answer": "C",
-      "note": "France has 12 (13 with its Antarctic claim); Russia and the U.S. have 11."
+      "answer": "B",
+      "note": "Urban primacy can reflect uneven concentration of economic opportunities and services."
     },
     {
       "id": "GEO-1250-02",
       "category": "Geography",
       "value": 1250,
-      "question": "Which African river crosses the Equator twice?",
+      "question": "Why is the label “natural disaster” sometimes criticized by human geographers?",
       "choices": {
-        "A": "Niger River",
-        "B": "Zambezi River",
-        "C": "Nile River",
-        "D": "Congo River"
+        "A": "Natural hazards never exist",
+        "B": "A hazard becomes disastrous through exposure, vulnerability, infrastructure, and preparedness as well as the physical event",
+        "C": "Every disaster is entirely human-caused",
+        "D": "Weather forecasts prevent all damage"
       },
-      "answer": "D",
-      "note": "Its arc runs north then back south of the Equator."
+      "answer": "B",
+      "note": "Social vulnerability shapes how strongly a physical hazard affects people."
     },
     {
       "id": "GEO-1250-03",
       "category": "Geography",
       "value": 1250,
-      "question": "Which South American country does NOT border Brazil?",
+      "question": "Two countries share a river, and an upstream dam changes seasonal flow downstream. Which framework is most useful for analyzing the dispute?",
       "choices": {
-        "A": "Bolivia",
-        "B": "Chile",
-        "C": "Peru",
-        "D": "Venezuela"
+        "A": "Only the national population totals",
+        "B": "Transboundary water governance, upstream-downstream dependence, and seasonal flow requirements",
+        "C": "The countries' distance from the Equator only",
+        "D": "The river's name origin"
       },
       "answer": "B",
-      "note": "Only Chile and Ecuador lack a border with Brazil."
+      "note": "River management requires considering shared basins, allocation, ecology, and political institutions."
     },
     {
       "id": "GEO-1250-04",
       "category": "Geography",
       "value": 1250,
-      "question": "Why do coastal cities usually have smaller temperature swings than inland ones?",
+      "question": "Why can the same amount of rainfall produce more flash flooding in an urbanized watershed than in a forested one?",
       "choices": {
-        "A": "Salt particles in the air",
-        "B": "More cloud-free days",
-        "C": "Water's high heat capacity",
-        "D": "Lower average elevation"
+        "A": "Concrete absorbs more water than soil",
+        "B": "Impervious surfaces speed runoff and reduce infiltration, shortening the time water reaches channels",
+        "C": "Trees prevent all runoff",
+        "D": "Urban drainage always stores all rain"
       },
-      "answer": "C",
-      "note": "Oceans warm and cool slowly, moderating nearby air."
+      "answer": "B",
+      "note": "Impervious cover often increases runoff volume and peak discharge."
     },
     {
       "id": "GEO-1250-05",
       "category": "Geography",
       "value": 1250,
-      "question": "Which continent is crossed by both the Equator and the Prime Meridian?",
+      "question": "A country has high GDP per capita but low access to clean water in remote areas. What does this suggest about using GDP per capita alone?",
       "choices": {
-        "A": "Africa",
-        "B": "South America",
-        "C": "Europe",
-        "D": "Asia"
+        "A": "It precisely measures every household's welfare",
+        "B": "National averages can conceal regional inequality and gaps in basic services",
+        "C": "It proves the GDP figure is false",
+        "D": "It means water access is unrelated to development"
       },
-      "answer": "A",
-      "note": "They intersect in the Gulf of Guinea, off Africa."
+      "answer": "B",
+      "note": "Aggregate income does not show how resources and services are distributed."
     },
     {
       "id": "GEO-1250-06",
@@ -2400,71 +2400,71 @@
       "id": "GEO-1500-01",
       "category": "Geography",
       "value": 1500,
-      "question": "Which of these cities lies farthest north?",
+      "question": "A region becomes warmer while annual precipitation remains constant, but drought risk increases. Which explanation is strongest?",
       "choices": {
-        "A": "Rome",
-        "B": "Madrid",
-        "C": "New York City",
-        "D": "Beijing"
+        "A": "Temperature cannot affect drought",
+        "B": "Higher evaporative demand can dry soils and reduce water availability even without lower rainfall",
+        "C": "Drought is defined only by rainfall totals",
+        "D": "Warmer air always produces more local rain"
       },
-      "answer": "A",
-      "note": "Rome ~41.9° N, New York ~40.7°, Madrid ~40.4°, Beijing ~39.9°."
+      "answer": "B",
+      "note": "Drought can intensify through greater evapotranspiration and soil-moisture loss."
     },
     {
       "id": "GEO-1500-02",
       "category": "Geography",
       "value": 1500,
-      "question": "Which river drains into the Indian Ocean rather than the Atlantic?",
+      "question": "A map uses a conformal projection. Which claim can safely be made?",
       "choices": {
-        "A": "Congo",
-        "B": "Zambezi",
-        "C": "Amazon",
-        "D": "Niger"
+        "A": "All areas are shown in correct relative size",
+        "B": "Local angles and shapes are preserved, but area and distance may be distorted",
+        "C": "Every great-circle route is straight",
+        "D": "There is no distortion anywhere"
       },
       "answer": "B",
-      "note": "The Zambezi reaches the sea in Mozambique."
+      "note": "Conformal projections preserve local angles, not all geometric properties."
     },
     {
       "id": "GEO-1500-03",
       "category": "Geography",
       "value": 1500,
-      "question": "On the December solstice, which city has the longest daylight?",
+      "question": "Why can a small island's freshwater supply be vulnerable even if annual rainfall is high?",
       "choices": {
-        "A": "Buenos Aires",
-        "B": "Manila",
-        "C": "Singapore",
-        "D": "Cairo"
+        "A": "Rainfall never replenishes groundwater",
+        "B": "Limited storage, rapid runoff, seasonal variability, and saltwater intrusion can constrain usable freshwater",
+        "C": "Islands have no aquifers",
+        "D": "High rainfall guarantees year-round drinking water"
       },
-      "answer": "A",
-      "note": "It is southern summer, and Buenos Aires (~34.6° S) is farthest south of the Equator."
+      "answer": "B",
+      "note": "Rainfall totals alone do not determine accessible freshwater storage and quality."
     },
     {
       "id": "GEO-1500-04",
       "category": "Geography",
       "value": 1500,
-      "question": "A ship going through the Panama Canal from the Atlantic to the Pacific travels generally…",
+      "question": "A glacier-fed river's peak flow shifts earlier in the year as temperatures rise. What is a plausible long-term concern?",
       "choices": {
-        "A": "Northeast",
-        "B": "Southeast",
-        "C": "West",
-        "D": "Northwest"
+        "A": "Peak flow must continue increasing forever",
+        "B": "Earlier melt may temporarily raise early-season flow but eventually reduce late-season water as glacier storage shrinks",
+        "C": "Glaciers affect only ocean salinity",
+        "D": "The timing of melt cannot affect agriculture"
       },
       "answer": "B",
-      "note": "The canal's Atlantic end (Colón) is northwest of its Pacific end."
+      "note": "Glacier retreat can shift seasonal runoff and reduce dry-season reliability."
     },
     {
       "id": "GEO-1500-05",
       "category": "Geography",
       "value": 1500,
-      "question": "Which capital city is closest to the Equator?",
+      "question": "Why can the same coastal storm create different damage in two towns with similar wind speeds?",
       "choices": {
-        "A": "Quito",
-        "B": "Nairobi",
-        "C": "Singapore",
-        "D": "Jakarta"
+        "A": "Wind speed fully determines losses",
+        "B": "Elevation, coastal shape, building standards, warning systems, and social vulnerability differ",
+        "C": "Storm surge is identical on every coastline",
+        "D": "Population size is the only relevant variable"
       },
-      "answer": "A",
-      "note": "Quito ~0.2° S, Nairobi ~1.3° S, Singapore ~1.3° N, Jakarta ~6.2° S."
+      "answer": "B",
+      "note": "Exposure and vulnerability strongly shape impacts beyond storm intensity."
     },
     {
       "id": "GEO-1500-06",
@@ -2540,43 +2540,43 @@
       "id": "SCI-250-01",
       "category": "Science",
       "value": 250,
-      "question": "What is the chemical formula for water?",
+      "question": "A student doubles the mass of a cart while keeping its net force constant. According to Newton's second law, what happens to its acceleration?",
       "choices": {
-        "A": "O₂",
-        "B": "H₂O",
-        "C": "CO₂",
-        "D": "H₂O₂"
+        "A": "It doubles",
+        "B": "It is halved",
+        "C": "It stays the same",
+        "D": "It becomes zero"
       },
       "answer": "B",
-      "note": "H₂O₂ is hydrogen peroxide."
+      "note": "Since a = F/m, doubling mass at constant net force halves acceleration."
     },
     {
       "id": "SCI-250-02",
       "category": "Science",
       "value": 250,
-      "question": "Which planet is closest to the Sun?",
+      "question": "Why does a metal spoon feel colder than a wooden spoon in the same room?",
       "choices": {
-        "A": "Mercury",
-        "B": "Mars",
-        "C": "Earth",
-        "D": "Venus"
+        "A": "The metal must have a lower temperature",
+        "B": "Metal conducts heat away from the hand faster than wood",
+        "C": "Wood produces heat",
+        "D": "Metal has no thermal energy"
       },
-      "answer": "A",
-      "note": "Venus is second."
+      "answer": "B",
+      "note": "Thermal conductivity changes the rate of heat transfer, not necessarily the object's temperature."
     },
     {
       "id": "SCI-250-03",
       "category": "Science",
       "value": 250,
-      "question": "Which gas do plants take in for photosynthesis?",
+      "question": "A solution changes blue litmus paper to red. What can be concluded most directly?",
       "choices": {
-        "A": "Carbon dioxide",
-        "B": "Oxygen",
-        "C": "Carbon monoxide",
-        "D": "Nitrogen"
+        "A": "It is basic",
+        "B": "It is acidic",
+        "C": "It is neutral",
+        "D": "It contains only water"
       },
-      "answer": "A",
-      "note": "Plants release oxygen as a by-product."
+      "answer": "B",
+      "note": "Blue litmus turning red indicates acidic conditions."
     },
     {
       "id": "SCI-250-04",
@@ -2680,43 +2680,43 @@
       "id": "SCI-500-01",
       "category": "Science",
       "value": 500,
-      "question": "Which organ produces insulin?",
+      "question": "A plant is kept in darkness for several days but is watered normally. Which process is directly limited first?",
       "choices": {
-        "A": "Kidney",
-        "B": "Gallbladder",
-        "C": "Pancreas",
-        "D": "Liver"
+        "A": "Cellular respiration",
+        "B": "Photosynthesis",
+        "C": "Diffusion",
+        "D": "Mineral uptake in every condition"
       },
-      "answer": "C",
-      "note": "Insulin comes from beta cells in the pancreas."
+      "answer": "B",
+      "note": "Light is required for photosynthesis, although respiration continues."
     },
     {
       "id": "SCI-500-02",
       "category": "Science",
       "value": 500,
-      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "question": "Why does a sealed syringe become harder to compress as its plunger is pushed inward?",
       "choices": {
-        "A": "Argon",
-        "B": "Oxygen",
-        "C": "Carbon dioxide",
-        "D": "Nitrogen"
+        "A": "Gas particles become larger",
+        "B": "The same gas occupies less volume, increasing pressure through more frequent particle-wall collisions",
+        "C": "The gas loses all kinetic energy",
+        "D": "The number of gas particles increases automatically"
       },
-      "answer": "D",
-      "note": "About 78% nitrogen, 21% oxygen."
+      "answer": "B",
+      "note": "Compression reduces volume and raises pressure for a fixed amount of gas at roughly constant temperature."
     },
     {
       "id": "SCI-500-03",
       "category": "Science",
       "value": 500,
-      "question": "Which plant-cell part carries out photosynthesis?",
+      "question": "A 12 V battery is connected across a 6 Ω resistor. What current flows through the resistor?",
       "choices": {
-        "A": "Mitochondrion",
-        "B": "Chloroplast",
-        "C": "Nucleus",
-        "D": "Vacuole"
+        "A": "0.5 A",
+        "B": "2 A",
+        "C": "6 A",
+        "D": "72 A"
       },
       "answer": "B",
-      "note": "Chloroplasts contain chlorophyll."
+      "note": "Ohm's law gives I = V/R = 12/6 = 2 A."
     },
     {
       "id": "SCI-500-04",
@@ -2820,43 +2820,43 @@
       "id": "SCI-750-01",
       "category": "Science",
       "value": 750,
-      "question": "Why do we see lightning before we hear thunder?",
+      "question": "A ball is thrown straight upward. At its highest point, ignoring air resistance, which statement is correct?",
       "choices": {
-        "A": "Light travels faster than sound",
-        "B": "Thunder forms after the flash",
-        "C": "Lightning happens first",
-        "D": "Clouds block the sound"
+        "A": "Velocity and acceleration are both zero",
+        "B": "Velocity is zero but acceleration is downward",
+        "C": "Velocity is upward and acceleration is zero",
+        "D": "Velocity and acceleration are both upward"
       },
-      "answer": "A",
-      "note": "Both occur together; light arrives almost instantly."
+      "answer": "B",
+      "note": "The instantaneous velocity is zero at the top, but gravity still accelerates the ball downward."
     },
     {
       "id": "SCI-750-02",
       "category": "Science",
       "value": 750,
-      "question": "Which gas forms when baking soda reacts with vinegar?",
+      "question": "A mutation changes one DNA base but does not change the amino acid sequence. Which explanation is most likely?",
       "choices": {
-        "A": "Hydrogen",
-        "B": "Carbon dioxide",
-        "C": "Carbon monoxide",
-        "D": "Oxygen"
+        "A": "The genetic code is degenerate, so multiple codons can specify the same amino acid",
+        "B": "DNA is never transcribed",
+        "C": "All mutations occur outside genes",
+        "D": "Ribosomes repair every mutation"
       },
-      "answer": "B",
-      "note": "An acid–base reaction releases CO₂ bubbles."
+      "answer": "A",
+      "note": "A synonymous mutation can change a codon without changing the encoded amino acid."
     },
     {
       "id": "SCI-750-03",
       "category": "Science",
       "value": 750,
-      "question": "Which blood vessels carry blood away from the heart?",
+      "question": "Why does adding a catalyst increase reaction rate without changing the reaction's equilibrium constant?",
       "choices": {
-        "A": "Arteries",
-        "B": "Capillaries",
-        "C": "Venules",
-        "D": "Veins"
+        "A": "It raises the energy of all products",
+        "B": "It lowers activation barriers for forward and reverse reactions but does not change the equilibrium energy difference",
+        "C": "It changes the chemical formula of the reactants",
+        "D": "It permanently removes products"
       },
-      "answer": "A",
-      "note": "Veins return blood to the heart."
+      "answer": "B",
+      "note": "A catalyst changes kinetics, not the thermodynamic equilibrium constant at a given temperature."
     },
     {
       "id": "SCI-750-04",
@@ -2960,71 +2960,71 @@
       "id": "SCI-1000-01",
       "category": "Science",
       "value": 1000,
-      "question": "What causes the Moon's phases?",
+      "question": "A v–t graph is a straight line with a negative slope, crossing the time axis from positive to negative velocity. What does the signed area over the full interval represent?",
       "choices": {
-        "A": "The Sun's light dimming",
-        "B": "Earth's shadow falling on it",
-        "C": "The Moon's changing distance",
-        "D": "Our changing view of its lit half"
+        "A": "Total distance only",
+        "B": "Net displacement, with areas below the axis counted negatively",
+        "C": "Acceleration",
+        "D": "Average speed"
       },
-      "answer": "D",
-      "note": "Earth's shadow on the Moon is a lunar eclipse, not a phase."
+      "answer": "B",
+      "note": "The integral of velocity over time is displacement; total distance uses the magnitude of velocity."
     },
     {
       "id": "SCI-1000-02",
       "category": "Science",
       "value": 1000,
-      "question": "Compared with on Earth, an astronaut's mass on the Moon is…",
+      "question": "A population is in Hardy–Weinberg equilibrium with recessive phenotype frequency 0.09. What is the expected heterozygote frequency?",
       "choices": {
-        "A": "Zero",
-        "B": "About six times",
-        "C": "The same",
-        "D": "About one-sixth"
+        "A": "0.09",
+        "B": "0.21",
+        "C": "0.42",
+        "D": "0.49"
       },
       "answer": "C",
-      "note": "Weight drops to about one-sixth; mass does not change."
+      "note": "q²=0.09, so q=0.3 and p=0.7; 2pq=2(0.7)(0.3)=0.42."
     },
     {
       "id": "SCI-1000-03",
       "category": "Science",
       "value": 1000,
-      "question": "Ignoring air resistance, a bowling ball and a tennis ball are dropped together. Which lands first?",
+      "question": "A gas is heated at constant pressure. What happens to its volume under the ideal-gas model?",
       "choices": {
-        "A": "The tennis ball",
-        "B": "Both at once",
-        "C": "It depends on height",
-        "D": "The bowling ball"
+        "A": "It decreases as temperature rises",
+        "B": "It increases in proportion to absolute temperature",
+        "C": "It remains constant",
+        "D": "It becomes inversely proportional to temperature"
       },
       "answer": "B",
-      "note": "Gravity accelerates all objects equally."
+      "note": "Charles's law states V/T is constant at fixed pressure and amount of gas."
     },
     {
       "id": "SCI-1000-04",
       "category": "Science",
       "value": 1000,
-      "question": "Why does ice float on liquid water?",
+      "question": "In a controlled experiment, both the treatment group and control group improve equally. What is the strongest conclusion?",
       "choices": {
-        "A": "It is less dense than water",
-        "B": "Surface tension supports it",
-        "C": "Cold water sinks beneath it",
-        "D": "Air bubbles hold it up"
+        "A": "The treatment definitely works",
+        "B": "The improvement alone does not demonstrate a treatment effect; placebo effects, time, or other factors may explain it",
+        "C": "The control group was unnecessary",
+        "D": "The sample proves no treatment could ever work"
       },
-      "answer": "A",
-      "note": "Water expands when it freezes."
+      "answer": "B",
+      "note": "The treatment's effect must be judged relative to the control, not just pre-post change."
     },
     {
       "id": "SCI-1000-05",
       "category": "Science",
       "value": 1000,
-      "question": "Which process releases energy from glucose inside cells?",
+      "question": "Two resistors, 4 Ω and 6 Ω, are connected in series to a 20 V ideal source. What is the voltage across the 6 Ω resistor?",
       "choices": {
-        "A": "Photosynthesis",
-        "B": "Transpiration",
-        "C": "Cellular respiration",
-        "D": "Digestion"
+        "A": "4 V",
+        "B": "8 V",
+        "C": "12 V",
+        "D": "20 V"
       },
       "answer": "C",
-      "note": "It takes place mainly in mitochondria."
+      "note": "The total resistance is 10 Ω, current is 2 A, and the 6 Ω resistor has 12 V across it."
     },
     {
       "id": "SCI-1000-06",
@@ -3100,71 +3100,71 @@
       "id": "SCI-1250-01",
       "category": "Science",
       "value": 1250,
-      "question": "A ball thrown straight up reaches its highest point. Its acceleration there is…",
+      "question": "A rock weighs 30 N in air and 20 N when fully submerged in water. Assuming the buoyant force equals the weight of displaced water, what is the rock's density relative to water?",
       "choices": {
-        "A": "Zero",
-        "B": "9.8 m/s² upward",
-        "C": "9.8 m/s² downward",
-        "D": "Increasing"
+        "A": "2 times water's density",
+        "B": "3 times water's density",
+        "C": "The same as water",
+        "D": "One-third water's density"
       },
-      "answer": "C",
-      "note": "Velocity is zero at the top, but gravity still accelerates it."
+      "answer": "B",
+      "note": "The rock's weight is 30 N and buoyant force is 10 N; density ratio is 30/10 = 3."
     },
     {
       "id": "SCI-1250-02",
       "category": "Science",
       "value": 1250,
-      "question": "Which blood type is the universal donor for red blood cells?",
+      "question": "A solution has pH 3 and another has pH 5. How do their hydrogen-ion concentrations compare?",
       "choices": {
-        "A": "AB positive",
-        "B": "O negative",
-        "C": "O positive",
-        "D": "A negative"
+        "A": "The pH 3 solution has 2 times as much",
+        "B": "The pH 3 solution has 100 times as much",
+        "C": "The pH 5 solution has 100 times as much",
+        "D": "Their concentrations are equal"
       },
       "answer": "B",
-      "note": "AB positive is the universal recipient."
+      "note": "Each pH unit corresponds to a tenfold change in hydrogen-ion concentration."
     },
     {
       "id": "SCI-1250-03",
       "category": "Science",
       "value": 1250,
-      "question": "At the same room temperature, why does a metal spoon feel colder than a wooden one?",
+      "question": "A species is moved to a new environment where it has no predators and abundant food. Its population grows rapidly, then levels off. What best explains the leveling?",
       "choices": {
-        "A": "Wood produces its own heat",
-        "B": "Metal is actually colder",
-        "C": "Metal reflects body heat",
-        "D": "Metal conducts heat away faster"
+        "A": "Evolution has stopped permanently",
+        "B": "Density-dependent limits such as competition and resource constraints become stronger near carrying capacity",
+        "C": "Births must have ceased entirely",
+        "D": "The environment now has infinite resources"
       },
-      "answer": "D",
-      "note": "Both are the same temperature; metal draws heat from your hand faster."
+      "answer": "B",
+      "note": "Population growth slows as limiting factors intensify near carrying capacity."
     },
     {
       "id": "SCI-1250-04",
       "category": "Science",
       "value": 1250,
-      "question": "What happens to an animal cell placed in very salty water?",
+      "question": "Light enters water from air at an oblique angle. Which pair of changes occurs?",
       "choices": {
-        "A": "It shrinks as water leaves",
-        "B": "It absorbs salt and grows",
-        "C": "It swells as water enters",
-        "D": "It stays the same"
+        "A": "Speed increases and wavelength increases",
+        "B": "Speed decreases and wavelength decreases while frequency stays constant",
+        "C": "Frequency decreases and speed stays constant",
+        "D": "Wavelength stays constant and frequency rises"
       },
-      "answer": "A",
-      "note": "Osmosis moves water out toward the saltier side."
+      "answer": "B",
+      "note": "Frequency is unchanged at the boundary; lower speed in water means shorter wavelength."
     },
     {
       "id": "SCI-1250-05",
       "category": "Science",
       "value": 1250,
-      "question": "Which planet is less dense than water?",
+      "question": "A planet's orbital radius around the same star increases. Under Kepler's third law, what happens to its orbital period?",
       "choices": {
-        "A": "Neptune",
-        "B": "Uranus",
-        "C": "Jupiter",
-        "D": "Saturn"
+        "A": "It decreases",
+        "B": "It increases",
+        "C": "It stays the same",
+        "D": "It becomes zero"
       },
-      "answer": "D",
-      "note": "Saturn's average density is about 0.69 g/cm³."
+      "answer": "B",
+      "note": "For planets orbiting the same star, a larger semimajor axis corresponds to a longer period."
     },
     {
       "id": "SCI-1250-06",
@@ -3240,71 +3240,71 @@
       "id": "SCI-1500-01",
       "category": "Science",
       "value": 1500,
-      "question": "A rock weighs 30 N in air and 20 N fully underwater. Its density is how many times water's?",
+      "question": "A 2.0 kg cart moving at 6.0 m/s experiences a constant 5.0 N force opposite its motion for 1.0 s. What is its speed after that second?",
       "choices": {
-        "A": "1.5",
-        "B": "0.67",
-        "C": "2",
-        "D": "3"
+        "A": "0.5 m/s",
+        "B": "3.5 m/s",
+        "C": "6.0 m/s",
+        "D": "8.5 m/s"
       },
-      "answer": "D",
-      "note": "Buoyant force = 10 N = weight of equal-volume water, so 30 ÷ 10 = 3."
+      "answer": "B",
+      "note": "Acceleration is −5/2 = −2.5 m/s²; velocity changes from 6.0 to 3.5 m/s."
     },
     {
       "id": "SCI-1500-02",
       "category": "Science",
       "value": 1500,
-      "question": "When light passes from air into water, its speed and wavelength…",
+      "question": "A weak monoprotic acid has Ka = 1.0×10⁻⁵. Using [H⁺]≈√(KaC), compare 0.10 M and 0.0010 M solutions. What is the approximate pH difference?",
       "choices": {
-        "A": "Speed stays, wavelength drops",
-        "B": "Both decrease",
-        "C": "Both increase",
-        "D": "Speed drops, wavelength grows"
+        "A": "0.5 units",
+        "B": "1 unit, with the dilute solution higher",
+        "C": "2 units, with the dilute solution higher",
+        "D": "No difference"
       },
       "answer": "B",
-      "note": "Frequency stays constant, so wavelength shrinks with speed."
+      "note": "A 100-fold decrease in concentration lowers [H⁺] by about tenfold, increasing pH by about one."
     },
     {
       "id": "SCI-1500-03",
       "category": "Science",
       "value": 1500,
-      "question": "An object moves in a circle at constant speed. Why is it accelerating?",
+      "question": "A projectile is launched from level ground at speed v and angle θ. Which adjustment preserves maximum height but generally changes range?",
       "choices": {
-        "A": "Its direction keeps changing",
-        "B": "A force pushes it outward",
-        "C": "Its speed is increasing",
-        "D": "It is not accelerating"
+        "A": "Double v and keep θ",
+        "B": "Keep v sin θ constant while changing θ",
+        "C": "Keep v cos θ constant while changing θ",
+        "D": "Change θ to 45° without changing v"
       },
-      "answer": "A",
-      "note": "Acceleration is any change in velocity, including direction."
+      "answer": "B",
+      "note": "Maximum height depends on (v sin θ)², while range also depends on the horizontal component and flight time."
     },
     {
       "id": "SCI-1500-04",
       "category": "Science",
       "value": 1500,
-      "question": "Which is the strongest evidence the continents were once joined?",
+      "question": "An enzyme's activity falls sharply above a certain temperature. Which explanation is strongest?",
       "choices": {
-        "A": "Similar climates today",
-        "B": "Tides on both shores",
-        "C": "Volcanoes along coastlines",
-        "D": "Matching fossils across oceans"
+        "A": "The reaction has run out of atoms",
+        "B": "Heat disrupts the enzyme's structure, altering the active site's shape",
+        "C": "Higher temperature always lowers molecular motion",
+        "D": "The enzyme becomes a different element"
       },
-      "answer": "D",
-      "note": "Fossils like Mesosaurus appear in both South America and Africa."
+      "answer": "B",
+      "note": "Excessive heat can denature the protein and reduce substrate binding/catalysis."
     },
     {
       "id": "SCI-1500-05",
       "category": "Science",
       "value": 1500,
-      "question": "Which has more total thermal energy?",
+      "question": "A bulb is added in parallel to two identical bulbs connected to an ideal battery. What happens to current through each original bulb?",
       "choices": {
-        "A": "They are equal",
-        "B": "A cup of boiling water",
-        "C": "Neither has any",
-        "D": "A bathtub of warm water"
+        "A": "It decreases because total current rises",
+        "B": "It remains unchanged because each branch still has the battery voltage",
+        "C": "It doubles because there are three branches",
+        "D": "It becomes zero"
       },
-      "answer": "D",
-      "note": "Temperature is average energy per particle; the tub has far more water."
+      "answer": "B",
+      "note": "In an ideal parallel circuit, each branch receives the same source voltage."
     },
     {
       "id": "SCI-1500-06",
@@ -3380,43 +3380,43 @@
       "id": "MATH-250-01",
       "category": "Math",
       "value": 250,
-      "question": "What is 7 × 8?",
+      "question": "A jacket costs $80 and is discounted by 25%. What is the sale price?",
       "choices": {
-        "A": "48",
-        "B": "54",
-        "C": "63",
-        "D": "56"
+        "A": "$20",
+        "B": "$55",
+        "C": "$60",
+        "D": "$75"
       },
-      "answer": "D",
-      "note": "7 × 8 = 56."
+      "answer": "C",
+      "note": "25% of $80 is $20, so the sale price is $60."
     },
     {
       "id": "MATH-250-02",
       "category": "Math",
       "value": 250,
-      "question": "What is 15% of 200?",
+      "question": "If 3x − 7 = 11, what is x?",
       "choices": {
-        "A": "35",
-        "B": "30",
-        "C": "15",
-        "D": "25"
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "18"
       },
       "answer": "B",
-      "note": "0.15 × 200 = 30."
+      "note": "Add 7 to get 3x=18, then divide by 3."
     },
     {
       "id": "MATH-250-03",
       "category": "Math",
       "value": 250,
-      "question": "What is the square root of 144?",
+      "question": "A rectangle has perimeter 30 cm and length 9 cm. What is its width?",
       "choices": {
-        "A": "72",
-        "B": "14",
-        "C": "11",
-        "D": "12"
+        "A": "3 cm",
+        "B": "6 cm",
+        "C": "12 cm",
+        "D": "21 cm"
       },
-      "answer": "D",
-      "note": "12 × 12 = 144."
+      "answer": "B",
+      "note": "2(L+W)=30, so L+W=15 and W=6."
     },
     {
       "id": "MATH-250-04",
@@ -3520,43 +3520,43 @@
       "id": "MATH-500-01",
       "category": "Math",
       "value": 500,
-      "question": "What is 12 − 3 × 2 + 4?",
+      "question": "A recipe uses 3 cups of flour for 8 servings. How much flour is needed for 20 servings at the same ratio?",
       "choices": {
-        "A": "−6",
-        "B": "10",
-        "C": "2",
-        "D": "22"
+        "A": "5 cups",
+        "B": "7.5 cups",
+        "C": "8 cups",
+        "D": "12 cups"
       },
       "answer": "B",
-      "note": "Multiply first: 12 − 6 + 4 = 10."
+      "note": "Scale by 20/8: 3×2.5=7.5 cups."
     },
     {
       "id": "MATH-500-02",
       "category": "Math",
       "value": 500,
-      "question": "What is the area of a triangle with base 10 and height 6?",
+      "question": "A fair coin is flipped twice. What is the probability of getting exactly one head?",
       "choices": {
-        "A": "30",
-        "B": "16",
-        "C": "60",
-        "D": "32"
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "1"
       },
-      "answer": "A",
-      "note": "½ × 10 × 6 = 30."
+      "answer": "B",
+      "note": "The outcomes HT and TH are 2 of 4 equally likely outcomes."
     },
     {
       "id": "MATH-500-03",
       "category": "Math",
       "value": 500,
-      "question": "What is 2/3 + 1/4?",
+      "question": "The mean of five numbers is 12. Four numbers sum to 41. What is the fifth number?",
       "choices": {
-        "A": "3/7",
-        "B": "9/12",
-        "C": "11/12",
-        "D": "5/6"
+        "A": "11",
+        "B": "15",
+        "C": "19",
+        "D": "21"
       },
       "answer": "C",
-      "note": "8/12 + 3/12 = 11/12."
+      "note": "The total must be 5×12=60, so the fifth number is 19."
     },
     {
       "id": "MATH-500-04",
@@ -3660,43 +3660,43 @@
       "id": "MATH-750-01",
       "category": "Math",
       "value": 750,
-      "question": "A car travels 180 km in 2 hours 15 minutes. What is its average speed?",
+      "question": "A tank is 3/5 full. After 24 liters are added, it is 3/4 full. What is the tank's capacity?",
       "choices": {
-        "A": "72 km/h",
-        "B": "90 km/h",
-        "C": "80 km/h",
-        "D": "84 km/h"
+        "A": "120 L",
+        "B": "140 L",
+        "C": "160 L",
+        "D": "180 L"
       },
       "answer": "C",
-      "note": "2 h 15 min = 2.25 h; 180 ÷ 2.25 = 80."
+      "note": "The increase is 3/4−3/5=3/20 of capacity; 24÷(3/20)=160 L."
     },
     {
       "id": "MATH-750-02",
       "category": "Math",
       "value": 750,
-      "question": "5 workers build a wall in 12 days. At the same rate, how long would 6 workers take?",
+      "question": "A line passes through (2, 7) and (6, 19). What is its y-intercept?",
       "choices": {
-        "A": "10 days",
-        "B": "13 days",
-        "C": "14.4 days",
-        "D": "11 days"
+        "A": "−1",
+        "B": "1",
+        "C": "3",
+        "D": "7"
       },
-      "answer": "A",
-      "note": "5 × 12 = 60 worker-days; 60 ÷ 6 = 10."
+      "answer": "B",
+      "note": "Slope=(19−7)/(6−2)=3, so y=3x+1; intercept is 1."
     },
     {
       "id": "MATH-750-03",
       "category": "Math",
       "value": 750,
-      "question": "Rolling two dice, what is the probability the sum is 7?",
+      "question": "A bag contains 4 red and 6 blue marbles. One marble is chosen at random. What is the probability it is not blue?",
       "choices": {
-        "A": "1/7",
-        "B": "1/12",
-        "C": "7/36",
-        "D": "1/6"
+        "A": "2/5",
+        "B": "3/5",
+        "C": "1/2",
+        "D": "4/6"
       },
-      "answer": "D",
-      "note": "6 of the 36 outcomes sum to 7."
+      "answer": "A",
+      "note": "There are 4 red marbles out of 10, so the probability is 4/10=2/5."
     },
     {
       "id": "MATH-750-04",
@@ -3800,71 +3800,71 @@
       "id": "MATH-1000-01",
       "category": "Math",
       "value": 1000,
-      "question": "A price rises 20%, then falls 20%. What is the overall change?",
+      "question": "A price increases by 20% and then decreases by 20%. What is the net change from the original price?",
       "choices": {
-        "A": "4% decrease",
-        "B": "No change",
-        "C": "4% increase",
-        "D": "2% decrease"
+        "A": "No change",
+        "B": "A 4% decrease",
+        "C": "A 4% increase",
+        "D": "A 20% decrease"
       },
-      "answer": "A",
-      "note": "1.2 × 0.8 = 0.96."
+      "answer": "B",
+      "note": "Multiplying by 1.2 and then 0.8 gives 0.96 of the original price."
     },
     {
       "id": "MATH-1000-02",
       "category": "Math",
       "value": 1000,
-      "question": "What is the sum of the interior angles of an octagon?",
+      "question": "A quadratic has roots 2 and −5 and leading coefficient 3. Which is its expanded form?",
       "choices": {
-        "A": "1,260°",
-        "B": "900°",
-        "C": "1,080°",
-        "D": "1,440°"
+        "A": "3x²+9x−30",
+        "B": "3x²−9x−30",
+        "C": "3x²+3x−10",
+        "D": "x²+3x−10"
       },
-      "answer": "C",
-      "note": "(8 − 2) × 180° = 1,080°."
+      "answer": "A",
+      "note": "3(x−2)(x+5)=3(x²+3x−10)=3x²+9x−30."
     },
     {
       "id": "MATH-1000-03",
       "category": "Math",
       "value": 1000,
-      "question": "What are the solutions of x² − 5x + 6 = 0?",
+      "question": "A right triangle has legs 9 and 12. What is the radius of its circumcircle?",
       "choices": {
-        "A": "1 and 6",
-        "B": "2 and 3",
-        "C": "−2 and −3",
-        "D": "−1 and 6"
+        "A": "6",
+        "B": "7.5",
+        "C": "10.5",
+        "D": "15"
       },
       "answer": "B",
-      "note": "(x − 2)(x − 3) = 0."
+      "note": "The hypotenuse is 15, and the circumradius of a right triangle is half the hypotenuse, 7.5."
     },
     {
       "id": "MATH-1000-04",
       "category": "Math",
       "value": 1000,
-      "question": "Flipping two fair coins, what is the probability of at least one head?",
+      "question": "A line has slope 2 and passes through (−1, 4). Which equation represents it?",
       "choices": {
-        "A": "3/4",
-        "B": "1/2",
-        "C": "1/4",
-        "D": "2/3"
+        "A": "y=2x+6",
+        "B": "y=2x+2",
+        "C": "y=−2x+2",
+        "D": "y=−x+3"
       },
       "answer": "A",
-      "note": "1 − P(no heads) = 1 − 1/4."
+      "note": "Using y−4=2(x+1) gives y=2x+6."
     },
     {
       "id": "MATH-1000-05",
       "category": "Math",
       "value": 1000,
-      "question": "Store A sells 4 for ₱150; Store B sells 6 for ₱210. Which is cheaper per item, and by how much?",
+      "question": "A fair six-sided die is rolled twice. What is the probability that the sum is 7?",
       "choices": {
-        "A": "Store A, by ₱2.50",
-        "B": "They cost the same",
-        "C": "Store B, by ₱1.50",
-        "D": "Store B, by ₱2.50"
+        "A": "1/12",
+        "B": "1/6",
+        "C": "1/5",
+        "D": "1/3"
       },
-      "answer": "D",
-      "note": "A: ₱37.50 each; B: ₱35.00 each."
+      "answer": "B",
+      "note": "Six of the 36 ordered outcomes sum to 7, so the probability is 1/6."
     },
     {
       "id": "MATH-1000-06",
@@ -3942,69 +3942,69 @@
       "value": 1250,
       "question": "Two cards are drawn without replacement from a standard 52-card deck. What is the probability both are aces?",
       "choices": {
-        "A": "1/169",
-        "B": "1/26",
+        "A": "1/221",
+        "B": "1/169",
         "C": "1/52",
-        "D": "1/221"
+        "D": "4/52"
       },
-      "answer": "D",
-      "note": "4/52 × 3/51 = 1/221. 1/169 would be with replacement."
+      "answer": "A",
+      "note": "(4/52)(3/51)=1/221."
     },
     {
       "id": "MATH-1250-02",
       "category": "Math",
       "value": 1250,
-      "question": "Pipe A fills a tank in 6 hours; pipe B fills it in 3 hours. Together, how long?",
+      "question": "A quadratic function has vertex (3, −4) and passes through (1, 4). What is its equation in vertex form?",
       "choices": {
-        "A": "4.5 hours",
-        "B": "1.5 hours",
-        "C": "2 hours",
-        "D": "3 hours"
+        "A": "y=2(x−3)²−4",
+        "B": "y=(x+3)²−4",
+        "C": "y=−2(x−3)²−4",
+        "D": "y=2(x+3)²+4"
       },
-      "answer": "C",
-      "note": "1/6 + 1/3 = 1/2 tank per hour."
+      "answer": "A",
+      "note": "Substitute (1,4): 4=a(−2)²−4, so a=2."
     },
     {
       "id": "MATH-1250-03",
       "category": "Math",
       "value": 1250,
-      "question": "If x + y = 10 and x − y = 4, what is xy?",
+      "question": "A pipe fills a tank in 6 hours and another in 4 hours. How long do they take together, assuming constant rates?",
       "choices": {
-        "A": "24",
-        "B": "28",
-        "C": "16",
-        "D": "21"
+        "A": "2 hours",
+        "B": "2.4 hours",
+        "C": "3 hours",
+        "D": "5 hours"
       },
-      "answer": "D",
-      "note": "x = 7, y = 3."
+      "answer": "B",
+      "note": "Combined rate is 1/6+1/4=5/12 tank per hour; time is 12/5=2.4 hours."
     },
     {
       "id": "MATH-1250-04",
       "category": "Math",
       "value": 1250,
-      "question": "What is the remainder when 2¹⁰ is divided by 7?",
+      "question": "A circle's radius increases by 10%. By what percentage does its area increase?",
       "choices": {
-        "A": "4",
-        "B": "1",
-        "C": "3",
-        "D": "2"
+        "A": "10%",
+        "B": "20%",
+        "C": "21%",
+        "D": "100%"
       },
-      "answer": "D",
-      "note": "1,024 = 7 × 146 + 2."
+      "answer": "C",
+      "note": "Area scales with radius squared: 1.1²=1.21, a 21% increase."
     },
     {
       "id": "MATH-1250-05",
       "category": "Math",
       "value": 1250,
-      "question": "To double a circle's area, multiply its radius by…",
+      "question": "If f(x)=x²−4x and g(x)=2x+1, what is f(g(1))?",
       "choices": {
-        "A": "2",
-        "B": "4",
-        "C": "√2",
-        "D": "π"
+        "A": "−3",
+        "B": "1",
+        "C": "5",
+        "D": "9"
       },
-      "answer": "C",
-      "note": "Area scales with r²; (√2)² = 2."
+      "answer": "A",
+      "note": "g(1)=3, and f(3)=9−12=−3."
     },
     {
       "id": "MATH-1250-06",
@@ -4080,71 +4080,71 @@
       "id": "MATH-1500-01",
       "category": "Math",
       "value": 1500,
-      "question": "How many different 3-person committees can be chosen from 8 people?",
+      "question": "A fair die is rolled four times. What is the probability of getting at least one 6?",
       "choices": {
-        "A": "24",
-        "B": "112",
-        "C": "56",
-        "D": "336"
+        "A": "625/1296",
+        "B": "671/1296",
+        "C": "1/6",
+        "D": "1/2"
       },
-      "answer": "C",
-      "note": "8C3 = 336 ÷ 6 = 56. 336 counts ordered picks."
+      "answer": "B",
+      "note": "Use the complement: 1−(5/6)^4 = 671/1296."
     },
     {
       "id": "MATH-1500-02",
       "category": "Math",
       "value": 1500,
-      "question": "Rolling a fair die 4 times, what is the probability of at least one 6?",
+      "question": "How many distinct 4-person committees can be chosen from 9 people?",
       "choices": {
-        "A": "About 67%",
-        "B": "About 52%",
-        "C": "About 40%",
-        "D": "About 48%"
+        "A": "36",
+        "B": "84",
+        "C": "126",
+        "D": "3024"
       },
-      "answer": "B",
-      "note": "1 − (5/6)⁴ = 671/1296 ≈ 51.8%."
+      "answer": "C",
+      "note": "The number is C(9,4)=126."
     },
     {
       "id": "MATH-1500-03",
       "category": "Math",
       "value": 1500,
-      "question": "What is the sum of the infinite series 8 + 4 + 2 + 1 + …?",
+      "question": "For x>0, f(x)=x^x. Which expression equals f′(x)?",
       "choices": {
-        "A": "16",
-        "B": "15",
-        "C": "It is infinite",
-        "D": "32"
+        "A": "x^(x−1)",
+        "B": "x^x ln x",
+        "C": "x^x(ln x+1)",
+        "D": "x^(x−1)(ln x+1)"
       },
-      "answer": "A",
-      "note": "a ÷ (1 − r) = 8 ÷ ½ = 16."
+      "answer": "C",
+      "note": "Write x^x=e^(x ln x); differentiating gives x^x(ln x+1)."
     },
     {
       "id": "MATH-1500-04",
       "category": "Math",
       "value": 1500,
-      "question": "If 2^x = 32, what is 4^(x − 1)?",
+      "question": "A polynomial has roots −2, 1, and 4 and leading coefficient 2. What is its constant term?",
       "choices": {
-        "A": "128",
-        "B": "256",
-        "C": "64",
+        "A": "−16",
+        "B": "−8",
+        "C": "8",
         "D": "16"
       },
-      "answer": "B",
-      "note": "x = 5, so 4⁴ = 256."
+      "answer": "D",
+      "note": "The polynomial is 2(x+2)(x−1)(x−4); the constant term is 2·2·(−1)·(−4)=16."
     },
     {
       "id": "MATH-1500-05",
       "category": "Math",
       "value": 1500,
-      "question": "What is the smallest number greater than 2 that leaves remainder 2 when divided by 3, 4, and 5?",
+      "question": "A function satisfies f′(x)=3x²−4 and f(0)=5. What is f(2)?",
       "choices": {
-        "A": "62",
-        "B": "32",
-        "C": "22",
-        "D": "122"
+        "A": "1",
+        "B": "5",
+        "C": "7",
+        "D": "9"
       },
-      "answer": "A",
-      "note": "LCM(3, 4, 5) = 60; 60 + 2 = 62."
+      "answer": "B",
+      "note": "Integrating gives f(x)=x³−4x+5, so f(2)=5."
     },
     {
       "id": "MATH-1500-06",
@@ -4220,43 +4220,43 @@
       "id": "FH-250-01",
       "category": "Filipino History",
       "value": 250,
-      "question": "Who wrote the novel 'Noli Me Tangere'?",
+      "question": "Why was the Propaganda Movement different from the Katipunan?",
       "choices": {
-        "A": "José Rizal",
-        "B": "Apolinario Mabini",
-        "C": "Andrés Bonifacio",
-        "D": "Emilio Aguinaldo"
+        "A": "It primarily sought reforms through writing and advocacy, while the Katipunan organized for revolution",
+        "B": "It was a Spanish military unit",
+        "C": "It began after Philippine independence",
+        "D": "It rejected education entirely"
       },
       "answer": "A",
-      "note": "Published in Berlin in 1887."
+      "note": "Propagandists generally pressed for reforms; the Katipunan organized an independence revolution."
     },
     {
       "id": "FH-250-02",
       "category": "Filipino History",
       "value": 250,
-      "question": "Who was the Supremo of the Katipunan when the Revolution began in 1896?",
+      "question": "Why is the 1896 execution of José Rizal often considered politically consequential beyond his death?",
       "choices": {
-        "A": "Andrés Bonifacio",
-        "B": "Emilio Aguinaldo",
-        "C": "José Rizal",
-        "D": "Emilio Jacinto"
+        "A": "It immediately ended Spanish rule",
+        "B": "It intensified anti-colonial sentiment and made him a symbol for later nationalist movements",
+        "C": "It created the Commonwealth",
+        "D": "It ended the Katipunan"
       },
-      "answer": "A",
-      "note": "Rizal was never a Katipunan member."
+      "answer": "B",
+      "note": "Rizal's execution became a powerful symbol, though revolution had multiple causes."
     },
     {
       "id": "FH-250-03",
       "category": "Filipino History",
       "value": 250,
-      "question": "On what date is Philippine Independence Day celebrated?",
+      "question": "What was the main purpose of the Malolos Constitution?",
       "choices": {
-        "A": "December 30",
-        "B": "August 30",
-        "C": "July 4",
-        "D": "June 12"
+        "A": "To establish a constitutional framework for the First Philippine Republic",
+        "B": "To restore the Spanish monarchy",
+        "C": "To create American territorial government",
+        "D": "To end all local elections permanently"
       },
-      "answer": "D",
-      "note": "December 30 is Rizal Day."
+      "answer": "A",
+      "note": "The constitution provided a framework for the revolutionary republic."
     },
     {
       "id": "FH-250-04",
@@ -4360,43 +4360,43 @@
       "id": "FH-500-01",
       "category": "Filipino History",
       "value": 500,
-      "question": "Where was José Rizal executed in 1896?",
+      "question": "Why did the Cavite Mutiny of 1872 become significant to later Filipino nationalism?",
       "choices": {
-        "A": "Dapitan",
-        "B": "Bagumbayan",
-        "C": "Kawit",
-        "D": "Fort Santiago"
+        "A": "It immediately established independence",
+        "B": "Spanish authorities' response, including executions of GOMBURZA, became a focal point of nationalist criticism",
+        "C": "It ended the Propaganda Movement",
+        "D": "It created the Philippine Commonwealth"
       },
       "answer": "B",
-      "note": "Bagumbayan is today's Luneta (Rizal Park). He was held in Fort Santiago."
+      "note": "The executions and controversy surrounding the mutiny shaped reformist and nationalist thought."
     },
     {
       "id": "FH-500-02",
       "category": "Filipino History",
       "value": 500,
-      "question": "Which Rizal novel is the sequel to 'Noli Me Tangere'?",
+      "question": "What was one major consequence of the Treaty of Paris of 1898 for the Philippines?",
       "choices": {
-        "A": "El Filibusterismo",
-        "B": "Mi Último Adiós",
-        "C": "Florante at Laura",
-        "D": "La Solidaridad"
+        "A": "Spain recognized full Philippine independence",
+        "B": "Spain ceded the Philippines to the United States",
+        "C": "The United States ceded the Philippines to Spain",
+        "D": "The treaty established the Malolos Republic"
       },
-      "answer": "A",
-      "note": "Published in 1891 in Ghent."
+      "answer": "B",
+      "note": "The treaty transferred Spain's claim to the Philippines to the United States."
     },
     {
       "id": "FH-500-03",
       "category": "Filipino History",
       "value": 500,
-      "question": "Which was the first permanent Spanish settlement in the Philippines?",
+      "question": "Why was the opening of the Suez Canal in 1869 relevant to Filipino reformist thought?",
       "choices": {
-        "A": "Cebu",
-        "B": "Iloilo",
-        "C": "Manila",
-        "D": "Vigan"
+        "A": "It made travel between the Philippines and Europe faster, helping circulation of ideas and people",
+        "B": "It ended Spanish rule immediately",
+        "C": "It abolished the galleon trade in 1565",
+        "D": "It made Manila landlocked"
       },
       "answer": "A",
-      "note": "Founded by Legazpi in 1565; Manila followed in 1571."
+      "note": "Faster travel strengthened connections between Filipino students, reformists, and European political debates."
     },
     {
       "id": "FH-500-04",
@@ -4500,43 +4500,43 @@
       "id": "FH-750-01",
       "category": "Filipino History",
       "value": 750,
-      "question": "Who is called the 'Brains of the Katipunan'?",
+      "question": "Why did the Tejeros Convention deepen conflict within the revolutionary movement?",
       "choices": {
-        "A": "Emilio Jacinto",
-        "B": "Andrés Bonifacio",
-        "C": "Apolinario Mabini",
-        "D": "Pío Valenzuela"
+        "A": "It abolished the Spanish monarchy",
+        "B": "Disputes over leadership and the legitimacy of the election sharpened divisions between revolutionary factions",
+        "C": "It transferred the Philippines to the United States",
+        "D": "It established the 1935 Commonwealth"
       },
-      "answer": "A",
-      "note": "Mabini is the 'Brains of the Revolution'."
+      "answer": "B",
+      "note": "Factional conflict and disputes over the convention's proceedings damaged unity."
     },
     {
       "id": "FH-750-02",
       "category": "Filipino History",
       "value": 750,
-      "question": "What act symbolized the Cry of Pugad Lawin in 1896?",
+      "question": "Which statement best distinguishes the First Philippine Republic from the Commonwealth established in 1935?",
       "choices": {
-        "A": "Raising the first flag",
-        "B": "Signing a constitution",
-        "C": "Tearing of cédulas",
-        "D": "Burning a church"
+        "A": "The First Republic emerged from the 1898–1899 revolution; the Commonwealth was a transitional government under U.S. sovereignty",
+        "B": "Both were created by the 1987 Constitution",
+        "C": "The Commonwealth preceded the Spanish colonial period",
+        "D": "The First Republic was established by Japan in 1943"
       },
-      "answer": "C",
-      "note": "Katipuneros tore their community tax certificates."
+      "answer": "A",
+      "note": "The Malolos Republic and the U.S.-era Commonwealth arose in different political contexts."
     },
     {
       "id": "FH-750-03",
       "category": "Filipino History",
       "value": 750,
-      "question": "Gomez, Burgos, and Zamora were executed in 1872 following which event?",
+      "question": "Why did the Philippine-American War continue after the Treaty of Paris?",
       "choices": {
-        "A": "The Battle of Mactan",
-        "B": "Dagohoy's revolt",
-        "C": "The Cry of Pugad Lawin",
-        "D": "The Cavite Mutiny"
+        "A": "The treaty recognized an independent Philippine government accepted by all sides",
+        "B": "Filipino nationalists rejected U.S. sovereignty, while the treaty transferred Spain's claim without Filipino consent",
+        "C": "Spain regained Manila in 1902",
+        "D": "The war was fought only over trade tariffs"
       },
-      "answer": "D",
-      "note": "Spanish authorities blamed the three priests for the mutiny."
+      "answer": "B",
+      "note": "The treaty was negotiated between Spain and the United States, not the Filipino revolutionary government."
     },
     {
       "id": "FH-750-04",
@@ -4640,71 +4640,71 @@
       "id": "FH-1000-01",
       "category": "Filipino History",
       "value": 1000,
-      "question": "What is the earliest known written document found in the Philippines?",
+      "question": "Why is the Pact of Biak-na-Bato not equivalent to a treaty granting Philippine independence?",
       "choices": {
-        "A": "Calatagan Pot inscription",
-        "B": "Laguna Copperplate Inscription",
-        "C": "Boxer Codex",
-        "D": "Doctrina Christiana"
+        "A": "It was a truce involving exile and promised payments, not international recognition of independence",
+        "B": "It transferred sovereignty from Spain to the United States",
+        "C": "It created the 1987 Constitution",
+        "D": "It abolished the Katipunan before the revolution began"
       },
-      "answer": "B",
-      "note": "Dated to 900 AD. The Calatagan Pot is centuries later; the other two are Spanish-era."
+      "answer": "A",
+      "note": "The pact paused conflict and arranged exile; it did not establish sovereign independence."
     },
     {
       "id": "FH-1000-02",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Why did the Tejeros Convention (1897) cause a crisis?",
+      "question": "Which factor helps explain why the 1935 Constitution included a transition toward independence rather than immediate full sovereignty?",
       "choices": {
-        "A": "Aguinaldo was captured there",
-        "B": "Spain discovered the Katipunan",
-        "C": "Rizal refused to lead it",
-        "D": "Bonifacio rejected its results"
+        "A": "The Philippines was already fully independent in 1935",
+        "B": "The Commonwealth operated under a U.S. framework that set a transition period toward independence",
+        "C": "The constitution was written under Japanese occupation",
+        "D": "The constitution prohibited any future republic"
       },
-      "answer": "D",
-      "note": "His election as Director of the Interior was challenged."
+      "answer": "B",
+      "note": "The Commonwealth was designed as a transitional government under U.S. sovereignty."
     },
     {
       "id": "FH-1000-03",
       "category": "Filipino History",
       "value": 1000,
-      "question": "The Pact of Biak-na-Bato (1897) provided for…",
+      "question": "Why is the 1973 Constitution's political context important when evaluating the Marcos government's claim of constitutional legitimacy?",
       "choices": {
-        "A": "Recognition of independence",
-        "B": "A truce and exile to Hong Kong",
-        "C": "A joint Filipino–Spanish government",
-        "D": "Transfer to American rule"
+        "A": "Constitutional texts can be evaluated without considering how they were adopted",
+        "B": "The constitution was adopted during martial-law rule, raising questions about coercion, ratification, and concentration of power",
+        "C": "It was drafted before the Philippine Revolution",
+        "D": "It abolished the presidency before Marcos took office"
       },
       "answer": "B",
-      "note": "Aguinaldo and others left for Hong Kong in exchange for payment."
+      "note": "The conditions of adoption and implementation are central to assessing constitutional legitimacy."
     },
     {
       "id": "FH-1000-04",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Which 1899 incident began the Philippine–American War?",
+      "question": "Why did the 1986 People Power Revolution lead to a major constitutional transition?",
       "choices": {
-        "A": "Shooting at San Juan Bridge",
-        "B": "Aguinaldo's capture",
-        "C": "The Battle of Manila Bay",
-        "D": "The Balangiga incident"
+        "A": "It restored the 1935 Constitution without changes",
+        "B": "The new government moved to replace the Marcos-era constitutional order, culminating in the 1987 Constitution",
+        "C": "It reinstated Spanish colonial administration",
+        "D": "It created the Malolos Republic"
       },
-      "answer": "A",
-      "note": "February 4, 1899. Balangiga was 1901; Manila Bay (1898) was against Spain."
+      "answer": "B",
+      "note": "The post-EDSA government undertook a new constitutional process, resulting in the 1987 Constitution."
     },
     {
       "id": "FH-1000-05",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Which U.S. law set a 10-year transition to Philippine independence?",
+      "question": "What is the strongest reason historians compare the Propaganda Movement with the revolutionary movement without treating them as identical?",
       "choices": {
-        "A": "Bell Trade Act",
-        "B": "Tydings–McDuffie Act",
-        "C": "Philippine Organic Act",
-        "D": "Jones Law"
+        "A": "Both had exactly the same goals and methods",
+        "B": "They shared opposition to colonial abuses, but differed in strategies, organizations, and willingness to pursue armed revolution",
+        "C": "The Propaganda Movement began after the 1986 revolution",
+        "D": "The Katipunan was a newspaper published in Madrid"
       },
       "answer": "B",
-      "note": "Passed 1934; the Jones Law (1916) only promised eventual independence."
+      "note": "There were connections and overlap, but reformist advocacy and revolutionary organizing were distinct approaches."
     },
     {
       "id": "FH-1000-06",
@@ -4780,71 +4780,71 @@
       "id": "FH-1250-01",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Rizal was exiled to Dapitan soon after founding which organization?",
+      "question": "A colonial report describes a revolt as criminal disorder, while a local account frames it as resistance to abuses. How should a historian assess the disagreement?",
       "choices": {
-        "A": "La Liga Filipina",
-        "B": "La Solidaridad",
-        "C": "The Cofradía de San José",
-        "D": "The Katipunan"
+        "A": "Accept the colonial report as neutral because it is official",
+        "B": "Compare each source's purpose, position, corroboration, and the specific grievances documented",
+        "C": "Assume the local account is automatically accurate",
+        "D": "Ignore both and use only modern summaries"
       },
-      "answer": "A",
-      "note": "Founded July 1892; he was arrested days later."
+      "answer": "B",
+      "note": "Source criticism weighs perspective and evidence rather than treating either source as automatically definitive."
     },
     {
       "id": "FH-1250-02",
       "category": "Filipino History",
       "value": 1250,
-      "question": "The British occupied Manila (1762–1764) as part of which war?",
+      "question": "Why did the Malolos Congress matter to the First Philippine Republic beyond symbolic representation?",
       "choices": {
-        "A": "War of Spanish Succession",
-        "B": "War of Jenkins' Ear",
-        "C": "Seven Years' War",
-        "D": "Napoleonic Wars"
+        "A": "It helped formulate constitutional institutions and laws for a revolutionary government",
+        "B": "It was the body that signed the Treaty of Paris for Spain",
+        "C": "It governed the Philippines during the 1986 transition",
+        "D": "It served as the Katipunan's secret initiation council"
       },
-      "answer": "C",
-      "note": "Spain joined France against Britain in 1762."
+      "answer": "A",
+      "note": "The congress participated in constitutional state-building for the republic."
     },
     {
       "id": "FH-1250-03",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Which Spanish policy moved scattered natives into towns 'under the bells'?",
+      "question": "Why did the Hare–Hawes–Cutting Act become controversial among Filipino leaders including Manuel L. Quezon?",
       "choices": {
-        "A": "Polo y servicio",
-        "B": "Reducción",
-        "C": "Encomienda",
-        "D": "Tributo"
+        "A": "It granted immediate independence without conditions",
+        "B": "Disagreements centered on its provisions, including military bases and trade arrangements, and the terms of the transition",
+        "C": "It returned the Philippines to Spain",
+        "D": "It abolished the legislature permanently"
       },
       "answer": "B",
-      "note": "Centralized settlements around a church."
+      "note": "Filipino leaders disagreed over the act's conditions and implications for sovereignty."
     },
     {
       "id": "FH-1250-04",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Whose 1902 surrender is often seen as ending organized resistance in the Philippine–American War?",
+      "question": "What does the conflicting historical dating of the “Cry” events of August 1896 most clearly demonstrate?",
       "choices": {
-        "A": "Gregorio del Pilar",
-        "B": "Macario Sakay",
-        "C": "Miguel Malvar",
-        "D": "Antonio Luna"
+        "A": "The revolution did not happen",
+        "B": "Historical events can be remembered and documented differently, requiring comparison of testimonies and definitions of the event",
+        "C": "All eyewitness accounts are worthless",
+        "D": "Only the date in a modern textbook matters"
       },
-      "answer": "C",
-      "note": "Sakay kept fighting until 1906, but as a smaller movement."
+      "answer": "B",
+      "note": "Different participants' accounts and differing definitions complicate a single uncontested date."
     },
     {
       "id": "FH-1250-05",
       "category": "Filipino History",
       "value": 1250,
-      "question": "The postwar 'parity rights' amendment gave Americans…",
+      "question": "Why is the 1872 Cavite Mutiny often discussed alongside the execution of GOMBURZA and the rise of reformist nationalism?",
       "choices": {
-        "A": "U.S. citizenship for Filipinos",
-        "B": "Equal access to natural resources",
-        "C": "Votes in Philippine elections",
-        "D": "Control of foreign policy"
+        "A": "The three are unrelated events separated by centuries",
+        "B": "The colonial response and executions became a catalyst in later critiques of Spanish rule and racial injustice",
+        "C": "The executions ended all reformist writing",
+        "D": "The mutiny established the Commonwealth"
       },
       "answer": "B",
-      "note": "Required by the Bell Trade Act; ratified in 1947."
+      "note": "The event's political aftermath influenced later reformist and nationalist narratives."
     },
     {
       "id": "FH-1250-06",
@@ -4920,71 +4920,71 @@
       "id": "FH-1500-01",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Which colonial system forced natives to sell produce to the government at set prices?",
+      "question": "Which comparison between the Pact of Biak-na-Bato and the Treaty of Paris is most accurate?",
       "choices": {
-        "A": "Polo y servicio",
-        "B": "Reducción",
-        "C": "Bandala",
-        "D": "Encomienda"
+        "A": "Both recognized Philippine independence in international law",
+        "B": "Biak-na-Bato was a revolutionary truce involving exile; Paris transferred Spain's claim over the Philippines to the United States",
+        "C": "Both were constitutions of the First Republic",
+        "D": "Paris was signed between Aguinaldo and Bonifacio"
       },
-      "answer": "C",
-      "note": "Polo y servicio was forced labor; encomienda granted tribute rights."
+      "answer": "B",
+      "note": "The agreements had different parties, purposes, and consequences for sovereignty."
     },
     {
       "id": "FH-1500-02",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Quezon opposed the Hare–Hawes–Cutting Act mainly over which provision?",
+      "question": "Why is it inaccurate to describe the 1898 declaration of independence as immediately ending colonial conflict?",
       "choices": {
-        "A": "Abolishing the legislature",
-        "B": "Retained U.S. military bases",
-        "C": "No independence at all",
-        "D": "Osmeña as automatic president"
+        "A": "No declaration was made in 1898",
+        "B": "The declaration asserted independence, but U.S. sovereignty claims and the Philippine-American War prevented uncontested self-rule",
+        "C": "Spain remained the sole authority until 1946 without interruption",
+        "D": "The declaration was issued by the Commonwealth"
       },
       "answer": "B",
-      "note": "He then secured the Tydings–McDuffie Act in 1934."
+      "note": "A declaration did not automatically secure recognition or control of territory."
     },
     {
       "id": "FH-1500-03",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Which correctly orders these Revolution-era events, earliest first?",
+      "question": "How did the U.S. colonial period differ institutionally from Spanish rule, while still maintaining colonial control?",
       "choices": {
-        "A": "Rizal's execution, Pugad Lawin, Biak-na-Bato, Kawit",
-        "B": "Pugad Lawin, Biak-na-Bato, Rizal's execution, Kawit",
-        "C": "Pugad Lawin, Rizal's execution, Biak-na-Bato, Kawit",
-        "D": "Biak-na-Bato, Pugad Lawin, Rizal's execution, Kawit"
+        "A": "It introduced no new institutions",
+        "B": "It expanded U.S.-style public education and representative institutions while ultimate sovereignty remained American",
+        "C": "It gave immediate full independence in 1898",
+        "D": "It abolished all local political participation"
       },
-      "answer": "C",
-      "note": "Aug 1896, Dec 1896, Dec 1897, June 1898."
+      "answer": "B",
+      "note": "Institutional changes coexisted with colonial sovereignty and limits on self-government."
     },
     {
       "id": "FH-1500-04",
       "category": "Filipino History",
       "value": 1500,
-      "question": "What most directly ended the Manila–Acapulco Galleon Trade?",
+      "question": "What is the most careful conclusion when official records and oral histories disagree about a local resistance movement?",
       "choices": {
-        "A": "Manila opening to world trade",
-        "B": "The British occupation of Manila",
-        "C": "Mexico's war of independence",
-        "D": "The Suez Canal's opening"
+        "A": "One source type must always be discarded",
+        "B": "Compare dates, context, transmission, incentives, and independent corroboration; the evidence may support a qualified conclusion",
+        "C": "Oral accounts can never be evidence",
+        "D": "Official records always capture ordinary people's views"
       },
-      "answer": "C",
-      "note": "The last galleon sailed in 1815. Suez (1869) and Manila's opening (1834) came later."
+      "answer": "B",
+      "note": "A historian triangulates evidence and explains uncertainty where it remains."
     },
     {
       "id": "FH-1500-05",
       "category": "Filipino History",
       "value": 1500,
-      "question": "How did Spanish authorities learn of the Katipunan in August 1896?",
+      "question": "Why did the 1987 Constitution include mechanisms intended to limit executive power after the Marcos era?",
       "choices": {
-        "A": "The Tejeros Convention",
-        "B": "Rizal's arrest in Dapitan",
-        "C": "The Cry of Pugad Lawin",
-        "D": "Teodoro Patiño's revelation"
+        "A": "To abolish all national elections",
+        "B": "The framers sought institutional safeguards against concentrated authority, informed by the experience of authoritarian rule",
+        "C": "To restore hereditary monarchy",
+        "D": "To remove judicial review from government"
       },
-      "answer": "D",
-      "note": "Patiño told a friar, who alerted the authorities."
+      "answer": "B",
+      "note": "The post-authoritarian constitutional design included checks and protections against abuse of power."
     },
     {
       "id": "FH-1500-06",
