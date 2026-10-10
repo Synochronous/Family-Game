@@ -162,7 +162,7 @@
       "value": 500,
       "question": "Alin ang pinakamalinaw na pagkakaiba ng “Nagsulat si Lira ng liham” at “Sinulatan ni Lira ang guro”?",
       "choices": {
-        "A": "Ang una ay actor-focus; ang ikalawa ay may patient/locative focus sa pandiwang sinulatan.",
+        "A": "Ang una ay actor-focus; ang ikalawa ay may patient/locative focus sa pandiwang sinulatan",
         "B": "Ang una ay nasa aspektong nagaganap; ang ikalawa ay pawatas",
         "C": "Ang ikalawa ay nangangahulugang ang guro ang sumulat",
         "D": "Pareho silang pangungusap na walang pandiwa"
@@ -276,7 +276,7 @@
       "choices": {
         "A": "Ang pahayag ay utos",
         "B": "Siguradong napatunayan ang pahayag",
-        "C": "Ang pahayag ay iniuulat ngunit hindi ganap na pinatutunayan ng nagsasalita",
+        "C": "Iniulat ito, hindi lubos na pinagtibay ng nagsasalita",
         "D": "Ang pahayag ay laging kasinungalingan"
       },
       "answer": "C",
@@ -289,7 +289,7 @@
       "question": "Aling pares ang pinakamalapit sa pagkakaiba ng “masinop” at “maramot”?",
       "choices": {
         "A": "Maingay; tahimik",
-        "B": "Maingat at mahusay gumamit ng yaman; ayaw gumastos kahit nararapat",
+        "B": "Maingat sa yaman; ayaw gumastos kahit nararapat",
         "C": "Mapagbigay; mapagpasalamat",
         "D": "Parehong nangangahulugang mayaman"
       },
@@ -316,7 +316,7 @@
       "value": 750,
       "question": "Alin ang pinakamahusay na paliwanag sa pagkakaiba ng “Nabasa ko ang liham” at “Binasa ko ang liham”?",
       "choices": {
-        "A": "Maaaring di-sinasadyang pagkatuklas/pagkakabasa ang nabasa; sinadyang pagbasa ang binasa.",
+        "A": "Maaaring di-sinasadyang pagkatuklas/pagkakabasa ang nabasa; sinadyang pagbasa ang binasa",
         "B": "Ang nabasa ay nangangahulugang isinulat",
         "C": "Ang binasa ay panghinaharap",
         "D": "Pareho silang laging nangangahulugang nabasa sa ulan"
@@ -344,7 +344,7 @@
       "value": 750,
       "question": "Bakit hindi eksaktong magkasingkahulugan ang “dangal” at “karangalan” sa lahat ng konteksto?",
       "choices": {
-        "A": "Maaaring tumukoy ang dangal sa integridad o dignidad, samantalang ang karangalan ay maaari ring tumukoy sa pagkilalang iginawad.",
+        "A": "Dangal: integridad o dignidad; karangalan: dangal na kinikilala",
         "B": "Walang kahulugan ang dangal sa Filipino",
         "C": "Ang karangalan ay laging insulto",
         "D": "Ang dangal ay pandiwa at karangalan ay pang-abay"
@@ -361,7 +361,7 @@
         "A": "Ginagawang tanong ang pangungusap",
         "B": "Ginagawang nagdaan ang pangungusap",
         "C": "Tinatanggal ang ideya ng pagpapatuloy",
-        "D": "Ipinahihiwatig na nagpapatuloy o hindi pa nauubos ang natitira."
+        "D": "Ipinahihiwatig na nagpapatuloy o hindi pa nauubos ang natitira"
       },
       "answer": "D",
       "note": "Ang pa ay nagdaragdag ng kahulugang still/yet."
@@ -375,7 +375,7 @@
         "A": "Hindi dapat gumawa ng anumang hakbang",
         "B": "Garantisado ang tagumpay kahit walang pagsisikap",
         "C": "Ang gawa ng tao ay walang kabuluhan",
-        "D": "Hindi sapat ang pag-asa lamang; may pananagutan ding kumilos ang tao."
+        "D": "Hindi sapat ang pag-asa lamang; may pananagutan ding kumilos ang tao"
       },
       "answer": "D",
       "note": "Pinag-uugnay nito ang pananampalataya at sariling pagkilos."
@@ -387,7 +387,7 @@
       "question": "Sa “Ipinagkait sa mga magsasaka ang patas na kabayaran,” ano ang ipinahihiwatig ng pandiwa?",
       "choices": {
         "A": "Sila ang nagtakda ng kabayaran",
-        "B": "May benepisyong dapat sana nilang matanggap ngunit hindi ibinigay.",
+        "B": "May benepisyong dapat sana nilang matanggap ngunit hindi ibinigay",
         "C": "Walang usapin ng katarungan sa pangungusap",
         "D": "Sila ang kusang tumanggi sa lahat ng kabayaran"
       },
@@ -416,7 +416,7 @@
       "choices": {
         "A": "Ang makata ay tauhan lamang sa bawat tula",
         "B": "Ang persona ay pamagat ng tula",
-        "C": "Ang persona ang tinig na nagsasalita sa tula; hindi kailangang siya mismo ang makata.",
+        "C": "Ang persona ang tinig sa tula; hindi ito kailangang ang makata",
         "D": "Laging iisa ang persona at makata"
       },
       "answer": "C",
@@ -429,7 +429,7 @@
       "question": "Ano ang pinakamalakas na palatandaan na metapora, hindi literal na pahayag, ang “siya ang ilaw ng tahanan”?",
       "choices": {
         "A": "May sukat na watts ang tao",
-        "B": "Iniuugnay ang tao sa ilaw upang ipahiwatig ang gabay o pag-asa.",
+        "B": "Iniuugnay ang ilaw sa gabay o pag-asa",
         "C": "Nasa madilim na silid ang tao",
         "D": "May bombilyang hawak ang tao"
       },
@@ -442,10 +442,10 @@
       "value": 1000,
       "question": "Sa “Ipinangamba ng mga residente ang biglang pagtaas ng tubig,” bakit angkop ang “ipinangamba”?",
       "choices": {
-        "A": "Nangangahulugan itong natapos na ang baha",
-        "B": "Tumutukoy ito sa pagmamay-ari ng tubig",
-        "C": "Ipinakikita nitong ang mga residente ang kinatatakutan ng tubig",
-        "D": "Ipinakikita nito ang pangyayari bilang pinagmumulan ng pangamba."
+        "A": "It states that the flood had already ended",
+        "B": "It marks the residents as the source of fear",
+        "C": "It refers to ownership of the rising water",
+        "D": "Ipinakikita nito ang pangyayari bilang pinagmumulan ng pangamba"
       },
       "answer": "D",
       "note": "Ang ipinangamba ay sanhi/trigger ng damdaming pangamba."
@@ -456,10 +456,10 @@
       "value": 1000,
       "question": "Alin ang pinakamalinaw na pagkakaiba ng “kung sakali” at “sakaling”?",
       "choices": {
-        "A": "Ang kung sakali ay laging nakaraan; sakaling ay laging hinaharap",
-        "B": "Walang kondisyunal na kahulugan ang alinman",
-        "C": "Pareho silang maaaring magpakilala ng kondisyon; ang sakaling ay mas madalas direktang nag-uugnay sa sugnay.",
-        "D": "Ang sakaling ay pangngalan lamang"
+        "A": "“Kung sakali” is generally past, while “sakaling” is future",
+        "B": "Neither expression can introduce a condition",
+        "C": "Pareho silang kondisyunal; mas direktang nag-uugnay sa sugnay ang “sakaling”",
+        "D": "“Sakaling” functions only as a noun"
       },
       "answer": "C",
       "note": "Pareho ang kondisyunal na gamit ngunit magkaiba ang sintaktikong distribusyon."
@@ -470,10 +470,10 @@
       "value": 1000,
       "question": "Sa “Hindi raw siya ang may sala,” ano ang saklaw ng “raw”?",
       "choices": {
-        "A": "Tinitiyak ng nagsasalita ang kawalang-sala",
-        "B": "Ipinakikita nito ang pagmamay-ari",
-        "C": "Minamarkahan nito ang panghinaharap",
-        "D": "Iniuulat na pagtanggi o pahayag ng ibang tao, hindi awtomatikong pag-endorso ng nagsasalita."
+        "A": "The speaker personally verifies the denial",
+        "B": "It marks possession",
+        "C": "It marks a future action",
+        "D": "Iniulat ang pagtanggi, ngunit hindi ibig sabihing sinang-ayunan ito"
       },
       "answer": "D",
       "note": "Ang raw/daw ay evidential o reportative particle."
@@ -484,10 +484,10 @@
       "value": 1000,
       "question": "Bakit mahalagang tingnan ang konteksto sa salitang “liban”?",
       "choices": {
-        "A": "Wala itong kaugnayan sa pangungusap",
-        "B": "Maaari itong mangahulugang bukod/maliban sa isang bagay o tumukoy sa pagliban, depende sa anyo at gamit.",
-        "C": "Pang-uri lamang ito",
-        "D": "Iisa lamang ang kahulugan nito sa lahat ng pangungusap"
+        "A": "It has no connection to the sentence’s meaning",
+        "B": "Maaari itong mangahulugang “maliban sa” o “hindi pagdalo,” depende sa gamit",
+        "C": "It functions only as an adjective",
+        "D": "It has one fixed meaning in every context"
       },
       "answer": "B",
       "note": "Maaaring magbago ang interpretasyon batay sa sintaks at kolokasyon."
@@ -498,10 +498,10 @@
       "value": 1000,
       "question": "Sa “Nagpasiya ang lupon matapos timbangin ang magkakasalungat na salaysay,” ano ang ipinahihiwatig ng “timbangin”?",
       "choices": {
-        "A": "Itapon ang lahat ng salaysay",
-        "B": "Suriin at paghambingin nang maingat ang ebidensiya, hindi literal na sukatin.",
-        "C": "Bilangin ang mga taong nagsalita",
-        "D": "Piliin ang pinakamahabang salaysay"
+        "A": "Discard every account before comparing them",
+        "B": "Maingat na suriin at paghambingin ang ebidensiya",
+        "C": "Count the number of people who spoke",
+        "D": "Choose whichever account is longest"
       },
       "answer": "B",
       "note": "Matalinghagang gamit ito para sa maingat na pagsusuri."
@@ -514,7 +514,7 @@
       "choices": {
         "A": "Walang pagkakaiba sa kahulugan",
         "B": "Ang ikalawa ay nangangahulugang nag-away sila",
-        "C": "Sa una, paksa ang panukala; sa ikalawa, ang isa’t isa ang kapwa kalahok na paksa ng usapan.",
+        "C": "Una, panukala ang paksa; ikalawa, kapwa kalahok ang paksa",
         "D": "Ang una ay laging utos"
       },
       "answer": "C",
@@ -527,7 +527,7 @@
       "question": "Ano ang ipinahihiwatig ng “di-maikakaila” sa isang argumento?",
       "choices": {
         "A": "Hindi dapat suriin ang pahayag",
-        "B": "Ipinapakita ng may-akda na itinuturing niyang mahirap itanggi ang pahayag, ngunit kailangan pa rin ng ebidensiya.",
+        "B": "Itinuturing ng may-akda na mahirap itanggi, ngunit kailangan pa rin ng ebidensiya",
         "C": "Isa itong tanong na walang sagot",
         "D": "Awtomatikong totoo ang pahayag kahit walang patunay"
       },
@@ -541,7 +541,7 @@
       "question": "Sa “Nang makita niya ang tala, saka niya napagtanto ang pagkakamali,” ano ang tungkulin ng “saka”?",
       "choices": {
         "A": "Nagpapahayag ng posibilidad lamang",
-        "B": "Ipinapakita ang pagkakasunod at kaugnayan ng dalawang pangyayari.",
+        "B": "Ipinapakita ang pagkakasunod at ugnayan ng mga pangyayari",
         "C": "Nagpapahayag ng pagsalungat",
         "D": "Nagpapahayag ng pagmamay-ari"
       },
@@ -556,7 +556,7 @@
       "choices": {
         "A": "Ang daw ay pangngalan at raw ay pang-uri",
         "B": "Magkaiba sila ng panahon ng pandiwa",
-        "C": "May tuntuning ponolohikal sa pagpili ng anyo batay sa tunog na sinusundan.",
+        "C": "Pinipili ang anyo ayon sa tunog na kasunod nito",
         "D": "Ang raw ay ginagamit lamang sa tula"
       },
       "answer": "C",
@@ -568,9 +568,9 @@
       "value": 1000,
       "question": "Sa kritikal na pagbasa, ano ang dapat gawin kapag ang isang pahayag ay puno ng matitinding salitang tulad ng “walang duda” ngunit walang sanggunian?",
       "choices": {
-        "A": "Ituring na mali agad nang walang pagsusuri",
-        "B": "Tanggapin ito dahil matatag ang pananalita",
-        "C": "Ihiwalay ang retorikal na katiyakan sa ebidensiyang tunay na sumusuporta sa pahayag.",
+        "A": "Treat confident wording as sufficient proof",
+        "B": "Assume certainty makes evidence unnecessary",
+        "C": "Ihiwalay ang retorikal na katiyakan sa aktuwal na ebidensiya",
         "D": "Suriin lamang ang haba ng pangungusap"
       },
       "answer": "C",
@@ -582,7 +582,7 @@
       "value": 1250,
       "question": "Sa “Ikinabahala ng mga iskolar ang pagbura sa mga salitang katutubo,” anong ugnayang semantiko ang ipinapakita ng ikina-?",
       "choices": {
-        "A": "Ang pagbura ang sanhi ng pagkabahala ng mga iskolar.",
+        "A": "Ang pagbura ang sanhi ng pagkabahala ng mga iskolar",
         "B": "Ang pangungusap ay walang sanhi",
         "C": "Ang mga iskolar ang sanhi ng pagbura",
         "D": "Ang pagbura ay benepisyaryo ng kilos"
@@ -598,7 +598,7 @@
       "choices": {
         "A": "Sa ikalawa, tiyak na ang bata ang nagbigay ng utos",
         "B": "Sa una, ang utos ang tagasunod",
-        "C": "Sa una, malinaw na ang bata ang tagasunod; ang ikalawa ay hindi karaniwang katumbas at nangangailangan ng ibang konteksto o pagsusuri.",
+        "C": "Sa una, bata ang tagasunod; ang ikalawa ay may ibang gamit o kahulugan",
         "D": "Pareho silang natural at eksaktong magkapareho"
       },
       "answer": "C",
@@ -610,7 +610,7 @@
       "value": 1250,
       "question": "Ano ang masusing pagbasa sa “Mabuti na lamang at nakinig siya”?",
       "choices": {
-        "A": "Ipinahihiwatig ng na lamang at at ang ginhawa o positibong pagtingin sa naganap na pakikinig.",
+        "A": "Nagpapahiwatig ang “na lamang at” ng ginhawa o positibong pagtingin",
         "B": "Ipinahihiwatig nitong hindi siya nakinig",
         "C": "Neutral na ulat ito na walang saloobin",
         "D": "Isa itong utos na makinig"
@@ -624,10 +624,10 @@
       "value": 1250,
       "question": "Sa pangungusap na “Maaaring makatwiran ang pasya, subalit hindi makatarungan ang proseso,” anong pagkakaiba ang pinaninindigan?",
       "choices": {
-        "A": "Magkapareho ang makatwiran at makatarungan sa lahat ng konteksto",
-        "B": "Maaaring maging katanggap-tanggap ang resulta ngunit may depekto ang paraang ginamit upang marating ito.",
-        "C": "Tiyak na ilegal ang bawat pasya",
-        "D": "Ang proseso ay hindi mahalaga kung mabuti ang resulta"
+        "A": "A reasonable decision is necessarily a fair process",
+        "B": "Maaaring katanggap-tanggap ang resulta kahit may depekto ang paraan",
+        "C": "Every disputed decision is automatically illegal",
+        "D": "A good outcome makes procedure irrelevant"
       },
       "answer": "B",
       "note": "Ibinubukod ang lohikal na katwiran sa pagiging makatarungan ng pamamaraan."
@@ -638,10 +638,10 @@
       "value": 1250,
       "question": "Bakit maaaring maging mapanlinlang ang pagsasalin ng “hiya” bilang simpleng “shame”?",
       "choices": {
-        "A": "Saklaw ng hiya ang panlipunang dangal, paggalang, pag-iingat sa ugnayan, at pagkapahiya depende sa konteksto.",
-        "B": "Ang hiya ay laging nangangahulugang takot",
-        "C": "Walang katumbas na kahulugan ang hiya sa Filipino",
-        "D": "Ang shame ay mas malawak sa lahat ng konteksto"
+        "A": "Saklaw ng hiya ang dangal, paggalang, pakikitungo, at pagkapahiya",
+        "B": "Hiya refers mainly to fear in every situation",
+        "C": "Hiya has no equivalent meaning in Filipino contexts",
+        "D": "English “shame” covers all of its social meanings"
       },
       "answer": "A",
       "note": "Ang mga konseptong kultural ay hindi laging tumutugma nang isa-sa-isa sa pagsasalin."
@@ -653,7 +653,7 @@
       "question": "Sa “Kahit na kinilala ang kanyang ambag, ipinagkait pa rin sa kanya ang kapangyarihang magpasya,” ano ang kontrast?",
       "choices": {
         "A": "Ang pagkilala ay awtomatikong nagbibigay ng awtoridad",
-        "B": "May pagkilala sa ambag ngunit walang katumbas na awtoridad o kapangyarihan.",
+        "B": "May pagkilala sa ambag ngunit walang katumbas na awtoridad o kapangyarihan",
         "C": "Parehong tinanggihan ang ambag at kapangyarihan",
         "D": "Walang naganap na pagkilala"
       },
@@ -669,7 +669,7 @@
         "A": "Pareho silang literal na kahulugan",
         "B": "Ang konotasyon ay baybay ng salita",
         "C": "Ang denotasyon ay damdamin lamang",
-        "D": "Ang denotasyon ay hayop; ang konotasyon sa tao ay pagtataksil o panlilinlang."
+        "D": "Denotasyon: hayop; konotasyon: pagtataksil o panlilinlang"
       },
       "answer": "D",
       "note": "Ang konotasyon ay dagdag na asosasyong kultural o emosyonal."
@@ -680,10 +680,10 @@
       "value": 1250,
       "question": "Kung paulit-ulit na ginagamit ng isang sanaysay ang “diumano” sa paratang, ano ang posibleng epekto?",
       "choices": {
-        "A": "Ginagarantiyahan nitong mali ang paratang",
-        "B": "Nilalagyan ng distansiya ang paratang at ipinahihiwatig na hindi ito itinatanghal bilang napatunayang katotohanan.",
-        "C": "Tinatanggal nito ang pangangailangan sa sanggunian",
-        "D": "Ginagawang utos ang paratang"
+        "A": "It proves the accusation is false",
+        "B": "Inilalayo ng pahayag ang sarili sa di-pa-napatutunayang paratang",
+        "C": "It removes the need to cite evidence",
+        "D": "It turns the accusation into a command"
       },
       "answer": "B",
       "note": "Ang reportative marker ay naghihiwalay sa iniulat at napatunayan."
@@ -697,7 +697,7 @@
         "A": "Wala itong epekto sa kronolohiya",
         "B": "Tinutukoy lamang nito ang kasarian ng tauhan",
         "C": "Pinapalitan nito ang lahat ng pang-abay",
-        "D": "Natutukoy kung ang kilos ay natapos, nagpapatuloy, o inaasahang mangyari, bagaman mahalaga pa rin ang konteksto."
+        "D": "Minamarkahan kung natapos, nagpapatuloy, o inaasahan ang kilos"
       },
       "answer": "D",
       "note": "Ang aspektong pandiwa ay nag-aambag sa pag-unawa sa panahon at daloy ng salaysay."
@@ -708,10 +708,10 @@
       "value": 1250,
       "question": "Sa pag-aanalisa ng bugtong o salawikain, bakit dapat iwasan ang sobrang literal na pagbasa?",
       "choices": {
-        "A": "Maaaring gumamit ito ng metapora, paralelismo, at kulturang pahiwatig na hindi nahuhuli sa literal na kahulugan.",
-        "B": "Dapat palaging baligtarin ang kahulugan",
-        "C": "Lahat ng salawikain ay walang lohika",
-        "D": "Hindi kailanman mahalaga ang mga salita"
+        "A": "Gumagamit ito ng metapora at pahiwatig na hindi literal",
+        "B": "The intended meaning should always be reversed",
+        "C": "Proverbs are generally illogical by design",
+        "D": "Word choice rarely affects interpretation"
       },
       "answer": "A",
       "note": "Ang matalinghagang anyo ay nangangailangan ng kontekstuwal at kultural na pagbasa."
@@ -722,10 +722,10 @@
       "value": 1500,
       "question": "Sa “Hindi sa hindi siya sumang-ayon, kundi sa paraang ipinataw ang kasunduan,” anong uri ng paglilinaw ang ginagawa?",
       "choices": {
-        "A": "Itinatama ang posibleng maling pagbasa: hindi ang pagsang-ayon ang tinututulan kundi ang proseso.",
-        "B": "Nagbibigay lamang ng dalawang magkasingkahulugan",
-        "C": "Nagpapahayag ng kondisyon sa hinaharap",
-        "D": "Tinatanggihan ang parehong kasunduan at proseso"
+        "A": "Ang proseso, hindi ang pagsang-ayon, ang tinututulan",
+        "B": "It repeats the same idea using synonyms",
+        "C": "It sets a condition for a future event",
+        "D": "It rejects both the agreement and the process"
       },
       "answer": "A",
       "note": "Ang hindi sa X kundi sa Y ay naglilipat ng pokus sa eksaktong punto ng pagtutol."
@@ -736,10 +736,10 @@
       "value": 1500,
       "question": "Ano ang pangunahing pagkakaiba ng pokus sa tagaganap at pokus sa layon sa Filipino?",
       "choices": {
-        "A": "Ang pokus sa layon ay walang pandiwa",
-        "B": "Laging nauuna ang tagaganap sa pokus sa layon",
-        "C": "Ipinapakita ng panlapi at estruktura kung aling kalahok ang ginagawang sentro ng pangungusap, hindi simpleng kung sino ang “gumagawa.”",
-        "D": "Walang kaugnayan ang panlapi sa pokus"
+        "A": "Object focus removes the verb from the sentence",
+        "B": "The actor must always precede the object in object focus",
+        "C": "Panlapi at ayos ang nagtatakda ng pokus, hindi lamang ang gumagawa",
+        "D": "Affixes do not affect focus or argument structure"
       },
       "answer": "C",
       "note": "Ang voice/focus system ay nag-aayos ng ugnayan ng pandiwa at mga kalahok."
@@ -753,7 +753,7 @@
         "A": "Ang dahil sa ay laging nagpapahayag ng layunin",
         "B": "Ang dahil kay ay ginagamit lamang sa lugar",
         "C": "Walang pagkakaiba sa gramatika",
-        "D": "Karaniwang sinusundan ng dahil sa ang pangyayari/bagay o pariralang pangngalan, samantalang kay ay ginagamit sa pantanging pangalan ng tao."
+        "D": "“Dahil sa” karaniwang tumutukoy sa sanhi; “dahil kay” sa tao"
       },
       "answer": "D",
       "note": "Magkaiba ang pang-ukol na pinipili batay sa uri ng kasunod na parirala."
@@ -764,10 +764,10 @@
       "value": 1500,
       "question": "Sa pagsusuri ng pahayag na “Ang katahimikan niya ay sagot na rin,” ano ang kailangang patunayan bago ituring na makatotohanang konklusyon?",
       "choices": {
-        "A": "Na ang katahimikan ay laging pagsang-ayon",
-        "B": "Na sa konteksto, ang katahimikan ay may sapat na batayan upang ipakahulugang sagot, hindi lamang kawalan ng tugon.",
-        "C": "Na walang ibang posibleng paliwanag",
-        "D": "Na hindi kailangang alamin ang konteksto"
+        "A": "Silence always means agreement",
+        "B": "Sa konteksto, maaaring maging sagot ang katahimikan, hindi kawalan ng tugon",
+        "C": "There can be no alternative interpretation",
+        "D": "Context is unnecessary when interpreting silence"
       },
       "answer": "B",
       "note": "Ang interpretasyong pragmatiko ay umaasa sa konteksto at alternatibong paliwanag."
@@ -778,7 +778,7 @@
       "value": 1500,
       "question": "Alin ang pinakamainam na paliwanag kung bakit hindi magkasingkahulugan ang “pagpapakumbaba” at “pagpapahiya”?",
       "choices": {
-        "A": "Ang una ay maaaring kusang pagkilala sa limitasyon; ang ikalawa ay pagdulot ng kahihiyan, madalas mula sa iba.",
+        "A": "Ang una ay kusang pagkilala sa limitasyon; ang ikalawa ay pagdulot ng kahihiyan",
         "B": "Pareho silang laging nangangahulugang pagkatalo",
         "C": "Ang pagpapakumbaba ay nangangahulugang panlalait",
         "D": "Ang pagpapahiya ay laging positibo"
@@ -792,7 +792,7 @@
       "value": 1500,
       "question": "Sa pananalitang “Kung tutuusin, hindi ang kakulangan sa datos ang problema kundi ang paraan ng pagbasa rito,” ano ang retorikal na galaw?",
       "choices": {
-        "A": "Inililipat ang sanhi ng problema mula sa dami ng datos tungo sa interpretasyon nito.",
+        "A": "Inililipat ang sanhi mula sa datos tungo sa interpretasyon",
         "B": "Nagbibigay ng depinisyon ng datos",
         "C": "Tinatanggihan ang lahat ng datos",
         "D": "Nagsasaad ng kronolohikal na pagkakasunod"
@@ -808,7 +808,7 @@
       "choices": {
         "A": "Dahil walang historikal na pagbabago ang wika",
         "B": "Dahil iisa lamang ang kahulugan ng bayan",
-        "C": "Maaaring magbago ang politikal na saklaw ng salita ayon sa panahon at konteksto.",
+        "C": "Maaaring magbago ang politikal na saklaw ng salita ayon sa panahon at konteksto",
         "D": "Dahil ang bayan ay hindi kailanman tumutukoy sa tao"
       },
       "answer": "C",
@@ -820,7 +820,7 @@
       "value": 1500,
       "question": "Sa “Sadyang hindi niya sinabi ang buong katotohanan,” ano ang naiiba sa “Hindi niya sinasadyang sabihin ang buong katotohanan”?",
       "choices": {
-        "A": "Sa una, sinadya ang hindi pagsasabi; sa ikalawa, hindi sinadya ang mismong pagsasabi o ang kinalabasan nito.",
+        "A": "Una, sinadyang manahimik; ikalawa, di-sinasadyang pahayag o bunga",
         "B": "Sa una, tiyak na aksidente",
         "C": "Sa ikalawa, malinaw na nagsinungaling siya",
         "D": "Walang pagkakaiba sa diin"
@@ -834,7 +834,7 @@
       "value": 1500,
       "question": "Ano ang pinakamabisang paraan upang suriin kung ang salawikain ay ginagamit nang angkop sa isang argumento?",
       "choices": {
-        "A": "Suriin kung talagang sinusuportahan ng aral nito ang konklusyon at kung ang konteksto ay katulad ng ipinahihiwatig.",
+        "A": "Tiyaking sinusuportahan ng aral ang konklusyon at ang konteksto ay angkop",
         "B": "Gamitin ito upang palitan ang lahat ng datos",
         "C": "Tanggapin ito dahil tradisyonal ito",
         "D": "Ituring itong ebidensiyang estadistikal"
@@ -849,7 +849,7 @@
       "question": "Sa pagsusuri ng salin, bakit kailangang tingnan ang rehistro at kausap bukod sa literal na kahulugan?",
       "choices": {
         "A": "Dahil hindi mahalaga ang literal na kahulugan",
-        "B": "Dahil maaaring magbago ang antas ng paggalang, pagiging pormal, o tono kahit tama ang literal na salin.",
+        "B": "Maaaring magbago ang paggalang, pormalidad, o tono kahit literal na tama ang salin",
         "C": "Dahil ang rehistro ay tumutukoy lamang sa baybay",
         "D": "Dahil lahat ng salin ay dapat magkapareho ang haba"
       },
@@ -863,7 +863,7 @@
       "question": "Why did early river-valley states often develop near large rivers?",
       "choices": {
         "A": "Rivers prevented all invasions",
-        "B": "Floodplains supplied water and fertile soil, supporting food surpluses",
+        "B": "Floodplains provided water and fertile soil for food surpluses",
         "C": "Rivers eliminated the need for government",
         "D": "River water made metal tools unnecessary"
       },
@@ -877,7 +877,7 @@
       "question": "Which feature most clearly distinguishes a primary source from a later historical account?",
       "choices": {
         "A": "It is always unbiased",
-        "B": "It was created during the period or by a participant/witness being studied",
+        "B": "Created during the period studied or by a witness",
         "C": "It is always written",
         "D": "It is always more accurate"
       },
@@ -1000,12 +1000,12 @@
       "id": "WH-500-01",
       "category": "World History",
       "value": 500,
-      "question": "Bakit mas kapaki-pakinabang ang paghahambing ng tax records at personal diaries kaysa umasa sa isa lamang?",
+      "question": "Why is comparing tax records with personal diaries often more useful than relying on either source alone?",
       "choices": {
-        "A": "Dahil walang bias ang tax records",
-        "B": "Maaaring ipakita ng magkakaibang uri ng sanggunian ang parehong lipunan mula sa magkaibang pananaw.",
-        "C": "Dahil ang dalawang uri ay hindi maaaring magkasalungat",
-        "D": "Dahil laging nagsisinungaling ang diaries"
+        "A": "Tax records usually capture administrative priorities better than private experience",
+        "B": "Different source types can reveal the same society from distinct perspectives",
+        "C": "Diaries provide a representative sample of the whole population",
+        "D": "The two sources generally record the same details in different formats"
       },
       "answer": "B",
       "note": "Triangulation helps test claims and reveal perspective."
@@ -1014,12 +1014,12 @@
       "id": "WH-500-02",
       "category": "World History",
       "value": 500,
-      "question": "Paano nakatulong ang pag-imprenta sa paglaganap ng Repormasyon?",
+      "question": "How did printing help the Protestant Reformation spread?",
       "choices": {
-        "A": "Pinalitan nito ang lahat ng simbahan",
-        "B": "Ginawa nitong walang silbi ang mga wika",
-        "C": "Agad nitong inalis ang lahat ng pagkakaiba sa relihiyon",
-        "D": "Pinababa nito ang gastos at pinabilis ang pagpaparami at pagkalat ng mga polyeto at salin."
+        "A": "It made vernacular preaching less important than written debate",
+        "B": "It helped standardize doctrine across competing Protestant groups",
+        "C": "It reduced religious disagreement in regions with many printed texts",
+        "D": "It lowered the cost and sped up the circulation of religious texts"
       },
       "answer": "D",
       "note": "Printing amplified circulation; it did not mechanically guarantee uniform belief."
@@ -1028,12 +1028,12 @@
       "id": "WH-500-03",
       "category": "World History",
       "value": 500,
-      "question": "Bakit nag-iba ang epekto ng Black Death sa iba’t ibang rehiyon ng Europa?",
+      "question": "Why did the Black Death affect European regions differently?",
       "choices": {
-        "A": "Pare-pareho ang populasyon at ekonomiya sa lahat ng lugar",
-        "B": "Walang kaugnayan ang kalakalan sa pagkalat",
-        "C": "Nagkakaiba ang demograpiya, kalakalan, institusyon, at tugon ng mga pamahalaan at komunidad.",
-        "D": "Iisang patakaran ang ipinatupad sa buong Europa"
+        "A": "Population density and economic structure varied between regions",
+        "B": "Trade connections mattered less than local living conditions in every region",
+        "C": "Demographics, trade, institutions, and official responses differed",
+        "D": "Public-health responses were broadly similar across Europe"
       },
       "answer": "C",
       "note": "Local conditions shaped mortality and social consequences."
@@ -1042,12 +1042,12 @@
       "id": "WH-500-04",
       "category": "World History",
       "value": 500,
-      "question": "Ano ang mahalagang pagkakaiba ng imperyalismo at kolonyalismo?",
+      "question": "What is the clearest distinction between imperialism and colonialism?",
       "choices": {
-        "A": "Ang imperyalismo ay mas malawak na pagpapalawak ng kapangyarihan; ang kolonyalismo ay karaniwang direktang kontrol at paninirahan/pamamahala sa teritoryo.",
-        "B": "Magkapareho sila sa lahat ng gamit",
-        "C": "Ang imperyalismo ay tumutukoy lamang sa kalakalan",
-        "D": "Ang kolonyalismo ay laging walang pamamahala"
+        "A": "Imperialism expands a state's influence; colonialism usually involves direct territorial control",
+        "B": "Imperialism usually requires settlement, while colonialism relies on informal influence",
+        "C": "Imperialism concerns political influence but not economic pressure",
+        "D": "Colonialism transfers territory without necessarily changing its administration"
       },
       "answer": "A",
       "note": "The terms overlap but describe different scales and mechanisms."
@@ -1056,12 +1056,12 @@
       "id": "WH-500-05",
       "category": "World History",
       "value": 500,
-      "question": "Bakit hindi sapat na tawaging “demokratiko” ang isang sinaunang polis dahil lamang may pagtitipon ng mamamayan?",
+      "question": "Why does a public assembly alone not prove that an ancient Greek polis was democratic?",
       "choices": {
-        "A": "Dahil walang polis na may pagtitipon",
-        "B": "Maaaring ibinukod nito ang kababaihan, alipin, at mga dayuhang residente sa pagkamamamayan.",
-        "C": "Dahil ang demokrasya ay nangangailangan ng hari",
-        "D": "Dahil lahat ng sinaunang lipunan ay may unibersal na karapatan"
+        "A": "Assemblies often included only a restricted group of recognized citizens",
+        "B": "Participation could exclude women, enslaved people, and resident foreigners",
+        "C": "Participation in the assembly usually depended on military service alone",
+        "D": "A citizen assembly by itself establishes the extent of political inclusion"
       },
       "answer": "B",
       "note": "Participation depended on restrictive definitions of citizenship."
@@ -1070,12 +1070,12 @@
       "id": "WH-500-06",
       "category": "World History",
       "value": 500,
-      "question": "Paano pinahina ng inflation pagkatapos ng Unang Digmaang Pandaigdig ang ilang pamahalaan?",
+      "question": "How could postwar inflation weaken some governments after World War I?",
       "choices": {
-        "A": "Maaari nitong sirain ang ipon, pahinain ang tiwala, at palalain ang tunggalian sa sahod at presyo.",
-        "B": "Inaalis nito ang lahat ng utang nang walang epekto",
-        "C": "Wala itong kaugnayan sa politika",
-        "D": "Palaging pinapataas ng inflation ang tunay na halaga ng ipon"
+        "A": "It could erode savings and trust while worsening wage and price conflicts",
+        "B": "It reduced debt burdens for some borrowers and could ease political pressure",
+        "C": "It mainly affected foreign trade, leaving domestic confidence largely intact",
+        "D": "Wage adjustments generally kept pace with prices, limiting social conflict"
       },
       "answer": "A",
       "note": "Economic shocks can erode legitimacy and intensify conflict."
@@ -1084,12 +1084,12 @@
       "id": "WH-500-07",
       "category": "World History",
       "value": 500,
-      "question": "Bakit hindi sapat ang teknolohikal na kalamangan upang ipaliwanag ang pananakop ng isang imperyo?",
+      "question": "Why is technological superiority alone an incomplete explanation for imperial conquest?",
       "choices": {
-        "A": "Dahil hindi nakaaapekto ang teknolohiya sa digmaan",
-        "B": "Dahil iisang salik lang ang sanhi ng pananakop",
-        "C": "Dahil laging mas maliit ang imperyo",
-        "D": "Mahalaga rin ang alyansa, sakit, lokal na tunggalian, logistik, at institusyon."
+        "A": "Technology mattered most when it was paired with strong supply lines",
+        "B": "Conquest usually depended on one decisive military advantage",
+        "C": "Population size generally determined outcomes more than local alliances",
+        "D": "Alliances, disease, logistics, local conflicts, and institutions also mattered"
       },
       "answer": "D",
       "note": "Historical outcomes are multicausal."
@@ -1098,12 +1098,12 @@
       "id": "WH-500-08",
       "category": "World History",
       "value": 500,
-      "question": "Ano ang ipinahihiwatig ng paglaganap ng mga nasyonalistikong kilusan matapos ang Ikalawang Digmaang Pandaigdig?",
+      "question": "What did the growth of nationalist movements after World War II suggest about the global order?",
       "choices": {
-        "A": "Nawala ang lahat ng tunggalian",
-        "B": "Lahat ng kolonya ay naging malaya sa iisang araw",
-        "C": "Walang epekto ang digmaan sa mga imperyo",
-        "D": "Humina ang ilang imperyo at lumakas ang mga kahilingan para sa sariling pagpapasya, bagaman magkakaiba ang lokal na dahilan."
+        "A": "Nationalist movements grew, but many empires retained substantial influence",
+        "B": "Independence usually followed one common timetable across colonies",
+        "C": "The war weakened European economies without significantly changing imperial rule",
+        "D": "Imperial power weakened as demands for self-determination expanded"
       },
       "answer": "D",
       "note": "Decolonization followed different political paths."
@@ -1112,12 +1112,12 @@
       "id": "WH-500-09",
       "category": "World History",
       "value": 500,
-      "question": "Paano dapat suriin ang pahayag ng isang pinuno na ang pananakop ay “sibilisasyon”?",
+      "question": "How should historians assess a leader's claim that conquest brought 'civilization'?",
       "choices": {
-        "A": "Ituring itong totoo dahil opisyal ang nagsabi",
-        "B": "Tanggapin ito bilang neutral na paglalarawan",
-        "C": "Huwag tingnan ang mga nasakop na tao",
-        "D": "Ituring itong ideolohikal na katwiran at ihambing sa aktuwal na patakaran at karanasan ng nasakop."
+        "A": "Use the leader’s stated intentions as the main evidence of the outcome",
+        "B": "Judge the claim chiefly by the roads, schools, and offices constructed",
+        "C": "Treat the claim as propaganda and dismiss any material changes it describes",
+        "D": "Compare it with policy and the experiences of conquered people"
       },
       "answer": "D",
       "note": "Imperial rhetoric should be tested against evidence and affected populations."
@@ -1126,12 +1126,12 @@
       "id": "WH-500-10",
       "category": "World History",
       "value": 500,
-      "question": "Bakit maaaring magkaiba ang legal na pag-aalis ng pagkaalipin at ang aktuwal na kalayaan?",
+      "question": "Why can the legal abolition of slavery differ from freedom in practice?",
       "choices": {
-        "A": "Dahil walang batas na nakaaapekto sa lipunan",
-        "B": "Dahil agad na nawawala ang hindi pagkakapantay-pantay",
-        "C": "Maaaring manatili ang sapilitang paggawa, utang, diskriminasyon, at kawalan ng lupa matapos ang pormal na pagbabago.",
-        "D": "Dahil ang pagkaalipin ay hindi kailanman legal"
+        "A": "Legal abolition usually changed labor arrangements more quickly than social status",
+        "B": "Formal freedom generally removed the economic barriers faced by formerly enslaved people",
+        "C": "Forced labor, debt, discrimination, and landlessness may persist after abolition",
+        "D": "Enslavement was usually enforced through custom rather than legal systems"
       },
       "answer": "C",
       "note": "Formal emancipation does not automatically dismantle coercive structures."
@@ -1140,12 +1140,12 @@
       "id": "WH-750-01",
       "category": "World History",
       "value": 750,
-      "question": "Bakit nakatulong ang pagbuo ng mga pambansang estado sa pag-unlad ng ilang industriyal na ekonomiya, ngunit hindi ito sapat na paliwanag?",
+      "question": "How could the growth of national states support industrialization without fully explaining it?",
       "choices": {
-        "A": "Dahil walang papel ang estado sa ekonomiya",
-        "B": "Dahil ang industriyalisasyon ay nangyayari lamang sa mga imperyo",
-        "C": "Maaari nitong pag-isahin ang merkado at batas, ngunit mahalaga rin ang kapital, enerhiya, paggawa, at teknolohiya.",
-        "D": "Dahil pare-pareho ang industrialization sa lahat ng bansa"
+        "A": "State-building mattered mainly after industrial growth was already established",
+        "B": "Industrialization depended more on overseas trade than on domestic institutions",
+        "C": "Unified markets and laws helped, alongside changes in capital, energy, labor, and technology",
+        "D": "Industrial growth followed a similar sequence across most countries"
       },
       "answer": "C",
       "note": "Institutional integration is one condition among several."
@@ -1154,12 +1154,12 @@
       "id": "WH-750-02",
       "category": "World History",
       "value": 750,
-      "question": "Ano ang ipinakikita ng paghahambing ng Haitian Revolution at American Revolution tungkol sa kalayaan?",
+      "question": "What does comparing the Haitian and American Revolutions reveal about competing ideas of liberty?",
       "choices": {
-        "A": "Pareho silang naganap sa Asya",
-        "B": "Parehong pinanatili ng dalawa ang iisang sistemang panlipunan",
-        "C": "Walang kinalaman ang pagkaalipin sa Haiti",
-        "D": "Maaaring magkaiba ang saklaw ng kalayaan: ang Haitian Revolution ay tuwirang humamon sa pagkaalipin at kolonyal na rasismo."
+        "A": "Both revolutions extended political rights at similar rates to all residents",
+        "B": "Both revolutions challenged slavery but left colonial hierarchy largely intact",
+        "C": "The Haitian Revolution focused on independence rather than slavery or racial status",
+        "D": "The Haitian Revolution challenged slavery and racial hierarchy more directly"
       },
       "answer": "D",
       "note": "Comparative history highlights different groups included or excluded from liberty."
@@ -1168,12 +1168,12 @@
       "id": "WH-750-03",
       "category": "World History",
       "value": 750,
-      "question": "Paano nakaambag ang Treaty of Versailles sa kawalang-katatagan nang hindi ito nag-iisang sanhi ng Ikalawang Digmaang Pandaigdig?",
+      "question": "How did the Treaty of Versailles contribute to instability without being the sole cause of World War II?",
       "choices": {
-        "A": "Ito ang nagtatag ng United Nations",
-        "B": "Wala itong anumang epekto sa politika",
-        "C": "Lumikha ito ng mga hinaing at pagbabago sa hangganan na sinamantala ng mga kilusang ekstremista kasabay ng krisis at ibang salik.",
-        "D": "Awtomatiko nitong sinimulan ang digmaan sa araw ng pagpirma"
+        "A": "It created institutions that later helped resolve European disputes",
+        "B": "Its territorial terms mattered less than postwar economic recovery",
+        "C": "Border changes and grievances aided extremist movements amid wider crises",
+        "D": "Its terms made another European war unavoidable regardless of later decisions"
       },
       "answer": "C",
       "note": "The treaty interacted with later economic and political crises."
@@ -1182,12 +1182,12 @@
       "id": "WH-750-04",
       "category": "World History",
       "value": 750,
-      "question": "Bakit hindi dapat ipakahulugan ang Cold War bilang walang direktang digmaan saanman?",
+      "question": "Why is it misleading to describe the Cold War as a period without direct warfare anywhere?",
       "choices": {
-        "A": "Dahil hindi sangkot ang anumang bansa",
-        "B": "Dahil ang Cold War ay isang kasunduan sa kalakalan",
-        "C": "Nagkaroon ng proxy wars at marahas na tunggalian sa ibang bansa kahit umiwas ang dalawang superpower sa tuwirang malawakang digmaan sa isa’t isa.",
-        "D": "Dahil walang digmaan pagkatapos ng 1945"
+        "A": "The rivalry remained concentrated in Europe and did not spread elsewhere",
+        "B": "The competition was chiefly economic and involved few armed conflicts",
+        "C": "Proxy wars caused violence while the superpowers avoided direct full-scale war",
+        "D": "Most regional conflicts after 1945 were unrelated to superpower rivalry"
       },
       "answer": "C",
       "note": "The conflict was global and often indirect."
@@ -1196,12 +1196,12 @@
       "id": "WH-750-05",
       "category": "World History",
       "value": 750,
-      "question": "Ano ang kahalagahan ng Meiji Restoration sa pag-unlad ng Japan?",
+      "question": "What was a major consequence of the Meiji Restoration in Japan?",
       "choices": {
-        "A": "Tinapos nito ang lahat ng modernisasyon",
-        "B": "Ibinalik nito ang kapangyarihan sa Tokugawa shogunate",
-        "C": "Binago nito ang sentral na pamahalaan at pinabilis ang reporma sa militar, edukasyon, at industriya.",
-        "D": "Ginawang kolonya ng China ang Japan"
+        "A": "It modernized the military while leaving central political authority fragmented",
+        "B": "It restored the shogunate under a new constitutional arrangement",
+        "C": "It centralized government and accelerated military, school, and industrial reform",
+        "D": "It adopted industrial techniques while avoiding broad educational reform"
       },
       "answer": "C",
       "note": "Modernization was state-led and uneven, and later tied to imperial expansion."
@@ -1210,12 +1210,12 @@
       "id": "WH-750-06",
       "category": "World History",
       "value": 750,
-      "question": "Bakit dapat iwasang ipaliwanag ang Rebolusyong Pranses bilang simpleng “galit ng mahihirap”?",
+      "question": "Why is the French Revolution inadequately explained as simply the poor rebelling against the rich?",
       "choices": {
-        "A": "Dahil walang papel ang ideya",
-        "B": "Kasama sa mga sanhi ang krisis sa pananalapi, hindi pantay na pribilehiyo, ideya ng soberanya, at tunggalian ng mga elite.",
-        "C": "Dahil iisang uri lamang ang lumahok",
-        "D": "Dahil walang kahirapan sa France"
+        "A": "Fiscal problems mattered, but political ideas had little influence",
+        "B": "Fiscal crisis, legal privilege, political ideas, and elite conflict all contributed",
+        "C": "The conflict remained largely within the urban working class",
+        "D": "The monarchy’s financial crisis was resolved before the revolution began"
       },
       "answer": "B",
       "note": "Multiple social and institutional pressures converged."
@@ -1224,12 +1224,12 @@
       "id": "WH-750-07",
       "category": "World History",
       "value": 750,
-      "question": "Paano binago ng transatlantic slave trade ang mga ekonomiya sa magkabilang panig ng Atlantiko?",
+      "question": "How did the transatlantic slave trade reshape economies on both sides of the Atlantic?",
       "choices": {
-        "A": "Ang epekto ay sa Europa lamang",
-        "B": "Nagpalaya ito sa lahat ng manggagawa",
-        "C": "Walang kaugnayan ito sa produksyon ng asukal o bulak",
-        "D": "Nag-ugnay ito sa produksyon ng plantasyon, pinansiya, kalakalan, at sapilitang paglipat ng milyun-milyong Aprikano."
+        "A": "The trade mainly moved finished goods and had limited ties to plantation production",
+        "B": "Plantation production expanded without major links to finance or shipping",
+        "C": "The trade connected Europe and the Americas but had limited African impact",
+        "D": "It linked plantation output, finance, trade, and the forced migration of Africans"
       },
       "answer": "D",
       "note": "It was a transregional system with profound human and economic effects."
@@ -1238,12 +1238,12 @@
       "id": "WH-750-08",
       "category": "World History",
       "value": 750,
-      "question": "Bakit mahalagang pag-ibahin ang pagbagsak ng imperyong Ottoman at ang paglikha ng mga bagong estado pagkatapos ng 1918?",
+      "question": "Why should the Ottoman Empire's collapse be distinguished from the creation of states after 1918?",
       "choices": {
-        "A": "Isang estado lamang ang nabuo",
-        "B": "Walang kinalaman ang mga kapangyarihang Europeo",
-        "C": "Hindi simpleng napalitan ng mga estado ang imperyo; ang mga hangganan at pamamahala ay hinubog ng digmaan, mandatong kapangyarihan, at lokal na kilusan.",
-        "D": "Pare-pareho ang hangganan bago at pagkatapos"
+        "A": "Most successor states followed borders negotiated before the First World War",
+        "B": "European powers influenced diplomacy but had little role in mandates",
+        "C": "New borders and governments reflected war, mandates, and local political movements",
+        "D": "Local nationalist movements had little influence on postwar state formation"
       },
       "answer": "C",
       "note": "State formation was contested and shaped by external and local forces."
@@ -1252,12 +1252,12 @@
       "id": "WH-750-09",
       "category": "World History",
       "value": 750,
-      "question": "Ano ang pinakamalakas na paliwanag kung bakit kumalat ang mga rebolusyonaryong ideya sa ika-18 at ika-19 na siglo?",
+      "question": "What best explains the spread of revolutionary ideas during the eighteenth and nineteenth centuries?",
       "choices": {
-        "A": "Dahil pare-pareho ang kultura ng mga bansa",
-        "B": "Dahil walang censorship saanman",
-        "C": "Dahil hindi kailangan ng komunikasyon",
-        "D": "Pinabilis ng imprenta, edukasyon, kalakalan, migrasyon, at mga digmaan ang paglipat ng ideya sa pagitan ng lipunan."
+        "A": "Ideas spread mainly through elite courts rather than wider communication networks",
+        "B": "Censorship limited political debate but did not affect the spread of ideas",
+        "C": "Migration and trade spread goods more readily than political arguments",
+        "D": "Print, education, trade, migration, and war carried ideas across borders"
       },
       "answer": "D",
       "note": "Ideas moved through networks and were adapted locally."
@@ -1266,12 +1266,12 @@
       "id": "WH-750-10",
       "category": "World History",
       "value": 750,
-      "question": "Paano nagkakaiba ang pag-unlad ng suffrage sa iba’t ibang bansa?",
+      "question": "Why did the expansion of voting rights follow different timelines across countries?",
       "choices": {
-        "A": "Awtomatikong nagdala ng suffrage ang industriyalisasyon",
-        "B": "Pare-parehong petsa ang pagboto ng kababaihan sa lahat ng bansa",
-        "C": "Walang kaugnayan ang kilusang panlipunan",
-        "D": "Nakasalalay ito sa organisasyon ng kilusan, sistemang pampolitika, digmaan, at depinisyon ng pagkamamamayan."
+        "A": "Industrialization expanded voting rights only after most class conflicts had ended",
+        "B": "Women gained voting rights in many countries during the same brief period",
+        "C": "Voting rights depended mostly on economic growth rather than political organization",
+        "D": "Outcomes depended on activism, political systems, war, and citizenship rules"
       },
       "answer": "D",
       "note": "Political rights expanded through different struggles and institutions."
@@ -1282,10 +1282,10 @@
       "value": 1000,
       "question": "Why did the Atlantic revolutions produce different outcomes for slavery and citizenship despite shared language about liberty?",
       "choices": {
-        "A": "Economic interests played no role",
-        "B": "Ideas of liberty had one fixed meaning everywhere",
-        "C": "They all abolished slavery in the same year",
-        "D": "Political coalitions, economic interests, racial hierarchies, and the groups included in citizenship differed."
+        "A": "Economic interests had no influence on revolutionary politics",
+        "B": "Liberty had one fixed meaning in every society",
+        "C": "The revolutions abolished slavery at the same time",
+        "D": "Coalitions, economic interests, racial hierarchies, and citizenship rules differed"
       },
       "answer": "D",
       "note": "Shared slogans were reinterpreted through local power structures."
@@ -1296,10 +1296,10 @@
       "value": 1000,
       "question": "A state industrializes rapidly but most workers see little improvement in living standards. Which conclusion is best supported?",
       "choices": {
-        "A": "Industrial output alone cannot establish broad welfare gains; wages, working conditions, prices, and distribution must be examined.",
-        "B": "Every worker must have become poorer",
-        "C": "GDP and welfare are identical",
-        "D": "Industrialization did not occur"
+        "A": "Output alone cannot show broad welfare gains; wages, prices, conditions, and distribution matter",
+        "B": "Every worker necessarily became poorer",
+        "C": "Output and living standards measure the same thing",
+        "D": "The growth in output shows industrialization did not occur"
       },
       "answer": "A",
       "note": "Aggregate growth and distributional outcomes are distinct."
@@ -1310,10 +1310,10 @@
       "value": 1000,
       "question": "Why did the Congress of Vienna restore monarchies yet fail to erase revolutionary politics?",
       "choices": {
-        "A": "It prohibited all political debate permanently",
-        "B": "It rebuilt a diplomatic balance but could not remove the social and ideological changes that had spread.",
-        "C": "It ended nationalism everywhere",
-        "D": "It had no influence on borders"
+        "A": "The settlement permanently prohibited political debate",
+        "B": "It restored diplomatic balance without reversing new social and political ideas",
+        "C": "The settlement ended nationalism across Europe",
+        "D": "The Congress had no effect on borders"
       },
       "answer": "B",
       "note": "Restoration of rulers did not restore the pre-revolutionary world completely."
@@ -1324,10 +1324,10 @@
       "value": 1000,
       "question": "How did the Opium Wars expose a conflict between Qing sovereignty and European commercial demands?",
       "choices": {
-        "A": "The wars ended all foreign trade",
-        "B": "China voluntarily joined the European Union",
-        "C": "Military coercion forced treaty arrangements that constrained Chinese control over trade and ports.",
-        "D": "The conflict concerned only land borders in Europe"
+        "A": "The wars ended all foreign trade with China",
+        "B": "Qing China voluntarily joined a European political union",
+        "C": "Military pressure produced treaties that limited Qing control over trade and ports",
+        "D": "The conflict concerned only European land borders"
       },
       "answer": "C",
       "note": "Unequal treaties altered jurisdiction and commercial access."
@@ -1338,10 +1338,10 @@
       "value": 1000,
       "question": "Why can the fall of the Western Roman Empire not be reduced to “barbarian invasion”?",
       "choices": {
-        "A": "One emperor caused every change",
-        "B": "Fiscal pressures, political instability, military changes, and regional transformations interacted with migrations and invasions.",
-        "C": "The empire had no economic system",
-        "D": "There were no invasions"
+        "A": "One ruler alone caused every major change",
+        "B": "Fiscal and political strain combined with military change",
+        "C": "The empire had no economic institutions",
+        "D": "The empire faced no external invasions"
       },
       "answer": "B",
       "note": "Multicausal explanations better fit long-term institutional change."
@@ -1353,7 +1353,7 @@
       "question": "What does the contrast between the Soviet collapse and the breakup of Yugoslavia warn historians against?",
       "choices": {
         "A": "Economic factors never matter",
-        "B": "Similar broad pressures can produce different outcomes depending on institutions, nationalism, leadership, and violence.",
+        "B": "Similar pressures yield different outcomes under different institutions",
         "C": "All multinational states collapse identically",
         "D": "Nationalism always causes peaceful transitions"
       },
@@ -1366,7 +1366,7 @@
       "value": 1000,
       "question": "Why did colonial borders often generate post-independence conflicts?",
       "choices": {
-        "A": "Borders could join rival communities or divide connected ones without matching existing political and social geographies.",
+        "A": "Borders joined rival groups or split connected communities",
         "B": "All borders were drawn by local referenda",
         "C": "Every new state inherited identical institutions",
         "D": "Borders have no political consequences"
@@ -1380,7 +1380,7 @@
       "value": 1000,
       "question": "How did the spread of railways change state power as well as commerce?",
       "choices": {
-        "A": "Railways moved goods and people faster and helped governments transport troops, officials, and information.",
+        "A": "Railways sped transport of goods, troops, and information",
         "B": "They made central government impossible",
         "C": "They affected only luxury travel",
         "D": "They eliminated regional economies"
@@ -1395,7 +1395,7 @@
       "question": "Why should the term “Renaissance” not be treated as a sudden, uniform awakening across all of Europe?",
       "choices": {
         "A": "No cultural change occurred",
-        "B": "Its timing, institutions, and cultural effects varied, and it drew on earlier medieval and cross-cultural exchanges.",
+        "B": "Its timing and effects varied, building on earlier exchanges",
         "C": "It was unrelated to earlier knowledge",
         "D": "It happened everywhere in one decade"
       },
@@ -1411,7 +1411,7 @@
         "A": "The praise proves the empire was benevolent",
         "B": "The roads must therefore be fictional",
         "C": "Omission proves the author knew nothing",
-        "D": "The account may describe real infrastructure while excluding the coercive conditions and costs of its construction."
+        "D": "The account notes infrastructure but may omit coercion and costs"
       },
       "answer": "D",
       "note": "A critical reading examines both claims and silences."
@@ -1422,10 +1422,10 @@
       "value": 1250,
       "question": "Why is it misleading to treat the Industrial Revolution as a single invention-driven event?",
       "choices": {
-        "A": "One invention instantly transformed every society",
-        "B": "Industrialization was identical in every region",
-        "C": "It depended on interacting changes in energy, finance, labor, institutions, markets, and technology over time.",
-        "D": "Technology had no role"
+        "A": "A single invention transformed all societies immediately",
+        "B": "Industrialization followed the same path in every region",
+        "C": "It depended on interacting changes in energy, finance, labor, institutions, and technology",
+        "D": "Technology played little role in industrialization"
       },
       "answer": "C",
       "note": "Industrialization was a systemic transition, not a single breakthrough."
@@ -1436,10 +1436,10 @@
       "value": 1250,
       "question": "How can a revolution expand political participation while also narrowing it for some groups?",
       "choices": {
-        "A": "Exclusion ends automatically after a constitution",
-        "B": "New institutions may broaden representation for some while maintaining exclusions based on race, class, gender, or property.",
-        "C": "Revolutions never change institutions",
-        "D": "Participation can only rise for everyone equally"
+        "A": "A constitution automatically ends political exclusion",
+        "B": "Representation expanded for some groups while race, class, gender, or property still excluded others",
+        "C": "Revolutions rarely change political institutions",
+        "D": "Participation can rise only if every group benefits equally"
       },
       "answer": "B",
       "note": "Political inclusion is often uneven and contested."
@@ -1450,10 +1450,10 @@
       "value": 1250,
       "question": "Why did the post-1945 international order combine decolonization with continued economic dependency in some countries?",
       "choices": {
-        "A": "Independence legally forbade all trade",
-        "B": "Dependency requires direct colonial governors",
-        "C": "Political sovereignty did not automatically change trade patterns, capital ownership, debt, or security relationships.",
-        "D": "All economies became equal in 1945"
+        "A": "Independence ended most international trade by law",
+        "B": "Economic dependency requires direct colonial governors",
+        "C": "Independence did not automatically change trade, ownership, debt, or security ties",
+        "D": "Most economies reached equal levels of development in 1945"
       },
       "answer": "C",
       "note": "Political and economic independence are related but distinct."
@@ -1464,10 +1464,10 @@
       "value": 1250,
       "question": "What does the failure of appeasement in the late 1930s suggest about concessions to expansionist powers?",
       "choices": {
-        "A": "Diplomacy never works",
-        "B": "Every compromise inevitably causes war",
-        "C": "Military force is always the only answer",
-        "D": "Concessions can fail when they do not change the aggressor’s aims or credible expectations about future resistance."
+        "A": "Diplomacy is ineffective in nearly all conflicts",
+        "B": "Compromise inevitably causes war",
+        "C": "Military force is the only workable response",
+        "D": "Concessions fail when they leave an aggressor’s aims and expectations unchanged"
       },
       "answer": "D",
       "note": "The effect of concessions depends on goals, incentives, and credibility."
@@ -1478,7 +1478,7 @@
       "value": 1250,
       "question": "Why did the Haitian Revolution challenge the universal claims of the French Revolution?",
       "choices": {
-        "A": "Enslaved people demanded that liberty and equality apply beyond the racial and colonial limits tolerated by many revolutionaries.",
+        "A": "Enslaved people demanded liberty beyond accepted racial and colonial limits",
         "B": "The revolution opposed every idea of equality",
         "C": "France had abolished all slavery before 1789",
         "D": "Haiti was not influenced by revolutionary ideas"
@@ -1492,10 +1492,10 @@
       "value": 1250,
       "question": "How can a state’s census become a tool of power rather than a neutral count?",
       "choices": {
-        "A": "A census always records natural categories",
-        "B": "Categories can define identities, allocate resources, and make some groups visible while marginalizing others.",
-        "C": "Numbers never influence policy",
-        "D": "Censuses cannot be used politically"
+        "A": "Censuses simply record natural categories without shaping them",
+        "B": "Categories shape identity, resource allocation, visibility, and marginalization",
+        "C": "Numerical categories rarely affect public policy",
+        "D": "Censuses are generally not used for political purposes"
       },
       "answer": "B",
       "note": "Classification is part of governance."
@@ -1509,7 +1509,7 @@
         "A": "The empire banned all cultural exchange",
         "B": "Trade always erases local culture",
         "C": "No long-distance trade occurred",
-        "D": "Conquest and protected routes increased movement, but local languages, religions, and institutions persisted."
+        "D": "Protected routes increased movement without erasing local cultures"
       },
       "answer": "D",
       "note": "Connectivity does not require uniformity."
@@ -1523,7 +1523,7 @@
         "A": "Superpowers never provide resources",
         "B": "Local actors have no agency",
         "C": "Proxy wars have no violence",
-        "D": "Outside powers support local combatants, while local aims and conditions still shape the conflict."
+        "D": "Outside powers backed local groups with their own aims"
       },
       "answer": "D",
       "note": "The label should not erase local causes or actors."
@@ -1534,10 +1534,10 @@
       "value": 1250,
       "question": "Why might the same economic crisis strengthen authoritarian movements in one country but not another?",
       "choices": {
-        "A": "Economic crises always have identical effects",
-        "B": "Authoritarianism is purely geographical",
-        "C": "Political institutions, organized opposition, elite choices, and public trust mediate how crises are translated into politics.",
-        "D": "Institutions never matter"
+        "A": "Economic crises produce identical political outcomes everywhere",
+        "B": "Authoritarian politics is determined by geography alone",
+        "C": "Institutions, opposition, elite choices, and public trust shape crisis outcomes",
+        "D": "Political institutions rarely affect crisis outcomes"
       },
       "answer": "C",
       "note": "Similar shocks can produce divergent outcomes."
@@ -1551,7 +1551,7 @@
         "A": "Treat any later war as inevitable",
         "B": "Ignore events after the treaty",
         "C": "Assume chronology alone proves causation",
-        "D": "Trace mechanisms linking treaty terms to later decisions and compare them with other contributing causes."
+        "D": "Trace treaty effects and compare other causes"
       },
       "answer": "D",
       "note": "Temporal sequence is not sufficient causal evidence."
@@ -1562,10 +1562,10 @@
       "value": 1500,
       "question": "A historian argues that empire-building was driven only by economic profit. What evidence would most directly challenge this monocausal claim?",
       "choices": {
-        "A": "Evidence that profit existed in one colony",
-        "B": "Evidence that strategic, ideological, domestic political, and security motives independently shaped decisions alongside profit.",
-        "C": "A map showing the empire was large",
-        "D": "A speech that uses the word “trade” once"
+        "A": "Evidence that profit mattered in one colony",
+        "B": "Strategic, ideological, domestic, and security motives also mattered",
+        "C": "A map showing only the empire’s territorial size",
+        "D": "A speech mentioning trade once"
       },
       "answer": "B",
       "note": "A monocausal thesis must account for independent motives and variation."
@@ -1577,7 +1577,7 @@
       "question": "Why is the “rise of the West” framework criticized when it treats European development as internally generated and inevitable?",
       "choices": {
         "A": "All regions developed identically",
-        "B": "It can obscure global exchanges, colonial extraction, contingent choices, and parallel developments elsewhere.",
+        "B": "It obscures exchange, extraction, and parallel development",
         "C": "Europe had no internal institutions",
         "D": "Global trade began after 1950"
       },
@@ -1592,7 +1592,7 @@
       "choices": {
         "A": "A trigger must occur decades earlier",
         "B": "They are always identical",
-        "C": "A structural cause creates long-term vulnerability; a trigger precipitates action under those conditions.",
+        "C": "Structural causes create vulnerability; triggers prompt action",
         "D": "Structural causes are never observable"
       },
       "answer": "C",
@@ -1604,10 +1604,10 @@
       "value": 1500,
       "question": "Why does comparing legal texts with enforcement records matter when studying abolition?",
       "choices": {
-        "A": "Enforcement records cannot be historical evidence",
-        "B": "Legal texts are always false",
-        "C": "Abolition has no relation to labor",
-        "D": "It reveals whether formal prohibition changed practice or whether coercion persisted through other legal and economic forms."
+        "A": "Enforcement records cannot serve as historical evidence",
+        "B": "Legal texts are generally false by definition",
+        "C": "Abolition had no connection to labor systems",
+        "D": "It shows whether formal abolition changed practice or coercion persisted in other forms"
       },
       "answer": "D",
       "note": "Law on paper and lived conditions can diverge."
@@ -1618,10 +1618,10 @@
       "value": 1500,
       "question": "A nationalist movement claims to represent “the people,” but records show internal class and regional disputes. What is the best conclusion?",
       "choices": {
-        "A": "The movement did not exist",
-        "B": "All participants shared one interest",
-        "C": "National unity was a political claim negotiated among groups with different interests, not a fixed fact.",
-        "D": "Records of disagreement are irrelevant"
+        "A": "Internal disputes prove the movement never existed",
+        "B": "All participants necessarily shared one interest",
+        "C": "National unity was negotiated among groups with different interests, not simply given",
+        "D": "Disagreement in the records is irrelevant"
       },
       "answer": "C",
       "note": "Nationalism can unite and conceal differences at once."
@@ -1632,7 +1632,7 @@
       "value": 1500,
       "question": "Why should the end of an empire be studied through continuities as well as formal dates of independence?",
       "choices": {
-        "A": "Administrative practices, elite networks, economic dependencies, and borders may persist after legal sovereignty changes.",
+        "A": "Networks, dependencies, and borders may outlast sovereignty changes",
         "B": "Dates are never important",
         "C": "Independence changes nothing",
         "D": "Empires end only when all customs vanish"
@@ -1649,7 +1649,7 @@
         "A": "Ignore labor and institutions",
         "B": "Assume every society adopted it equally",
         "C": "List the invention date only",
-        "D": "Show the mechanism of adoption and impact, compare contexts with different adoption rates, and consider complementary conditions."
+        "D": "Compare adoption, impact, contexts, and supporting conditions"
       },
       "answer": "D",
       "note": "Causal claims require mechanisms and comparative evidence."
@@ -1661,7 +1661,7 @@
       "question": "Why can an empire’s administrative records simultaneously be useful and deeply biased?",
       "choices": {
         "A": "Only private diaries contain facts",
-        "B": "They preserve detailed information but were created for governance, taxation, surveillance, or control.",
+        "B": "Records preserve detail but also served state control",
         "C": "Bias makes every recorded fact unusable",
         "D": "Official records are always neutral"
       },
@@ -1675,7 +1675,7 @@
       "question": "How does a global-history approach alter the explanation of a local revolution?",
       "choices": {
         "A": "It rejects local sources",
-        "B": "It traces cross-border flows of ideas, commodities, people, and military pressure without erasing local agency.",
+        "B": "It traces cross-border flows while retaining attention to local agency",
         "C": "It removes chronology from analysis",
         "D": "It assumes every local event was controlled abroad"
       },
@@ -1691,7 +1691,7 @@
         "A": "Assume intentions equal outcomes",
         "B": "Count speeches praising it",
         "C": "Use the policy’s official name",
-        "D": "Define the intended outcome, measure results across affected groups, and compare with plausible alternatives or counterfactuals."
+        "D": "Compare intentions, measured effects, and alternatives"
       },
       "answer": "D",
       "note": "Success requires explicit criteria and evidence of effects."
@@ -1703,7 +1703,7 @@
       "question": "Why are many major cities located near coasts or navigable rivers?",
       "choices": {
         "A": "Waterways prevent all natural hazards",
-        "B": "They historically reduce transport costs and connect settlements to trade networks",
+        "B": "They lower transport costs and connect settlements to trade",
         "C": "Coasts always have the mildest climate",
         "D": "Rivers create unlimited farmland"
       },
@@ -1857,7 +1857,7 @@
       "question": "Why can a country's population density be high near a river delta?",
       "choices": {
         "A": "Deltas are always above flood risk",
-        "B": "Flat land, fertile sediments, and transport access can support dense settlement despite flood hazards",
+        "B": "Flat, fertile land and transport access support settlement",
         "C": "Deltas have no disease risks",
         "D": "Rivers stop all saltwater intrusion"
       },
@@ -1997,7 +1997,7 @@
       "question": "A mountain range runs perpendicular to moist prevailing winds. Which pattern is most likely?",
       "choices": {
         "A": "Equal rainfall on both sides in every season",
-        "B": "More precipitation on the windward slope and drier conditions in the lee",
+        "B": "Rain falls more on the windward slope, leaving drier conditions in the lee",
         "C": "More precipitation only in the rain shadow",
         "D": "No effect on local climate"
       },
@@ -2011,7 +2011,7 @@
       "question": "Why might a country with a large total area still have relatively little arable land?",
       "choices": {
         "A": "Area and land quality are unrelated in every case",
-        "B": "Much of its territory may be desert, mountain, permafrost, or otherwise unsuitable for cultivation",
+        "B": "Much territory may be unsuitable for cultivation",
         "C": "Large countries cannot import food",
         "D": "Arable land depends only on population"
       },
@@ -2122,7 +2122,7 @@
       "value": 1000,
       "question": "A city grows rapidly on a delta with subsiding land and rising sea level. Which combined risk is most important?",
       "choices": {
-        "A": "Relative sea-level rise increases flood exposure, especially where drainage and protective infrastructure are inadequate.",
+        "A": "Sea-level rise and subsidence raise flood risk",
         "B": "Subsidence prevents flooding",
         "C": "Sea-level rise affects only rocky coasts",
         "D": "Delta sediment guarantees safety"
@@ -2136,9 +2136,9 @@
       "value": 1000,
       "question": "Why can two places at the same latitude have very different climates?",
       "choices": {
-        "A": "Elevation, ocean currents, prevailing winds, continentality, and relief alter temperature and precipitation.",
+        "A": "Elevation, currents, winds, and relief alter local climate",
         "B": "Latitude alone fixes every climate variable",
-        "C": "Longitude determines rainfall directly",
+        "C": "Longitude directly determines rainfall",
         "D": "Local geography has no climatic effect"
       },
       "answer": "A",
@@ -2150,10 +2150,10 @@
       "value": 1000,
       "question": "A rain shadow produces a wet windward slope and dry leeward region. What mechanism explains it?",
       "choices": {
-        "A": "The leeward side receives more condensation",
-        "B": "Mountains stop all wind",
+        "A": "The leeward slope receives more condensation",
+        "B": "Mountains stop all wind movement",
         "C": "Air warms as it rises and gains moisture",
-        "D": "Moist air rises and cools on the windward side, then descends and warms after losing moisture."
+        "D": "Air cools on the windward slope and descends drier on the leeward side"
       },
       "answer": "D",
       "note": "Orographic lifting and descending air create the contrast."
@@ -2164,10 +2164,10 @@
       "value": 1000,
       "question": "Why does a choropleth map using raw population totals risk misleading comparisons?",
       "choices": {
-        "A": "Colors eliminate denominator problems",
-        "B": "Population totals are unrelated to geography",
-        "C": "Large areas or differently sized populations can dominate; rates or normalized values may better answer the question.",
-        "D": "Raw totals always show density"
+        "A": "Color scales eliminate denominator problems",
+        "B": "Population totals have no geographic meaning",
+        "C": "Raw totals mislead; normalized rates may fit the comparison better",
+        "D": "Raw totals always show population density"
       },
       "answer": "C",
       "note": "Map design must match the comparison being made."
@@ -2179,9 +2179,9 @@
       "question": "A country’s fertility rate falls while its total population continues growing. What explains this?",
       "choices": {
         "A": "Population momentum means births stop",
-        "B": "Population momentum: large younger cohorts continue entering reproductive ages, while life expectancy may also rise.",
+        "B": "Large younger cohorts sustain growth as they enter reproductive ages",
         "C": "Migration is the only possible explanation",
-        "D": "Falling fertility instantly reduces population"
+        "D": "Falling fertility instantly reduces total population"
       },
       "answer": "B",
       "note": "Demographic age structure can delay population decline."
@@ -2194,7 +2194,7 @@
       "choices": {
         "A": "Rivers follow national borders",
         "B": "Only downstream places use water",
-        "C": "Water flows across jurisdictions, so upstream decisions affect downstream supply, flooding, and pollution.",
+        "C": "Upstream choices affect downstream water and pollution",
         "D": "Political boundaries stop runoff"
       },
       "answer": "C",
@@ -2206,7 +2206,7 @@
       "value": 1000,
       "question": "How can a country be resource-rich yet remain economically vulnerable?",
       "choices": {
-        "A": "Dependence on a few volatile exports can expose public revenue and jobs to price shocks and governance problems.",
+        "A": "Reliance on volatile exports exposes revenue and jobs to price shocks",
         "B": "Exports cannot affect government budgets",
         "C": "Natural resources guarantee diversified growth",
         "D": "Resource prices never fluctuate"
@@ -2223,7 +2223,7 @@
         "A": "Nighttime wind always stops",
         "B": "Cities receive no sunlight",
         "C": "Concrete reflects all heat away",
-        "D": "Built surfaces store heat and release it, while reduced vegetation and altered airflow limit cooling."
+        "D": "Built surfaces store heat; less greenery cools less"
       },
       "answer": "D",
       "note": "Urban form changes heat storage and cooling."
@@ -2234,7 +2234,7 @@
       "value": 1000,
       "question": "A map shows high disease rates near a road network. Why is this not proof that roads caused the disease?",
       "choices": {
-        "A": "The pattern may reflect access to clinics, population density, reporting, or other confounders; causal evidence is needed.",
+        "A": "Clinic access, density, and reporting may confound results",
         "B": "Roads cannot affect disease spread",
         "C": "Correlation proves direct causation",
         "D": "Maps can never show patterns"
@@ -2249,7 +2249,7 @@
       "question": "Why can a country’s GDP rise while regional inequality worsens?",
       "choices": {
         "A": "GDP includes only the poorest region",
-        "B": "Growth may concentrate in particular sectors and cities rather than being distributed evenly.",
+        "B": "Growth may concentrate in selected sectors and cities",
         "C": "Inequality always falls with growth",
         "D": "GDP measures each household equally"
       },
@@ -2262,7 +2262,7 @@
       "value": 1250,
       "question": "A coastal city faces stronger storms, more paved surfaces, and declining wetlands. Why does flood risk compound?",
       "choices": {
-        "A": "Storm surge and rainfall increase water input while impervious cover speeds runoff and wetland loss removes natural storage.",
+        "A": "Impervious cover speeds runoff; wetlands store less water",
         "B": "Storms reduce runoff by definition",
         "C": "Wetlands increase every flood",
         "D": "Pavement absorbs all rain"
@@ -2278,7 +2278,7 @@
       "choices": {
         "A": "Flat basins always flood fastest",
         "B": "Vegetation has no effect",
-        "C": "Slope, soil saturation, vegetation, drainage, basin shape, and rainfall intensity control runoff timing.",
+        "C": "Runoff depends on slope, soil, vegetation, drainage, and rainfall",
         "D": "Rainfall totals alone determine flood peaks"
       },
       "answer": "C",
@@ -2291,7 +2291,7 @@
       "question": "How can a population pyramid reveal future pressure on public services?",
       "choices": {
         "A": "It predicts exact individual behavior",
-        "B": "A large child cohort implies future school demand and, later, labor-market entry; an aging profile implies greater care needs.",
+        "B": "Age structure helps forecast school, workforce, and care needs",
         "C": "Age structure has no policy relevance",
         "D": "It shows only current GDP"
       },
@@ -2306,7 +2306,7 @@
       "choices": {
         "A": "Deforestation only occurs at road edges",
         "B": "Roads create no indirect effects",
-        "C": "It can improve access, raise land values, and enable settlement, logging, and agriculture along the corridor.",
+        "C": "It improves access and can spur settlement and farming",
         "D": "Highways lower access to forests"
       },
       "answer": "C",
@@ -2320,7 +2320,7 @@
       "choices": {
         "A": "Maintaining conformal shapes",
         "B": "Showing local angles",
-        "C": "Comparing the relative land areas of countries.",
+        "C": "Comparing the relative land areas of countries",
         "D": "Navigating local bearings"
       },
       "answer": "C",
@@ -2334,7 +2334,7 @@
       "choices": {
         "A": "Glaciers feed only coastal tides",
         "B": "Distance prevents all hydrological links",
-        "C": "Seasonal meltwater may sustain rivers during dry periods, so reduced ice storage changes downstream supply.",
+        "C": "Seasonal meltwater sustains rivers, so less ice storage alters supply",
         "D": "Retreat always increases long-term supply"
       },
       "answer": "C",
@@ -2348,7 +2348,7 @@
       "choices": {
         "A": "Demand is uniform everywhere",
         "B": "Average rainfall fully predicts access",
-        "C": "Rainfall varies seasonally and spatially, while storage, infrastructure, demand, and water quality determine usable supply.",
+        "C": "Rainfall, storage, demand, and quality shape usable supply",
         "D": "Water quality never matters"
       },
       "answer": "C",
@@ -2361,7 +2361,7 @@
       "question": "Why may a megacity’s informal settlements grow on hazard-prone land?",
       "choices": {
         "A": "All hazard land is legally free",
-        "B": "Affordable central land is scarce, and residents may trade lower cost or proximity to work against greater risk.",
+        "B": "Residents may trade lower costs or job access against risk",
         "C": "Residents cannot perceive any hazards",
         "D": "Urban land markets do not matter"
       },
@@ -2376,7 +2376,7 @@
       "choices": {
         "A": "Winds cannot carry water vapor",
         "B": "Rainfall is independent of ocean temperature",
-        "C": "Winds transport moisture while currents alter the temperature and stability of the air above the ocean.",
+        "C": "Winds move moisture; currents change the air’s temperature and stability",
         "D": "Currents act only below the seabed"
       },
       "answer": "C",
@@ -2388,7 +2388,7 @@
       "value": 1250,
       "question": "Why should migration statistics distinguish net migration from total flows?",
       "choices": {
-        "A": "Large numbers can enter and leave simultaneously, leaving a small net change but substantial movement.",
+        "A": "Large inflows and outflows can hide movement behind small net change",
         "B": "Departures are not part of migration",
         "C": "Total flows always equal net change",
         "D": "Net migration counts every arrival twice"
@@ -2404,7 +2404,7 @@
       "choices": {
         "A": "Higher output proves the system is sustainable",
         "B": "Irrigation always increases recharge",
-        "C": "Short-term gains may be unsustainable if extraction exceeds recharge, requiring analysis of demand, recharge, and crop choices.",
+        "C": "Unsustainable extraction exceeds recharge; assess demand, recharge, and crops",
         "D": "Groundwater levels do not affect agriculture"
       },
       "answer": "C",
@@ -2419,7 +2419,7 @@
         "A": "Rivers are always governed by one country",
         "B": "Drought increases supply",
         "C": "Political agreements cannot affect water",
-        "D": "Upstream control, competing demands, weak agreements, and unequal bargaining power can turn reduced flow into a distribution dispute."
+        "D": "Upstream control and unequal bargaining can trigger water disputes"
       },
       "answer": "D",
       "note": "Scarcity interacts with institutions and power."
@@ -2431,7 +2431,7 @@
       "question": "How can a city reduce heat exposure without merely shifting it to poorer neighborhoods?",
       "choices": {
         "A": "Ignore who receives the intervention",
-        "B": "Combine citywide shade and cooling with equitable siting, tenant protections, and monitoring of displacement and energy costs.",
+        "B": "Combine cooling with fair siting, tenant protection, and monitoring",
         "C": "Increase pavement everywhere",
         "D": "Plant trees only in high-income districts"
       },
@@ -2444,7 +2444,7 @@
       "value": 1500,
       "question": "Why can a country’s food imports rise even while domestic production grows?",
       "choices": {
-        "A": "Demand may grow faster, diets may shift, or domestic production may specialize in crops not matching consumption.",
+        "A": "Demand, diets, and crop choices can widen import gaps",
         "B": "Imports prove domestic production fell",
         "C": "Trade cannot coexist with local farming",
         "D": "Population has no effect on demand"
@@ -2459,7 +2459,7 @@
       "question": "A landslide map predicts danger using slope alone. What major weakness does it have?",
       "choices": {
         "A": "Maps cannot model hazards",
-        "B": "It omits triggers and susceptibility factors such as rainfall, geology, vegetation, and human modification.",
+        "B": "It omits rainfall, geology, vegetation, and human changes",
         "C": "Landslides occur only on flat land",
         "D": "Slope never matters"
       },
@@ -2475,7 +2475,7 @@
         "A": "Vulnerability is identical across a country",
         "B": "Only climate matters",
         "C": "Averages reveal every local condition",
-        "D": "Exposure, adaptive capacity, infrastructure, and hazards vary sharply between regions and social groups."
+        "D": "Exposure, capacity, infrastructure, and hazards vary by group"
       },
       "answer": "D",
       "note": "Risk is spatially uneven."
@@ -2487,7 +2487,7 @@
       "question": "What is the difference between a hazard and a disaster in geographic analysis?",
       "choices": {
         "A": "Every hazard automatically becomes a disaster",
-        "B": "A hazard is a potentially damaging event; disaster outcomes depend on exposure, vulnerability, and response capacity.",
+        "B": "Hazard is potential harm; disaster depends on exposure and vulnerability",
         "C": "A disaster is only a weather event",
         "D": "Vulnerability is irrelevant"
       },
@@ -2503,7 +2503,7 @@
         "A": "Brine is always harmless",
         "B": "It eliminates demand management needs",
         "C": "It creates freshwater without energy or waste",
-        "D": "It requires energy and produces concentrated brine, while high costs may limit access."
+        "D": "Desalination uses energy, creates brine, and can be costly"
       },
       "answer": "D",
       "note": "Technological supply must be evaluated across its full system."
@@ -2515,7 +2515,7 @@
       "question": "How can a country have high water availability but poor household access?",
       "choices": {
         "A": "Only rainfall controls household access",
-        "B": "Water may be polluted, distant, seasonally unavailable, or inaccessible because of infrastructure and affordability.",
+        "B": "Water may be polluted, distant, seasonal, or hard to access",
         "C": "Pipes do not affect water access",
         "D": "Availability guarantees access"
       },
@@ -2528,7 +2528,7 @@
       "value": 1500,
       "question": "Why does a map of election results by district risk the ecological fallacy?",
       "choices": {
-        "A": "District-level patterns do not establish how each individual voted or why.",
+        "A": "District patterns do not show how each individual voted or why",
         "B": "Maps cannot display elections",
         "C": "Districts contain no voters",
         "D": "Every voter in a district votes alike"
@@ -2697,7 +2697,7 @@
       "question": "Why does a sealed syringe become harder to compress as its plunger is pushed inward?",
       "choices": {
         "A": "Gas particles become larger",
-        "B": "The same gas occupies less volume, increasing pressure through more frequent particle-wall collisions",
+        "B": "The gas occupies less volume, raising pressure through more frequent wall collisions",
         "C": "The gas loses all kinetic energy",
         "D": "The number of gas particles increases automatically"
       },
@@ -2836,7 +2836,7 @@
       "value": 750,
       "question": "A mutation changes one DNA base but does not change the amino acid sequence. Which explanation is most likely?",
       "choices": {
-        "A": "The genetic code is degenerate, so multiple codons can specify the same amino acid",
+        "A": "Multiple codons can specify one amino acid",
         "B": "DNA is never transcribed",
         "C": "All mutations occur outside genes",
         "D": "Ribosomes repair every mutation"
@@ -2851,7 +2851,7 @@
       "question": "Why does adding a catalyst increase reaction rate without changing the reaction's equilibrium constant?",
       "choices": {
         "A": "It raises the energy of all products",
-        "B": "It lowers activation barriers for forward and reverse reactions but does not change the equilibrium energy difference",
+        "B": "It speeds both reaction directions without changing equilibrium energy",
         "C": "It changes the chemical formula of the reactants",
         "D": "It permanently removes products"
       },
@@ -2962,10 +2962,10 @@
       "value": 1000,
       "question": "A study finds plants grow taller under blue light but have less total biomass. Which interpretation is strongest?",
       "choices": {
-        "A": "Height alone is not a complete measure of growth; biomass and other outcomes suggest a different response.",
-        "B": "The result is impossible",
-        "C": "Taller always means healthier",
-        "D": "Light color cannot affect plants"
+        "A": "Height and biomass capture different aspects of plant growth",
+        "B": "The result cannot occur under any conditions",
+        "C": "Greater height always means better plant health",
+        "D": "Light color cannot affect plant growth"
       },
       "answer": "A",
       "note": "Operational definitions determine what “growth” means."
@@ -2976,10 +2976,10 @@
       "value": 1000,
       "question": "A reaction speeds up when temperature rises. What explanation best fits collision theory?",
       "choices": {
-        "A": "Temperature changes the atoms into a new element",
-        "B": "Particles stop colliding",
-        "C": "Particles have greater average kinetic energy, increasing the fraction of collisions that exceed activation energy.",
-        "D": "Activation energy becomes zero"
+        "A": "Higher temperature changes atoms into new elements",
+        "B": "Particles stop colliding at higher temperature",
+        "C": "Particles move faster, so more collisions exceed the activation-energy threshold",
+        "D": "The activation-energy barrier becomes zero"
       },
       "answer": "C",
       "note": "Higher temperature increases effective collision frequency."
@@ -2991,9 +2991,9 @@
       "question": "A ball moves at constant speed around a circle. Why is it accelerating?",
       "choices": {
         "A": "Circular motion has no velocity",
-        "B": "Its velocity direction continuously changes, even though speed stays constant.",
-        "C": "Acceleration requires changing speed only",
-        "D": "The net force is zero"
+        "B": "Its velocity direction changes even when speed stays constant",
+        "C": "Acceleration requires a change in speed only",
+        "D": "The net force must be zero"
       },
       "answer": "B",
       "note": "Velocity includes direction, so changing direction is acceleration."
@@ -3004,10 +3004,10 @@
       "value": 1000,
       "question": "Why is a control group important in an experiment testing a fertilizer?",
       "choices": {
-        "A": "It guarantees the hypothesis is true",
-        "B": "It provides a comparison for estimating changes not attributable to the fertilizer.",
-        "C": "It removes the need for replication",
-        "D": "It must receive every treatment"
+        "A": "A control group guarantees the hypothesis is true",
+        "B": "It provides a baseline for separating treatment effects from other changes",
+        "C": "A control group removes the need for replication",
+        "D": "The control group must receive every treatment"
       },
       "answer": "B",
       "note": "Controls help isolate the treatment effect."
@@ -3020,7 +3020,7 @@
       "choices": {
         "A": "Predators never affect ecosystems",
         "B": "The food web becomes unchanged",
-        "C": "Greater herbivory may reduce plant populations and alter other species interactions.",
+        "C": "More herbivory may reduce plants and alter interactions",
         "D": "Plants must increase in every case"
       },
       "answer": "C",
@@ -3032,7 +3032,7 @@
       "value": 1000,
       "question": "Why does increasing sample size usually improve an estimate but not automatically remove bias?",
       "choices": {
-        "A": "More observations reduce random error, while systematic selection or measurement errors can persist.",
+        "A": "More observations reduce random error, not systematic bias",
         "B": "Large samples guarantee truth",
         "C": "Random error and bias are identical",
         "D": "Bias disappears when n exceeds ten"
@@ -3049,7 +3049,7 @@
         "A": "The wire loses all internal energy",
         "B": "Its atoms gain mass",
         "C": "Heat creates new atoms",
-        "D": "Greater thermal motion increases average spacing in the material."
+        "D": "Thermal motion increases average spacing in a material"
       },
       "answer": "D",
       "note": "Thermal expansion reflects changes in average interatomic spacing."
@@ -3063,7 +3063,7 @@
         "A": "Viruses are larger bacteria",
         "B": "Viruses cannot replicate",
         "C": "Antibiotics always kill viruses",
-        "D": "Antibiotics target bacterial structures or processes that viruses do not possess in the same way."
+        "D": "Antibiotics target bacterial processes, not viral ones"
       },
       "answer": "D",
       "note": "Treatment must target the biology of the pathogen."
@@ -3077,7 +3077,7 @@
         "A": "Layer position gives exact dates",
         "B": "The lower layer must contain simpler organisms",
         "C": "The upper layer is always volcanic",
-        "D": "The lower layer is generally older, unless the sequence has been disturbed."
+        "D": "The lower layer is generally older, unless the sequence has been disturbed"
       },
       "answer": "D",
       "note": "Relative dating relies on superposition and geological context."
@@ -3089,7 +3089,7 @@
       "question": "Why does a population with limited genetic variation face elevated risk from a new pathogen?",
       "choices": {
         "A": "Pathogens cannot evolve",
-        "B": "Fewer individuals may carry variants that provide resistance, reducing the population’s adaptive options.",
+        "B": "Smaller populations may carry fewer resistance variants",
         "C": "Variation always causes disease",
         "D": "Every individual has identical immunity"
       },
@@ -3103,7 +3103,7 @@
       "question": "A drug reduces symptoms in a trial but the treatment group was younger on average. What is the main concern?",
       "choices": {
         "A": "The trial proves the drug works",
-        "B": "Age is a potential confounder that may explain some of the observed difference.",
+        "B": "Age may confound the observed difference",
         "C": "Averages make comparison unnecessary",
         "D": "Age can never affect outcomes"
       },
@@ -3117,7 +3117,7 @@
       "question": "A planet’s orbital speed increases near its star. Which principle best explains this?",
       "choices": {
         "A": "The planet gains mass from sunlight",
-        "B": "It moves faster near periapsis as gravitational potential energy converts to kinetic energy while angular momentum is conserved.",
+        "B": "It moves faster near periapsis as potential energy becomes kinetic",
         "C": "Orbital speed is constant in every elliptical orbit",
         "D": "Gravity vanishes near the star"
       },
@@ -3133,7 +3133,7 @@
         "A": "Unbounded exponential growth forever",
         "B": "Radioactive decay",
         "C": "Linear decline only",
-        "D": "Logistic growth, where growth rate decreases as population approaches carrying capacity."
+        "D": "Logistic growth slows near carrying capacity"
       },
       "answer": "D",
       "note": "Density-dependent limits slow population growth."
@@ -3146,7 +3146,7 @@
       "choices": {
         "A": "Equal averages guarantee identical results",
         "B": "Averages summarize every relevant outcome",
-        "C": "They may differ in side effects, duration, interactions, patient subgroups, and uncertainty of evidence.",
+        "C": "Treatments vary in side effects, duration, interactions, and evidence",
         "D": "Side effects do not affect treatment"
       },
       "answer": "C",
@@ -3160,7 +3160,7 @@
       "choices": {
         "A": "It increases by a factor of 100",
         "B": "It decreases by a factor of 2",
-        "C": "It decreases by a factor of 100.",
+        "C": "It decreases by a factor of 100",
         "D": "It decreases by a factor of 10"
       },
       "answer": "C",
@@ -3175,7 +3175,7 @@
         "A": "Survival of one event guarantees long-term stability",
         "B": "Heat never affects reproduction",
         "C": "Population size is unrelated to recovery",
-        "D": "Repeated stress may reduce reproduction and recovery time, producing cumulative population effects."
+        "D": "Repeated stress may reduce reproduction and recovery over time"
       },
       "answer": "D",
       "note": "Acute survival differs from long-term demographic resilience."
@@ -3188,7 +3188,7 @@
       "choices": {
         "A": "The satellite is beyond Earth’s gravity",
         "B": "There is no inertia in space",
-        "C": "Gravity continuously bends its path while its tangential velocity carries it forward.",
+        "C": "Gravity bends its path as tangential velocity carries it forward",
         "D": "Gravity does not act in orbit"
       },
       "answer": "C",
@@ -3203,7 +3203,7 @@
         "A": "It removes all reactants",
         "B": "It changes the reaction equation",
         "C": "It adds energy permanently to products",
-        "D": "It lowers activation barriers for forward and reverse pathways but does not change the reaction’s thermodynamic energy difference."
+        "D": "It lowers activation barriers without changing energy difference"
       },
       "answer": "D",
       "note": "Catalysts alter kinetics, not equilibrium thermodynamics."
@@ -3215,7 +3215,7 @@
       "question": "A test has high sensitivity but low specificity. What is the likely tradeoff?",
       "choices": {
         "A": "It proves every positive result is true",
-        "B": "It catches many true cases but may also produce more false positives.",
+        "B": "It detects many true cases but may create more false positives",
         "C": "It misses nearly all true cases",
         "D": "It has no false positives"
       },
@@ -3228,7 +3228,7 @@
       "value": 1250,
       "question": "Why is correlation between screen time and poor sleep insufficient to prove screen time is the sole cause?",
       "choices": {
-        "A": "Stress, schedule, health, and reverse causation may also contribute; causal designs are needed.",
+        "A": "Stress, schedule, health, and reverse causation may also contribute",
         "B": "A large correlation removes all confounders",
         "C": "Correlation is never useful",
         "D": "Sleep cannot affect behavior"
@@ -3244,7 +3244,7 @@
       "choices": {
         "A": "Sample size becomes irrelevant",
         "B": "Ten tests guarantee no false positives",
-        "C": "Multiple testing increases the chance of a false positive when selective reporting is not accounted for.",
+        "C": "Multiple tests raise false positives without controls",
         "D": "P-values prove the hypothesis true"
       },
       "answer": "C",
@@ -3259,7 +3259,7 @@
         "A": "Niches refer only to latitude",
         "B": "Biotic interactions cannot limit species",
         "C": "The realized niche always includes every possible habitat",
-        "D": "Competition, predation, and other biotic interactions may restrict where it persists in nature."
+        "D": "Competition, predation, and other biotic interactions may restrict where it persists in nature"
       },
       "answer": "D",
       "note": "Potential tolerances differ from actual ecological distribution."
@@ -3270,10 +3270,10 @@
       "value": 1500,
       "question": "A climate model reproduces past temperatures but performs poorly on a new period. What should researchers examine?",
       "choices": {
-        "A": "Models cannot be tested",
-        "B": "Past fit proves future accuracy",
-        "C": "The new data must be wrong",
-        "D": "Overfitting, missing processes, data quality, and whether the model generalizes beyond calibration conditions."
+        "A": "Models cannot be tested against evidence",
+        "B": "A good fit to past data proves future accuracy",
+        "C": "Any new data that disagree must be wrong",
+        "D": "Check overfitting, missing processes, data quality, and new-case performance"
       },
       "answer": "D",
       "note": "Validation tests performance beyond the fitted dataset."
@@ -3287,7 +3287,7 @@
         "A": "Every mutation has one universal effect",
         "B": "Environment never affects phenotype",
         "C": "All mutations are harmful",
-        "D": "Its impact can interact with other genes, regulation, development, and environmental conditions."
+        "D": "Gene effects depend on regulation, other genes, and environment"
       },
       "answer": "D",
       "note": "Genotype-to-phenotype relationships are context-dependent."
@@ -3299,7 +3299,7 @@
       "question": "A battery’s voltage stays constant while current falls as a load’s resistance rises. Which relation explains it?",
       "choices": {
         "A": "Voltage equals resistance divided by current",
-        "B": "Ohm’s law: at constant voltage, current is inversely proportional to resistance.",
+        "B": "At constant voltage, current varies inversely with resistance",
         "C": "Current must rise with resistance",
         "D": "Resistance has no electrical effect"
       },
@@ -3312,7 +3312,7 @@
       "value": 1500,
       "question": "Why can an observed increase in biodiversity after restoration be misleading if only total species count is reported?",
       "choices": {
-        "A": "Counts may hide the loss of specialist species, dominance by invasives, or changes in abundance and function.",
+        "A": "Counts can hide specialist loss, invasive dominance, or abundance shifts",
         "B": "Abundance never matters",
         "C": "Invasive species cannot raise counts",
         "D": "Species count always captures ecosystem health"
@@ -3329,7 +3329,7 @@
         "A": "Acclimation changes every population gene frequency",
         "B": "Selection occurs only within one lifetime",
         "C": "Both always change DNA sequence directly",
-        "D": "Selection changes trait frequencies across generations; acclimation changes an individual’s response within its lifetime."
+        "D": "Selection changes traits across generations; acclimation affects an individual"
       },
       "answer": "D",
       "note": "Evolutionary and physiological timescales differ."
@@ -3341,7 +3341,7 @@
       "question": "Why does energy conservation not mean that every energy transformation is equally useful?",
       "choices": {
         "A": "Energy disappears during friction",
-        "B": "Energy can disperse as heat, reducing the fraction available to perform organized work.",
+        "B": "Heat disperses energy, leaving less for organized work",
         "C": "Heat has no energy",
         "D": "Conservation means 100% efficiency"
       },
@@ -3355,7 +3355,7 @@
       "question": "A medical study reports a relative risk reduction of 50%, from 2% to 1% absolute risk. Why should both measures be reported?",
       "choices": {
         "A": "Relative risk is always false",
-        "B": "The relative reduction sounds large, while the absolute reduction clarifies the baseline change in probability.",
+        "B": "Relative reduction can mislead; absolute risk shows scale",
         "C": "The measures cannot both be correct",
         "D": "Absolute risk ignores the baseline"
       },
@@ -3370,7 +3370,7 @@
       "choices": {
         "A": "Randomized trials are always perfect",
         "B": "Causation can be read directly from any graph",
-        "C": "Treatment assignment may be related to confounders in observational data, complicating causal attribution.",
+        "C": "Confounding in observational data complicates causal attribution",
         "D": "Observational studies have no value"
       },
       "answer": "C",
@@ -3805,7 +3805,7 @@
         "A": "No change",
         "B": "A 20% decrease",
         "C": "A 4% increase",
-        "D": "A 4% decrease."
+        "D": "A 4% decrease"
       },
       "answer": "D",
       "note": "Multipliers: 1.2 × 0.8 = 0.96."
@@ -3817,7 +3817,7 @@
       "question": "If f(x)=x²−4x, at what x-value does the parabola reach its minimum?",
       "choices": {
         "A": "x = 4",
-        "B": "x = 2.",
+        "B": "x = 2",
         "C": "x = 0",
         "D": "x = −2"
       },
@@ -3830,7 +3830,7 @@
       "value": 1000,
       "question": "A fair die is rolled twice. What is the probability that the sum is 9?",
       "choices": {
-        "A": "1/9.",
+        "A": "1/9",
         "B": "1/6",
         "C": "1/12",
         "D": "1/4"
@@ -3846,7 +3846,7 @@
       "choices": {
         "A": "27:125",
         "B": "3:5",
-        "C": "9:25.",
+        "C": "9:25",
         "D": "6:10"
       },
       "answer": "C",
@@ -3859,7 +3859,7 @@
       "question": "If x and y are positive and xy=36, which pair minimizes x+y?",
       "choices": {
         "A": "x = 3 and y = 12",
-        "B": "x = 6 and y = 6.",
+        "B": "x = 6 and y = 6",
         "C": "x = 1 and y = 36",
         "D": "x = 2 and y = 18"
       },
@@ -3874,7 +3874,7 @@
       "choices": {
         "A": "−5",
         "B": "5",
-        "C": "7.",
+        "C": "7",
         "D": "−2"
       },
       "answer": "C",
@@ -3888,7 +3888,7 @@
       "choices": {
         "A": "27",
         "B": "45",
-        "C": "67.5.",
+        "C": "67.5",
         "D": "72"
       },
       "answer": "C",
@@ -3902,7 +3902,7 @@
       "choices": {
         "A": "6 by 9",
         "B": "5 by 10",
-        "C": "7 by 8.",
+        "C": "7 by 8",
         "D": "4 by 11"
       },
       "answer": "C",
@@ -3915,7 +3915,7 @@
       "question": "If 2^(x+1)=32, what is x?",
       "choices": {
         "A": "3",
-        "B": "4.",
+        "B": "4",
         "C": "6",
         "D": "5"
       },
@@ -3930,7 +3930,7 @@
       "choices": {
         "A": "Both stay the same",
         "B": "Both rise by 3",
-        "C": "Mean rises to 13; standard deviation stays the same.",
+        "C": "Mean rises to 13; standard deviation stays the same",
         "D": "Mean stays 10; deviation rises by 3"
       },
       "answer": "C",
@@ -3943,7 +3943,7 @@
       "question": "A class has 12 students. How many distinct 3-person committees can be formed if order does not matter?",
       "choices": {
         "A": "1320",
-        "B": "220.",
+        "B": "220",
         "C": "60",
         "D": "36"
       },
@@ -3959,7 +3959,7 @@
         "A": "3x² − 3x − 10",
         "B": "x² + 3x − 10",
         "C": "3x² − 9x − 30",
-        "D": "3x² + 9x − 30."
+        "D": "3x² + 9x − 30"
       },
       "answer": "D",
       "note": "3(x−2)(x+5)=3(x²+3x−10)."
@@ -3970,7 +3970,7 @@
       "value": 1250,
       "question": "A sequence is arithmetic with a₃=11 and a₈=31. What is a₁?",
       "choices": {
-        "A": "3.",
+        "A": "3",
         "B": "7",
         "C": "5",
         "D": "−1"
@@ -3987,7 +3987,7 @@
         "A": "11",
         "B": "19",
         "C": "9",
-        "D": "10."
+        "D": "10"
       },
       "answer": "D",
       "note": "log product gives x(x−9)=10; x²−9x−10=0, positive solution 10."
@@ -3999,7 +3999,7 @@
       "question": "A circle’s radius increases by 10%. By what percentage does its area increase?",
       "choices": {
         "A": "10%",
-        "B": "21%.",
+        "B": "21%",
         "C": "110%",
         "D": "20%"
       },
@@ -4014,7 +4014,7 @@
       "choices": {
         "A": "4/25",
         "B": "1/5",
-        "C": "2/15.",
+        "C": "2/15",
         "D": "4/15"
       },
       "answer": "C",
@@ -4027,7 +4027,7 @@
       "question": "For x≠0, simplify (x³−x)/x.",
       "choices": {
         "A": "x³ − 1",
-        "B": "x² − 1.",
+        "B": "x² − 1",
         "C": "x − 1",
         "D": "x² + 1"
       },
@@ -4043,7 +4043,7 @@
         "A": "18",
         "B": "14.5",
         "C": "12",
-        "D": "14."
+        "D": "14"
       },
       "answer": "D",
       "note": "Total is 70; known sum 56; missing value 14."
@@ -4057,7 +4057,7 @@
         "A": "4.5",
         "B": "2",
         "C": "6",
-        "D": "3."
+        "D": "3"
       },
       "answer": "D",
       "note": "Hypotenuse 15; inradius (9+12−15)/2=3."
@@ -4071,7 +4071,7 @@
         "A": "0.9",
         "B": "0.2",
         "C": "0.5",
-        "D": "0.7."
+        "D": "0.7"
       },
       "answer": "D",
       "note": "P(A∪B)=0.4+0.5−0.4×0.5=0.7."
@@ -4084,7 +4084,7 @@
       "choices": {
         "A": "f(x)=3^x",
         "B": "f(x)=x+2",
-        "C": "f(x)=3x for all real x.",
+        "C": "f(x)=3x for all real x",
         "D": "f(x)=3x²"
       },
       "answer": "C",
@@ -4097,7 +4097,7 @@
       "question": "A sequence is defined by a₁=2 and aₙ₊₁=2aₙ+1. What is a₅?",
       "choices": {
         "A": "63",
-        "B": "47.",
+        "B": "47",
         "C": "31",
         "D": "32"
       },
@@ -4111,7 +4111,7 @@
       "question": "A polynomial p(x) leaves remainder 4 when divided by x−2 and remainder −1 when divided by x+1. What are p(2) and p(−1)?",
       "choices": {
         "A": "Both equal 3",
-        "B": "p(2)=4 and p(−1)=−1.",
+        "B": "p(2)=4 and p(−1)=−1",
         "C": "p(2)=−1 and p(−1)=4",
         "D": "Cannot be determined"
       },
@@ -4124,7 +4124,7 @@
       "value": 1500,
       "question": "A fair coin is tossed until the first head. What is the probability the first head occurs on toss 4?",
       "choices": {
-        "A": "1/16.",
+        "A": "1/16",
         "B": "1/32",
         "C": "1/8",
         "D": "1/4"
@@ -4138,7 +4138,7 @@
       "value": 1500,
       "question": "For positive a,b with a+b=10, what is the maximum possible value of ab?",
       "choices": {
-        "A": "25.",
+        "A": "25",
         "B": "24",
         "C": "20",
         "D": "50"
@@ -4155,7 +4155,7 @@
         "A": "3/4",
         "B": "4/5",
         "C": "−3/5",
-        "D": "−4/5."
+        "D": "−4/5"
       },
       "answer": "D",
       "note": "Use sin²θ+cos²θ=1 and the negative cosine in quadrant II."
@@ -4167,7 +4167,7 @@
       "question": "A 2×2 matrix has rows (a,b) and (c,d). What condition makes it non-invertible?",
       "choices": {
         "A": "ab+cd=1",
-        "B": "ad−bc=0.",
+        "B": "ad−bc=0",
         "C": "a+d=0",
         "D": "a=b=c=d"
       },
@@ -4180,7 +4180,7 @@
       "value": 1500,
       "question": "A sequence has first term 3 and common ratio 2. What is the sum of its first 8 terms?",
       "choices": {
-        "A": "765.",
+        "A": "765",
         "B": "384",
         "C": "768",
         "D": "255"
@@ -4196,7 +4196,7 @@
       "choices": {
         "A": "24",
         "B": "144",
-        "C": "72.",
+        "C": "72",
         "D": "36"
       },
       "answer": "C",
@@ -4210,7 +4210,7 @@
       "choices": {
         "A": "1/4",
         "B": "2",
-        "C": "1/2.",
+        "C": "1/2",
         "D": "1"
       },
       "answer": "C",
@@ -4222,7 +4222,7 @@
       "value": 250,
       "question": "Why was the Propaganda Movement different from the Katipunan?",
       "choices": {
-        "A": "It primarily sought reforms through writing and advocacy, while the Katipunan organized for revolution",
+        "A": "It sought reform; the Katipunan organized for revolution",
         "B": "It was a Spanish military unit",
         "C": "It began after Philippine independence",
         "D": "It rejected education entirely"
@@ -4237,7 +4237,7 @@
       "question": "Why is the 1896 execution of José Rizal often considered politically consequential beyond his death?",
       "choices": {
         "A": "It immediately ended Spanish rule",
-        "B": "It intensified anti-colonial sentiment and made him a symbol for later nationalist movements",
+        "B": "It fueled anti-colonial sentiment and nationalist memory",
         "C": "It created the Commonwealth",
         "D": "It ended the Katipunan"
       },
@@ -4250,7 +4250,7 @@
       "value": 250,
       "question": "What was the main purpose of the Malolos Constitution?",
       "choices": {
-        "A": "To establish a constitutional framework for the First Philippine Republic",
+        "A": "To establish a constitutional framework for the First Republic",
         "B": "To restore the Spanish monarchy",
         "C": "To create American territorial government",
         "D": "To end all local elections permanently"
@@ -4360,12 +4360,12 @@
       "id": "FH-500-01",
       "category": "Filipino History",
       "value": 500,
-      "question": "Bakit hindi dapat ituring ang 1872 Cavite Mutiny bilang iisang sanhi ng Himagsikang 1896?",
+      "question": "Why should the 1872 Cavite Mutiny not be treated as the sole cause of the 1896 Revolution?",
       "choices": {
-        "A": "Isa itong mahalagang pangyayari sa mas mahabang proseso ng kolonyal na tensiyon, reporma, at nasyonalismo.",
-        "B": "Dahil iisa lamang ang sanhi ng lahat ng rebolusyon",
-        "C": "Dahil walang kinalaman ang mga pangyayari noong 1872 sa politika",
-        "D": "Dahil naganap ang Himagsikan bago ang 1872"
+        "A": "It formed part of a longer history of colonial tensions, reform, and nationalism",
+        "B": "It directly established the revolutionary government that ruled in 1896",
+        "C": "It had limited influence on later nationalist memory and political debate",
+        "D": "The 1896 Revolution was already underway before the events of 1872"
       },
       "answer": "A",
       "note": "Ang mga rebolusyon ay karaniwang may maraming magkakaugnay na sanhi."
@@ -4374,12 +4374,12 @@
       "id": "FH-500-02",
       "category": "Filipino History",
       "value": 500,
-      "question": "Ano ang pangunahing limitasyon ng paggamit sa isang kolonyal na ulat bilang nag-iisang salaysay ng isang pag-aalsa?",
+      "question": "What is a key limitation of using one colonial report as the only account of an uprising?",
       "choices": {
-        "A": "Laging mas tumpak ang alaala kaysa dokumento",
-        "B": "Lahat ng opisyal na ulat ay awtomatikong peke",
-        "C": "Maaaring sumalamin ito sa interes, wika, at pananaw ng awtoridad na sumulat nito.",
-        "D": "Hindi maaaring maging primary source ang ulat"
+        "A": "A participant’s memory can also be selective or shaped by later events",
+        "B": "Official accounts can omit local perspectives even when some details are accurate",
+        "C": "The report may reflect the author's interests and point of view",
+        "D": "A colonial report is useful only if its author witnessed the event directly"
       },
       "answer": "C",
       "note": "Dapat suriin ang posisyon at layunin ng may-akda."
@@ -4388,12 +4388,12 @@
       "id": "FH-500-03",
       "category": "Filipino History",
       "value": 500,
-      "question": "Bakit naging mahalaga ang La Solidaridad sa kilusang reporma?",
+      "question": "Why was La Solidaridad important to the reform movement?",
       "choices": {
-        "A": "Ito ang nagdeklara ng kalayaan noong 1898",
-        "B": "Nagbigay ito ng plataporma sa mga repormistang Pilipino upang ilahad ang mga hinaing at panukala.",
-        "C": "Ito ang hukbong lumaban sa Maynila",
-        "D": "Ito ang unang konstitusyon ng republika"
+        "A": "It negotiated the terms of independence directly with Spanish officials",
+        "B": "It gave reformers a platform to publish grievances and proposals",
+        "C": "It organized the main armed forces that fought Spanish troops",
+        "D": "It drafted the constitutional framework adopted by the Malolos Congress"
       },
       "answer": "B",
       "note": "Isa itong pahayagang kaugnay ng Propaganda Movement."
@@ -4402,12 +4402,12 @@
       "id": "FH-500-04",
       "category": "Filipino History",
       "value": 500,
-      "question": "Ano ang mahalagang pagkakaiba ng deklarasyon ng kalayaan noong 1898 at pagkilalang diplomatiko ng ibang bansa?",
+      "question": "What is the difference between the 1898 declaration of independence and diplomatic recognition by other states?",
       "choices": {
-        "A": "Ang pagkilala ay nangyari bago pa ang deklarasyon",
-        "B": "Ang deklarasyon ay pahayag ng sariling soberanya; ang pagkilala ay hiwalay na aksiyon ng ibang estado.",
-        "C": "Pareho silang awtomatikong lumilikha ng pandaigdigang pagkilala",
-        "D": "Walang konsepto ng soberanya noong 1898"
+        "A": "Foreign recognition was already secured before the declaration was issued",
+        "B": "The declaration asserted sovereignty; recognition was a separate decision by other states",
+        "C": "The declaration and diplomatic recognition had the same international legal effect",
+        "D": "The declaration itself compelled other states to recognize the new republic"
       },
       "answer": "B",
       "note": "Ang sariling pagdedeklara at panlabas na pagkilala ay magkaibang proseso."
@@ -4416,12 +4416,12 @@
       "id": "FH-500-05",
       "category": "Filipino History",
       "value": 500,
-      "question": "Bakit hindi sapat ang petsa ng isang batas upang maunawaan ang epekto nito sa lipunan?",
+      "question": "Why is the date of a law insufficient for understanding its social impact?",
       "choices": {
-        "A": "Dahil petsa lamang ang mahalaga sa kasaysayan",
-        "B": "Dahil lahat ng batas ay pantay ang epekto",
-        "C": "Kailangang suriin din ang pagpapatupad, mga institusyong sangkot, at kung sino ang nakinabang o naapektuhan.",
-        "D": "Dahil walang bisa ang mga batas"
+        "A": "A law’s stated purpose is sufficient to establish its social effects",
+        "B": "Formal passage usually ensures that a law is applied evenly across regions",
+        "C": "Implementation, institutions, and who benefited or lost out also matter",
+        "D": "Legal effects can be judged without examining enforcement or access"
       },
       "answer": "C",
       "note": "Ang institusyonal na implementasyon ang nag-uugnay sa batas at karanasan."
@@ -4430,12 +4430,12 @@
       "id": "FH-500-06",
       "category": "Filipino History",
       "value": 500,
-      "question": "Ano ang ipinakikita ng pagkakaroon ng mga kilusang paglaban sa iba’t ibang rehiyon bago ang 1896?",
+      "question": "What does the presence of resistance movements in different regions before 1896 suggest?",
       "choices": {
-        "A": "Na ang lahat ng kilusan ay may eksaktong parehong layunin",
-        "B": "Hindi iisa ang karanasan sa kolonyalismo; may magkakaibang lokal na layunin at pamumuno.",
-        "C": "Na walang sinumang lumaban sa Espanya",
-        "D": "Na iisang organisasyon ang namuno sa lahat"
+        "A": "Resistance movements generally shared one national leadership structure",
+        "B": "Colonial experiences varied, producing different local aims and leaders",
+        "C": "Most uprisings were coordinated by a single organization across regions",
+        "D": "Local aims were secondary to a consistent national program"
       },
       "answer": "B",
       "note": "Dapat kilalanin ang rehiyonal na pagkakaiba sa kasaysayan."
@@ -4444,12 +4444,12 @@
       "id": "FH-500-07",
       "category": "Filipino History",
       "value": 500,
-      "question": "Bakit mahalagang pag-ibahin ang Katipunan bilang organisasyon at ang mas malawak na Himagsikan?",
+      "question": "Why is it important to distinguish the Katipunan from the broader Philippine Revolution?",
       "choices": {
-        "A": "Dahil organisasyon lamang ang Espanya",
-        "B": "Dahil walang lokal na pamumuno",
-        "C": "Dahil hindi lumahok ang Katipunan sa Himagsikan",
-        "D": "Hindi lahat ng kalahok, lugar, at layunin ng Himagsikan ay maaaring ipantay sa iisang samahan."
+        "A": "The Katipunan and the broader Revolution had identical membership and goals",
+        "B": "Local leaders had little influence once the uprising expanded",
+        "C": "The wider Revolution was limited to people formally enrolled in the Katipunan",
+        "D": "The Revolution involved participants and aims beyond a single organization"
       },
       "answer": "D",
       "note": "Ang organisasyon ay bahagi ng mas malawak na kilusang panlipunan at militar."
@@ -4458,12 +4458,12 @@
       "id": "FH-500-08",
       "category": "Filipino History",
       "value": 500,
-      "question": "Ano ang historikal na halaga ng Malolos Congress?",
+      "question": "What was the historical significance of the Malolos Congress?",
       "choices": {
-        "A": "Ito ang nagpasimula ng kolonyal na pamamahalang Espanyol",
-        "B": "Ito ang nagtatag ng pamahalaang Komonwelt noong 1935",
-        "C": "Ito ang nagwakas sa Ikalawang Digmaang Pandaigdig",
-        "D": "Ipinakita nito ang pagtatangkang bumuo ng kinatawan at konstitusyonal na pamahalaan sa gitna ng digmaan."
+        "A": "It served as a legislature within the Spanish colonial administration",
+        "B": "It established the Commonwealth government under American rule",
+        "C": "It formalized independence after the United States recognized the republic",
+        "D": "It attempted to establish representative constitutional government during wartime"
       },
       "answer": "D",
       "note": "Mahalaga ito sa unang republikang Pilipino at sa konstitusyonal na pagbuo ng estado."
@@ -4472,12 +4472,12 @@
       "id": "FH-500-09",
       "category": "Filipino History",
       "value": 500,
-      "question": "Bakit kailangang pag-ibahin ang pamahalaang Komonwelt at ganap na kalayaan noong 1946?",
+      "question": "Why must the Commonwealth government be distinguished from full independence in 1946?",
       "choices": {
-        "A": "Ang Komonwelt ay transisyonal na pamahalaan sa ilalim ng soberanya ng Estados Unidos; 1946 ang pormal na pagkilala sa kalayaan.",
-        "B": "Nagsimula ang Komonwelt matapos ang 1946",
-        "C": "Walang sariling institusyon ang Komonwelt",
-        "D": "Magkapareho ang legal na katayuan ng dalawa"
+        "A": "The Commonwealth was a transitional government before recognized independence",
+        "B": "The Commonwealth began after the United States recognized independence",
+        "C": "The Commonwealth exercised the same international sovereignty as an independent state",
+        "D": "The 1946 transition changed the government’s name but not its legal status"
       },
       "answer": "A",
       "note": "Ang soberanya at transisyonal na sariling pamamahala ay hindi magkapareho."
@@ -4486,12 +4486,12 @@
       "id": "FH-500-10",
       "category": "Filipino History",
       "value": 500,
-      "question": "Ano ang pinakamainam na dahilan upang paghambingin ang mga salaysay ng magkakaibang kalahok sa EDSA 1986?",
+      "question": "Why compare accounts from different participants in the 1986 EDSA uprising?",
       "choices": {
-        "A": "Maaaring magkaiba ang kanilang interes at pananaw sa mga sanhi, panganib, at kahulugan ng pangyayari.",
-        "B": "Upang pumili ng pinakamatandang salaysay nang walang pagsusuri",
-        "C": "Upang palitan ang ebidensiya ng popularidad",
-        "D": "Dahil lahat ng salaysay ay eksaktong magkapareho"
+        "A": "To compare perspectives and check claims against independent evidence",
+        "B": "To give eyewitness testimony priority regardless of its reliability",
+        "C": "To prioritize the account endorsed by the most prominent political leader",
+        "D": "To assume eyewitnesses shared the same interpretation of the event"
       },
       "answer": "A",
       "note": "Ang paghahambing ng testimonya ay nagpapakita ng pananaw at posibleng pagkiling."
@@ -4500,12 +4500,12 @@
       "id": "FH-750-01",
       "category": "Filipino History",
       "value": 750,
-      "question": "Bakit mahalaga ang paglipat mula sa kilusang reporma tungo sa armadong rebolusyon sa pagsusuri ng nasyonalismong Pilipino?",
+      "question": "Why does the shift from reform activism to armed revolution matter when studying Philippine nationalism?",
       "choices": {
-        "A": "Ipinakikita nitong walang kaugnayan ang kolonyal na pamamahala",
-        "B": "Ipinakikita nito ang pagbabago ng estratehiya matapos mabigo o malimitahan ang mga repormistang kahilingan.",
-        "C": "Pinatutunayan nitong iisa ang taktika ng lahat ng nasyonalista",
-        "D": "Nangangahulugan itong lahat ng repormista ay tumanggi sa kalayaan"
+        "A": "It suggests that reform organizations disappeared before nationalist politics developed",
+        "B": "It reveals changing judgments about whether reform could achieve political goals",
+        "C": "It shows that every reform advocate eventually supported armed struggle",
+        "D": "It means reformers and revolutionaries had identical goals and methods"
       },
       "answer": "B",
       "note": "Ang pagbabago ng taktika ay dapat ipaliwanag sa konteksto ng mga pagkakataon at pagsupil."
@@ -4514,12 +4514,12 @@
       "id": "FH-750-02",
       "category": "Filipino History",
       "value": 750,
-      "question": "Kung magkasalungat ang dalawang tala tungkol sa pag-aalsa, ano ang pinakamainam na unang hakbang ng historyador?",
+      "question": "When two accounts of an uprising conflict, what should a historian do first?",
       "choices": {
-        "A": "Suriin ang pinagmulan, petsa, layunin, at pagkakaugnay ng bawat tala sa iba pang ebidensiya.",
-        "B": "Piliin ang tala ng mas mataas na opisyal nang walang tanong",
-        "C": "Piliin ang tala na mas dramatiko",
-        "D": "Pagsamahin ang mga detalye kahit hindi magkatugma"
+        "A": "Compare each source's context, purpose, timing, and supporting evidence",
+        "B": "Give greater weight to a source that is closer in time without checking its claims",
+        "C": "Prefer the account that fits the historian’s existing interpretation",
+        "D": "Treat differences as errors and remove them from the final narrative"
       },
       "answer": "A",
       "note": "Ang source criticism ay sumusuri sa provenance at corroboration."
@@ -4528,12 +4528,12 @@
       "id": "FH-750-03",
       "category": "Filipino History",
       "value": 750,
-      "question": "Ano ang ipinakikita ng Treaty of Paris (1898) tungkol sa pananaw ng mga imperyo sa Pilipinas?",
+      "question": "What does the 1898 Treaty of Paris reveal about imperial views of the Philippines?",
       "choices": {
-        "A": "Kinilala nito agad ang ganap na kalayaan ng Pilipinas",
-        "B": "Wala itong kinalaman sa soberanya",
-        "C": "Tinrato ng Espanya at Estados Unidos ang kapuluan bilang teritoryong maaaring ilipat, kahit may umiiral na kilusang Pilipino para sa soberanya.",
-        "D": "Ibinigay nito ang pamamahala sa Katipunan"
+        "A": "It recognized the Philippines as an independent state under Filipino rule",
+        "B": "It addressed commercial matters without changing territorial sovereignty",
+        "C": "It transferred the Philippines from Spain to the United States",
+        "D": "It transferred authority over the islands directly to the Katipunan"
       },
       "answer": "C",
       "note": "Ang kasunduan ay naglipat ng kolonyal na pag-aangkin nang hindi kinikilala ang republika ng mga Pilipino."
@@ -4542,12 +4542,12 @@
       "id": "FH-750-04",
       "category": "Filipino History",
       "value": 750,
-      "question": "Bakit mahalaga ang Jones Law ng 1916 sa kasaysayan ng pamahalaang Pilipino?",
+      "question": "Why was the Jones Law of 1916 important in the development of Philippine government?",
       "choices": {
-        "A": "Itinatag nito ang diktadurang militar ng Hapon",
-        "B": "Nangako ito ng kalayaan sa sandaling magkaroon ng matatag na pamahalaan at nagpalawak ng sariling pamamahala.",
-        "C": "Agad nitong ipinagkaloob ang kalayaan sa 1916",
-        "D": "Pinalitan nito ang 1987 Constitution"
+        "A": "It established Japanese military rule in the Philippines",
+        "B": "It expanded Filipino participation and promised eventual independence",
+        "C": "It granted complete independence immediately in 1916",
+        "D": "It replaced the constitution adopted after the 1986 EDSA uprising"
       },
       "answer": "B",
       "note": "Naging mahalagang hakbang ito sa landas patungo sa Komonwelt."
@@ -4556,12 +4556,12 @@
       "id": "FH-750-05",
       "category": "Filipino History",
       "value": 750,
-      "question": "Paano nakaapekto ang sistemang hacienda at hindi pantay na pagmamay-ari ng lupa sa mga tunggalian sa kanayunan?",
+      "question": "How did hacienda systems and unequal landownership contribute to rural conflict?",
       "choices": {
-        "A": "Naging pantay ang yaman sa lahat ng lalawigan",
-        "B": "Wala itong kaugnayan sa politika",
-        "C": "Lumikha ito ng mga hidwaan sa upa, utang, paggawa, at kapangyarihan sa pagitan ng may-ari at magsasaka.",
-        "D": "Inalis nito ang pangangailangan sa paggawa"
+        "A": "It narrowed differences in landholding between tenants and landlords",
+        "B": "It affected rural labor arrangements but not local political influence",
+        "C": "They could concentrate land and leave tenants dependent on landowners",
+        "D": "It reduced the need for tenants and hired workers on large estates"
       },
       "answer": "C",
       "note": "Ang istruktura ng lupa ay may malalim na epekto sa uri, ekonomiya, at kilusang panlipunan."
@@ -4570,12 +4570,12 @@
       "id": "FH-750-06",
       "category": "Filipino History",
       "value": 750,
-      "question": "Bakit hindi dapat ipaliwanag ang kolaborasyon noong pananakop ng Hapon sa iisang motibo lamang?",
+      "question": "Why should collaboration during the Japanese occupation not be explained by a single motive?",
       "choices": {
-        "A": "Dahil walang Pilipinong nakipagtulungan",
-        "B": "Maaaring nagmula ito sa pamimilit, pragmatismo, ideolohiya, sariling interes, o pagtatangkang protektahan ang komunidad.",
-        "C": "Dahil hindi mahalaga ang konteksto ng okupasyon",
-        "D": "Dahil lahat ng kolaborador ay may iisang ideolohiya"
+        "A": "Cooperation with the occupation authorities was extremely rare",
+        "B": "People faced different incentives, constraints, and political calculations under occupation",
+        "C": "Occupation conditions had little effect on individual decisions",
+        "D": "Most collaborators shared one consistent political ideology"
       },
       "answer": "B",
       "note": "Ang pagsusuri sa motibo ay nangangailangan ng konteksto at ebidensiya, hindi simpleng paghatol."
@@ -4584,12 +4584,12 @@
       "id": "FH-750-07",
       "category": "Filipino History",
       "value": 750,
-      "question": "Ano ang mahalagang ugnayan ng 1935 Constitution at ng planong Komonwelt?",
+      "question": "What was the relationship between the 1935 Constitution and the Commonwealth plan?",
       "choices": {
-        "A": "Naglatag ito ng balangkas ng transisyonal na pamahalaan at institusyong inaasahang hahantong sa kalayaan.",
-        "B": "Ito ang unang saligang batas matapos ang 1986 EDSA",
-        "C": "Ito ang nagtatag ng pamahalaang Espanyol",
-        "D": "Ito ang nagpawalang-bisa sa lahat ng halalan"
+        "A": "It provided a constitutional framework for the planned Commonwealth government",
+        "B": "It was the first constitution adopted after the 1986 EDSA uprising",
+        "C": "It established the legal basis for Spanish colonial administration",
+        "D": "It suspended elections throughout the Commonwealth transition"
       },
       "answer": "A",
       "note": "Ang konstitusyon ay bahagi ng paghahanda sa sariling pamamahala."
@@ -4598,12 +4598,12 @@
       "id": "FH-750-08",
       "category": "Filipino History",
       "value": 750,
-      "question": "Bakit mahalagang pag-ibahin ang “pagsuko” ng isang yunit militar at ang pagtatapos ng paglaban sa buong kapuluan?",
+      "question": "Why distinguish the surrender of one military unit from the end of resistance across the archipelago?",
       "choices": {
-        "A": "Dahil ang pagsuko ay walang historikal na kahulugan",
-        "B": "Dahil hindi nagkakaroon ng digmaan sa mga isla",
-        "C": "Maaaring magpatuloy ang paglaban sa ibang lugar kahit sumuko ang isang sentro o yunit.",
-        "D": "Dahil lahat ng yunit ay laging nasa iisang lugar"
+        "A": "A surrender is mainly symbolic and rarely changes military conditions",
+        "B": "Resistance could not continue once a major island center surrendered",
+        "C": "Resistance could continue elsewhere after a major center or unit surrendered",
+        "D": "Military units across the archipelago normally acted under one command"
       },
       "answer": "C",
       "note": "Ang heograpiya at magkakaibang yunit ay nakaaapekto sa takbo ng digmaan."
@@ -4612,12 +4612,12 @@
       "id": "FH-750-09",
       "category": "Filipino History",
       "value": 750,
-      "question": "Paano binago ng 1987 Constitution ang institusyonal na tugon sa abuso ng kapangyarihan?",
+      "question": "How did the 1987 Constitution respond institutionally to abuses of power?",
       "choices": {
-        "A": "Ipinagbawal nito ang hudikatura",
-        "B": "Pinalakas nito ang mga mekanismo ng checks and balances at mga karapatang konstitusyonal matapos ang diktadura.",
-        "C": "Inalis nito ang lahat ng sangay ng pamahalaan",
-        "D": "Ginawang habambuhay ang pagkapangulo"
+        "A": "It reduced the judiciary’s role in reviewing government action",
+        "B": "It restored checks and rights intended to limit government power",
+        "C": "It removed the legislature and judiciary from the constitutional system",
+        "D": "It allowed the president to remain in office indefinitely"
       },
       "answer": "B",
       "note": "Ang konstitusyon ay tumugon sa konsentrasyon ng kapangyarihan sa ilalim ng batas militar."
@@ -4626,12 +4626,12 @@
       "id": "FH-750-10",
       "category": "Filipino History",
       "value": 750,
-      "question": "Bakit dapat suriin ang epekto ng Batas Militar sa magkakaibang pangkat sa halip na gumamit ng iisang salaysay?",
+      "question": "Why study Martial Law's effects on different groups rather than rely on one account?",
       "choices": {
-        "A": "Magkakaiba ang karanasan ng mga biktima, tagasuporta, opisyal, mamamahayag, at komunidad sa ilalim ng rehimen.",
-        "B": "Dahil walang sinumang naapektuhan",
-        "C": "Dahil walang maaasahang dokumento",
-        "D": "Dahil pare-pareho ang lahat ng karanasan"
+        "A": "Experiences differed by region, class, political activity, and exposure to state power",
+        "B": "No one experienced significant effects",
+        "C": "Reliable records from the period are unavailable",
+        "D": "All communities experienced the period in essentially the same way"
       },
       "answer": "A",
       "note": "Ang kasaysayan ay nangangailangan ng paghahambing ng karanasan at ebidensiya."
@@ -4640,12 +4640,12 @@
       "id": "FH-1000-01",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Bakit kailangang basahin ang 1898 Declaration of Philippine Independence bilang dokumento ng isang partikular na sandali, hindi patunay na agad kinilala ang soberanya?",
+      "question": "Why should the 1898 Declaration of Philippine Independence be read as a document from a specific moment rather than proof that sovereignty was immediately recognized?",
       "choices": {
-        "A": "Dahil ipinagbabawal nito ang kalayaan",
-        "B": "Dahil hindi ito dokumentong historikal",
-        "C": "Dahil kinilala na ng Treaty of Paris ang republika",
-        "D": "Ipinapahayag nito ang pag-angkin sa kalayaan, ngunit hindi nito mag-isang napipilit ang ibang estado na kilalanin iyon."
+        "A": "It was intended to postpone independence until foreign approval was granted",
+        "B": "It served primarily as a domestic ceremonial statement with no political claim",
+        "C": "The Treaty of Paris had already recognized the Philippine Republic",
+        "D": "It expressed a claim to independence but did not itself secure international recognition"
       },
       "answer": "D",
       "note": "Declarations and international recognition are distinct political acts."
@@ -4654,12 +4654,12 @@
       "id": "FH-1000-02",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Kung ang opisyal na rekord ay nagsasabing “mapayapa” ang isang rehiyon ngunit may mga salaysay ng sapilitang paglilipat, ano ang pinakamainam na pagsusuri?",
+      "question": "An official record describes a region as 'peaceful,' while other accounts describe forced relocation. What is the strongest analysis?",
       "choices": {
-        "A": "Itapon ang lahat ng dokumento",
-        "B": "Siyasatin kung sino ang nagtakda ng “mapayapa,” anong karanasan ang hindi naitala, at kung nagtutugma ang magkakaibang ebidensiya.",
-        "C": "Ipagpalagay na pareho ang ibig sabihin ng katahimikan at pagsang-ayon",
-        "D": "Tanggapin ang opisyal na rekord bilang kumpleto"
+        "A": "Give the official record priority because it was produced by the state",
+        "B": "Compare what each source means by peace and whose experiences it records",
+        "C": "Assume the absence of open protest demonstrates public consent",
+        "D": "Treat forced relocation as unrelated unless the official record mentions it"
       },
       "answer": "B",
       "note": "Archival silences and administrative language require critical reading."
@@ -4668,12 +4668,12 @@
       "id": "FH-1000-03",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Paano maaaring magkaiba ang legal na katayuan at aktuwal na kapangyarihan ng isang institusyon sa panahon ng kolonyalismo?",
+      "question": "How could an institution's legal status differ from its actual power under colonial rule?",
       "choices": {
-        "A": "Laging magkapareho ang batas at kapangyarihan",
-        "B": "Walang lokal na institusyon sa kolonyal na lipunan",
-        "C": "Maaaring may pormal na tungkulin ang lokal na institusyon ngunit nalilimitahan ng kolonyal na opisyal, pondo, o kapangyarihang militar.",
-        "D": "Ang pormal na katayuan ay hindi kailanman mahalaga"
+        "A": "Written law and practical authority generally matched in colonial settings",
+        "B": "Local institutions had no administrative responsibilities under colonial rule",
+        "C": "Local bodies retained formal duties while colonial officials held decisive power",
+        "D": "Formal status alone determined how much influence an institution exercised"
       },
       "answer": "C",
       "note": "Formal structures must be compared with practical control."
@@ -4682,12 +4682,12 @@
       "id": "FH-1000-04",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Ano ang dapat isaalang-alang sa pagtatalo tungkol sa papel ni Bonifacio at Aguinaldo sa Himagsikan?",
+      "question": "What should be considered when assessing the roles of Bonifacio and Aguinaldo in the Revolution?",
       "choices": {
-        "A": "Piliin lamang ang pinakapopular na bersiyon",
-        "B": "Ituring na walang saysay ang mga primary source",
-        "C": "Mga dokumento, konteksto ng organisasyon, magkakaibang layunin, at limitasyon ng mga salaysay na isinulat matapos ang tunggalian.",
-        "D": "Ipagpalagay na walang alitan sa rebolusyon"
+        "A": "Prefer the account that became most widely accepted in later public memory",
+        "B": "Treat the earliest surviving account as decisive regardless of its purpose",
+        "C": "Compare documents, factional aims, and accounts produced at different times",
+        "D": "Assume the two leaders pursued identical aims throughout the Revolution"
       },
       "answer": "C",
       "note": "Historical interpretation depends on evidence and context, not hero worship."
@@ -4696,12 +4696,12 @@
       "id": "FH-1000-05",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Bakit may saysay ang pag-aaral ng mga lokal na archive at oral history sa kasaysayan ng Batas Militar?",
+      "question": "Why can local archives and oral histories be valuable for studying Martial Law?",
       "choices": {
-        "A": "Maaari nilang ilantad ang karanasang hindi naitala sa sentral na dokumento, ngunit kailangan pa rin ng corroboration.",
-        "B": "Dahil hindi kailanman nagkakamali ang oral history",
-        "C": "Dahil hindi kailangan ang konteksto",
-        "D": "Dahil pinapalitan nila ang lahat ng opisyal na dokumento"
+        "A": "They may reveal omitted experiences, but their claims still need corroboration",
+        "B": "Oral testimony is generally unaffected by memory or later interpretation",
+        "C": "Historical context adds little when a witness describes an event directly",
+        "D": "Local archives should replace official records rather than be compared with them"
       },
       "answer": "A",
       "note": "Local evidence broadens the record while requiring source criticism."
@@ -4710,12 +4710,12 @@
       "id": "FH-1000-06",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Ano ang limitasyon ng pagsasabing “nagtagumpay ang reporma” dahil lamang naipasa ang batas?",
+      "question": "What is the limitation of declaring a reform successful simply because a law was passed?",
       "choices": {
-        "A": "Dahil lahat ng reporma ay agad nabibigo",
-        "B": "Maaaring hindi sapat ang pondo, pagpapatupad, akses, o pagbabago sa kapangyarihan upang makamit ang layunin.",
-        "C": "Dahil hindi maaaring masukat ang epekto",
-        "D": "Dahil ang batas ay walang epekto sa lipunan"
+        "A": "A reform should be judged mainly by how quickly the law was passed",
+        "B": "Funding, access, implementation, and power relations may limit its effects",
+        "C": "Policy outcomes are too complex to assess using any evidence",
+        "D": "The passage of a law usually guarantees equal access to its benefits"
       },
       "answer": "B",
       "note": "Policy adoption and policy outcomes are different analytical questions."
@@ -4724,12 +4724,12 @@
       "id": "FH-1000-07",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Paano nakaapekto ang pagbuo ng hukbong kolonyal at lokal na elite sa pagpapatatag ng pamamahalang Amerikano?",
+      "question": "How did colonial military institutions and local elites help consolidate American rule?",
       "choices": {
-        "A": "Inalis nito ang lahat ng lokal na elite",
-        "B": "Nagtapos ito agad sa kolonyalismo",
-        "C": "Maaari itong lumikha ng mga lokal na alyansa at institusyong namamahala, habang nananatili ang huling kapangyarihan sa Estados Unidos.",
-        "D": "Walang kaugnayan ang institusyon sa pamamahala"
+        "A": "Local elites were largely excluded from the institutions of colonial rule",
+        "B": "American authority ended soon after local institutions were established",
+        "C": "Colonial institutions relied on local elites while U.S. power remained decisive",
+        "D": "Colonial administration operated independently of local political networks"
       },
       "answer": "C",
       "note": "Colonial rule often operated through local intermediaries."
@@ -4738,12 +4738,12 @@
       "id": "FH-1000-08",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Bakit hindi dapat ituring ang mga gerilya noong Ikalawang Digmaang Pandaigdig bilang iisang organisasyon?",
+      "question": "Why should World War II guerrillas in the Philippines not be treated as one unified organization?",
       "choices": {
-        "A": "Dahil iisang opisyal ang namuno sa lahat",
-        "B": "Magkakaiba ang kanilang pamumuno, rehiyon, ideolohiya, ugnayan sa Allied forces, at lokal na layunin.",
-        "C": "Dahil walang organisasyon sa digmaan",
-        "D": "Dahil walang gerilya sa Pilipinas"
+        "A": "Most guerrilla groups followed one nationwide command structure",
+        "B": "Leadership, regional bases, ideologies, Allied ties, and local aims varied",
+        "C": "Regional differences had little influence on guerrilla organization",
+        "D": "Guerrilla units were generally detached from local communities and Allied forces"
       },
       "answer": "B",
       "note": "Resistance was heterogeneous across the archipelago."
@@ -4752,12 +4752,12 @@
       "id": "FH-1000-09",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Paano dapat unawain ang mga pagbabago sa konstitusyon bilang sagot sa krisis pampolitika?",
+      "question": "How should constitutional changes made during political crises be evaluated?",
       "choices": {
-        "A": "Lahat ng konstitusyon ay may parehong epekto",
-        "B": "Petsa lamang ng pagpapatibay ang mahalaga",
-        "C": "Suriin kung anong kapangyarihan ang nililimitahan o pinalalawak, sino ang nakikilahok, at paano ito ipinapatupad.",
-        "D": "Ang konstitusyon ay walang kaugnayan sa kapangyarihan"
+        "A": "The same constitutional changes tend to produce similar outcomes in every crisis",
+        "B": "The date of ratification is the most reliable measure of constitutional impact",
+        "C": "Examine which powers changed, who participated, and how provisions were enforced",
+        "D": "Constitutional language matters more than enforcement or political participation"
       },
       "answer": "C",
       "note": "Constitutional change should be read institutionally and politically."
@@ -4766,12 +4766,12 @@
       "id": "FH-1000-10",
       "category": "Filipino History",
       "value": 1000,
-      "question": "Ano ang dapat ihambing upang masuri kung ang isang pangyayari ay tunay na “turning point” sa kasaysayan?",
+      "question": "What should be compared when deciding whether an event was a historical turning point?",
       "choices": {
-        "A": "Ang dami ng beses na binanggit sa aklat",
-        "B": "Ang laki lamang ng pagdiriwang",
-        "C": "Ang opinyon ng isang kalahok lamang",
-        "D": "Mga kondisyon bago at pagkatapos, bilis at lawak ng pagbabago, at kung nagpatuloy ang mga dating estruktura."
+        "A": "The event received extensive coverage in later textbooks",
+        "B": "The event attracted large public commemorations soon afterward",
+        "C": "A prominent participant described it as a decisive turning point",
+        "D": "Compare conditions before and after, the pace of change, and what persisted"
       },
       "answer": "D",
       "note": "A turning point requires evidence of consequential change and continuity."
@@ -4780,12 +4780,12 @@
       "id": "FH-1250-01",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Paano maaaring sabay na totoo na lumawak ang edukasyon sa ilalim ng pamamahalang Amerikano at na nagsilbi rin ito sa kolonyal na layunin?",
+      "question": "How could education expand under American rule while also serving colonial purposes?",
       "choices": {
-        "A": "Magkasalungat kaya imposibleng sabay na mangyari",
-        "B": "Ang edukasyon ay walang ideolohikal na epekto",
-        "C": "Maaaring magbigay ang institusyon ng bagong kasanayan habang humuhubog din ng wika, katapatan, at kaayusang pabor sa namamahala.",
-        "D": "Ang kolonyal na edukasyon ay hindi kailanman nagbigay ng kasanayan"
+        "A": "The two outcomes cannot occur at the same time",
+        "B": "Education has no ideological or political effects",
+        "C": "Schooling could build skills while shaping language, loyalty, and colonial order",
+        "D": "Colonial schools rarely provided practical skills or wider access to literacy"
       },
       "answer": "C",
       "note": "Institutions can produce both opportunities and colonial socialization."
@@ -4794,12 +4794,12 @@
       "id": "FH-1250-02",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Bakit hindi sapat na sukatin ang “pag-unlad” noong Komonwelt sa dami lamang ng bagong institusyon?",
+      "question": "Why is the number of new institutions an insufficient measure of progress during the Commonwealth period?",
       "choices": {
-        "A": "Dahil pantay-pantay ang lahat ng mamamayan",
-        "B": "Dahil walang institusyong naitatag noon",
-        "C": "Kailangang tanungin kung sino ang may akses, kung gaano kalawak ang kapangyarihan, at kung anong mga hindi pagkakapantay ang nanatili.",
-        "D": "Dahil ang dami ay laging walang saysay"
+        "A": "New institutions generally gave all citizens equal access to public services",
+        "B": "The Commonwealth period saw few changes in public institutions",
+        "C": "The key questions include who gained access and power and which inequalities remained",
+        "D": "Institution counts are useful only when a government is fully sovereign"
       },
       "answer": "C",
       "note": "Institutional growth does not automatically imply equitable outcomes."
@@ -4808,12 +4808,12 @@
       "id": "FH-1250-03",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Kung ang isang memoir ay isinulat ilang dekada matapos ang rebolusyon, paano ito dapat gamitin?",
+      "question": "How should a memoir written decades after a revolution be used as historical evidence?",
       "choices": {
-        "A": "Bilang mahalagang alaala na ihahambing sa kontemporaryong dokumento, habang isinasaalang-alang ang memorya at pagbabagong pananaw.",
-        "B": "Bilang mas maaasahan kaysa lahat ng iba pang ebidensiya",
-        "C": "Bilang walang-saysay dahil huli itong isinulat",
-        "D": "Bilang eksaktong rekord ng bawat detalye"
+        "A": "Compare it with contemporary records while accounting for memory and hindsight",
+        "B": "A memoir is more reliable than contemporary records because it includes hindsight",
+        "C": "A later memoir is unusable for reconstructing earlier events",
+        "D": "A memoir should be treated as a complete record unless contradicted directly"
       },
       "answer": "A",
       "note": "Retrospective testimony offers insight but is not infallible."
@@ -4822,12 +4822,12 @@
       "id": "FH-1250-04",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Ano ang historikal na problema sa pagtingin sa “Filipino” bilang ganap nang pare-parehong pambansang identidad sa lahat ng panahon?",
+      "question": "What is historically problematic about assuming that 'Filipino' has meant one uniform national identity in every period?",
       "choices": {
-        "A": "Dahil iisang wika ang ginamit ng lahat",
-        "B": "Dahil walang taong gumamit ng salitang Filipino",
-        "C": "Dahil hindi nagbabago ang identidad",
-        "D": "Nagbago ang saklaw at kahulugan ng identidad sa pamamagitan ng rehiyon, uri, wika, kolonyal na kaayusan, at kilusang politikal."
+        "A": "National identity was consistent across regions before colonial rule",
+        "B": "The term Filipino had no use as a collective identity before independence",
+        "C": "National identity became fixed once a shared language was promoted",
+        "D": "Identity varied with region, class, language, colonial rule, and politics"
       },
       "answer": "D",
       "note": "National identity is historically constructed and contested."
@@ -4836,12 +4836,12 @@
       "id": "FH-1250-05",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Paano nakatulong ang mga halalan sa ilalim ng kolonyal na pamamahala sa paglikha ng lokal na elite, kahit limitado ang soberanya?",
+      "question": "How could elections under colonial rule help create a local elite despite limited sovereignty?",
       "choices": {
-        "A": "Inalis nito ang lahat ng lokal na elite",
-        "B": "Nagbigay ang halalan ng akses sa posisyon at patronage sa ilang Pilipino nang hindi inililipat ang buong kapangyarihan sa kanila.",
-        "C": "Ginawa nitong ganap na malaya ang bansa",
-        "D": "Wala itong kaugnayan sa kapangyarihan"
+        "A": "Elections usually displaced established local elites from political life",
+        "B": "Elections gave some Filipinos office without transferring full sovereignty",
+        "C": "Elections transferred full sovereignty even when colonial authority remained",
+        "D": "Local elections had little connection to patronage or political influence"
       },
       "answer": "B",
       "note": "Limited electoral participation can coexist with colonial sovereignty."
@@ -4850,12 +4850,12 @@
       "id": "FH-1250-06",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Bakit kailangang suriin ang batas militar sa antas ng institusyon bukod sa mga indibidwal na paglabag?",
+      "question": "Why study Martial Law at the institutional level as well as through individual abuses?",
       "choices": {
-        "A": "Dahil personal na motibo lamang ang mahalaga",
-        "B": "Binago rin nito ang balanse ng kapangyarihan, pagpapatupad ng batas, media, halalan, at pananagutan ng mga opisyal.",
-        "C": "Dahil hindi nagbago ang mga institusyon",
-        "D": "Dahil walang indibidwal na paglabag"
+        "A": "Individual leaders’ motives are sufficient to explain institutional change",
+        "B": "It affected the exercise of power, law enforcement, media, elections, and accountability",
+        "C": "Institutions changed little, so individual cases are the only useful evidence",
+        "D": "Institutional analysis necessarily minimizes the experiences of victims"
       },
       "answer": "B",
       "note": "Structural changes help explain how abuses were enabled and sustained."
@@ -4864,12 +4864,12 @@
       "id": "FH-1250-07",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Ano ang mas matibay na batayan upang sabihing may pagpapatuloy sa pagitan ng kolonyal at postkolonyal na lipunan?",
+      "question": "What is stronger evidence of continuity between colonial and postcolonial society?",
       "choices": {
-        "A": "Matutukoy ang magkaparehong institusyon, pattern ng pagmamay-ari, o network ng elite sa magkakaibang panahon.",
-        "B": "May isang salitang magkapareho sa dalawang dokumento",
-        "C": "Pareho ang pangalan ng kabisera",
-        "D": "Pareho ang watawat"
+        "A": "Look for institutions, ownership patterns, or elite networks that persisted",
+        "B": "A single shared word proves that two periods had the same institutions",
+        "C": "The continued use of a capital city proves that political power remained unchanged",
+        "D": "A flag’s continuity establishes that social and economic structures persisted"
       },
       "answer": "A",
       "note": "Continuity requires tracing structures and relationships over time."
@@ -4878,12 +4878,12 @@
       "id": "FH-1250-08",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Paano maaaring baguhin ng isang bagong dokumento ang interpretasyon sa isang kilalang pangyayari?",
+      "question": "How can a newly discovered document change the interpretation of a familiar event?",
       "choices": {
-        "A": "Awtomatiko nitong pinawawalang-bisa ang lahat ng naunang pag-aaral",
-        "B": "Dapat itong tanggapin dahil bago",
-        "C": "Hindi kailanman nagbabago ang interpretasyong historikal",
-        "D": "Maaari nitong hamunin ang kronolohiya o motibo, ngunit kailangang suriin ang pinagmulan at pagtutugma sa ibang ebidensiya."
+        "A": "A newly found document invalidates earlier scholarship by itself",
+        "B": "A recent source should be accepted before its origin is examined",
+        "C": "A new source can add details but cannot change historical interpretation",
+        "D": "It may challenge chronology or motive, but its origin and claims need corroboration"
       },
       "answer": "D",
       "note": "New evidence modifies interpretations only after critical verification."
@@ -4892,12 +4892,12 @@
       "id": "FH-1250-09",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Bakit mahalagang pag-ibahin ang popular na alaala ng isang bayani at ang historikal na pagsusuri sa kanyang mga desisyon?",
+      "question": "Why distinguish popular memory of a national hero from historical analysis of the person's decisions?",
       "choices": {
-        "A": "Dahil hindi dapat igalang ang mga bayani",
-        "B": "Dahil walang tunay na bayani",
-        "C": "Dahil ang alaala ay laging mali",
-        "D": "Maaaring piliin ng pambansang alaala ang mga simbolikong katangian habang sinusuri ng kasaysayan ang konteksto, kontradiksiyon, at limitasyon."
+        "A": "Historical analysis must avoid acknowledging any admirable qualities",
+        "B": "Admiration for a figure is incompatible with critical historical study",
+        "C": "Public memory is generally false and should be disregarded",
+        "D": "Public memory may simplify a figure whose choices require historical context"
       },
       "answer": "D",
       "note": "Commemoration and historical explanation serve different purposes."
@@ -4906,12 +4906,12 @@
       "id": "FH-1250-10",
       "category": "Filipino History",
       "value": 1250,
-      "question": "Ano ang pinakamahusay na paraan upang suriin ang pahayag na ang isang pangyayaring pampolitika ay “nagkaisa sa bansa”?",
+      "question": "How should a historian assess the claim that a political event 'united the nation'?",
       "choices": {
-        "A": "Suriin ang lawak ng partisipasyon, mga grupong hindi nakilahok, at mga hindi pagkakasundo bago at pagkatapos nito.",
-        "B": "Bilangin lamang ang mga dumalo sa kabisera",
-        "C": "Ipagpalagay na nagkaisa ang lahat dahil sa iisang larawan",
-        "D": "Ituring na sapat ang slogan"
+        "A": "Assess participation, excluded groups, and disagreements before and after the event",
+        "B": "Count attendance at the capital as a complete measure of national agreement",
+        "C": "Assume a widely circulated image represents the views of the whole country",
+        "D": "Treat the event’s slogan as evidence of broad consensus"
       },
       "answer": "A",
       "note": "Claims of unity must be tested against diverse participation and dissent."
@@ -4920,12 +4920,12 @@
       "id": "FH-1500-01",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Kung ang isang opisyal na salaysay ay naglalarawan sa isang pag-aalsa bilang “kriminalidad” at ang mga kalahok ay “paglaya,” anong tanong ang sentral sa historiograpiya?",
+      "question": "An official account labels an uprising 'criminality,' while participants describe it as 'liberation.' What question is central to historiography?",
       "choices": {
-        "A": "Aling salita ang mas maikli",
-        "B": "Aling dokumento ang may pinakamagandang pirma",
-        "C": "Aling salaysay ang may mas maraming pang-uri",
-        "D": "Paano hinuhubog ng kapangyarihan, layunin, at posisyon ng may-akda ang kategoryang ginagamit upang pangalanan ang pangyayari?"
+        "A": "Which label appears most often in surviving sources",
+        "B": "Which document was produced by the highest-ranking official",
+        "C": "Which account contains the most descriptive language",
+        "D": "How an author's position and interests shape the labels applied to an event"
       },
       "answer": "D",
       "note": "Historical labels are interpretive acts and should be examined alongside evidence."
@@ -4934,12 +4934,12 @@
       "id": "FH-1500-02",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Paano masusuri kung ang reporma sa lupa ay nagbago sa estrukturang agraryo o nagpalit lamang ng anyo ng pagdepende?",
+      "question": "How can a historian test whether land reform changed agrarian structure or merely changed the form of dependency?",
       "choices": {
-        "A": "Ipagpalagay na pantay ang lahat ng bagong titulo",
-        "B": "Subaybayan ang aktuwal na pagmamay-ari, utang, kontrata, akses sa pamilihan, at kapangyarihan sa paggawa bago at pagkatapos.",
-        "C": "Bilangin lamang ang mga talumpati ng opisyal",
-        "D": "Suriin lamang ang pamagat ng batas"
+        "A": "Assume a new land title usually produced equal landholding",
+        "B": "Track ownership, debt, contracts, markets, and labor power before and after reform",
+        "C": "Count official speeches without comparing ownership or labor outcomes",
+        "D": "Use the stated aims of the law as the main measure of its impact"
       },
       "answer": "B",
       "note": "Distributional outcomes require tracing material relations over time."
@@ -4948,12 +4948,12 @@
       "id": "FH-1500-03",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Ano ang pinakamalakas na paliwanag sa pagkakaiba ng pormal na soberanya at “neokolonyal” na impluwensiya?",
+      "question": "What best distinguishes formal sovereignty from neocolonial influence?",
       "choices": {
-        "A": "Walang pagkakaiba ang dalawang konsepto",
-        "B": "Ang soberanya ay walang legal na kahulugan",
-        "C": "Maaaring may legal na kalayaan ang estado ngunit nananatiling malaki ang panlabas na impluwensiya sa ekonomiya, seguridad, o patakarang panlabas.",
-        "D": "Ang neokolonyalismo ay nangangahulugang direktang pamamahala lamang"
+        "A": "The two concepts are interchangeable in international law",
+        "B": "Sovereignty has little legal significance once a country trades abroad",
+        "C": "Legal independence can coexist with external economic or political influence",
+        "D": "Neocolonial influence requires direct foreign administration"
       },
       "answer": "C",
       "note": "Formal independence and substantive policy autonomy can diverge."
@@ -4962,12 +4962,12 @@
       "id": "FH-1500-04",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Bakit mahalaga ang pagsusuri sa kung sino ang wala sa isang archive, hindi lamang sa mga dokumentong naroon?",
+      "question": "Why examine who is absent from an archive as well as the documents it contains?",
       "choices": {
-        "A": "Dahil ang katahimikan ay patunay ng pagsang-ayon",
-        "B": "Dahil hindi mahalaga ang archive",
-        "C": "Dahil lahat ng nawawalang dokumento ay sinira ng iisang tao",
-        "D": "Ang mga grupong hindi marunong magsulat, walang akses sa institusyon, o sadyang pinatahimik ay maaaring kulang sa dokumentadong boses."
+        "A": "Absence from the archive shows that excluded groups accepted the outcome",
+        "B": "Archival records are too selective to provide useful evidence",
+        "C": "Every gap in a collection can be attributed to deliberate destruction",
+        "D": "Groups with limited access to writing or institutions may be underrepresented"
       },
       "answer": "D",
       "note": "Archival absence may reflect unequal power and record-making practices."
@@ -4976,12 +4976,12 @@
       "id": "FH-1500-05",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Paano maaaring timbangin ng historyador ang materyal na ebidensiya, oral testimony, at opisyal na dokumento kapag hindi sila nagtutugma?",
+      "question": "How should a historian weigh material evidence, oral testimony, and official documents when they conflict?",
       "choices": {
-        "A": "Suriin ang uri ng tanong na masasagot ng bawat source, ang konteksto ng paggawa nito, at independiyenteng corroboration.",
-        "B": "Pumili ng isang uri ng source bilang laging pinakamataas",
-        "C": "Tanggihan ang lahat kapag may salungatan",
-        "D": "I-average ang magkakasalungat na pahayag"
+        "A": "Assess each source's purpose, context, and independent corroboration",
+        "B": "Give priority to one source type regardless of context or provenance",
+        "C": "Discard all evidence when two accounts conflict",
+        "D": "Average contradictory claims instead of assessing their reliability"
       },
       "answer": "A",
       "note": "Different source types have distinct strengths and limits."
@@ -4990,12 +4990,12 @@
       "id": "FH-1500-06",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Bakit dapat tingnan ang Batas Militar bilang prosesong may magkakaibang yugto sa halip na iisang hindi nagbabagong kondisyon?",
+      "question": "Why study Martial Law as a process with distinct phases rather than one unchanging condition?",
       "choices": {
-        "A": "Nagbago ang mga institusyon, estratehiya ng rehimen, pagtutol, ekonomiya, at internasyonal na presyur sa paglipas ng panahon.",
-        "B": "Dahil hindi mahalaga ang kronolohiya",
-        "C": "Dahil iisang pangyayari lamang ito",
-        "D": "Dahil walang naganap na pagbabago sa mga taon nito"
+        "A": "Institutions, resistance, economic conditions, and external pressure changed over time",
+        "B": "Chronology adds little to an analysis of political repression",
+        "C": "Martial Law can be treated as one uniform policy with no major shifts",
+        "D": "Changes during the period were mainly symbolic rather than institutional"
       },
       "answer": "A",
       "note": "Periodization reveals change within a regime."
@@ -5004,12 +5004,12 @@
       "id": "FH-1500-07",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Ano ang metodolohikal na problema kapag ginagamit ang resulta ng isang rebolusyon upang ipaliwanag ang lahat ng motibo ng mga kalahok nito?",
+      "question": "What methodological problem arises when the outcome of a revolution is used to explain every participant's motives?",
       "choices": {
-        "A": "Nagkakaiba ang motibo at inaasahan ng mga kalahok; ang kinalabasan ay hindi patunay na iyon ang layunin ng lahat.",
-        "B": "Lahat ng kalahok ay may parehong motibo",
-        "C": "Walang sinumang may motibo",
-        "D": "Ang resulta ay hindi kailanman mahalaga"
+        "A": "Participants had different motives, and outcomes do not prove intent",
+        "B": "All participants necessarily shared the same motive",
+        "C": "Participants acted without motives that historians can investigate",
+        "D": "The outcome of a revolution has no relevance to historical analysis"
       },
       "answer": "A",
       "note": "Avoid teleology: outcomes do not fully reveal prior intentions."
@@ -5018,12 +5018,12 @@
       "id": "FH-1500-08",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Paano maaaring magamit ang kasaysayan ng wika upang suriin ang pagbuo ng pambansang identidad?",
+      "question": "How can language history help explain the formation of national identity?",
       "choices": {
-        "A": "Maaaring ipakita ng pagpili ng opisyal na wika, kurikulum, at publikasyon kung paano pinapaboran o isinasantabi ang ilang komunidad.",
-        "B": "Dahil wika ay walang kaugnayan sa kapangyarihan",
-        "C": "Dahil baybay lamang ang pagbabago sa wika",
-        "D": "Dahil iisang wika ang laging gamit sa kapuluan"
+        "A": "Official languages and curricula can privilege some communities and political visions",
+        "B": "Language has little connection to political authority or social status",
+        "C": "Changes in language history are mainly changes in spelling",
+        "D": "One language was consistently used across the archipelago in every period"
       },
       "answer": "A",
       "note": "Language policy can shape belonging and access."
@@ -5032,12 +5032,12 @@
       "id": "FH-1500-09",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Ano ang dapat patunayan bago sabihing ang isang pinunong historikal ay “nag-iisang nagdala” ng pagbabago?",
+      "question": "What evidence is needed before claiming that one historical leader alone caused a major change?",
       "choices": {
-        "A": "Na siya ang pinakamadalas banggitin",
-        "B": "Na hindi sapat ang mga institusyon, kilusan, kondisyon, at aksiyon ng iba upang ipaliwanag ang pagbabago.",
-        "C": "Na may monumento siya",
-        "D": "Na maraming larawan ang pinuno"
+        "A": "Proof that the leader appears most often in historical accounts",
+        "B": "Change may reflect institutions and movements as well as one leader",
+        "C": "The existence of a monument to the leader",
+        "D": "A large number of photographs of the leader"
       },
       "answer": "B",
       "note": "Great-person explanations must be tested against structural and collective causes."
@@ -5046,12 +5046,12 @@
       "id": "FH-1500-10",
       "category": "Filipino History",
       "value": 1500,
-      "question": "Bakit dapat pag-ibahin ang legal na konstitusyonalidad at demokratikong lehitimasyon?",
+      "question": "Why distinguish legal constitutionality from democratic legitimacy?",
       "choices": {
-        "A": "Laging magkapareho ang dalawang konsepto",
-        "B": "Maaaring may pormal na legal na proseso ngunit may mga tanong pa rin tungkol sa malayang partisipasyon, pamimilit, at pananagutan.",
-        "C": "Ang partisipasyon ay hindi mahalaga sa demokrasya",
-        "D": "Ang legalidad ay walang saysay"
+        "A": "Legal constitutionality and democratic legitimacy are equivalent",
+        "B": "Legality alone does not prove free participation or absence of coercion",
+        "C": "Public participation is not relevant to democratic legitimacy",
+        "D": "Legality has no analytical value in evaluating political authority"
       },
       "answer": "B",
       "note": "Legality and democratic legitimacy overlap but are not identical."
@@ -7151,7 +7151,7 @@
         "A": "To buy Haiti's loyalty",
         "B": "To fund war against Britain",
         "C": "To repay debts to Spain",
-        "D": "To end a war with the U.S."
+        "D": "To end a war with the U.S"
       },
       "answer": "B",
       "note": "After failing to retake Haiti, he needed money for renewed war with Britain."
